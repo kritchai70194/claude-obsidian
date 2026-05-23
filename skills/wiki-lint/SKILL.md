@@ -96,6 +96,7 @@ During lint, flag pages that violate the style guide:
 - Missing source citations where claims are made
 - Uncertainty not flagged with `> [!gap]`
 - Contradictions not flagged with `> [!contradiction]`
+- **Em dashes (`—`, U+2014) or `--` used as punctuation in author prose.** Detect with `grep -rn $'—\\| -- ' wiki/` (excluding inside fenced code blocks). Replace with commas, colons, periods, or parentheses. Hyphens in compound words ("long-term", "two-pizza") are fine. Em dashes inside verbatim quoted source material should be preserved exactly as the original author wrote them, so manual review is required, not blind substitution.
 
 ---
 
