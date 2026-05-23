@@ -11,7 +11,7 @@ fidelity: table-verbatim
 license_note: Public engineering reference. Widely reproduced.
 ---
 
-# Source — Dean's Latency Numbers Every Programmer Should Know
+# Source, Dean's Latency Numbers Every Programmer Should Know
 
 ## Latency Comparison Numbers (~2012)
 

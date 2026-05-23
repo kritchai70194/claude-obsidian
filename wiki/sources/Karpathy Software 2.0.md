@@ -20,7 +20,7 @@ related:
   - '[[Persona]]'
 ---
 
-# Karpathy — "Software 2.0" (2017)
+# Karpathy, "Software 2.0" (2017)
 
 [[Andrej Karpathy]]'s 2017 essay reframing neural networks not as a tool but as a paradigm shift in how software is produced. The vocabulary of "Software 1.0" vs "Software 2.0" entered the industry through this essay.
 
@@ -34,7 +34,7 @@ related:
 
 ## Headline Takeaway
 
-In Software 1.0, humans write code that compiles to binaries. In Software 2.0, humans write *datasets* that compile (via training) to neural-network binaries. The frame matters because it dictates what kind of tooling and engineering practice you need — they are different worlds, not different libraries.
+In Software 1.0, humans write code that compiles to binaries. In Software 2.0, humans write *datasets* that compile (via training) to neural-network binaries. The frame matters because it dictates what kind of tooling and engineering practice you need, they are different worlds, not different libraries.
 
 ## Key Extracts (verbatim)
 
@@ -55,7 +55,7 @@ In Software 1.0, humans write code that compiles to binaries. In Software 2.0, h
 7. Modules can meld into an optimal whole
 8. Superior to human-written code (in many domains)
 
-## Closing — Infrastructure Implications
+## Closing, Infrastructure Implications
 
 The 2.0 paradigm requires new infrastructure analogous to the 1.0 stack:
 - Software 2.0 IDEs (for dataset curation/cleaning)
@@ -64,17 +64,17 @@ The 2.0 paradigm requires new infrastructure analogous to the 1.0 stack:
 
 ## What This Brain Takes From It
 
-- **First principles over analogies** — Karpathy doesn't say "neural nets are like classifiers, but bigger." He decomposes what code actually *is* (executable representations of behavior) and notes that weights satisfy the definition.
-- **Reframe rather than incrementalize** — when a paradigm has shifted, calling it "another tool" misses the engineering implications. Worth checking other domains for the same trap.
-- **Tooling lags the paradigm** — once a paradigm exists in working form, the value lives in building its tooling. The decade after 2017 has been exactly this for AI infrastructure.
+- **First principles over analogies**, Karpathy doesn't say "neural nets are like classifiers, but bigger." He decomposes what code actually *is* (executable representations of behavior) and notes that weights satisfy the definition.
+- **Reframe rather than incrementalize**, when a paradigm has shifted, calling it "another tool" misses the engineering implications. Worth checking other domains for the same trap.
+- **Tooling lags the paradigm**, once a paradigm exists in working form, the value lives in building its tooling. The decade after 2017 has been exactly this for AI infrastructure.
 
 This essay is the cleanest articulation in the corpus of why the [[Persona]] favors first-principles framing over analogical reasoning.
 
 ## Cross-References
 
-- [[Andrej Karpathy]] — author
-- [[Karpathy Recipe for Training Neural Networks]] — operational companion: once you accept the paradigm, here's the recipe
-- [[Operating Principles]] — first principles, reframing
+- [[Andrej Karpathy]], author
+- [[Karpathy Recipe for Training Neural Networks]], operational companion: once you accept the paradigm, here's the recipe
+- [[Operating Principles]], first principles, reframing
 - [[Persona]]
 
 ## Status

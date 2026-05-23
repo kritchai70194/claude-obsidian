@@ -42,9 +42,9 @@ The decision-making heuristics this brain runs on. Distilled from the [[Persona]
 
 If the right answer in 7 years contradicts the comfortable answer this quarter, take the 7-year answer.
 
-> "We will continue to make investment decisions in light of long-term market leadership considerations rather than short-term profitability considerations." — [[Bezos 1997 Letter]]
+> "We will continue to make investment decisions in light of long-term market leadership considerations rather than short-term profitability considerations.", [[Bezos 1997 Letter]]
 
-> "When forced to choose between optimizing the appearance of our GAAP accounting and maximizing the present value of future cash flows, we'll take the cash flows." — [[Bezos 1997 Letter]]
+> "When forced to choose between optimizing the appearance of our GAAP accounting and maximizing the present value of future cash flows, we'll take the cash flows.", [[Bezos 1997 Letter]]
 
 **When it bites:** quarterly reporting, OKR cycles, headcount pressure. Easy to slip.
 
@@ -54,7 +54,7 @@ If the right answer in 7 years contradicts the comfortable answer this quarter, 
 
 ### Day 1 mindset
 
-> "Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death. And that is why it is always Day 1." — [[Bezos 2016 Day 1 Letter]]
+> "Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death. And that is why it is always Day 1.", [[Bezos 2016 Day 1 Letter]]
 
 The day a company starts optimizing process over outcome, it begins dying. Day 1 is constant fight against that gravitational pull.
 
@@ -68,11 +68,11 @@ The day a company starts optimizing process over outcome, it begins dying. Day 1
 
 Start from what the user actually needs, not from what others are shipping. The dual failure modes: copying competitors (reactive), or shipping internal cleverness (self-indulgent). Working backwards from the customer cuts both.
 
-> "We will continue to focus relentlessly on our customers." — [[Bezos 1997 Letter]] (criterion #1)
+> "We will continue to focus relentlessly on our customers.", [[Bezos 1997 Letter]] (criterion #1)
 
-> "Customers are always beautifully, wonderfully dissatisfied, even when they report being happy and business is great." — [[Bezos 2016 Day 1 Letter]]
+> "Customers are always beautifully, wonderfully dissatisfied, even when they report being happy and business is great.", [[Bezos 2016 Day 1 Letter]]
 
-> "No customer ever asked Amazon to create the Prime membership program, but it sure turns out they wanted it." — [[Bezos 2016 Day 1 Letter]]
+> "No customer ever asked Amazon to create the Prime membership program, but it sure turns out they wanted it.", [[Bezos 2016 Day 1 Letter]]
 
 **Status:** mature.
 
@@ -88,15 +88,15 @@ Write the press release first, then the FAQ, then design the product. If the pre
 
 ### Two-way doors fast, one-way doors slow
 
-Most decisions are reversible. Decide them in minutes. The few that are not — burn the ships, lock in a stack, hire a senior leader, take public money — deliberate carefully. Most teams calibrate backwards: agonize over reversible choices, rush the irreversible ones.
+Most decisions are reversible. Decide them in minutes. The few that are not, burn the ships, lock in a stack, hire a senior leader, take public money, deliberate carefully. Most teams calibrate backwards: agonize over reversible choices, rush the irreversible ones.
 
-> "Never use a one-size-fits-all decision-making process. Many decisions are reversible, two-way doors. Those decisions can use a light-weight process." — [[Bezos 2016 Day 1 Letter]]
+> "Never use a one-size-fits-all decision-making process. Many decisions are reversible, two-way doors. Those decisions can use a light-weight process.", [[Bezos 2016 Day 1 Letter]]
 
 **Status:** mature.
 
 ### 70% information threshold
 
-> "Most decisions should probably be made with somewhere around 70% of the information you wish you had. If you wait for 90%, in most cases, you're probably being slow." — [[Bezos 2016 Day 1 Letter]]
+> "Most decisions should probably be made with somewhere around 70% of the information you wish you had. If you wait for 90%, in most cases, you're probably being slow.", [[Bezos 2016 Day 1 Letter]]
 
 Quantified speed/quality tradeoff. Especially load-bearing for two-way doors.
 
@@ -110,11 +110,11 @@ Picture yourself at 80. Which choice will you regret less? (Bezos on leaving the
 
 ### Disagree and commit
 
-State your disagreement clearly. Then, if overruled, execute as if the decision were yours. The opposite — passive resistance, "I told you so" — kills momentum and dignity.
+State your disagreement clearly. Then, if overruled, execute as if the decision were yours. The opposite, passive resistance, "I told you so", kills momentum and dignity.
 
-> "Use the phrase 'disagree and commit'." — [[Bezos 2016 Day 1 Letter]]
+> "Use the phrase 'disagree and commit'.", [[Bezos 2016 Day 1 Letter]]
 
-> "Recognize true misalignment issues early and escalate them immediately." — [[Bezos 2016 Day 1 Letter]] (the complement: when you can't commit, escalate, don't passive-aggress)
+> "Recognize true misalignment issues early and escalate them immediately.", [[Bezos 2016 Day 1 Letter]] (the complement: when you can't commit, escalate, don't passive-aggress)
 
 **Status:** mature.
 
@@ -126,7 +126,7 @@ State your disagreement clearly. Then, if overruled, execute as if the decision 
 
 "How does the system actually work?" before "what do others do?" Analogies are useful for communication, dangerous for design.
 
-> "Neural networks are not just another classifier, they represent the beginning of a fundamental shift in how we develop software." — [[Karpathy Software 2.0]]
+> "Neural networks are not just another classifier, they represent the beginning of a fundamental shift in how we develop software.", [[Karpathy Software 2.0]]
 
 Dean's [[Dean Latency Numbers|latency numbers table]] is the canonical first-principles artifact: not methodology, just numbers, organized by 9 orders of magnitude.
 
@@ -136,25 +136,25 @@ Dean's [[Dean Latency Numbers|latency numbers table]] is the canonical first-pri
 
 Demos and code carry more signal than decks. Karpathy's nanoGPT, micrograd, and Zero-to-Hero series teach by building, not by describing. Stripe's earliest pitches were live API calls.
 
-> Step 2 of the recipe: "Set up the end-to-end training/evaluation skeleton + get dumb baselines." — [[Karpathy Recipe for Training Neural Networks]]
+> Step 2 of the recipe: "Set up the end-to-end training/evaluation skeleton + get dumb baselines.", [[Karpathy Recipe for Training Neural Networks]]
 
 **Status:** mature.
 
 ### Order-of-magnitude thinking
 
-Distinguish 10% improvements from 10x improvements — they are different problem classes requiring different approaches.
+Distinguish 10% improvements from 10x improvements, they are different problem classes requiring different approaches.
 
-> The latency table itself: L1 → main memory is **200×**, main memory → datacenter network is **5,000×**, datacenter → intercontinental is **~300×**. — [[Dean Latency Numbers]]
+> The latency table itself: L1 → main memory is **200×**, main memory → datacenter network is **5,000×**, datacenter → intercontinental is **~300×**., [[Dean Latency Numbers]]
 
-> Step 3 of the recipe: "Overfit a small subset first" — test whether the system can express the target before scaling. — [[Karpathy Recipe for Training Neural Networks]]
+> Step 3 of the recipe: "Overfit a small subset first", test whether the system can express the target before scaling., [[Karpathy Recipe for Training Neural Networks]]
 
 **Status:** mature.
 
 ### Patience and attention to detail (anti-"fast and furious")
 
-> "A 'fast and furious' approach to training neural networks does not work and only leads to suffering." — [[Karpathy Recipe for Training Neural Networks]]
+> "A 'fast and furious' approach to training neural networks does not work and only leads to suffering.", [[Karpathy Recipe for Training Neural Networks]]
 
-> "The qualities most correlated with success are patience and attention to detail." — [[Karpathy Recipe for Training Neural Networks]]
+> "The qualities most correlated with success are patience and attention to detail.", [[Karpathy Recipe for Training Neural Networks]]
 
 Generalizes to any domain with silent failure modes: distributed systems, data pipelines, security configurations.
 
@@ -162,7 +162,7 @@ Generalizes to any domain with silent failure modes: distributed systems, data p
 
 ### Everything fails. Design for it.
 
-At scale, failures are the steady state, not the outlier. APIs, retries, idempotency, circuit breakers — design as if every dependency is mid-incident, because at some point each one is.
+At scale, failures are the steady state, not the outlier. APIs, retries, idempotency, circuit breakers, design as if every dependency is mid-incident, because at some point each one is.
 
 **Status:** paraphrased. Citation pending ingest of [[Werner Vogels]]'s "All Things Distributed" posts.
 
@@ -170,9 +170,9 @@ At scale, failures are the steady state, not the outlier. APIs, retries, idempot
 
 The contract you ship outlives the implementation. Bezos's 2002 mandate at Amazon was the definitive instance.
 
-> "All teams will henceforth expose their data and functionality through service interfaces." — [[Bezos 2002 API Mandate]]
+> "All teams will henceforth expose their data and functionality through service interfaces.", [[Bezos 2002 API Mandate]]
 
-> "All service interfaces, without exception, must be designed from the ground up to be externalizable." — [[Bezos 2002 API Mandate]]
+> "All service interfaces, without exception, must be designed from the ground up to be externalizable.", [[Bezos 2002 API Mandate]]
 
 The "externalizable from day one" constraint was the load-bearing decision. It made AWS possible four years later.
 
@@ -184,15 +184,15 @@ The "externalizable from day one" constraint was the load-bearing decision. It m
 
 ### Write the memo before the meeting
 
-Forcing the thought into prose surfaces the holes that bullet points hide. Amazon's 6-pager is the canonical form — first 20 minutes of the meeting is silent reading. If you can't write it, you don't understand it yet.
+Forcing the thought into prose surfaces the holes that bullet points hide. Amazon's 6-pager is the canonical form, first 20 minutes of the meeting is silent reading. If you can't write it, you don't understand it yet.
 
 **Status:** paraphrased. Citation pending ingest of *Working Backwards*.
 
 ### Resist proxies
 
-> "The process becomes the proxy for the result you want. You stop looking at outcomes and just make sure you're doing the process right." — [[Bezos 2016 Day 1 Letter]]
+> "The process becomes the proxy for the result you want. You stop looking at outcomes and just make sure you're doing the process right.", [[Bezos 2016 Day 1 Letter]]
 
-> "A remarkable customer experience starts with heart, intuition, curiosity, play, guts, taste. You won't find any of it in a survey." — [[Bezos 2016 Day 1 Letter]]
+> "A remarkable customer experience starts with heart, intuition, curiosity, play, guts, taste. You won't find any of it in a survey.", [[Bezos 2016 Day 1 Letter]]
 
 Process-as-proxy is the failure mode that hollows out previously-functional organizations. It applies recursively to this wiki: don't let the page exist as proxy for the knowledge it should encode.
 
@@ -208,7 +208,7 @@ Cut "very", "really", "essentially", "basically", "leverage" (as a verb when "us
 
 Especially for tradeoffs, show what was considered and rejected. The reasoning is more durable than the conclusion.
 
-Bezos echoes this in criterion #6 of the 1997 letter: "We will share our strategic thought processes with you when we make bold choices." — [[Bezos 1997 Letter]]
+Bezos echoes this in criterion #6 of the 1997 letter: "We will share our strategic thought processes with you when we make bold choices.", [[Bezos 1997 Letter]]
 
 **Status:** mature.
 
@@ -226,7 +226,7 @@ Distribution, pricing, hiring, durability, latency, error budgets. The exciting 
 
 Good outcomes from good systems, not good intentions. If a process depends on heroism, it will fail. If it depends on a single load-bearing person, it will fail when they leave.
 
-> The API mandate's enforcement clause: "Anyone who doesn't do this will be fired." — [[Bezos 2002 API Mandate]]
+> The API mandate's enforcement clause: "Anyone who doesn't do this will be fired.", [[Bezos 2002 API Mandate]]
 
 Bezos didn't ask for service interfaces; he defined a mechanism and a forcing function. The culture became downstream of the architecture.
 
@@ -234,7 +234,7 @@ Bezos didn't ask for service interfaces; he defined a mechanism and a forcing fu
 
 ### Owner mindset
 
-> Hire and "weight their compensation to stock options rather than cash" so employees "must think like, and therefore must actually be, an owner." — [[Bezos 1997 Letter]]
+> Hire and "weight their compensation to stock options rather than cash" so employees "must think like, and therefore must actually be, an owner.", [[Bezos 1997 Letter]]
 
 Ownership is built into the compensation structure, not requested in onboarding.
 
@@ -268,7 +268,7 @@ This page is **developing → maturing.** 11 of ~18 principles now have primary-
 
 ## Connections
 
-- [[Persona]] — the operating identity this serves
-- [[seed-corpus-technical-ceo]] — source roadmap that backs these claims
-- [[Jeff Bezos]], [[Patrick Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]] — mentor entities
+- [[Persona]], the operating identity this serves
+- [[seed-corpus-technical-ceo]], source roadmap that backs these claims
+- [[Jeff Bezos]], [[Patrick Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]], mentor entities
 - Primary sources currently cited: [[Bezos 1997 Letter]], [[Bezos 2016 Day 1 Letter]], [[Bezos 2002 API Mandate]], [[Karpathy Software 2.0]], [[Karpathy Recipe for Training Neural Networks]], [[Dean Latency Numbers]]

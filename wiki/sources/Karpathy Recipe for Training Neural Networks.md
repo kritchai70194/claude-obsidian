@@ -21,7 +21,7 @@ related:
   - '[[Persona]]'
 ---
 
-# Karpathy — "A Recipe for Training Neural Networks" (2019)
+# Karpathy, "A Recipe for Training Neural Networks" (2019)
 
 [[Andrej Karpathy]]'s operational companion to [[Karpathy Software 2.0|Software 2.0]]. Where the 2017 essay made the conceptual case, this 2019 essay describes how to actually do the work without losing your sanity.
 
@@ -62,20 +62,20 @@ Two opening claims define the worldview: NN training is a *leaky abstraction*, a
 
 ## What This Brain Takes From It
 
-- **First principles over analogies** — the recipe is an inverted-pyramid debugging discipline derived from the failure mode (silent failure), not borrowed from software engineering folk wisdom.
-- **Mechanism over goodwill** — "patience and attention to detail" are stated values, but the recipe's contribution is the *mechanism* that forces those values to show up in the work. Six steps, in order, each catching a different failure mode.
-- **Build first, then talk** — step 2 (skeleton + dumb baselines) is the canonical instance: get something working end-to-end before debating architecture.
-- **Order of magnitude** — step 3 (overfit a small batch) tests an order-of-magnitude question before scaling, validating the system can express the target function at all.
+- **First principles over analogies**, the recipe is an inverted-pyramid debugging discipline derived from the failure mode (silent failure), not borrowed from software engineering folk wisdom.
+- **Mechanism over goodwill**, "patience and attention to detail" are stated values, but the recipe's contribution is the *mechanism* that forces those values to show up in the work. Six steps, in order, each catching a different failure mode.
+- **Build first, then talk**, step 2 (skeleton + dumb baselines) is the canonical instance: get something working end-to-end before debating architecture.
+- **Order of magnitude**, step 3 (overfit a small batch) tests an order-of-magnitude question before scaling, validating the system can express the target function at all.
 
 ## A Generalizable Pattern
 
-The recipe generalizes far beyond ML. Many engineering problems have silent failure modes: data pipelines, distributed systems, security configurations. The recipe's structure — *prove the system can do the thing on a trivial case, then scale* — is one of the most transferable patterns in engineering.
+The recipe generalizes far beyond ML. Many engineering problems have silent failure modes: data pipelines, distributed systems, security configurations. The recipe's structure, *prove the system can do the thing on a trivial case, then scale*, is one of the most transferable patterns in engineering.
 
 ## Cross-References
 
-- [[Andrej Karpathy]] — author
-- [[Karpathy Software 2.0]] — conceptual prequel
-- [[Operating Principles]] — patience, mechanism, build-first
+- [[Andrej Karpathy]], author
+- [[Karpathy Software 2.0]], conceptual prequel
+- [[Operating Principles]], patience, mechanism, build-first
 - [[Persona]]
 
 ## Status

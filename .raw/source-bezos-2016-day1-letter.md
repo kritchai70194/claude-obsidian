@@ -1,6 +1,6 @@
 ---
 source_id: bezos-2016-day1-letter
-title: "Day 1 — Amazon 2016 Shareholder Letter"
+title: "Day 1, Amazon 2016 Shareholder Letter"
 author: Jeff Bezos
 publisher: Amazon.com
 publication_date: 2016
@@ -11,7 +11,7 @@ fidelity: extracts-not-full-text
 license_note: Public corporate communication. Quoted under fair use for research.
 ---
 
-# Source — Bezos 2016 "Day 1" Shareholder Letter
+# Source, Bezos 2016 "Day 1" Shareholder Letter
 
 ## Day 1 vs Day 2 (the headline passage)
 
@@ -35,7 +35,7 @@ On surveys: "A remarkable customer experience starts with heart, intuition, curi
 
 The obvious trend of 2016 named: machine learning and AI. Bezos describes Amazon applying these across operations from visible products (Alexa) to invisible systems improving "demand forecasting, product search ranking, product and deals recommendations."
 
-## High-Velocity Decision Making — the four principles
+## High-Velocity Decision Making, the four principles
 
 1. **Differentiated processes.** "Never use a one-size-fits-all decision-making process" because many decisions are reversible.
 2. **Imperfect information.** "Most decisions should probably be made with somewhere around 70% of the information you wish you had."

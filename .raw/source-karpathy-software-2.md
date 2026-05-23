@@ -11,7 +11,7 @@ fidelity: extracts-not-full-text
 license_note: Author's personal blog post. Quoted under fair use for research.
 ---
 
-# Source — Karpathy "Software 2.0" (2017)
+# Source, Karpathy "Software 2.0" (2017)
 
 ## Core Thesis (verbatim)
 
@@ -19,7 +19,7 @@ license_note: Author's personal blog post. Quoted under fair use for research.
 
 **Software 2.0:** "written in much more abstract, human unfriendly language, such as the weights of a neural network. No human is involved in writing this code."
 
-The fundamental shift: in 1.0 humans write source code that compiles to binaries; in 2.0 the dataset and the neural net architecture together serve as the "source code," and training "compiles the dataset into the binary — the final neural network."
+The fundamental shift: in 1.0 humans write source code that compiles to binaries; in 2.0 the dataset and the neural net architecture together serve as the "source code," and training "compiles the dataset into the binary, the final neural network."
 
 ## Enumerated Benefits of Software 2.0
 
@@ -36,7 +36,7 @@ The fundamental shift: in 1.0 humans write source code that compiles to binaries
 
 "Neural networks are not just another classifier, they represent the beginning of a fundamental shift in how we develop software."
 
-Explicit rejection of treating NNs as "another tool in your machine learning toolbox" — they are a paradigm shift defining how software is produced.
+Explicit rejection of treating NNs as "another tool in your machine learning toolbox", they are a paradigm shift defining how software is produced.
 
 ## Closing Implications
 

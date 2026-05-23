@@ -38,14 +38,14 @@ The mandate has no certified primary document. It is known publicly through [Ste
 
 ## Headline Takeaway
 
-A single architectural directive, enforced with a firing threat, that decoupled every team's work behind a service interface. The constraint "externalizable from day one" was the part that mattered — it meant when AWS launched in 2006, Amazon had already done four years of practice building reusable services for themselves.
+A single architectural directive, enforced with a firing threat, that decoupled every team's work behind a service interface. The constraint "externalizable from day one" was the part that mattered, it meant when AWS launched in 2006, Amazon had already done four years of practice building reusable services for themselves.
 
-## Key Extracts — the Five Points (as quoted by Yegge)
+## Key Extracts, the Five Points (as quoted by Yegge)
 
 1. > "All teams will henceforth expose their data and functionality through service interfaces."
 2. > "Teams must communicate with each other through these interfaces."
 3. > "There will be no other form of interprocess communication allowed: no direct linking, no direct reads of another team's data store, no shared-memory model, no back-doors whatsoever."
-4. > "It doesn't matter what technology they use. HTTP, Corba, Pubsub, custom protocols — doesn't matter."
+4. > "It doesn't matter what technology they use. HTTP, Corba, Pubsub, custom protocols, doesn't matter."
 5. > "All service interfaces, without exception, must be designed from the ground up to be externalizable."
 
 Enforcement:
@@ -54,10 +54,10 @@ Enforcement:
 
 ## What This Brain Takes From It
 
-- **APIs are forever** — the single most influential operational instance of this principle in modern computing. The decision in 2002 about interface design constrained Amazon's engineering through 2026 and beyond.
-- **Mechanism over goodwill** — Bezos didn't ask for cooperation. He defined a mechanism (service interfaces) and a forcing function (you will be fired). The architecture didn't depend on culture; the culture was downstream of the architecture.
-- **Long-horizon over local maxima** — externalizing from day one was strictly more expensive than the cheap internal coupling that would have shipped products faster in 2002. The expensive choice in 2002 unlocked AWS in 2006.
-- **Two-way / one-way doors** — this was a one-way door. Bezos treated it accordingly: a single directive, deliberated carefully, executed irreversibly.
+- **APIs are forever**, the single most influential operational instance of this principle in modern computing. The decision in 2002 about interface design constrained Amazon's engineering through 2026 and beyond.
+- **Mechanism over goodwill**, Bezos didn't ask for cooperation. He defined a mechanism (service interfaces) and a forcing function (you will be fired). The architecture didn't depend on culture; the culture was downstream of the architecture.
+- **Long-horizon over local maxima**, externalizing from day one was strictly more expensive than the cheap internal coupling that would have shipped products faster in 2002. The expensive choice in 2002 unlocked AWS in 2006.
+- **Two-way / one-way doors**, this was a one-way door. Bezos treated it accordingly: a single directive, deliberated carefully, executed irreversibly.
 
 ## A Caveat on Sourcing
 
@@ -65,10 +65,10 @@ Treat the wording as Yegge's reconstruction. The shape of the decision is well-a
 
 ## Cross-References
 
-- [[Jeff Bezos]] — originator
-- [[Werner Vogels]] — CTO who oversaw the resulting service-oriented architecture
-- [[Bezos 1997 Letter]] — the long-horizon mindset that made this possible
-- [[Operating Principles]] — "APIs are forever", "mechanism over goodwill" cite here
+- [[Jeff Bezos]], originator
+- [[Werner Vogels]], CTO who oversaw the resulting service-oriented architecture
+- [[Bezos 1997 Letter]], the long-horizon mindset that made this possible
+- [[Operating Principles]], "APIs are forever", "mechanism over goodwill" cite here
 - [[Persona]]
 
 ## Status

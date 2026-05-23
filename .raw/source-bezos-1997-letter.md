@@ -1,6 +1,6 @@
 ---
 source_id: bezos-1997-letter
-title: "It's All About the Long Term — Amazon 1997 Shareholder Letter"
+title: "It's All About the Long Term, Amazon 1997 Shareholder Letter"
 author: Jeff Bezos
 publisher: Amazon.com
 publication_date: 1997
@@ -11,13 +11,13 @@ fidelity: extracts-not-full-text
 license_note: Public corporate communication. Quoted under fair use for research.
 ---
 
-# Source — Bezos 1997 Shareholder Letter
+# Source, Bezos 1997 Shareholder Letter
 
 ## Opening Statement
 
 "But this is Day 1 for the Internet and, if we execute well, for Amazon.com."
 
-## "It's All About the Long Term" Section — Decision Criteria (verbatim)
+## "It's All About the Long Term" Section, Decision Criteria (verbatim)
 
 "We believe that a fundamental measure of our success will be the shareholder value we create over the long term."
 

@@ -72,20 +72,20 @@ If 1997 was the operating compact, 2016 is the diagnostic for when the compact i
 Several Operating Principles upgrade or originate here:
 
 - **Day 1 mindset** (full citation lives here)
-- **Two-way / one-way doors** — originating language. Calibrate deliberation to reversibility.
-- **70% information threshold** — quantified speed/quality tradeoff for decisions.
-- **Disagree and commit** — verbatim phrase. State disagreement, then execute as if it were yours.
-- **Mechanism over goodwill / Resist proxies** — process becoming the proxy for outcome is the failure mode named explicitly.
+- **Two-way / one-way doors**, originating language. Calibrate deliberation to reversibility.
+- **70% information threshold**, quantified speed/quality tradeoff for decisions.
+- **Disagree and commit**, verbatim phrase. State disagreement, then execute as if it were yours.
+- **Mechanism over goodwill / Resist proxies**, process becoming the proxy for outcome is the failure mode named explicitly.
 
 The "resist proxies" warning is the most underappreciated principle in the letter. It applies recursively to this wiki itself: don't let the page exist as the proxy for the knowledge it should encode.
 
 ## Cross-References
 
-- [[Jeff Bezos]] — entity page
-- [[Bezos 1997 Letter]] — the founding compact this letter updates
-- [[Bezos 2002 API Mandate]] — the engineering decision; this letter is its philosophical cousin
-- [[Operating Principles]] — multiple principles cite this source
-- [[Persona]] — Day 1 and two-way doors trace here
+- [[Jeff Bezos]], entity page
+- [[Bezos 1997 Letter]], the founding compact this letter updates
+- [[Bezos 2002 API Mandate]], the engineering decision; this letter is its philosophical cousin
+- [[Operating Principles]], multiple principles cite this source
+- [[Persona]], Day 1 and two-way doors trace here
 
 ## Status
 

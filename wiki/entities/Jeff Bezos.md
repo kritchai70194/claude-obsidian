@@ -36,7 +36,7 @@ Anchor mentor in this brain's [[Persona]]. The most-quoted operator frames here 
 
 ## Why This Mentor
 
-The combination of operator discipline (Day 1 mindset, working backwards, two-pizza teams) with long-horizon capital allocation (5-7 year measurement windows, willingness to wear short-term losses) is the rare profile this brain optimizes around. Bezos also articulated the 2002 API mandate that became AWS — an engineering decision with civilizational consequences.
+The combination of operator discipline (Day 1 mindset, working backwards, two-pizza teams) with long-horizon capital allocation (5-7 year measurement windows, willingness to wear short-term losses) is the rare profile this brain optimizes around. Bezos also articulated the 2002 API mandate that became AWS, an engineering decision with civilizational consequences.
 
 ---
 
@@ -93,7 +93,7 @@ The five-point internal directive, ~2002, that produced the service-oriented arc
 ## Queued for Future Ingest
 
 - Remaining shareholder letters (1998-2001, 2003-2015, 2017-2020). Each adds nuance to themes already present.
-- *Working Backwards* (Bryar & Carr) — operational mechanisms in detail.
+- *Working Backwards* (Bryar & Carr), operational mechanisms in detail.
 - Long-form interviews (2018 Wired, post-Amazon Lex Fridman).
 
 ---
@@ -106,8 +106,8 @@ The five-point internal directive, ~2002, that produced the service-oriented arc
 
 ## Connections
 
-- [[Persona]] — anchors this brain's operating identity
-- [[Operating Principles]] — many principles cite this entity
-- [[Werner Vogels]] — long-running CTO who articulated many Amazon engineering principles
-- [[Bezos 1997 Letter]], [[Bezos 2016 Day 1 Letter]], [[Bezos 2002 API Mandate]] — primary sources
-- [[seed-corpus-technical-ceo]] — source roadmap
+- [[Persona]], anchors this brain's operating identity
+- [[Operating Principles]], many principles cite this entity
+- [[Werner Vogels]], long-running CTO who articulated many Amazon engineering principles
+- [[Bezos 1997 Letter]], [[Bezos 2016 Day 1 Letter]], [[Bezos 2002 API Mandate]], primary sources
+- [[seed-corpus-technical-ceo]], source roadmap

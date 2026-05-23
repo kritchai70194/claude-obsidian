@@ -40,10 +40,10 @@ Vogels has been the engineering voice of Amazon for two decades. He distills har
 
 See [[seed-corpus-technical-ceo]] for status. Priority targets:
 
-- **"All Things Distributed"** (allthingsdistributed.com) — long-running blog. Pick top 20 most-shared posts.
+- **"All Things Distributed"** (allthingsdistributed.com), long-running blog. Pick top 20 most-shared posts.
 - **AWS re:Invent keynotes** (annual). His are technical, not marketing.
 - **"10 Lessons from 10 Years of Amazon Web Services"** (anniversary post, multiple updates).
-- **"AWS Well-Architected Framework"** — operational pillar especially.
+- **"AWS Well-Architected Framework"**, operational pillar especially.
 - **Long-form interviews** (a16z, Stripe Press, Acquired).
 
 ---
@@ -67,8 +67,8 @@ Stub. Page is **developing**.
 
 ## Connections
 
-- [[Persona]] — anchors this brain's operating identity
-- [[Jeff Bezos]] — colleague, founder; many shared principles
-- [[Jeff Dean]] — peer-level systems-CTO thinker
+- [[Persona]], anchors this brain's operating identity
+- [[Jeff Bezos]], colleague, founder; many shared principles
+- [[Jeff Dean]], peer-level systems-CTO thinker
 - [[Operating Principles]]
 - [[seed-corpus-technical-ceo]]

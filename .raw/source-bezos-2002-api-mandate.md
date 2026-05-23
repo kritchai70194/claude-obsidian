@@ -11,14 +11,14 @@ fidelity: extracts-not-full-text
 license_note: Yegge's post was originally meant as an internal Google rant accidentally made public. Widely cited as the canonical public source for the Bezos API mandate.
 ---
 
-# Source — Bezos API Mandate (2002)
+# Source, Bezos API Mandate (2002)
 
 ## The Five Core Points (verbatim, as quoted by Yegge)
 
 1. "All teams will henceforth expose their data and functionality through service interfaces."
 2. "Teams must communicate with each other through these interfaces."
 3. "There will be no other form of interprocess communication allowed: no direct linking, no direct reads of another team's data store, no shared-memory model, no back-doors whatsoever."
-4. "It doesn't matter what technology they use. HTTP, Corba, Pubsub, custom protocols — doesn't matter."
+4. "It doesn't matter what technology they use. HTTP, Corba, Pubsub, custom protocols, doesn't matter."
 5. "All service interfaces, without exception, must be designed from the ground up to be externalizable."
 
 ## The Enforcement Clause
@@ -27,7 +27,7 @@ license_note: Yegge's post was originally meant as an internal Google rant accid
 
 ## Yegge's Closing Gloss
 
-Yegge adds a humorous "Thank you; have a nice day!" as a seventh point, then clarifies it is his own joke — Bezos was famously curt and did not soften the original directive.
+Yegge adds a humorous "Thank you; have a nice day!" as a seventh point, then clarifies it is his own joke, Bezos was famously curt and did not soften the original directive.
 
 ## Historical Consequence
 

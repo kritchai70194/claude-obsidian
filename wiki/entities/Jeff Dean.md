@@ -61,7 +61,7 @@ These numbers span ~9 orders of magnitude. Reasoning about distributed systems w
 
 - **Order of magnitude thinking.** ([[Dean Latency Numbers]]) The canonical concrete instance.
 - **Latency budgets are real.** ([[Dean Latency Numbers]]) You don't have arbitrary milliseconds; know yours.
-- **First principles over analogies.** ([[Dean Latency Numbers]]) The contribution wasn't methodology — it was numbers. Numbers generate intuition; analogies don't.
+- **First principles over analogies.** ([[Dean Latency Numbers]]) The contribution wasn't methodology, it was numbers. Numbers generate intuition; analogies don't.
 
 Frames still paraphrased, awaiting more ingest:
 
@@ -91,9 +91,9 @@ Frames still paraphrased, awaiting more ingest:
 
 ## Connections
 
-- [[Persona]] — anchors this brain's operating identity
-- [[Werner Vogels]] — peer-level systems-CTO thinker
-- [[Andrej Karpathy]] — adjacent ML systems frame
-- [[Dean Latency Numbers]] — primary source
+- [[Persona]], anchors this brain's operating identity
+- [[Werner Vogels]], peer-level systems-CTO thinker
+- [[Andrej Karpathy]], adjacent ML systems frame
+- [[Dean Latency Numbers]], primary source
 - [[Operating Principles]]
 - [[seed-corpus-technical-ceo]]

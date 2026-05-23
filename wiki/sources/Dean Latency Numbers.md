@@ -21,7 +21,7 @@ related:
   - '[[Persona]]'
 ---
 
-# Dean — Latency Numbers Every Programmer Should Know
+# Dean, Latency Numbers Every Programmer Should Know
 
 The most-cited single table in distributed systems engineering. Originated by [[Jeff Dean]] at Google (refined across multiple talks ~2009-2012) and preserved in canonical form as a public gist by Jonas Boner in 2012.
 
@@ -35,7 +35,7 @@ The most-cited single table in distributed systems engineering. Originated by [[
 
 ## Headline Takeaway
 
-Latency in computer systems spans 9 orders of magnitude — from sub-nanosecond cache hits to ~150 ms intercontinental round trips. Senior engineers internalize the *ratios* between these regimes; that's the difference between architectural intuition that matches physical reality and intuition that doesn't.
+Latency in computer systems spans 9 orders of magnitude, from sub-nanosecond cache hits to ~150 ms intercontinental round trips. Senior engineers internalize the *ratios* between these regimes; that's the difference between architectural intuition that matches physical reality and intuition that doesn't.
 
 ## The Table (~2012)
 
@@ -65,9 +65,9 @@ Latency in computer systems spans 9 orders of magnitude — from sub-nanosecond 
 
 ## What This Brain Takes From It
 
-- **Order of magnitude thinking** — the canonical concrete instance. Reasoning about systems without these ratios is reasoning blind.
+- **Order of magnitude thinking**, the canonical concrete instance. Reasoning about systems without these ratios is reasoning blind.
 - **Everything fails. Design for it.** The latency table is implicitly a *budget* table: every component contributes to a deadline, and architecture is the art of fitting the work into the budget.
-- **First principles over analogies** — Dean's contribution wasn't a methodology paper. It was numbers. The numbers are what generate intuition; the analogies of "fast / slow" don't.
+- **First principles over analogies**, Dean's contribution wasn't a methodology paper. It was numbers. The numbers are what generate intuition; the analogies of "fast / slow" don't.
 
 ## A 2026 Caveat
 
@@ -75,9 +75,9 @@ The numbers were a 2012 snapshot. Modern hardware shifts some entries (SSDs fast
 
 ## Cross-References
 
-- [[Jeff Dean]] — originator
-- [[Werner Vogels]] — engineering peer; many AWS principles encode the same reality
-- [[Operating Principles]] — order of magnitude thinking, design for failure
+- [[Jeff Dean]], originator
+- [[Werner Vogels]], engineering peer; many AWS principles encode the same reality
+- [[Operating Principles]], order of magnitude thinking, design for failure
 - [[Persona]]
 
 ## Status

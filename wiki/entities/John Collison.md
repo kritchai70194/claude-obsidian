@@ -23,7 +23,7 @@ related:
 
 # John Collison
 
-Co-founder and President of Stripe (founded 2010 with brother [[Patrick Collison]]). Runs much of Stripe's customer-facing organization — sales, partnerships, GTM. Often hosts Stripe Press's interview podcast.
+Co-founder and President of Stripe (founded 2010 with brother [[Patrick Collison]]). Runs much of Stripe's customer-facing organization, sales, partnerships, GTM. Often hosts Stripe Press's interview podcast.
 
 Anchor mentor in this brain's [[Persona]]. Patrick is the more public-facing intellectual; John is the operator's operator, sharp on the parts of business that don't get romanticized.
 
@@ -39,7 +39,7 @@ John brings a counterweight to Patrick's intellectual range: an explicit focus o
 
 See [[seed-corpus-technical-ceo]] for status. Priority targets:
 
-- **"Cheeky Pint" interviews** (Stripe Press / YouTube) — long-form CEO interviews John hosts. The interviewer's questions are themselves operator content.
+- **"Cheeky Pint" interviews** (Stripe Press / YouTube), long-form CEO interviews John hosts. The interviewer's questions are themselves operator content.
 - **Long-form interviews** of John (Tim Ferriss, 20VC, etc.) where John is the subject.
 - **Stripe Sessions keynotes** he has delivered.
 - **Joint Stripe Press essays / interviews** where both brothers participate.
@@ -64,7 +64,7 @@ Stub. Page is **developing**.
 
 ## Connections
 
-- [[Persona]] — anchors this brain's operating identity
-- [[Patrick Collison]] — co-founder, complementary frame
+- [[Persona]], anchors this brain's operating identity
+- [[Patrick Collison]], co-founder, complementary frame
 - [[Operating Principles]]
 - [[seed-corpus-technical-ceo]]

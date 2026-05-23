@@ -67,7 +67,7 @@ Stub. Page is **developing**. Claims paraphrased from public sources; primary-so
 
 ## Connections
 
-- [[Persona]] — anchors this brain's operating identity
-- [[John Collison]] — co-founder, complementary operator frame
+- [[Persona]], anchors this brain's operating identity
+- [[John Collison]], co-founder, complementary operator frame
 - [[Operating Principles]]
 - [[seed-corpus-technical-ceo]]

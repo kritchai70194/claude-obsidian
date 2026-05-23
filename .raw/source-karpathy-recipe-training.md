@@ -11,7 +11,7 @@ fidelity: extracts-not-full-text
 license_note: Author's personal blog post. Quoted under fair use for research.
 ---
 
-# Source — Karpathy "A Recipe for Training Neural Networks" (2019)
+# Source, Karpathy "A Recipe for Training Neural Networks" (2019)
 
 ## Opening Framings (the two thesis claims)
 

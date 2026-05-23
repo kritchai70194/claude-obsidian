@@ -33,9 +33,9 @@ Anchor mentor in this brain's [[Persona]]. The frame here: first principles, bui
 
 ## Key Contributions to This Wiki
 
-Karpathy originated the [[LLM Wiki Pattern]] — the idea of using LLMs to build and maintain a persistent, compounding knowledge base rather than re-deriving knowledge from raw documents on every query.
+Karpathy originated the [[LLM Wiki Pattern]], the idea of using LLMs to build and maintain a persistent, compounding knowledge base rather than re-deriving knowledge from raw documents on every query.
 
-He published the idea as an "idea file" — intentionally abstract, designed to be copy-pasted into a Claude Code or similar session and built out collaboratively. The claude-obsidian plugin is a production implementation of this pattern.
+He published the idea as an "idea file", intentionally abstract, designed to be copy-pasted into a Claude Code or similar session and built out collaboratively. The claude-obsidian plugin is a production implementation of this pattern.
 
 His framing: "The wiki is a persistent, compounding artifact. The cross-references are already there. The contradictions have already been flagged. The synthesis already reflects everything you've read."
 
@@ -73,7 +73,7 @@ The 2019 operational companion: how to actually do the work without losing your 
 - **Build first, then talk.** ([[Karpathy Recipe for Training Neural Networks]]) Step 2 of the recipe: end-to-end skeleton + dumb baseline before debating architecture.
 - **Patience and attention to detail.** ([[Karpathy Recipe for Training Neural Networks]]) The qualities most correlated with success.
 - **Reframe rather than incrementalize.** ([[Karpathy Software 2.0]]) Paradigm shifts are not "another tool in the toolbox."
-- **Order of magnitude thinking — overfit a small subset first.** ([[Karpathy Recipe for Training Neural Networks]]) Test whether the system can express the target at all before scaling.
+- **Order of magnitude thinking, overfit a small subset first.** ([[Karpathy Recipe for Training Neural Networks]]) Test whether the system can express the target at all before scaling.
 - **Persistent artifact over ephemeral chat.** ([[LLM Wiki Pattern]]) The wiki is the compounding object.
 
 ---
@@ -95,10 +95,10 @@ The 2019 operational companion: how to actually do the work without losing your 
 
 ## Connections
 
-- [[LLM Wiki Pattern]] — his core contribution to knowledge management
-- [[Compounding Knowledge]] — the central insight
-- [[Karpathy Software 2.0]], [[Karpathy Recipe for Training Neural Networks]] — primary sources
-- [[Persona]] — anchors this brain's operating identity
+- [[LLM Wiki Pattern]], his core contribution to knowledge management
+- [[Compounding Knowledge]], the central insight
+- [[Karpathy Software 2.0]], [[Karpathy Recipe for Training Neural Networks]], primary sources
+- [[Persona]], anchors this brain's operating identity
 - [[Operating Principles]]
-- [[Jeff Dean]] — adjacent systems-ML thinker
-- claude-obsidian plugin — this repo is a production implementation of his pattern
+- [[Jeff Dean]], adjacent systems-ML thinker
+- claude-obsidian plugin, this repo is a production implementation of his pattern
