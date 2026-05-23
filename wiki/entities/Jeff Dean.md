@@ -18,13 +18,14 @@ related:
   - '[[Andrej Karpathy]]'
   - '[[Werner Vogels]]'
   - '[[Operating Principles]]'
+  - '[[Dean Latency Numbers]]'
   - '[[seed-corpus-technical-ceo]]'
   - '[[entities/_index]]'
 ---
 
 # Jeff Dean
 
-Chief Scientist of Google DeepMind and Google Research. Joined Google in 1999, employee #25. Co-creator of foundational distributed systems at Google: MapReduce, Bigtable, Spanner, TensorFlow. Co-author of TensorFlow and many of the foundational papers of modern large-scale machine learning systems.
+Chief Scientist of Google DeepMind and Google Research. Joined Google in 1999, employee #25. Co-creator of foundational distributed systems at Google: MapReduce, Bigtable, Spanner, TensorFlow. Co-author of many of the foundational papers of modern large-scale machine learning systems.
 
 Anchor mentor in this brain's [[Persona]]. The most respected "systems person who became an AI person" in the industry. Frames here: systems thinking at planet scale, engineering pragmatism, designing for orders-of-magnitude growth.
 
@@ -36,31 +37,55 @@ Few people have been technically load-bearing for as long, across as many shifts
 
 ---
 
-## Canonical Sources (queued for ingest)
+## Primary-Source Citations
 
-See [[seed-corpus-technical-ceo]] for status. Priority targets:
+### From [[Dean Latency Numbers]]
 
-- **"Numbers Every Programmer Should Know"** (latency table). The most-cited single slide in distributed systems.
-- **"Building Software Systems at Google and Lessons Learned"** (Stanford talk, multiple iterations). Systems design at planet scale.
-- **Foundational papers** (selected): MapReduce (2004), Bigtable (2006), Spanner (2012), Google File System (with Sanjay Ghemawat).
-- **Long-form interviews** (Lex Fridman, ACM Turing-laureate panels).
-- **"The Story of Sanjay and Jeff"** (New Yorker, 2018) — partnership and how they work.
+The most-cited single table in distributed systems engineering. Originated by Dean ~2009-2012 across multiple talks; canonicalized as a public gist by Jonas Boner.
+
+Key ratios that come from internalizing the table:
+
+- L1 cache reference: **0.5 ns**
+- Main memory reference: **100 ns** (200× L1)
+- Round trip within same datacenter: **500 µs** (5,000× main memory)
+- Disk seek: **10 ms** (20× datacenter round trip)
+- Intercontinental packet round trip: **150 ms** (300× datacenter)
+
+These numbers span ~9 orders of magnitude. Reasoning about distributed systems without these ratios is reasoning blind.
+
+> "Numbers every programmer should know." (talk title, multiple iterations)
 
 ---
 
-## Core Frames (to be expanded with citations after ingest)
+## Core Frames (now backed by citations)
 
-- **Latency budgets are real.** You don't have arbitrary milliseconds. Know yours.
-- **Plan for 10x, not 10%.** The architecture should hold an order of magnitude before rewrite.
-- **Failures are the steady state at scale.** Design accordingly.
-- **Ruthless engineering pragmatism.** Beautiful theories don't ship. Working code ships.
+- **Order of magnitude thinking.** ([[Dean Latency Numbers]]) The canonical concrete instance.
+- **Latency budgets are real.** ([[Dean Latency Numbers]]) You don't have arbitrary milliseconds; know yours.
+- **First principles over analogies.** ([[Dean Latency Numbers]]) The contribution wasn't methodology — it was numbers. Numbers generate intuition; analogies don't.
+
+Frames still paraphrased, awaiting more ingest:
+
+- **Plan for 10x, not 10%.** (From Stanford "Building Software Systems at Google" talk, queued)
+- **Failures are the steady state at scale.** (Cross-mentor with [[Werner Vogels]])
+- **Ruthless engineering pragmatism.** Beautiful theories don't ship.
 - **Simple distributed primitives.** A few well-designed building blocks compose into many systems.
+
+---
+
+## Queued for Future Ingest
+
+- Stanford "Building Software Systems at Google and Lessons Learned" talk (multiple iterations)
+- MapReduce paper (2004)
+- Bigtable paper (2006)
+- Spanner paper (2012)
+- "The Story of Sanjay and Jeff" (New Yorker, 2018)
+- Recent Lex Fridman / Turing-laureate panel material
 
 ---
 
 ## Status
 
-Stub. Page is **developing**.
+**Developing.** Latency numbers principle is mature; broader systems-design frames remain paraphrased until Stanford talk and at least one foundational paper are ingested.
 
 ---
 
@@ -69,5 +94,6 @@ Stub. Page is **developing**.
 - [[Persona]] — anchors this brain's operating identity
 - [[Werner Vogels]] — peer-level systems-CTO thinker
 - [[Andrej Karpathy]] — adjacent ML systems frame
+- [[Dean Latency Numbers]] — primary source
 - [[Operating Principles]]
 - [[seed-corpus-technical-ceo]]

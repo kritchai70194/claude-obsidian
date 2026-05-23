@@ -25,6 +25,34 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-05-24] ingest | Phase 2 — Technical CEO seed corpus, batch 1 (6 sources)
+- Type: persona-training ingest (Phase 2 of brain-training initiative; Phase 1 was scaffold)
+- Sources ingested (P1.1 partial, P1.2 done, P1.3 partial, P1.4 partial of seed-corpus-technical-ceo manifest):
+  - [[Bezos 1997 Letter]] — founding compact, nine decision criteria verbatim
+  - [[Bezos 2016 Day 1 Letter]] — Day 1, customer obsession, resist proxies, high-velocity decision-making (two-way doors, 70% info, disagree-and-commit)
+  - [[Bezos 2002 API Mandate]] — five-point service-interface directive (Yegge's 2011 leaked account)
+  - [[Karpathy Software 2.0]] — paradigm-shift framing, 8 benefits, infrastructure gaps
+  - [[Karpathy Recipe for Training Neural Networks]] — leaky abstraction, silent failure, six-step recipe, patience-and-attention
+  - [[Dean Latency Numbers]] — full ~2012 latency table, 9 orders of magnitude
+- Raw layer (immutable extracts): `.raw/source-bezos-1997-letter.md`, `.raw/source-bezos-2016-day1-letter.md`, `.raw/source-bezos-2002-api-mandate.md`, `.raw/source-karpathy-software-2.md`, `.raw/source-karpathy-recipe-training.md`, `.raw/source-dean-latency-numbers.md`
+- Wiki source pages (synthesis layer): 6 new pages in `wiki/sources/` — see Sources Index
+- Entities upgraded paraphrase→quoted: [[Jeff Bezos]] (mature), [[Andrej Karpathy]] (mature), [[Jeff Dean]] (developing — partial; needs Stanford talk)
+- Entities still stubs: [[Patrick Collison]], [[John Collison]], [[Werner Vogels]] (P2.x sources not yet ingested)
+- [[Operating Principles]] page: 11 of ~18 principles now have primary-source citations. Page promoted developing→maturing.
+- Fetch method: WebFetch summarization (not full-text). Marked clearly in each .raw/ file. Future improvement: re-ingest full-text where copyright allows.
+- Key insight from synthesis: Bezos's 1997 letter is the cleanest single source for long-horizon discipline because it's framed as a *compact* (specific behavioral commitments with named tradeoffs) rather than as values. Worth re-reading annually.
+- Tokens consumed: ~6 WebFetch calls (summaries returned ~500-1500 tokens each); wiki output ~30k tokens of synthesis
+- Next batch (P2.x — Collison interviews, Vogels All Things Distributed, Working Backwards): queued
+
+## [2026-05-24] save | Phase 1 — Persona scaffold (Technical CEO archetype)
+- Type: persona scaffold (instruction set for the brain)
+- Locations (new): `wiki/Persona.md` (operating identity), `wiki/concepts/Operating Principles.md` (developing), `wiki/entities/{Jeff Bezos, Patrick Collison, John Collison, Jeff Dean, Werner Vogels}.md` (5 stubs), `wiki/meta/seed-corpus-technical-ceo.md` (14-source roadmap)
+- Locations (modified): `wiki/hot.md` (Operating Identity header added at top so SessionStart loads it), `wiki/index.md` (Operating Identity section), `wiki/entities/_index.md` (mentor bench section), `wiki/concepts/_index.md` (Decision-Making section)
+- Scope: user directive "เทรน second brain ของฉันโตเป็น ceo และ senior engineer". One AskUserQuestion narrowed archetype to "Technical CEO" (Bezos + Collison + Karpathy + Dean + Vogels) versus 3 alternative archetypes.
+- Honesty discipline: mentor pages created as honest "developing" stubs with public-knowledge facts only; no invented quotes. Citations to arrive in Phase 2 ingest.
+- Key insight: a persona definition (`wiki/Persona.md`) is the highest-leverage artifact for shaping all future ingest, query, autoresearch, and fold behavior. Before this scaffold, the wiki was a meta-vault about the plugin itself. After: it has an operating identity that biases every downstream skill.
+- Vault counter unchanged (c-000003); address allocation deferred to next lint pass.
+
 ## [2026-04-24] save | v1.6.0 public release notes (Teams, Karpathy-style)
 - Type: release doc + visual assets
 - Locations (new): `docs/releases/v1.6.0.md` (346 lines, 6 sections, Karpathy-style prose), `wiki/meta/dragonscale-mechanism-overview.svg` (4-mechanism diagram with shared .vault-meta/ gate), `wiki/meta/dragonscale-6-test-flow.svg` (validation timeline), `wiki/meta/dragonscale-frontier-graph.svg` (M4 candidate + 3 filed pages)

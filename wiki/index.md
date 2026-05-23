@@ -77,6 +77,17 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 
 ## Sources
 
+### Persona corpus (Technical CEO, Phase 2 ingest 2026-05-24)
+
+- [[Bezos 1997 Letter]] — Amazon founding compact, 9 decision criteria
+- [[Bezos 2016 Day 1 Letter]] — Day 1, customer obsession, two-way doors, disagree-and-commit
+- [[Bezos 2002 API Mandate]] — service-interface directive that became AWS (via Yegge's 2011 account)
+- [[Karpathy Software 2.0]] — paradigm-shift framing for neural networks (2017)
+- [[Karpathy Recipe for Training Neural Networks]] — six-step debugging discipline (2019)
+- [[Dean Latency Numbers]] — the canonical latency table (~9 orders of magnitude, 2012)
+
+### Research
+
 - [[claude-obsidian-ecosystem-research]] — 2026-04-08 | web research across 16+ repos | 8 wiki pages created
 
 ---

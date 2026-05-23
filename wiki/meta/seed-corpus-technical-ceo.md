@@ -35,10 +35,10 @@ Total queued: 14. Recommended first batch: items P1.1 through P1.4 (foundational
 
 | ID | Source | Type | Mentor | URL / Location | Status |
 |---|---|---|---|---|---|
-| P1.1 | Bezos shareholder letters 1997-2021 (25 letters) | Primary writing | [[Jeff Bezos]] | aboutamazon.com / SEC filings | queued |
-| P1.2 | Bezos 2016 "Day 1" letter | Primary writing | [[Jeff Bezos]] | aboutamazon.com (2016) | queued |
-| P1.3 | Karpathy's blog (karpathy.github.io) — top 10 posts | Primary writing | [[Andrej Karpathy]] | karpathy.github.io | queued |
-| P1.4 | Jeff Dean — "Numbers Every Programmer Should Know" + Stanford "Building Software Systems at Google" talk | Talk + slides | [[Jeff Dean]] | research.google / YouTube | queued |
+| P1.1 | Bezos shareholder letters 1997-2021 (25 letters) | Primary writing | [[Jeff Bezos]] | aboutamazon.com / SEC filings | partial — 1997 ([[Bezos 1997 Letter]]), 2016 done; 2002 [[Bezos 2002 API Mandate]] (secondary); 22 letters queued |
+| P1.2 | Bezos 2016 "Day 1" letter | Primary writing | [[Jeff Bezos]] | aboutamazon.com (2016) | done ([[Bezos 2016 Day 1 Letter]]) |
+| P1.3 | Karpathy's blog (karpathy.github.io) — top 10 posts | Primary writing | [[Andrej Karpathy]] | karpathy.github.io | partial — [[Karpathy Software 2.0]] (2017), [[Karpathy Recipe for Training Neural Networks]] (2019); ~8 more queued |
+| P1.4 | Jeff Dean — "Numbers Every Programmer Should Know" + Stanford "Building Software Systems at Google" talk | Talk + slides | [[Jeff Dean]] | research.google / YouTube | partial — [[Dean Latency Numbers]] table done; Stanford talk queued |
 
 ## Priority 2 — Core Operator Material
 

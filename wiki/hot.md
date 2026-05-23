@@ -26,7 +26,9 @@ Synthesis defaults: long-horizon over local maxima, customer obsession, written-
 
 ## Last Updated
 
-2026-05-24: Persona Phase 1 scaffold landed. `wiki/Persona.md` (operating identity, 10 principles, decision frames, source preferences, synthesis style) + `wiki/concepts/Operating Principles.md` (developing) + 5 new mentor entity stubs (Bezos, P.Collison, J.Collison, Dean, Vogels — Karpathy already existed) + `wiki/meta/seed-corpus-technical-ceo.md` (14 queued sources prioritized P1-P3). Indices updated. No content ingested yet; mentor pages are honest stubs until first ingest batch. Vault counter unchanged (c-000003); addresses deferred to next lint pass.
+2026-05-24 (Phase 2): First real persona-training ingest. Six primary sources landed (Bezos 1997 / 2016 / 2002 API mandate; Karpathy Software 2.0 / Recipe for Training Neural Networks; Dean Latency Numbers). Raw extracts in `.raw/source-*.md`, synthesized pages in `wiki/sources/`. [[Jeff Bezos]] and [[Andrej Karpathy]] entities promoted developing→mature (citation-backed). [[Jeff Dean]] still developing (Stanford talk queued). [[Operating Principles]] page: 11 of ~18 principles now have primary-source citations. Seed-corpus manifest updated: P1.2 done, P1.1/P1.3/P1.4 partial. Vault grew from 0 source pages (in technical-CEO domain) to 6. Fetch method: WebFetch summarization (not full-text) — clearly marked in each .raw/.
+
+2026-05-24 (Phase 1): Persona scaffold. `wiki/Persona.md` (operating identity, 10 principles, decision frames, source preferences, synthesis style) + `wiki/concepts/Operating Principles.md` (developing) + 5 new mentor entity stubs (Bezos, P.Collison, J.Collison, Dean, Vogels — Karpathy already existed) + `wiki/meta/seed-corpus-technical-ceo.md` (14 queued sources prioritized P1-P3). Indices updated. Vault counter unchanged (c-000003); addresses deferred to next lint pass.
 
 ## Last Updated (prior)
 
