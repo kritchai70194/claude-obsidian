@@ -40,4 +40,10 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Decision-Making & Leadership
+
+- [[Operating Principles]] — decision-making heuristics distilled from the [[Persona]] mentor bench (developing)
+
+---
+
 ## Add new concepts here as they are extracted from sources.

@@ -25,7 +25,15 @@ related:
 
 Last updated: 2026-04-15 | Total pages: 34 | Sources ingested: 2
 
-Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
+Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]] | [[Persona]]
+
+---
+
+## Operating Identity
+
+- [[Persona]] — the brain's instruction set (Technical CEO archetype); load on every session
+- [[Operating Principles]] — decision-making heuristics from the mentor bench (developing)
+- [[seed-corpus-technical-ceo]] — source roadmap for persona training (current)
 
 ---
 
@@ -49,6 +57,13 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 
 ## Entities
 
+### Mentor bench (Technical CEO persona)
+
+- [[Jeff Bezos]] — founder/CEO Amazon 1994-2021 (status: developing)
+- [[Patrick Collison]] — co-founder/CEO Stripe (status: developing)
+- [[John Collison]] — co-founder/President Stripe (status: developing)
+- [[Jeff Dean]] — Chief Scientist Google DeepMind (status: developing)
+- [[Werner Vogels]] — CTO Amazon since 2005 (status: developing)
 - [[Andrej Karpathy]] — AI researcher, creator of the LLM Wiki pattern, former Tesla AI director (status: developing)
 - [[Ar9av-obsidian-wiki]] — multi-agent compatible LLM Wiki plugin; delta tracking manifest (status: current)
 - [[Nexus-claudesidian-mcp]] — native Obsidian plugin + MCP bridge; workspace memory, task management (status: current)

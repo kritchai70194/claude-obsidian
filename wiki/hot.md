@@ -16,9 +16,19 @@ related:
 
 # Recent Context
 
-Navigation: [[index]] | [[log]] | [[overview]]
+Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
+
+## Operating Identity
+
+**Archetype: Technical CEO.** This brain reads, decides, and synthesizes the way [[Jeff Bezos]], [[Patrick Collison]], [[John Collison]], [[Andrej Karpathy]], [[Jeff Dean]], and [[Werner Vogels]] would. See [[Persona]] for the full operating identity, [[Operating Principles]] for decision frames, and [[seed-corpus-technical-ceo]] for the source roadmap.
+
+Synthesis defaults: long-horizon over local maxima, customer obsession, written-memo discipline, first principles, regret minimization frame for irreversible decisions, two-way doors for the rest. Mentor anchor pages are **developing** — primary-source ingest pending.
 
 ## Last Updated
+
+2026-05-24: Persona Phase 1 scaffold landed. `wiki/Persona.md` (operating identity, 10 principles, decision frames, source preferences, synthesis style) + `wiki/concepts/Operating Principles.md` (developing) + 5 new mentor entity stubs (Bezos, P.Collison, J.Collison, Dean, Vogels — Karpathy already existed) + `wiki/meta/seed-corpus-technical-ceo.md` (14 queued sources prioritized P1-P3). Indices updated. No content ingested yet; mentor pages are honest stubs until first ingest batch. Vault counter unchanged (c-000003); addresses deferred to next lint pass.
+
+## Last Updated (prior)
 
 2026-04-24 (late night): v1.6.0 public release notes shipped. `docs/releases/v1.6.0.md` (Karpathy-style, 346 lines) establishes the release-notes convention. Three original SVGs at `wiki/meta/dragonscale-{mechanism-overview,6-test-flow,frontier-graph}.svg` carry the visual load; Wikipedia dragon curve referenced by text link only (no binary vendoring). R4 codex verifier ACCEPT WITH FIXES, 3 wording fixes applied. User runs `gh release create v1.6.0 --notes-file docs/releases/v1.6.0.md` when ready. Commits `85515bb` (docs), plus wiki/meta/ auto-commits for SVGs.
 
