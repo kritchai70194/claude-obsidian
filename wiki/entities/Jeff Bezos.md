@@ -108,6 +108,36 @@ The book describing how Bezos's principles were operationalized at Amazon. Key m
 - Narrative over slides (6-pager, 2004 PowerPoint ban)
 - Input metrics over output metrics (act on what you control)
 
+### From [[Bezos 2017 Letter]] (the High Standards letter)
+
+> "I believe high standards are teachable. In fact, people are pretty good at learning high standards simply through exposure."
+
+> "I believe high standards are domain specific, and that you have to learn high standards separately in every arena of interest."
+
+On the six-page memo discipline (in Bezos's own voice):
+
+> "We don't do PowerPoint (or any other slide-oriented) presentations at Amazon. Instead, we write narratively structured six-page memos. We silently read one at the beginning of each meeting in a kind of 'study hall.'"
+
+> "The key point here is that you can improve results through the simple act of teaching scope, that a great memo probably should take a week or more."
+
+### From [[Bezos 2020 Letter]] (the farewell letter)
+
+The differentness principle:
+
+> "In what ways does the world pull at you in an attempt to make you normal? How much work does it take to maintain your distinctiveness?"
+
+> "The world will always try to make Amazon more typical, to bring us into equilibrium with our environment."
+
+On value creation:
+
+> "If you want to be successful in business (in life, actually), you have to create more than you consume."
+
+> "Invention is the root of all real value creation."
+
+Closing benediction:
+
+> "Be kind, be original, create more than you consume, and never, never, never let the universe smooth you into your surroundings. It remains Day 1."
+
 ### From [[Bezos 2002 API Mandate]]
 
 The five-point internal directive, ~2002, that produced the service-oriented architecture underlying AWS.

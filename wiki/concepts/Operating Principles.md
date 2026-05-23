@@ -481,6 +481,56 @@ This connects to [[Dean Stanford Talk|order-of-magnitude thinking]]: sustaining 
 
 Common misattribution. When citing OKRs, the source is [[High Output Management]] (1983), not Doerr or Google (later carrier). The original concept: Objectives (qualitative, what) plus Key Results (quantitative, how measured).
 
+### High standards are teachable and domain-specific
+
+Not innate; not transferable across domains.
+
+> "I believe high standards are teachable. In fact, people are pretty good at learning high standards simply through exposure." ([[Bezos 2017 Letter]])
+
+> "I believe high standards are domain specific, and that you have to learn high standards separately in every arena of interest." ([[Bezos 2017 Letter]])
+
+Implication: don't filter for people with high standards; teach high standards through exposure. Don't transfer a high-standard reputation across domains.
+
+### Scope is part of the standard
+
+A team producing low-quality work may not have a skill problem. They have a scope problem.
+
+> "The key point here is that you can improve results through the simple act of teaching scope, that a great memo probably should take a week or more." ([[Bezos 2017 Letter]])
+
+Teach the team how much effort the work merits; the quality often follows.
+
+### Distinctiveness is maintained against pressure, not had by default
+
+The default state of an organization is to become typical. Staying distinctive requires deliberate work.
+
+> "In what ways does the world pull at you in an attempt to make you normal? How much work does it take to maintain your distinctiveness?" ([[Bezos 2020 Letter]])
+
+> "The world will always try to make Amazon more typical, to bring us into equilibrium with our environment." ([[Bezos 2020 Letter]])
+
+Counter-mimetic discipline: most strategy mistakes are mimetic (do what others do because they do it). This principle is the antibody.
+
+### Create more than you consume
+
+Simple operational test for value creation. Applies at company and individual level.
+
+> "If you want to be successful in business (in life, actually), you have to create more than you consume." ([[Bezos 2020 Letter]])
+
+> "Invention is the root of all real value creation." ([[Bezos 2020 Letter]])
+
+### Macro stability under surface change
+
+When industry discourse is in pure-novelty mode, remember: most macro structures are stable. Surface changes are dramatic; deep structures persist.
+
+> "Not much has changed in 33 years on the macro level. We're still setting up differentiable neural net architectures, optimizing them end-to-end with backpropagation." ([[Karpathy 33 Years Ago and 33 Years From Now]])
+
+Useful corrective. The dataset is 10^8 larger; the macro shape is the same.
+
+### Quantify the trend, not the vibe
+
+> Dataset scale: ~10^8 larger. Model parameters: ~10^6 larger. Compute: ~10^7 larger. ([[Karpathy 33 Years Ago and 33 Years From Now]] on the 1989-to-2022 change)
+
+When making claims about technological trajectory, reach for the order of magnitude. Vague "growth" and "exponential" language is permission to think loosely. Concrete numbers force precision.
+
 ### Unified operating culture across business lines
 
 The same principles run multiple businesses. The principles compound; the products are downstream.

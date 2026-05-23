@@ -25,6 +25,18 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-05-24] ingest | Phase 7, Bezos late letters + Karpathy 33-years (3 sources)
+- Type: persona-training ingest, Phase 7 (autonomous mode)
+- Sources ingested:
+  - [[Bezos 2017 Letter]]: the High Standards letter. Standards are teachable and domain-specific. Scope is part of the standard. Six-page memo defended in Bezos's own voice.
+  - [[Bezos 2020 Letter]]: farewell letter. The differentness principle ("the world will always try to make Amazon typical"). Create more than you consume. Closing benediction.
+  - [[Karpathy 33 Years Ago and 33 Years From Now]]: 2022 essay. Reproduces 1989 LeCun paper. Quantifies 10^7 to 10^8 scale change. Projects 33 years forward (foundation models replace from-scratch training).
+- Two Bezos letters did NOT successfully fetch (1998 and 2002 returned 404 on aboutamazon URL guess). SEC filing fallback URLs available for future re-ingest.
+- New principles cited and added (7): high standards are teachable, high standards are domain-specific, scope is part of the standard, distinctiveness is maintained against pressure, create more than you consume, macro stability under surface change, quantify the trend not the vibe.
+- Bezos entity gained 2017 and 2020 citations. Karpathy entity gained 33-years citation.
+- Style: zero em dashes in Phase 7 prose.
+- Total sources after Phase 7: 25.
+
 ## [2026-05-24] ingest | Phase 6, Stripe Press canon (3 management/engineering books)
 - Type: persona-training ingest, Phase 6 (autonomous mode)
 - Goal: bring canonical books endorsed by the Stripe Press canon and the engineering frame into the brain

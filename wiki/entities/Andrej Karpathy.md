@@ -62,6 +62,14 @@ The paradigm-shift framing.
 
 > "Neural networks are not just another classifier, they represent the beginning of a fundamental shift in how we develop software."
 
+### From [[Karpathy 33 Years Ago and 33 Years From Now]] (2022)
+
+Reproducing the 1989 LeCun paper in 2022 conditions, then projecting forward 33 years. The longest-horizon Karpathy piece in the canon.
+
+> "Not much has changed in 33 years on the macro level. We're still setting up differentiable neural net architectures, optimizing them end-to-end with backpropagation."
+
+> "In 2055, you will ask a 10,000,000X-sized neural net megabrain to perform some task by speaking (or thinking) to it in English. And if you ask nicely enough, it will oblige. Yes you could train a neural net too, but why would you?"
+
 ### From [[Karpathy Recipe for Training Neural Networks]] (2019)
 
 The operational discipline.
