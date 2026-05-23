@@ -32,16 +32,27 @@ All source pages — summaries of ingested documents, transcripts, articles, and
 
 ## Engineering Essays
 
-- [[Karpathy Software 2.0]] — paradigm-shift framing for neural networks (2017)
-- [[Karpathy Recipe for Training Neural Networks]] — six-step debugging discipline (2019)
+- [[Karpathy Software 2.0]]: paradigm-shift framing for neural networks (2017)
+- [[Karpathy Recipe for Training Neural Networks]]: six-step debugging discipline (2019)
+- [[Vogels 10 Lessons from 10 Years of AWS]]: 10 engineering principles from a decade of AWS (2016)
+- [[Vogels Eventually Consistent]]: the consistency-model taxonomy and CAP framing (2008)
 
 ## Engineering References
 
-- [[Dean Latency Numbers]] — the canonical latency table, ~9 orders of magnitude (Dean/Boner, 2012)
+- [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (Dean/Boner, 2012)
+
+## Public Writing by Operators
+
+- [[Collison Fast]]: 24 historical projects completed in surprisingly short timeframes (Patrick Collison)
+- [[Collison Questions]]: 23 open intellectual problems (Patrick Collison)
+
+## Interviews
+
+- [[Collison Cowen Interview]]: Conversations with Tyler Episode 21, Patrick interviews Tyler (2017)
 
 ## Research Ingests
 
-- [[claude-obsidian-ecosystem-research]] — 2026-04-08 web research across 16+ repos
+- [[claude-obsidian-ecosystem-research]]: 2026-04-08 web research across 16+ repos
 
 ---
 

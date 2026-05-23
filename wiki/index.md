@@ -77,14 +77,24 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 
 ## Sources
 
-### Persona corpus (Technical CEO, Phase 2 ingest 2026-05-24)
+### Persona corpus (Technical CEO, Phase 2-3 ingest 2026-05-24)
 
-- [[Bezos 1997 Letter]] — Amazon founding compact, 9 decision criteria
-- [[Bezos 2016 Day 1 Letter]] — Day 1, customer obsession, two-way doors, disagree-and-commit
-- [[Bezos 2002 API Mandate]] — service-interface directive that became AWS (via Yegge's 2011 account)
-- [[Karpathy Software 2.0]] — paradigm-shift framing for neural networks (2017)
-- [[Karpathy Recipe for Training Neural Networks]] — six-step debugging discipline (2019)
-- [[Dean Latency Numbers]] — the canonical latency table (~9 orders of magnitude, 2012)
+Phase 2 (Bezos, Karpathy, Dean):
+
+- [[Bezos 1997 Letter]]: Amazon founding compact, 9 decision criteria
+- [[Bezos 2016 Day 1 Letter]]: Day 1, customer obsession, two-way doors, disagree-and-commit
+- [[Bezos 2002 API Mandate]]: service-interface directive that became AWS (via Yegge's 2011 account)
+- [[Karpathy Software 2.0]]: paradigm-shift framing for neural networks (2017)
+- [[Karpathy Recipe for Training Neural Networks]]: six-step debugging discipline (2019)
+- [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (2012)
+
+Phase 3 (Collison, Vogels):
+
+- [[Collison Fast]]: 24 historical projects completed surprisingly fast (JavaScript 10 days, Git 17 days, Pentagon 491 days)
+- [[Collison Questions]]: 23 open intellectual problems Patrick maintains as public list
+- [[Collison Cowen Interview]]: Conversations with Tyler Ep. 21 (2017, live at Stripe), Patrick interviews Tyler
+- [[Vogels 10 Lessons from 10 Years of AWS]]: 2016 anniversary post, 10 engineering principles
+- [[Vogels Eventually Consistent]]: 2008 consistency-model taxonomy and CAP framing
 
 ### Research
 

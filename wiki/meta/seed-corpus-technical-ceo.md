@@ -45,11 +45,11 @@ Total queued: 14. Recommended first batch: items P1.1 through P1.4 (foundational
 | ID | Source | Type | Mentor | URL / Location | Status |
 |---|---|---|---|---|---|
 | P2.1 | "Working Backwards" (Bryar & Carr, 2021) | Book | [[Jeff Bezos]] (institutional) | book, purchased copy or detailed summary | queued |
-| P2.2 | Patrick Collison, "Fast" essay | Essay | [[Patrick Collison]] | patrickcollison.com/fast | queued |
-| P2.3 | Patrick Collison, "Questions" | Essay | [[Patrick Collison]] | patrickcollison.com/questions | queued |
-| P2.4 | Patrick Collison on Tyler Cowen (Conversations with Tyler) | Long-form interview | [[Patrick Collison]] | conversationswithtyler.com | queued |
-| P2.5 | Vogels, All Things Distributed top 20 posts | Blog | [[Werner Vogels]] | allthingsdistributed.com | queued |
-| P2.6 | Vogels, "10 Lessons from 10 Years of AWS" | Anniversary post | [[Werner Vogels]] | allthingsdistributed.com | queued |
+| P2.2 | Patrick Collison, "Fast" essay | Essay | [[Patrick Collison]] | patrickcollison.com/fast | done ([[Collison Fast]]) |
+| P2.3 | Patrick Collison, "Questions" | Essay | [[Patrick Collison]] | patrickcollison.com/questions | done ([[Collison Questions]]) |
+| P2.4 | Patrick Collison on Tyler Cowen (Conversations with Tyler) | Long-form interview | [[Patrick Collison]] | conversationswithtyler.com | done ([[Collison Cowen Interview]]) |
+| P2.5 | Vogels, All Things Distributed top 20 posts | Blog | [[Werner Vogels]] | allthingsdistributed.com | partial, [[Vogels Eventually Consistent]] done; ~18 more queued |
+| P2.6 | Vogels, "10 Lessons from 10 Years of AWS" | Anniversary post | [[Werner Vogels]] | allthingsdistributed.com | done ([[Vogels 10 Lessons from 10 Years of AWS]]) |
 
 ## Priority 3, Stripe Press / Canonical Books
 

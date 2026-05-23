@@ -25,6 +25,25 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-05-24] ingest | Phase 3, Collison and Vogels canonical sources (5 sources)
+- Type: persona-training ingest, Phase 3 (continues Phase 2 brain-training initiative)
+- Sources ingested (P2.2, P2.3, P2.4, P2.5, P2.6 of seed-corpus-technical-ceo):
+  - [[Collison Fast]]: 24 historical projects completed in surprisingly short timeframes (JavaScript 10 days, Git 17 days, Spirit of St. Louis 60 days, Pentagon 491 days, etc.)
+  - [[Collison Questions]]: 23 open intellectual problems Patrick maintains as public list. Themes: progress and stagnation, institutional design, information infrastructure, cultural durability.
+  - [[Collison Cowen Interview]]: Conversations with Tyler Episode 21 (2017, live at Stripe). Patrick interviews Tyler. Patrick's questions reveal his frames more than Tyler's answers reveal Tyler's.
+  - [[Vogels 10 Lessons from 10 Years of AWS]]: March 2016 anniversary post. 10 engineering principles including "everything fails", "APIs are forever", "primitives not frameworks", "build evolvable systems".
+  - [[Vogels Eventually Consistent]]: December 2008 essay (plus ACM Queue / CACM expansion). The consistency-model taxonomy and CAP framing that defined a generation of distributed-systems literacy.
+- Raw layer: 5 new .raw/source-*.md files
+- Wiki source pages: 5 new pages in wiki/sources/
+- Entities upgraded to mature: [[Patrick Collison]] (3 citations), [[Werner Vogels]] (2 citations)
+- Entities still developing: [[John Collison]] (still stub; harder to find primary writing for him), [[Jeff Dean]] (Stanford talk still queued)
+- [[Operating Principles]] page promoted from developing to maturing. 16 of 19 principles now cited. Three still paraphrased (working backwards, regret minimization, two-pizza teams), all blocked on *Working Backwards* book ingest.
+- Four new principles introduced (all Vogels-cited): "Build evolvable systems", "Primitives not frameworks", "Automation as a litmus test", "High-agency curiosity" (Collison-cited).
+- Style discipline: zero em dashes introduced in new prose (previous Phase 2 audit found 182, fixed in auto-commit 93655dd plus lint rule 086451b). Verified before commit.
+- Key insight from synthesis: Vogels's 10 Lessons post is the harvest report for Bezos's 2002 API mandate. The same principle (APIs are forever) appears in both, 14 years apart, viewed from opposite ends of the consequence chain. This is exactly the kind of cross-source convergence that justifies citation density over breadth.
+- Fetch method: WebFetch summarization (not full-text). Marked clearly in each .raw/ file.
+- Next batch: P2.1 (*Working Backwards* by Bryar and Carr), additional Vogels archive posts, Jeff Dean Stanford talk.
+
 ## [2026-05-24] ingest | Phase 2 — Technical CEO seed corpus, batch 1 (6 sources)
 - Type: persona-training ingest (Phase 2 of brain-training initiative; Phase 1 was scaffold)
 - Sources ingested (P1.1 partial, P1.2 done, P1.3 partial, P1.4 partial of seed-corpus-technical-ceo manifest):
