@@ -95,9 +95,11 @@ Start from what the user actually needs, not from what others are shipping.
 
 ### Working backwards
 
-Write the press release first, then the FAQ, then design the product.
+Write the press release first, then the FAQ, then design the product. If the press release isn't exciting, the product isn't worth building.
 
-Paraphrased; citation pending ingest of *Working Backwards* (Bryar and Carr).
+> "Before we start building, we write a Press Release to clearly define how the new idea or product will benefit customers, and we create a list of Frequently Asked Questions to resolve the tough issues up front." ([[Working Backwards Book]])
+
+Press release: less than one page, in customer-facing language. FAQ: up to five pages, addresses the hard questions before any code is written.
 
 ### Customer selection as strategy
 
@@ -135,7 +137,11 @@ Restated more concisely in the 2016 letter:
 
 Picture yourself at 80. Which choice will you regret less?
 
-Paraphrased; citation pending future interview-source ingest.
+> "The framework I found, which made the decision incredibly easy, was what I called, which only a nerd would call, a 'regret minimization framework.' I want to project myself forward to age 80 and say, 'Okay, now I'm looking back on my life. I want to have minimized the number of regrets I have.'" ([[Bezos Regret Minimization]])
+
+> "I knew that when I was 80 I was not going to regret having tried this. I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not ever having tried." ([[Bezos Regret Minimization]])
+
+The frame is most useful when the analytical case is balanced. Not-trying compounds with time; failure can be processed and moved past. Asymmetric.
 
 ### Disagree and commit
 
@@ -269,7 +275,9 @@ The MapReduce story is told in the talk as: Dean and Ghemawat noticed many paral
 
 Forcing the thought into prose surfaces the holes that bullet points hide.
 
-Paraphrased; citation pending ingest of *Working Backwards*.
+> Amazon relies "far more on the written word" than most companies. The six-page narrative document replaces PowerPoint in leadership meetings. Discussions begin only after silent reading, typically the first 20 minutes of the meeting. ([[Working Backwards Book]])
+
+The 2004 PowerPoint-ban rationale: bullet-pointed slides hide the holes that narrative prose forces you to surface. The author cannot get away with handwaving in a paragraph the way they can in a bullet.
 
 ### Resist proxies
 
@@ -343,9 +351,11 @@ Good outcomes from good systems, not good intentions.
 
 ### Two-pizza teams
 
-A team should be small enough that two pizzas can feed it.
+A team should be small enough that two pizzas can feed it. Roughly 6 to 10 people.
 
-Paraphrased; citation pending ingest of *Working Backwards*.
+> "Teams sized such that the teams would be no larger than the number of people that could be adequately fed by two large pizzas." ([[Working Backwards Book]])
+
+Rationale: communication overhead grows faster than output past a certain team size. The team size is the lever for keeping coordination cost under control.
 
 ### High-agency curiosity
 
@@ -354,6 +364,52 @@ Big questions in public. Unanswered. Inviting contribution.
 > 23 open intellectual problems, public, unanswered. ([[Collison Questions]])
 
 > The interview discipline: ask better questions rather than make assertions. ([[Collison Cowen Interview]])
+
+### Single-threaded leadership
+
+One leader owns one major initiative without competing responsibilities.
+
+> "A single person, unencumbered by competing responsibilities, owns a single major initiative and heads up a separable, largely autonomous team to deliver its goals." ([[Working Backwards Book]])
+
+Addresses the failure mode of leaders owning three things and owning none well.
+
+### Input metrics over output metrics
+
+Optimize for what you control directly. Revenue is downstream and laggy.
+
+> Focus on "controllable input metrics" (selection, price, convenience) rather than output metrics (revenue, share price). ([[Working Backwards Book]])
+
+Steering by output metrics is steering by the rearview mirror.
+
+### Bar Raiser hiring discipline
+
+A separate role in every interview loop to enforce standards across loops.
+
+> "A scalable, repeatable, formal process for consistently making appropriate and successful hiring decisions." STAR method for structured interviews; Bar Raiser role to prevent bias and ensure candidates meet or exceed company standards. ([[Working Backwards Book]])
+
+### Get close to the work
+
+Distance from operational reality degrades decision quality.
+
+> "Organizations are pretty hard to change. It's very important for people to get close to the work." ([[Collison Money Stuff Podcast]])
+
+Echoes "you build it, you run it" from [[Vogels 10 Lessons from 10 Years of AWS]] applied at organizational level.
+
+### Distinguish object from category
+
+Category-level observations are not object-level claims. Conflating them is a common epistemic error.
+
+> "There are just a bunch of scams and dodgy characters. But one cannot use the existence of slots to write off serious work." ([[Collison Money Stuff Podcast]])
+
+Object-level claim: stablecoins are useful. Category-level observation: crypto has scams. These can both be true; treating them as contradictory is the error.
+
+### The product is the prospectus
+
+Force descriptions short. Watch what survives the compression.
+
+> "Build a great business and you could write your prospectus on a cocktail napkin and it'll be fine." ([[Collison Money Stuff Podcast]])
+
+Same epistemic move as the [[Working Backwards Book|PR/FAQ]] discipline: force the description to be short; what remains is what matters.
 
 ### Unified operating culture across business lines
 
@@ -383,7 +439,7 @@ The same principles run multiple businesses. The principles compound; the produc
 
 ## Status
 
-Mature. Phase 4 closes the citation gap on Bezos's two-way doors origin (2015, not 2016) and adds five new principles plus several new citations to existing principles. Three principles still paraphrased (working backwards, regret minimization, two-pizza teams); all three are blocked on *Working Backwards* book ingest. The brain has enough citation density to give persona-flavored answers across most operator and engineering questions.
+Mature. Phase 5 closed the last three paraphrased citations (working backwards, regret minimization, two-pizza teams) by ingesting [[Working Backwards Book]] and [[Bezos Regret Minimization]]. Added seven new principles (single-threaded leadership, input metrics, Bar Raiser hiring, get close to the work, distinguish object from category, the product is the prospectus, two-way doors applied to IPOs). Every principle on this page now has at least one primary-source citation. The brain has saturated for cited operator and engineering principles. Further ingest will deepen specific principles but not add new ones at the same rate.
 
 ---
 

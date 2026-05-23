@@ -87,6 +87,27 @@ Restates the framework with the Day 1 / Day 2 framing as the headline.
 
 > "Use the phrase 'disagree and commit'."
 
+### From [[Bezos Regret Minimization]] (1994 founding decision frame)
+
+The canonical Bezos decision frame, formulated when he was deciding whether to leave D.E. Shaw to start Amazon.
+
+> "The framework I found, which made the decision incredibly easy, was what I called, which only a nerd would call, a 'regret minimization framework.'"
+
+> "I want to project myself forward to age 80 and say, 'Okay, now I'm looking back on my life. I want to have minimized the number of regrets I have.'"
+
+> "I knew that when I was 80 I was not going to regret having tried this. I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not ever having tried. I knew that that would haunt me every day."
+
+### From [[Working Backwards Book]] (Bryar and Carr 2021, institutional mechanism source)
+
+The book describing how Bezos's principles were operationalized at Amazon. Key mechanisms:
+
+- PR/FAQ process (working backwards from customer)
+- Two-pizza teams (6 to 10 people; communication overhead cap)
+- Single-threaded leadership (one initiative, one leader, no competing responsibilities)
+- Bar Raiser hiring (separate role in every interview loop)
+- Narrative over slides (6-pager, 2004 PowerPoint ban)
+- Input metrics over output metrics (act on what you control)
+
 ### From [[Bezos 2002 API Mandate]]
 
 The five-point internal directive, ~2002, that produced the service-oriented architecture underlying AWS.

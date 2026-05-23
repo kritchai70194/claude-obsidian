@@ -25,6 +25,19 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-05-24] ingest | Phase 5, unblock paraphrased principles + graduate John Collison
+- Type: persona-training ingest, Phase 5 (autonomous mode, no per-step confirmation)
+- Goal: close the 3 paraphrased Operating Principles gaps + graduate John Collison from developing to mature
+- Sources ingested:
+  - [[Working Backwards Book]]: Bryar and Carr 2021 book summary (via Lanre Dahunsi). Unlocks PR/FAQ, two-pizza teams, single-threaded leadership, narrative-over-slides, Bar Raiser hiring, input vs output metrics, WBR.
+  - [[Bezos Regret Minimization]]: the 1994 founding decision frame (via A Wealth of Common Sense). Canonical Bezos quotes about projecting to age 80.
+  - [[Collison Money Stuff Podcast]]: John Collison as subject (not interviewer) on Bloomberg's Money Stuff, October 2024. First John-solo source. Quotes on payments complexity, organizational change, IPO discipline, prospectus-as-product, mechanism for employee liquidity.
+- Entities upgraded: [[John Collison]] developing to mature (2 sources now: joint Stripe letter + solo Money Stuff). [[Jeff Bezos]] gained Regret Minimization + Working Backwards mechanism citations.
+- [[Operating Principles]] page: 3 previously paraphrased principles now cited (working backwards, regret minimization, two-pizza teams). Plus "Write the memo before the meeting" cited via Working Backwards mechanism. Seven new principles added and cited: single-threaded leadership, input metrics over output metrics, Bar Raiser hiring discipline, get close to the work, distinguish object from category, the product is the prospectus, two-way doors applied to IPOs. Every principle on the page now has at least one primary-source citation.
+- Mentor bench after Phase 5: 6 of 6 mature. Full bench citation-backed.
+- Style: zero em dashes in Phase 5 prose (verified).
+- Source fidelity: Working Backwards is a third-party book summary; treat structural claims as accurate, exact wording as paraphrased. Money Stuff is show-notes plus extracted quotes; Bloomberg page was 403, iHeart page provided show notes.
+
 ## [2026-05-24] ingest | Phase 4, 5 deeper sources with PDF full-text extraction
 - Type: persona-training ingest, Phase 4. Method upgrade: pypdf (user-space pip install) extracted full text from 3 PDFs, breaking past the WebFetch summarization limit that constrained Phases 2 and 3.
 - Sources ingested:

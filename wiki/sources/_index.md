@@ -57,6 +57,12 @@ All source pages — summaries of ingested documents, transcripts, articles, and
 ## Interviews
 
 - [[Collison Cowen Interview]]: Conversations with Tyler Episode 21, Patrick interviews Tyler (2017)
+- [[Collison Money Stuff Podcast]]: John Collison as solo subject on Bloomberg's Money Stuff (2024)
+
+## Books and Book Summaries
+
+- [[Working Backwards Book]]: Bryar and Carr 2021 insider account of Amazon's operating mechanisms (PR/FAQ, two-pizza teams, single-threaded leadership, Bar Raiser, narrative-over-slides)
+- [[Bezos Regret Minimization]]: the 1994 founding decision frame (story with canonical Bezos quotes)
 
 ## Research Ingests
 
