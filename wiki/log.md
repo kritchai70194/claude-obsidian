@@ -25,6 +25,22 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-05-24] ingest | Phase 4, 5 deeper sources with PDF full-text extraction
+- Type: persona-training ingest, Phase 4. Method upgrade: pypdf (user-space pip install) extracted full text from 3 PDFs, breaking past the WebFetch summarization limit that constrained Phases 2 and 3.
+- Sources ingested:
+  - [[Bezos 2015 Letter]]: full-text PDF (35K chars from 9-page Amazon letter). Contains the ORIGIN of Type 1/Type 2 (one-way/two-way doors) decision framework, long-tailed-bets thesis, failure-as-twin-of-invention, customer-back-vs-competitor-back, culture as discovered.
+  - [[Stripe Annual Letter 2024]]: full-text PDF (35K chars, 14 pages, design letter-spacing produced extraction artifacts that were cleaned in quotes). Co-authored by Patrick and John. Profitability-funds-R&D, customer-selection-as-strategy, 9-century customer list, S&P 500 tenure decay (61 to 36 to 20 years).
+  - [[Dean Stanford Talk]]: full-text PDF (34K chars from 103-slide deck). Know-your-building-blocks principle, 6/7/8 scope heuristic, YAGNI for infrastructure, MapReduce as pattern-recognition story, 1000x scaling spine.
+  - [[Karpathy Unreasonable Effectiveness of RNNs]]: WebFetch summary. Earliest article in Karpathy's published canon. "Optimization over programs" framing as seed of Software 2.0 thesis 2 years later. Build-to-learn discipline first stated.
+  - [[Vogels Decade of Dynamo]]: WebFetch summary. Companion to [[Vogels 10 Lessons from 10 Years of AWS]]. Three-system distinction (internal Dynamo / paper / DynamoDB). Workload measurement (70% key-value) that justified the move away from relational.
+- Method note: PDF extraction. WebFetch returned binary stubs for the 3 PDFs (Bezos 2015, Stripe 2024, Dean Stanford). Switched to curl + pypdf in user space (`python3 -m pip install --user pypdf`). 3 PDFs successfully extracted; quoted material is verbatim where source was readable.
+- CITATION CORRECTION: two-way doors / one-way doors / Type 1 / Type 2 framework originates in [[Bezos 2015 Letter]], NOT [[Bezos 2016 Day 1 Letter]]. The 2016 letter restates it. [[Operating Principles]] and [[Jeff Bezos]] entity now cite 2015 as origin and 2016 as restatement.
+- Entities upgraded: [[Jeff Dean]] developing to mature (Stanford talk added). [[John Collison]] stub to developing (Stripe Annual Letter co-authorship). [[Jeff Bezos]], [[Andrej Karpathy]], [[Werner Vogels]] gained new citations within their existing mature status.
+- After Phase 4: 5 of 6 mentor bench entities are mature. [[John Collison]] is developing pending John-as-subject interview ingest.
+- [[Operating Principles]] page graduated from "maturing" to "mature". Five new principles added (durable profitability funds R&D, customer selection as strategy, long-tailed returns, failure as twin of invention, know your building blocks, 6/7/8 scope heuristic, YAGNI for infrastructure, measure before redesign, surprise is a signal, argument by enumeration, make prior forecasts checkable, vocabulary as engineering, unified operating culture, culture as discovered). All cited.
+- Style discipline: zero em dashes in Phase 4 prose (verified pre-commit). Source quotes preserve original author em dashes where present.
+- Insight: full-text PDF extraction is meaningfully higher fidelity than WebFetch summarization. Worth using as default for high-priority sources going forward.
+
 ## [2026-05-24] ingest | Phase 3, Collison and Vogels canonical sources (5 sources)
 - Type: persona-training ingest, Phase 3 (continues Phase 2 brain-training initiative)
 - Sources ingested (P2.2, P2.3, P2.4, P2.5, P2.6 of seed-corpus-technical-ceo):

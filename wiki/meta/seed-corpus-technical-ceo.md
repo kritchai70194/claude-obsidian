@@ -35,10 +35,10 @@ Total queued: 14. Recommended first batch: items P1.1 through P1.4 (foundational
 
 | ID | Source | Type | Mentor | URL / Location | Status |
 |---|---|---|---|---|---|
-| P1.1 | Bezos shareholder letters 1997-2021 (25 letters) | Primary writing | [[Jeff Bezos]] | aboutamazon.com / SEC filings | partial, 1997 ([[Bezos 1997 Letter]]), 2016 done; 2002 [[Bezos 2002 API Mandate]] (secondary); 22 letters queued |
+| P1.1 | Bezos shareholder letters 1997-2021 (25 letters) | Primary writing | [[Jeff Bezos]] | aboutamazon.com / SEC filings | partial, 1997 ([[Bezos 1997 Letter]]), 2015 ([[Bezos 2015 Letter]] full-text PDF), 2016 done; 2002 [[Bezos 2002 API Mandate]] (secondary); 21 letters queued |
 | P1.2 | Bezos 2016 "Day 1" letter | Primary writing | [[Jeff Bezos]] | aboutamazon.com (2016) | done ([[Bezos 2016 Day 1 Letter]]) |
-| P1.3 | Karpathy's blog (karpathy.github.io), top 10 posts | Primary writing | [[Andrej Karpathy]] | karpathy.github.io | partial, [[Karpathy Software 2.0]] (2017), [[Karpathy Recipe for Training Neural Networks]] (2019); ~8 more queued |
-| P1.4 | Jeff Dean, "Numbers Every Programmer Should Know" + Stanford "Building Software Systems at Google" talk | Talk + slides | [[Jeff Dean]] | research.google / YouTube | partial, [[Dean Latency Numbers]] table done; Stanford talk queued |
+| P1.3 | Karpathy's blog (karpathy.github.io), top 10 posts | Primary writing | [[Andrej Karpathy]] | karpathy.github.io | partial, [[Karpathy Unreasonable Effectiveness of RNNs]] (2015), [[Karpathy Software 2.0]] (2017), [[Karpathy Recipe for Training Neural Networks]] (2019); ~7 more queued |
+| P1.4 | Jeff Dean, "Numbers Every Programmer Should Know" + Stanford "Building Software Systems at Google" talk | Talk + slides | [[Jeff Dean]] | research.google / YouTube | done, [[Dean Latency Numbers]] table + [[Dean Stanford Talk]] full PDF |
 
 ## Priority 2, Core Operator Material
 
@@ -48,8 +48,9 @@ Total queued: 14. Recommended first batch: items P1.1 through P1.4 (foundational
 | P2.2 | Patrick Collison, "Fast" essay | Essay | [[Patrick Collison]] | patrickcollison.com/fast | done ([[Collison Fast]]) |
 | P2.3 | Patrick Collison, "Questions" | Essay | [[Patrick Collison]] | patrickcollison.com/questions | done ([[Collison Questions]]) |
 | P2.4 | Patrick Collison on Tyler Cowen (Conversations with Tyler) | Long-form interview | [[Patrick Collison]] | conversationswithtyler.com | done ([[Collison Cowen Interview]]) |
-| P2.5 | Vogels, All Things Distributed top 20 posts | Blog | [[Werner Vogels]] | allthingsdistributed.com | partial, [[Vogels Eventually Consistent]] done; ~18 more queued |
+| P2.5 | Vogels, All Things Distributed top 20 posts | Blog | [[Werner Vogels]] | allthingsdistributed.com | partial, [[Vogels Eventually Consistent]] + [[Vogels Decade of Dynamo]] done; ~17 more queued |
 | P2.6 | Vogels, "10 Lessons from 10 Years of AWS" | Anniversary post | [[Werner Vogels]] | allthingsdistributed.com | done ([[Vogels 10 Lessons from 10 Years of AWS]]) |
+| P2.7 | Stripe Annual Letter (annual artifact) | Letter co-authored Patrick + John | [[John Collison]] / [[Patrick Collison]] | stripe.com/annual-updates | partial, 2024 done ([[Stripe Annual Letter 2024]]); 2022/2023 queued |
 
 ## Priority 3, Stripe Press / Canonical Books
 

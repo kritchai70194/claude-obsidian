@@ -96,6 +96,14 @@ Phase 3 (Collison, Vogels):
 - [[Vogels 10 Lessons from 10 Years of AWS]]: 2016 anniversary post, 10 engineering principles
 - [[Vogels Eventually Consistent]]: 2008 consistency-model taxonomy and CAP framing
 
+Phase 4 (PDF full-text + depth):
+
+- [[Bezos 2015 Letter]]: ORIGIN of two-way doors framework, long-tailed bets, failure as invention's twin (full-text PDF)
+- [[Stripe Annual Letter 2024]]: Patrick + John joint, profitability funds R&D, customer-selection as strategy (full-text PDF)
+- [[Dean Stanford Talk]]: 2010 Stanford EE380 lecture, know-your-building-blocks, 6/7/8 scope heuristic (full PDF, 103 slides)
+- [[Karpathy Unreasonable Effectiveness of RNNs]]: 2015, build-to-learn discipline first stated
+- [[Vogels Decade of Dynamo]]: 2017 retrospective, three-system distinction, workload-measure-before-redesign
+
 ### Research
 
 - [[claude-obsidian-ecosystem-research]] — 2026-04-08 | web research across 16+ repos | 8 wiki pages created

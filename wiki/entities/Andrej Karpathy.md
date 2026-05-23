@@ -17,6 +17,7 @@ related:
   - '[[Compounding Knowledge]]'
   - '[[Persona]]'
   - '[[Operating Principles]]'
+  - '[[Karpathy Unreasonable Effectiveness of RNNs]]'
   - '[[Karpathy Software 2.0]]'
   - '[[Karpathy Recipe for Training Neural Networks]]'
   - '[[Jeff Dean]]'
@@ -27,33 +28,43 @@ related:
 
 AI researcher and educator. Former Director of AI at Tesla, founding member of OpenAI. Known for deep learning education (Neural Networks: Zero to Hero series, micrograd, nanoGPT) and for publishing practical AI patterns including the [[LLM Wiki Pattern]] that underlies this vault.
 
-Anchor mentor in this brain's [[Persona]]. The frame here: first principles, build-to-learn, pragmatic AI over hype.
+Anchor mentor in this brain's [[Persona]]. Frames: first principles, build-to-learn, pragmatic AI over hype.
 
 ---
 
 ## Key Contributions to This Wiki
 
-Karpathy originated the [[LLM Wiki Pattern]], the idea of using LLMs to build and maintain a persistent, compounding knowledge base rather than re-deriving knowledge from raw documents on every query.
-
-He published the idea as an "idea file", intentionally abstract, designed to be copy-pasted into a Claude Code or similar session and built out collaboratively. The claude-obsidian plugin is a production implementation of this pattern.
-
-His framing: "The wiki is a persistent, compounding artifact. The cross-references are already there. The contradictions have already been flagged. The synthesis already reflects everything you've read."
+Karpathy originated the [[LLM Wiki Pattern]] used to build this vault. His framing: the wiki is a persistent, compounding artifact; cross-references are already there; contradictions are already flagged; the synthesis already reflects everything you've read.
 
 ---
 
 ## Primary-Source Citations
 
-### From [[Karpathy Software 2.0]]
+### From [[Karpathy Unreasonable Effectiveness of RNNs]] (2015, earliest in his canon here)
 
-The 2017 essay that reframed neural nets as a paradigm shift in how software is produced, not a new kind of classifier.
+The build-to-learn discipline first stated:
+
+> "the ratio of how simple your model is to the quality of the results you get out of it blows past your expectations"
+
+> "If training vanilla neural nets is optimization over functions, training recurrent nets is optimization over programs."
+
+> "all it is is just a more fancy version of this 100-line gist"
+
+> "NO compilation step"
+
+The shape of the operating discipline that produces micrograd, nanoGPT, and the Zero-to-Hero series years later.
+
+### From [[Karpathy Software 2.0]] (2017)
+
+The paradigm-shift framing.
 
 > "Software 2.0 is written in much more abstract, human unfriendly language, such as the weights of a neural network. No human is involved in writing this code."
 
 > "Neural networks are not just another classifier, they represent the beginning of a fundamental shift in how we develop software."
 
-### From [[Karpathy Recipe for Training Neural Networks]]
+### From [[Karpathy Recipe for Training Neural Networks]] (2019)
 
-The 2019 operational companion: how to actually do the work without losing your sanity. Two thesis claims (NN training is leaky abstraction; NN training fails silently) plus a six-step recipe.
+The operational discipline.
 
 > "A 'fast and furious' approach to training neural networks does not work and only leads to suffering."
 
@@ -69,36 +80,37 @@ The 2019 operational companion: how to actually do the work without losing your 
 
 ## Core Frames (now backed by citations)
 
-- **First principles over analogies.** ([[Karpathy Software 2.0]]) Decompose what a system actually is rather than what it resembles.
-- **Build first, then talk.** ([[Karpathy Recipe for Training Neural Networks]]) Step 2 of the recipe: end-to-end skeleton + dumb baseline before debating architecture.
+- **Build first, then talk.** ([[Karpathy Unreasonable Effectiveness of RNNs]], [[Karpathy Recipe for Training Neural Networks]]) Lead with results, not theory. 100-line gist runs first; production is a fancier version of the same shape.
+- **First principles over analogies.** ([[Karpathy Software 2.0]], [[Karpathy Unreasonable Effectiveness of RNNs]]) Decompose what a system actually is. The RNN essay reframes sequence prediction as "optimization over programs", a first-principles move.
 - **Patience and attention to detail.** ([[Karpathy Recipe for Training Neural Networks]]) The qualities most correlated with success.
 - **Reframe rather than incrementalize.** ([[Karpathy Software 2.0]]) Paradigm shifts are not "another tool in the toolbox."
-- **Order of magnitude thinking, overfit a small subset first.** ([[Karpathy Recipe for Training Neural Networks]]) Test whether the system can express the target at all before scaling.
+- **Order of magnitude thinking.** ([[Karpathy Recipe for Training Neural Networks]]) Overfit a small subset first; test whether the system can express the target before scaling.
+- **Surprise is a signal.** ([[Karpathy Unreasonable Effectiveness of RNNs]]) When a simple thing produces unexpectedly good results, take the result seriously rather than explaining it away.
 - **Persistent artifact over ephemeral chat.** ([[LLM Wiki Pattern]]) The wiki is the compounding object.
 
 ---
 
 ## Queued for Future Ingest
 
-- "The Unreasonable Effectiveness of Recurrent Neural Networks" (2015)
 - "Deep Neural Nets: 33 Years Ago and 33 Years From Now" (2022)
 - nanoGPT walkthrough video transcripts
 - Recent talks on LLM agents
+- Tesla Autopilot era talks
 
 ---
 
 ## Status
 
-**Mature for the cited frames.** Additional frames around education and the build-to-teach style remain ingestible from the Zero-to-Hero series.
+Mature. Three cited primary sources spanning 2015 to 2019 plus the LLM Wiki idea file; operating frame is well-established.
 
 ---
 
 ## Connections
 
-- [[LLM Wiki Pattern]], his core contribution to knowledge management
-- [[Compounding Knowledge]], the central insight
-- [[Karpathy Software 2.0]], [[Karpathy Recipe for Training Neural Networks]], primary sources
-- [[Persona]], anchors this brain's operating identity
+- [[LLM Wiki Pattern]] his core contribution to knowledge management
+- [[Compounding Knowledge]] the central insight
+- [[Karpathy Unreasonable Effectiveness of RNNs]], [[Karpathy Software 2.0]], [[Karpathy Recipe for Training Neural Networks]] primary sources
+- [[Persona]]
 - [[Operating Principles]]
-- [[Jeff Dean]], adjacent systems-ML thinker
-- claude-obsidian plugin, this repo is a production implementation of his pattern
+- [[Jeff Dean]] adjacent systems-ML thinker
+- claude-obsidian plugin (this repo is a production implementation of his pattern)

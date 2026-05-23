@@ -21,6 +21,7 @@ related:
   - '[[seed-corpus-technical-ceo]]'
   - '[[Werner Vogels]]'
   - '[[Bezos 1997 Letter]]'
+  - '[[Bezos 2015 Letter]]'
   - '[[Bezos 2016 Day 1 Letter]]'
   - '[[Bezos 2002 API Mandate]]'
   - '[[entities/_index]]'
@@ -52,9 +53,31 @@ The opening compact of Amazon's operating philosophy. Nine decision criteria sta
 
 > Hire employees who "must think like, and therefore must actually be, an owner."
 
+### From [[Bezos 2015 Letter]] (high-fidelity full-text)
+
+The single richest Bezos letter. **Origin** of the Type 1 / Type 2 (one-way / two-way doors) framework that is often cited from the 2016 letter.
+
+> "Some decisions are consequential and irreversible or nearly irreversible, one-way doors, and these decisions must be made methodically, carefully, slowly, with great deliberation and consultation. We can call these Type 1 decisions."
+
+> "But most decisions aren't like that, they are changeable, reversible, they're two-way doors. Type 2 decisions can and should be made quickly by high judgment individuals or small groups."
+
+On failure and invention:
+
+> "I believe we are the best place in the world to fail (we have plenty of practice!), and failure and invention are inseparable twins."
+
+The long-tailed-bets thesis:
+
+> "Given a ten percent chance of a 100 times payoff, you should take that bet every time. But you're still going to be wrong nine times out of ten."
+
+> "In business, every once in a while, when you step up to the plate, you can score 1,000 runs. This long-tailed distribution of returns is why it's important to be bold. Big winners pay for so many experiments."
+
+Customer-first as AWS strategy:
+
+> "90 to 95% of what we build in AWS is driven by what customers tell us they want."
+
 ### From [[Bezos 2016 Day 1 Letter]]
 
-The most-quoted shareholder letter. Defines Day 2 as the failure mode and names four defenses against it.
+Restates the framework with the Day 1 / Day 2 framing as the headline.
 
 > "Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death. And that is why it is always Day 1."
 
@@ -79,35 +102,38 @@ The five-point internal directive, ~2002, that produced the service-oriented arc
 ## Core Frames (now backed by citations)
 
 - **Day 1.** ([[Bezos 2016 Day 1 Letter]]) Constant fight against the gravitational pull of process over outcome.
-- **Two-way / one-way doors.** ([[Bezos 2016 Day 1 Letter]]) Calibrate deliberation to reversibility.
+- **Two-way / one-way doors.** ([[Bezos 2015 Letter]] origin; [[Bezos 2016 Day 1 Letter]] restated) Calibrate deliberation to reversibility.
 - **Disagree and commit.** ([[Bezos 2016 Day 1 Letter]]) State disagreement, then execute fully.
 - **70% information threshold.** ([[Bezos 2016 Day 1 Letter]]) Quantified speed/quality tradeoff.
 - **Resist proxies.** ([[Bezos 2016 Day 1 Letter]]) Process becomes the proxy for the result.
-- **Customer obsession.** ([[Bezos 1997 Letter]], [[Bezos 2016 Day 1 Letter]]) Customer-back, not competitor-back, not internal-back.
+- **Customer obsession.** ([[Bezos 1997 Letter]], [[Bezos 2015 Letter]], [[Bezos 2016 Day 1 Letter]]) Customer-back, not competitor-back, not internal-back.
 - **Long-horizon over local maxima.** ([[Bezos 1997 Letter]]) Market leadership > short-term profitability; take the cash flows over GAAP appearance.
+- **Long-tailed returns / bold bets.** ([[Bezos 2015 Letter]]) Ten percent shot at 100x is always worth taking. The big winners pay for the many failures.
+- **Failure as twin of invention.** ([[Bezos 2015 Letter]]) To invent you must experiment, and if you know the experiment will work, it's not an experiment.
 - **Owner mindset.** ([[Bezos 1997 Letter]]) Compensation weighted to stock so employees actually are owners.
-- **APIs are forever / mechanism over goodwill.** ([[Bezos 2002 API Mandate]]) The architecture didn't depend on culture; the culture was downstream of the architecture.
+- **APIs are forever / mechanism over goodwill.** ([[Bezos 2002 API Mandate]]) Architecture doesn't depend on culture; culture is downstream of architecture.
+- **Unified operating culture across business lines.** ([[Bezos 2015 Letter]]) Same principles run AWS and retail. The principles compound; the products are downstream.
 
 ---
 
 ## Queued for Future Ingest
 
-- Remaining shareholder letters (1998-2001, 2003-2015, 2017-2020). Each adds nuance to themes already present.
-- *Working Backwards* (Bryar & Carr), operational mechanisms in detail.
-- Long-form interviews (2018 Wired, post-Amazon Lex Fridman).
+- Remaining shareholder letters (1998-2001, 2003-2014, 2017-2020). Each adds nuance.
+- *Working Backwards* (Bryar and Carr) for operational mechanisms in detail.
+- Long-form interviews (2018 Wired, Lex Fridman).
 
 ---
 
 ## Status
 
-**Mature for the cited frames.** Page graduates from paraphrased developing to citation-backed. Remaining frames (working backwards, two-pizza teams) still paraphrased, awaiting future ingest of *Working Backwards*.
+Mature. 4 sources cited, with full-text fidelity on the 2015 letter. The two-way doors origin correction in Phase 4 is a useful precision win.
 
 ---
 
 ## Connections
 
-- [[Persona]], anchors this brain's operating identity
-- [[Operating Principles]], many principles cite this entity
-- [[Werner Vogels]], long-running CTO who articulated many Amazon engineering principles
-- [[Bezos 1997 Letter]], [[Bezos 2016 Day 1 Letter]], [[Bezos 2002 API Mandate]], primary sources
-- [[seed-corpus-technical-ceo]], source roadmap
+- [[Persona]] anchors this brain's operating identity
+- [[Operating Principles]] many principles cite this entity
+- [[Werner Vogels]] long-running CTO who articulated many Amazon engineering principles
+- [[Bezos 1997 Letter]], [[Bezos 2015 Letter]], [[Bezos 2016 Day 1 Letter]], [[Bezos 2002 API Mandate]] primary sources
+- [[seed-corpus-technical-ceo]] source roadmap

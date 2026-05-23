@@ -13,31 +13,37 @@ tags:
   - decision-making
   - leadership
   - engineering
-status: maturing
+status: mature
 related:
   - '[[Persona]]'
   - '[[seed-corpus-technical-ceo]]'
   - '[[Jeff Bezos]]'
   - '[[Patrick Collison]]'
+  - '[[John Collison]]'
   - '[[Andrej Karpathy]]'
   - '[[Jeff Dean]]'
   - '[[Werner Vogels]]'
   - '[[Bezos 1997 Letter]]'
+  - '[[Bezos 2015 Letter]]'
   - '[[Bezos 2016 Day 1 Letter]]'
   - '[[Bezos 2002 API Mandate]]'
+  - '[[Karpathy Unreasonable Effectiveness of RNNs]]'
   - '[[Karpathy Software 2.0]]'
   - '[[Karpathy Recipe for Training Neural Networks]]'
   - '[[Dean Latency Numbers]]'
+  - '[[Dean Stanford Talk]]'
   - '[[Collison Fast]]'
   - '[[Collison Questions]]'
   - '[[Collison Cowen Interview]]'
+  - '[[Stripe Annual Letter 2024]]'
   - '[[Vogels 10 Lessons from 10 Years of AWS]]'
   - '[[Vogels Eventually Consistent]]'
+  - '[[Vogels Decade of Dynamo]]'
 ---
 
 # Operating Principles
 
-The decision-making heuristics this brain runs on. Distilled from the [[Persona]] mentor bench: [[Jeff Bezos]], [[Patrick Collison]], [[John Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]]. Phase 2 (2026-05-24) added Bezos / Karpathy / Dean citations. Phase 3 (same day) added Collison / Vogels citations and introduced four new principles. 16 of 19 principles now have primary-source citations.
+The decision-making heuristics this brain runs on. Distilled from the [[Persona]] mentor bench: [[Jeff Bezos]], [[Patrick Collison]], [[John Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]]. Phase 2 (2026-05-24) added Bezos / Karpathy / Dean citations. Phase 3 (same day) added Collison / Vogels citations and four new principles. Phase 4 (same day) added the [[Bezos 2015 Letter]], [[Stripe Annual Letter 2024]], [[Dean Stanford Talk]], [[Karpathy Unreasonable Effectiveness of RNNs]], and [[Vogels Decade of Dynamo]] sources; corrected the two-way doors citation to its origin; added five new principles. Page is **mature**.
 
 ---
 
@@ -51,29 +57,23 @@ If the right answer in 7 years contradicts the comfortable answer this quarter, 
 
 > "When forced to choose between optimizing the appearance of our GAAP accounting and maximizing the present value of future cash flows, we'll take the cash flows." ([[Bezos 1997 Letter]])
 
-**When it bites:** quarterly reporting, OKR cycles, headcount pressure. Easy to slip.
-
-**Test:** Would a smart competitor with patient capital do this differently?
-
-**Status:** mature.
-
 ### Day 1 mindset
 
 > "Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death. And that is why it is always Day 1." ([[Bezos 2016 Day 1 Letter]])
 
-The day a company starts optimizing process over outcome, it begins dying. Day 1 is constant fight against that gravitational pull.
-
-**Status:** mature.
+> "It is still Day One for DynamoDB." ([[Vogels Decade of Dynamo]]) The Day 1 frame applies at product level, not just company level.
 
 ### Why-now framing
 
-What changed in the last few years that makes this the right moment, not five years ago or five years later? The question forces honesty about *causation*: if the only answer is "I want to do it now," the timing is missing.
+What changed in the last few years that makes this the right moment, not five years ago or five years later?
 
-> "Some examples of people quickly accomplishing ambitious things together," 24 entries spanning software, aerospace, civil, and operational categories. ([[Collison Fast]])
+> 24 historical projects completed in surprisingly short timeframes; the closing observation that infrastructure entries are predominantly pre-1970 turns the question outward across history. ([[Collison Fast]])
 
-The Fast page is the why-now question turned outward across history: what stopped working that used to work?
+### Durable profitability funds R&D
 
-**Status:** mature.
+Profit is not the goal. Profit is the mechanism that funds long-horizon investment without external dilution or pressure.
+
+> "Durable profitability allows us to plow back much of our operating earnings into research and development. In each of the last six years, Stripe has reinvested a much higher proportion of our earnings in R&D than any comparable company." ([[Stripe Annual Letter 2024]])
 
 ---
 
@@ -81,57 +81,79 @@ The Fast page is the why-now question turned outward across history: what stoppe
 
 ### Customer obsession beats competitor obsession
 
-Start from what the user actually needs, not from what others are shipping. The dual failure modes: copying competitors (reactive), or shipping internal cleverness (self-indulgent). Working backwards from the customer cuts both.
+Start from what the user actually needs, not from what others are shipping.
 
 > "We will continue to focus relentlessly on our customers." ([[Bezos 1997 Letter]] criterion #1)
+
+> "90 to 95% of what we build in AWS is driven by what customers tell us they want." ([[Bezos 2015 Letter]])
+
+> "Most big technology companies are competitor focused. They see what others are doing, and then work to fast follow. In contrast, 90 to 95% of what we build in AWS is driven by what customers tell us they want." ([[Bezos 2015 Letter]])
 
 > "Customers are always beautifully, wonderfully dissatisfied, even when they report being happy and business is great." ([[Bezos 2016 Day 1 Letter]])
 
 > "No customer ever asked Amazon to create the Prime membership program, but it sure turns out they wanted it." ([[Bezos 2016 Day 1 Letter]])
 
-**Status:** mature.
-
 ### Working backwards
 
-Write the press release first, then the FAQ, then design the product. If the press release isn't exciting, the product isn't worth building.
+Write the press release first, then the FAQ, then design the product.
 
-**Status:** paraphrased. Citation pending ingest of *Working Backwards* (Bryar & Carr).
+Paraphrased; citation pending ingest of *Working Backwards* (Bryar and Carr).
+
+### Customer selection as strategy
+
+Optimize for customer growth-rate, not customer count.
+
+> "In aggregate, the revenue that businesses process on Stripe is growing seven times faster than that of all companies in the S&P 500." ([[Stripe Annual Letter 2024]])
+
+> "Stripe customers share one important characteristic: outsized growth." ([[Stripe Annual Letter 2024]])
 
 ---
 
 ## Decision Mechanics
 
-### Two-way doors fast, one-way doors slow
+### Two-way doors fast, one-way doors slow (Type 1 vs Type 2 decisions)
 
-Most decisions are reversible. Decide them in minutes. The few that are not (burn the ships, lock in a stack, hire a senior leader, take public money) deliberate carefully. Most teams calibrate backwards: agonize over reversible choices, rush the irreversible ones.
+Most decisions are reversible. Decide them in minutes. The few that are not (burn the ships, lock in a stack, hire a senior leader, take public money) deliberate carefully.
+
+The canonical origin is the 2015 letter:
+
+> "Some decisions are consequential and irreversible or nearly irreversible, one-way doors, and these decisions must be made methodically, carefully, slowly, with great deliberation and consultation. We can call these Type 1 decisions." ([[Bezos 2015 Letter]])
+
+> "But most decisions aren't like that, they are changeable, reversible, they're two-way doors. Type 2 decisions can and should be made quickly by high judgment individuals or small groups." ([[Bezos 2015 Letter]])
+
+> "As organizations get larger, there seems to be a tendency to use the heavy-weight Type 1 decision-making process on most decisions, including many Type 2 decisions. The end result of this is slowness, unthoughtful risk aversion, failure to experiment sufficiently, and consequently diminished invention." ([[Bezos 2015 Letter]])
+
+Restated more concisely in the 2016 letter:
 
 > "Never use a one-size-fits-all decision-making process. Many decisions are reversible, two-way doors. Those decisions can use a light-weight process." ([[Bezos 2016 Day 1 Letter]])
-
-**Status:** mature.
 
 ### 70% information threshold
 
 > "Most decisions should probably be made with somewhere around 70% of the information you wish you had. If you wait for 90%, in most cases, you're probably being slow." ([[Bezos 2016 Day 1 Letter]])
 
-Quantified speed/quality tradeoff. Especially load-bearing for two-way doors.
-
-**Status:** mature.
-
 ### Regret minimization
 
-Picture yourself at 80. Which choice will you regret less? (Bezos on leaving the hedge fund to start Amazon.) Useful when the analytical case is balanced.
+Picture yourself at 80. Which choice will you regret less?
 
-**Status:** paraphrased. Citation pending future interview-source ingest.
+Paraphrased; citation pending future interview-source ingest.
 
 ### Disagree and commit
 
-State your disagreement clearly. Then, if overruled, execute as if the decision were yours. The opposite, passive resistance and "I told you so," kills momentum and dignity.
-
 > "Use the phrase 'disagree and commit'." ([[Bezos 2016 Day 1 Letter]])
 
-> "Recognize true misalignment issues early and escalate them immediately." ([[Bezos 2016 Day 1 Letter]]) The complement: when you can't commit, escalate, don't passive-aggress.
+> "Recognize true misalignment issues early and escalate them immediately." ([[Bezos 2016 Day 1 Letter]])
 
-**Status:** mature.
+### Long-tailed returns / bold bets
+
+Outsized payoffs are rare but huge. The math says take the bets.
+
+> "Outsized returns often come from betting against conventional wisdom, and conventional wisdom is usually right. Given a ten percent chance of a 100 times payoff, you should take that bet every time. But you're still going to be wrong nine times out of ten." ([[Bezos 2015 Letter]])
+
+> "In business, every once in a while, when you step up to the plate, you can score 1,000 runs. This long-tailed distribution of returns is why it's important to be bold. Big winners pay for so many experiments." ([[Bezos 2015 Letter]])
+
+### Failure as twin of invention
+
+> "I believe we are the best place in the world to fail (we have plenty of practice!), and failure and invention are inseparable twins. To invent you have to experiment, and if you know in advance that it's going to work, it's not an experiment." ([[Bezos 2015 Letter]])
 
 ---
 
@@ -139,35 +161,51 @@ State your disagreement clearly. Then, if overruled, execute as if the decision 
 
 ### First principles over analogies
 
-"How does the system actually work?" before "what do others do?" Analogies are useful for communication, dangerous for design.
-
 > "Neural networks are not just another classifier, they represent the beginning of a fundamental shift in how we develop software." ([[Karpathy Software 2.0]])
 
-Dean's [[Dean Latency Numbers|latency numbers table]] is the canonical first-principles artifact: not methodology, just numbers, organized by 9 orders of magnitude.
+> "If training vanilla neural nets is optimization over functions, training recurrent nets is optimization over programs." ([[Karpathy Unreasonable Effectiveness of RNNs]])
 
-[[Vogels Eventually Consistent]] is the equivalent for consistency models: precise definitions, not metaphors. This is what first-principles thinking looks like applied to a real engineering domain.
+> [[Dean Latency Numbers]] is the canonical first-principles artifact for distributed systems: not methodology, just numbers organized by 9 orders of magnitude.
 
-**Status:** mature (3 primary citations).
+> [[Vogels Eventually Consistent]] is the equivalent for consistency models: precise definitions, not metaphors.
 
 ### Build first, then talk
 
-Demos and code carry more signal than decks. Karpathy's nanoGPT, micrograd, and Zero-to-Hero series teach by building, not by describing. Stripe's earliest pitches were live API calls.
+Demos and code carry more signal than decks.
+
+> "all it is is just a more fancy version of this 100-line gist" ([[Karpathy Unreasonable Effectiveness of RNNs]])
+
+> "NO compilation step" ([[Karpathy Unreasonable Effectiveness of RNNs]])
 
 > Step 2 of the recipe: "Set up the end-to-end training/evaluation skeleton + get dumb baselines." ([[Karpathy Recipe for Training Neural Networks]])
 
-**Status:** mature.
-
 ### Order-of-magnitude thinking
 
-Distinguish 10% improvements from 10x improvements. They are different problem classes requiring different approaches.
+> Google Web Search 1999 vs 2010: documents 1000x, queries 1000x, latency dropped by an order of magnitude. ([[Dean Stanford Talk]])
 
 > The latency table itself: L1 to main memory is 200x, main memory to datacenter network is 5,000x, datacenter to intercontinental is about 300x. ([[Dean Latency Numbers]])
 
 > Step 3 of the recipe: "Overfit a small subset first," test whether the system can express the target before scaling. ([[Karpathy Recipe for Training Neural Networks]])
 
-> "In larger distributed-scale systems, network partitions are a given." ([[Vogels Eventually Consistent]]) Order-of-magnitude argument hidden in plain sight.
+> "In larger distributed-scale systems, network partitions are a given." ([[Vogels Eventually Consistent]])
 
-**Status:** mature (3 primary citations).
+### Know your basic building blocks
+
+> "Core language libraries, basic data structures, protocol buffers, GFS, BigTable, indexing systems, MapReduce. Not just their interfaces, but understand their implementations. If you don't know what's going on, you can't do decent back-of-the-envelope calculations!" ([[Dean Stanford Talk]])
+
+Mastery of primitives enables back-of-the-envelope reasoning. Without it, design decisions are guesses.
+
+### The 6/7/8 scope heuristic
+
+When designing infrastructure, you can solve some demands easily, some with effort, and the last few make the whole system worse.
+
+> "Clients might be demanding 8 different things. Doing 6 of them is easy. Handling 7 of them requires real thought. Dealing with all 8 usually results in a worse system: more complex, compromises other clients in trying to satisfy everyone." ([[Dean Stanford Talk]])
+
+The operational form of "primitives not frameworks": refuse the demands that would make the system worse for everyone, even when they look reasonable individually.
+
+### YAGNI for infrastructure
+
+> "Don't build infrastructure just for its own sake: Identify common needs and address them. Don't imagine unlikely potential needs that aren't really there." ([[Dean Stanford Talk]])
 
 ### Patience and attention to detail (anti-"fast and furious")
 
@@ -175,21 +213,13 @@ Distinguish 10% improvements from 10x improvements. They are different problem c
 
 > "The qualities most correlated with success are patience and attention to detail." ([[Karpathy Recipe for Training Neural Networks]])
 
-Generalizes to any domain with silent failure modes: distributed systems, data pipelines, security configurations.
-
-**Status:** mature.
-
 ### Everything fails. Design for it.
-
-At scale, failures are the steady state, not the outlier. APIs, retries, idempotency, circuit breakers, design as if every dependency is mid-incident, because at some point each one is.
 
 > "Failures are a given and everything will eventually fail over time. We needed to build systems that embrace failure as a natural occurrence even if we did not know what the failure might be." ([[Vogels 10 Lessons from 10 Years of AWS]] lesson 2)
 
-**Status:** mature.
+> Specific failure modes at 10,000 machines: no parity, no ECC, no checksumming. "Sort 1 TB of data without parity: ends up 'mostly sorted'. Sort it again: 'mostly sorted' another way." ([[Dean Stanford Talk]])
 
 ### APIs are forever
-
-The contract you ship outlives the implementation. Bezos's 2002 mandate at Amazon was the definitive instance, and Vogels confirmed it after 10 years of consequences.
 
 > "All teams will henceforth expose their data and functionality through service interfaces." ([[Bezos 2002 API Mandate]])
 
@@ -197,39 +227,39 @@ The contract you ship outlives the implementation. Bezos's 2002 mandate at Amazo
 
 > "Once customers started building their applications and systems using our APIs, changing those APIs becomes impossible." ([[Vogels 10 Lessons from 10 Years of AWS]] lesson 5)
 
-The "externalizable from day one" constraint was the load-bearing decision. It made AWS possible four years later.
-
-**Status:** mature.
-
 ### Build evolvable systems
-
-Design so the system can be re-architected while it is running. Evolvable is not the same as flexible. Evolvable means the system can replace its own parts under load.
 
 > "The evolution of Amazon S3 could best be described as starting off as a single engine Cessna plane, but over time the plane was upgraded to a 737, then a group of 747s. All the while, we were refueling in midair." ([[Vogels 10 Lessons from 10 Years of AWS]] lesson 1)
 
-The implication for product roadmaps: prefer architectures that allow incremental rebuild over big-bang rewrites.
-
-**Status:** mature.
+> The Dynamo to DynamoDB progression: internal system to whitepaper to hosted service over a decade. ([[Vogels Decade of Dynamo]])
 
 ### Primitives not frameworks
 
-Expose composable building blocks. Don't impose opinionated framing on customers (internal or external). Frameworks lock in assumptions the user shouldn't be forced to inherit; primitives let them assemble what they need.
-
 > "Offer customers a collection of primitives and tools, where they could pick and choose." ([[Vogels 10 Lessons from 10 Years of AWS]] lesson 3)
-
-Generalizes beyond infrastructure: applies to internal libraries, configuration systems, organizational policy.
-
-**Status:** mature.
 
 ### Automation as a litmus test
 
-If the operator's hands are on the keyboard, the system is not done.
-
 > "A good litmus test has been that if you need to SSH into a server or an instance, you still have more to automate." ([[Vogels 10 Lessons from 10 Years of AWS]] lesson 4)
 
-The principle behind "you build it, you run it" pairs with this one: the team building the system also feels the pain of operational gaps, which generates the pressure to close them.
+### Measure before you redesign
 
-**Status:** mature.
+> "About 70 percent of operations were of the key-value kind, where only a primary key was used and a single row would be returned." ([[Vogels Decade of Dynamo]])
+
+That single measurement is the entire argument for Amazon's move away from relational defaults. Without the measurement, the move would have been speculation.
+
+### Surprise is a signal
+
+When a simple thing produces unexpectedly good results, take the result seriously rather than explaining it away.
+
+> "the ratio of how simple your model is to the quality of the results you get out of it blows past your expectations" ([[Karpathy Unreasonable Effectiveness of RNNs]])
+
+### MapReduce as pattern-recognition
+
+The abstraction earns its existence when the same shape repeats across many problems.
+
+> "A simple programming model that applies to many large-scale computing problems. Allowed us to express all phases of our indexing system." ([[Dean Stanford Talk]])
+
+The MapReduce story is told in the talk as: Dean and Ghemawat noticed many parallel jobs had the same shape, so they extracted the shape into a runtime. Worth borrowing as a general abstraction discipline.
 
 ---
 
@@ -237,9 +267,9 @@ The principle behind "you build it, you run it" pairs with this one: the team bu
 
 ### Write the memo before the meeting
 
-Forcing the thought into prose surfaces the holes that bullet points hide. Amazon's 6-pager is the canonical form, first 20 minutes of the meeting is silent reading. If you can't write it, you don't understand it yet.
+Forcing the thought into prose surfaces the holes that bullet points hide.
 
-**Status:** paraphrased. Citation pending ingest of *Working Backwards*.
+Paraphrased; citation pending ingest of *Working Backwards*.
 
 ### Resist proxies
 
@@ -247,29 +277,47 @@ Forcing the thought into prose surfaces the holes that bullet points hide. Amazo
 
 > "A remarkable customer experience starts with heart, intuition, curiosity, play, guts, taste. You won't find any of it in a survey." ([[Bezos 2016 Day 1 Letter]])
 
-Process-as-proxy is the failure mode that hollows out previously-functional organizations. It applies recursively to this wiki: don't let the page exist as proxy for the knowledge it should encode.
-
-**Status:** mature.
-
 ### Tight prose, real verbs
 
-Cut "very", "really", "essentially", "basically", "leverage" (as a verb when "use" works), "synergy", "going forward". The cumulative effect of soft language is soft thinking.
-
-**Status:** style preference, not citation-backed.
+Cut "very", "really", "essentially", "basically", "leverage" (as a verb when "use" works), "synergy", "going forward". Style preference, not citation-backed.
 
 ### Show the work for non-trivial reasoning
 
-Especially for tradeoffs, show what was considered and rejected. The reasoning is more durable than the conclusion.
+Especially for tradeoffs, show what was considered and rejected.
 
 > "We will share our strategic thought processes with you when we make bold choices." ([[Bezos 1997 Letter]] criterion #6)
 
-**Status:** mature.
-
 ### Written over spoken; question depth over assertion depth
 
-Public written artifacts compound. Spoken thought decays. Patrick Collison's [[Collison Fast|Fast]] and [[Collison Questions|Questions]] pages are deliberate written references maintained over years. His [[Collison Cowen Interview|interview with Tyler Cowen]] demonstrates the related discipline of asking better questions rather than making assertions.
+Public written artifacts compound; spoken thought decays.
 
-**Status:** mature.
+> [[Collison Fast]] and [[Collison Questions]] are deliberate written references maintained over years.
+
+> [[Collison Cowen Interview]] demonstrates the related discipline of asking better questions rather than making assertions.
+
+### Argument by enumeration
+
+Don't argue; show.
+
+> The 24-project Fast list. ([[Collison Fast]])
+
+> The 9-century customer list (Oxford 1096, Church of England 1534, Hershey 1894, NVIDIA 1993, Perplexity 2022) in the Stripe annual letter. ([[Stripe Annual Letter 2024]])
+
+### Make prior forecasts checkable
+
+Continuity across public artifacts is itself a discipline. Reference last year's claims, confirm or correct them.
+
+> "As we forecast in our 2023 letter, Stripe's Revenue and Finance Automation Suite has now passed a $500 million revenue run rate." ([[Stripe Annual Letter 2024]])
+
+### Vocabulary as engineering
+
+Precise definitions enable precise reasoning. Once the field adopts your words, expensive vagueness is replaced by cheap precision.
+
+> The consistency-model taxonomy (strong, weak, eventual, causal, read-your-writes, session, monotonic-read, monotonic-write). ([[Vogels Eventually Consistent]])
+
+> The Type 1 / Type 2 framing for decisions. ([[Bezos 2015 Letter]])
+
+> The three-system distinction (internal Dynamo, Dynamo paper, DynamoDB). ([[Vogels Decade of Dynamo]])
 
 ---
 
@@ -277,47 +325,45 @@ Public written artifacts compound. Spoken thought decays. Patrick Collison's [[C
 
 ### Boring fundamentals
 
-Distribution, pricing, hiring, durability, latency, error budgets. The exciting parts get the attention; the boring fundamentals decide whether the company survives.
+Distribution, pricing, hiring, durability, latency, error budgets.
 
-> [[Collison Fast]] implicitly: most of the listed projects (Pentagon in 491 days, Empire State Building in 410 days, Berlin Airlift in 463 days) succeeded through relentless attention to schedule, coordination, and decision velocity, not technological breakthrough.
-
-**Status:** mature (paraphrased; the citation is structural, not a verbatim quote).
+> [[Collison Fast]] implicitly: most listed projects (Pentagon 491 days, Empire State Building 410 days, Berlin Airlift 463 days) succeeded through relentless attention to schedule, coordination, and decision velocity, not technological breakthrough.
 
 ### Mechanism over goodwill
 
-Good outcomes from good systems, not good intentions. If a process depends on heroism, it will fail. If it depends on a single load-bearing person, it will fail when they leave.
+Good outcomes from good systems, not good intentions.
 
-> The API mandate's enforcement clause: "Anyone who doesn't do this will be fired." ([[Bezos 2002 API Mandate]])
+> "Anyone who doesn't do this will be fired." ([[Bezos 2002 API Mandate]] enforcement clause)
 
-Bezos didn't ask for service interfaces; he defined a mechanism and a forcing function. The culture became downstream of the architecture.
-
-> "The security team is not a group that does validation after something has been built. They must be partners on day one." ([[Vogels 10 Lessons from 10 Years of AWS]] lesson 7) Security as Day 1 partner, not gate, is the same mechanism principle.
-
-**Status:** mature.
+> "The security team is not a group that does validation after something has been built. They must be partners on day one." ([[Vogels 10 Lessons from 10 Years of AWS]] lesson 7)
 
 ### Owner mindset
 
 > Hire and "weight their compensation to stock options rather than cash" so employees "must think like, and therefore must actually be, an owner." ([[Bezos 1997 Letter]])
 
-Ownership is built into the compensation structure, not requested in onboarding.
-
-**Status:** mature.
-
 ### Two-pizza teams
 
-A team should be small enough that two pizzas can feed it. Larger than that, communication overhead exceeds output.
+A team should be small enough that two pizzas can feed it.
 
-**Status:** paraphrased. Citation pending ingest of *Working Backwards*.
+Paraphrased; citation pending ingest of *Working Backwards*.
 
 ### High-agency curiosity
 
-Big questions in public. Unanswered. Inviting contribution. The world is shaped by people who took problems seriously when no one else did.
+Big questions in public. Unanswered. Inviting contribution.
 
-> 23 open intellectual problems, public, unanswered. Themes spanning progress, institutional design, information infrastructure, cultural durability. ([[Collison Questions]])
+> 23 open intellectual problems, public, unanswered. ([[Collison Questions]])
 
-> Interview discipline: ask better questions rather than make assertions. ([[Collison Cowen Interview]])
+> The interview discipline: ask better questions rather than make assertions. ([[Collison Cowen Interview]])
 
-**Status:** mature.
+### Unified operating culture across business lines
+
+The same principles run multiple businesses. The principles compound; the products are downstream.
+
+> "Under the surface, the two are not so different after all. They share a distinctive organizational culture that cares deeply about and acts with conviction on a small number of principles." ([[Bezos 2015 Letter]] on AWS vs retail)
+
+### Culture as discovered, not engineered
+
+> "You can write down your corporate culture, but when you do so, you're discovering it, uncovering it, not creating it. It is created slowly over time by the people and by events." ([[Bezos 2015 Letter]])
 
 ---
 
@@ -331,18 +377,24 @@ Big questions in public. Unanswered. Inviting contribution. The world is shaped 
 - Architecture decisions not backed by failure mode analysis
 - Trend-following framed as strategy
 - Aphorisms presented without operational consequence
+- "Industry standard" cited as the reason for a choice
 
 ---
 
 ## Status
 
-This page is **maturing**. 16 of 19 principles now have primary-source citations (Phase 2 + Phase 3 ingest, 2026-05-24). Three principles still paraphrased: working backwards, regret minimization, two-pizza teams. Each is queued for ingest of *Working Backwards* (Bryar & Carr) or a long-form Bezos interview.
+Mature. Phase 4 closes the citation gap on Bezos's two-way doors origin (2015, not 2016) and adds five new principles plus several new citations to existing principles. Three principles still paraphrased (working backwards, regret minimization, two-pizza teams); all three are blocked on *Working Backwards* book ingest. The brain has enough citation density to give persona-flavored answers across most operator and engineering questions.
 
 ---
 
 ## Connections
 
 - [[Persona]] the operating identity this serves
-- [[seed-corpus-technical-ceo]] source roadmap that backs these claims
-- [[Jeff Bezos]], [[Patrick Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]] mentor entities
-- Primary sources currently cited: [[Bezos 1997 Letter]], [[Bezos 2016 Day 1 Letter]], [[Bezos 2002 API Mandate]], [[Karpathy Software 2.0]], [[Karpathy Recipe for Training Neural Networks]], [[Dean Latency Numbers]], [[Collison Fast]], [[Collison Questions]], [[Collison Cowen Interview]], [[Vogels 10 Lessons from 10 Years of AWS]], [[Vogels Eventually Consistent]]
+- [[seed-corpus-technical-ceo]] source roadmap
+- Mentor entities: [[Jeff Bezos]], [[Patrick Collison]], [[John Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]]
+- Primary sources cited (11 total):
+  - Bezos: [[Bezos 1997 Letter]], [[Bezos 2015 Letter]], [[Bezos 2016 Day 1 Letter]], [[Bezos 2002 API Mandate]]
+  - Karpathy: [[Karpathy Unreasonable Effectiveness of RNNs]], [[Karpathy Software 2.0]], [[Karpathy Recipe for Training Neural Networks]]
+  - Dean: [[Dean Latency Numbers]], [[Dean Stanford Talk]]
+  - Collisons: [[Collison Fast]], [[Collison Questions]], [[Collison Cowen Interview]], [[Stripe Annual Letter 2024]]
+  - Vogels: [[Vogels 10 Lessons from 10 Years of AWS]], [[Vogels Eventually Consistent]], [[Vogels Decade of Dynamo]]

@@ -18,12 +18,13 @@ related:
   - '[[Patrick Collison]]'
   - '[[Operating Principles]]'
   - '[[seed-corpus-technical-ceo]]'
+  - '[[Stripe Annual Letter 2024]]'
   - '[[entities/_index]]'
 ---
 
 # John Collison
 
-Co-founder and President of Stripe (founded 2010 with brother [[Patrick Collison]]). Runs much of Stripe's customer-facing organization, sales, partnerships, GTM. Often hosts Stripe Press's interview podcast.
+Co-founder and President of Stripe (founded 2010 with brother [[Patrick Collison]]). Runs much of Stripe's customer-facing organization including sales, partnerships, and GTM. Often hosts Stripe Press's interview podcast.
 
 Anchor mentor in this brain's [[Persona]]. Patrick is the more public-facing intellectual; John is the operator's operator, sharp on the parts of business that don't get romanticized.
 
@@ -35,36 +36,64 @@ John brings a counterweight to Patrick's intellectual range: an explicit focus o
 
 ---
 
-## Canonical Sources (queued for ingest)
+## Primary-Source Citations
 
-See [[seed-corpus-technical-ceo]] for status. Priority targets:
+### From [[Stripe Annual Letter 2024]] (co-authored with Patrick)
 
-- **"Cheeky Pint" interviews** (Stripe Press / YouTube), long-form CEO interviews John hosts. The interviewer's questions are themselves operator content.
-- **Long-form interviews** of John (Tim Ferriss, 20VC, etc.) where John is the subject.
-- **Stripe Sessions keynotes** he has delivered.
-- **Joint Stripe Press essays / interviews** where both brothers participate.
+The annual letter is a Patrick + John joint artifact. Several passages reflect the operator-focused frame John brings to the partnership.
+
+On profitability as fuel, not goal:
+
+> "Durable profitability allows us to plow back much of our operating earnings into research and development. In each of the last six years, Stripe has reinvested a much higher proportion of our earnings in R&D than any comparable company."
+
+On customer selection as strategy:
+
+> "In aggregate, the revenue that businesses process on Stripe is growing seven times faster than that of all companies in the S&P 500."
+
+> "Stripe customers share one important characteristic: outsized growth."
+
+On historical durability as a frame:
+
+> "Of the 500 companies in the S&P 500 at its inception in 1957, only 53 remain in the index today. (More than half of that remaining 53 use Stripe.)"
+
+> "Back in 1957, companies could expect to remain in the index for 61 years. In 1980, the average tenure was 36 years. Today, it's just under 20 years."
+
+On the specific product investment paying off:
+
+> "Stripe Billing is an example of such an investment bearing fruit. As we forecast in our 2023 letter, Stripe's Revenue and Finance Automation Suite, with Billing at its core, has now passed a $500 million revenue run rate."
 
 ---
 
-## Core Frames (to be expanded with citations after ingest)
+## Core Frames (now backed by citations)
 
-- **Distribution > genius idea.** Most products fail at distribution, not invention.
-- **Pricing as product surface.** Pricing changes behavior more than features do.
-- **Operator's eye for the boring.** What does the org chart look like at 10x growth?
-- **Customer onboarding as compounding.** Reducing friction in the first 30 minutes pays dividends for years.
-- **Honest about what's hard.** Acknowledges luck, market timing, and the limits of advice.
+- **Distribution > genius idea.** Most products fail at distribution, not invention. (Paraphrased; John specifically expresses this in interview material queued for future ingest.)
+- **Pricing as product surface.** Pricing changes behavior more than features do. (Paraphrased; pending ingest.)
+- **Customer selection as strategy.** ([[Stripe Annual Letter 2024]]) Optimize for customer growth-rate, not customer count.
+- **Durable profitability funds R&D.** ([[Stripe Annual Letter 2024]]) Profit is the mechanism that funds long-horizon investment without external dilution. Not an end in itself.
+- **Make prior forecasts checkable.** ([[Stripe Annual Letter 2024]]) The 2024 letter delivers on the Billing forecast made in the 2023 letter. Continuity across artifacts is itself a discipline.
+- **Argument by enumeration.** ([[Stripe Annual Letter 2024]]) The 9-century customer list (Oxford 1096, Church of England 1534, Hershey 1894, NVIDIA 1993, Perplexity 2022) is the same rhetorical move as [[Collison Fast]]. Don't argue; show.
+
+---
+
+## Queued for Future Ingest
+
+- "Cheeky Pint" interview series where John interviews founders (his questions reveal his frames, same pattern as [[Collison Cowen Interview]])
+- Long-form interviews where John is the subject (Money Stuff, 20VC, etc.)
+- Stripe Sessions keynotes John has delivered
+- 2023 Annual Letter (companion to 2024)
 
 ---
 
 ## Status
 
-Stub. Page is **developing**.
+Developing. Stripe Annual Letter is co-authored so attribution is shared with [[Patrick Collison]], but the operator-focused passages graduate John from honest stub to citation-backed. Further upgrade requires John-as-subject interview material.
 
 ---
 
 ## Connections
 
-- [[Persona]], anchors this brain's operating identity
-- [[Patrick Collison]], co-founder, complementary frame
+- [[Persona]] anchors this brain's operating identity
+- [[Patrick Collison]] co-founder, complementary frame
 - [[Operating Principles]]
+- [[Stripe Annual Letter 2024]] primary source
 - [[seed-corpus-technical-ceo]]
