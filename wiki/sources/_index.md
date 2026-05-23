@@ -63,6 +63,9 @@ All source pages — summaries of ingested documents, transcripts, articles, and
 
 - [[Working Backwards Book]]: Bryar and Carr 2021 insider account of Amazon's operating mechanisms (PR/FAQ, two-pizza teams, single-threaded leadership, Bar Raiser, narrative-over-slides)
 - [[Bezos Regret Minimization]]: the 1994 founding decision frame (story with canonical Bezos quotes)
+- [[High Output Management]]: Andy Grove 1983, the canonical management book. Managerial leverage, training, one-on-ones, OKRs origin
+- [[Designing Data-Intensive Applications]]: Kleppmann 2017, the canonical distributed systems book. Three pillars: reliability, scalability, maintainability
+- [[Innovators Dilemma]]: Christensen 1997, the canonical strategy book. Sustaining vs disruptive innovation; why incumbents lose
 
 ## Research Ingests
 

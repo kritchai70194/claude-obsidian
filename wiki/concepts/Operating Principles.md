@@ -411,6 +411,76 @@ Force descriptions short. Watch what survives the compression.
 
 Same epistemic move as the [[Working Backwards Book|PR/FAQ]] discipline: force the description to be short; what remains is what matters.
 
+### Managers are multipliers (not individual contributors)
+
+A manager's output is not their personal output. It is the output of the teams they influence.
+
+> "A manager's output = the output of his organization + the output of the neighboring organizations under his influence." ([[High Output Management]])
+
+Most managers default to high-individual-contributor habits and resist the harder discipline of being a multiplier. The reframe is the spine of the management job.
+
+### Training as the highest-leverage activity
+
+Counterintuitive operator move: when overwhelmed, spend more time on training, not less. Compounds.
+
+> Training is "the highest leverage activity a manager can do to increase the output of an organization." Twelve hours preparing training for ten team members yields a 1% lift in their output indefinitely. ([[High Output Management]])
+
+### One-on-ones as the subordinate's meeting
+
+Mechanism specificity. The structure makes the meeting work, not the frequency.
+
+> The meeting is the subordinate's meeting, not the manager's. Agenda set by the subordinate, provided in advance. Frequency calibrated to task-relevant maturity. ([[High Output Management]])
+
+### Fault vs failure (precise vocabulary)
+
+A fault is improper performance of a single component. A failure is the system as a whole stops delivering required service.
+
+> ([[Designing Data-Intensive Applications]]) Faults are unavoidable at scale. Failures are designed against. The discipline of fault tolerance is preventing faults from cascading into failures.
+
+Companion to [[Vogels 10 Lessons from 10 Years of AWS|"everything fails all the time"]]: yes, but distinguish what fails (component faults) from what should not (system service).
+
+### Latency percentiles, not averages
+
+p99 and p999 are the user-visible metrics. Averages mask tail behavior.
+
+> ([[Designing Data-Intensive Applications]]) Tail latency is what users actually experience under load. Averages hide it.
+
+Pair with [[Dean Latency Numbers]] for the order-of-magnitude ratios.
+
+### Customer obsession has limits (the disruption nuance)
+
+Current-customer obsession can blind you to future-customer needs.
+
+> ([[Innovators Dilemma]]) Listening to existing customers is what makes incumbents miss disruptive innovations. The customers being listened to don't want what the disruptors are building.
+
+Important nuance on [[Bezos 2015 Letter|Bezos's customer obsession]]: customer-first does not mean current-customer-first to the exclusion of non-customers and emerging segments.
+
+### Listen to non-customers
+
+What do the people NOT using your product use instead? That's where disruption usually lives.
+
+> ([[Innovators Dilemma]]) The disruptive market is not yet legible by definition. Traditional market analysis cannot predict its trajectory. Pay attention to non-customers and emerging use cases.
+
+### Separate disruption from the core
+
+If the core business will starve the new effort, structurally separate them.
+
+> Christensen's recommended mechanism: create a separate organization with its own resources, metrics, and decision-making authority to pursue the disruptive technology. ([[Innovators Dilemma]])
+
+Structurally similar to [[Working Backwards Book|single-threaded leadership]] applied to disruption: one team, one objective, separated from competing resource claims.
+
+### Sustaining vs disruptive is a binary, not a spectrum
+
+A 10% improvement is sustaining. A 10x improvement on a different metric is disruptive. Don't conflate.
+
+> Disruptive technology is "built around proven technologies put together into a novel product architecture that offers the customer a new set of attributes never before available." ([[Innovators Dilemma]])
+
+This connects to [[Dean Stanford Talk|order-of-magnitude thinking]]: sustaining and disruptive are different problem classes requiring different responses.
+
+### OKRs originate with Grove, not Google
+
+Common misattribution. When citing OKRs, the source is [[High Output Management]] (1983), not Doerr or Google (later carrier). The original concept: Objectives (qualitative, what) plus Key Results (quantitative, how measured).
+
 ### Unified operating culture across business lines
 
 The same principles run multiple businesses. The principles compound; the products are downstream.

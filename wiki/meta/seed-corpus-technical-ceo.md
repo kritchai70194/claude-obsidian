@@ -56,10 +56,10 @@ Total queued: 14. Recommended first batch: items P1.1 through P1.4 (foundational
 
 | ID | Source | Type | Mentor association | URL / Location | Status |
 |---|---|---|---|---|---|
-| P3.1 | "High Output Management" (Andy Grove) | Book, endorsed canon | [[Patrick Collison]] (curator) | Stripe Press / purchased copy | queued |
-| P3.2 | "Designing Data-Intensive Applications" (Kleppmann) | Book, engineering canon | [[Jeff Dean]] (frame) | book | queued |
-| P3.3 | "The Innovator's Dilemma" (Christensen) | Book, strategy canon | (institutional) | book | queued |
-| P3.4 | John Collison, "Cheeky Pint" interview series | Long-form interviews | [[John Collison]] | Stripe Press / YouTube | queued |
+| P3.1 | "High Output Management" (Andy Grove) | Book, endorsed canon | [[Patrick Collison]] (curator) | Stripe Press / purchased copy | done (summary), [[High Output Management]] |
+| P3.2 | "Designing Data-Intensive Applications" (Kleppmann) | Book, engineering canon | [[Jeff Dean]] (frame) | book | done (summary), [[Designing Data-Intensive Applications]] |
+| P3.3 | "The Innovator's Dilemma" (Christensen) | Book, strategy canon | (institutional) | book | done (summary), [[Innovators Dilemma]] |
+| P3.4 | John Collison, "Cheeky Pint" interview series | Long-form interviews | [[John Collison]] | Stripe Press / YouTube | queued (John as interviewer; John-as-subject covered by [[Collison Money Stuff Podcast]]) |
 
 ---
 

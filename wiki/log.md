@@ -25,6 +25,19 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-05-24] ingest | Phase 6, Stripe Press canon (3 management/engineering books)
+- Type: persona-training ingest, Phase 6 (autonomous mode)
+- Goal: bring canonical books endorsed by the Stripe Press canon and the engineering frame into the brain
+- Sources ingested (all aggregate book summaries; the books themselves are higher fidelity):
+  - [[High Output Management]] (Andy Grove, 1983): managerial-leverage formula, training as highest-leverage activity, one-on-ones as subordinate's meeting, TRM, OKRs origin clarification (Grove, not Doerr/Google), Grove's Law about hybrid organizations
+  - [[Designing Data-Intensive Applications]] (Kleppmann, 2017): three pillars (reliability, scalability, maintainability), fault vs failure distinction, latency percentiles framing, three sub-properties of maintainability (operability/simplicity/evolvability)
+  - [[Innovators Dilemma]] (Christensen, 1997): sustaining vs disruptive innovation, why incumbents lose, four mechanisms (resource dependence / small markets / unknowable futures / capabilities as constraints), separate-the-disruption-from-the-core strategic response
+- New principles added (10): managers are multipliers, training as highest-leverage activity, one-on-ones as subordinate's meeting, fault vs failure precision, latency percentiles not averages, customer obsession has limits (disruption nuance), listen to non-customers, separate disruption from the core, sustaining vs disruptive is binary not spectrum, OKRs originate with Grove
+- [[Operating Principles]] now covers management + distributed systems + strategy with cited principles across all three dimensions.
+- Fidelity caveat: all 3 sources are aggregate summaries across multiple online book summaries. Structural claims accurate; exact wording paraphrased. Future re-ingest of the books themselves (especially specific chapters with quotable passages) would deepen.
+- Total sources after Phase 6: 22.
+- Style: zero em dashes in Phase 6 prose.
+
 ## [2026-05-24] ingest | Phase 5, unblock paraphrased principles + graduate John Collison
 - Type: persona-training ingest, Phase 5 (autonomous mode, no per-step confirmation)
 - Goal: close the 3 paraphrased Operating Principles gaps + graduate John Collison from developing to mature
