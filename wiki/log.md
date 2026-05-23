@@ -25,6 +25,16 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-05-24] lint | Phase 8, final lint pass and closing session summary
+- Type: housekeeping, vault health check, closing
+- Lint findings:
+  - 56 em-dashes in `wiki/log.md`, `wiki/index.md`, `wiki/hot.md`, `wiki/sources/_index.md` introduced by patches before the Phase 2 cleanup script ran. Cleaned via smarter script preserving blockquotes.
+  - 3 orphan source pages (Bezos 2017, Bezos 2020, Karpathy 33-years) missing from `wiki/sources/_index.md`. Added.
+  - Pre-existing vault content (33 files, ~270 em-dashes) intentionally untouched. Those predate this session's no-em-dash style and may be in quoted/verbatim material per the lint rule.
+- Closing summary written at `wiki/meta/2026-05-24-persona-training-session.md` documenting the full session arc, final numbers, methodological notes, and queued future work.
+- Final state: 26 source pages, 25 raw extracts, 6 of 6 mentors mature, [[Operating Principles]] mature with every principle cited, zero em-dashes in any session-author prose.
+- Total source ingest across the day: 25 sources spanning shareholder letters, engineering essays, podcast interviews, book summaries, and slide decks.
+
 ## [2026-05-24] ingest | Phase 7, Bezos late letters + Karpathy 33-years (3 sources)
 - Type: persona-training ingest, Phase 7 (autonomous mode)
 - Sources ingested:
@@ -98,26 +108,26 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Fetch method: WebFetch summarization (not full-text). Marked clearly in each .raw/ file.
 - Next batch: P2.1 (*Working Backwards* by Bryar and Carr), additional Vogels archive posts, Jeff Dean Stanford talk.
 
-## [2026-05-24] ingest | Phase 2 — Technical CEO seed corpus, batch 1 (6 sources)
+## [2026-05-24] ingest | Phase 2, Technical CEO seed corpus, batch 1 (6 sources)
 - Type: persona-training ingest (Phase 2 of brain-training initiative; Phase 1 was scaffold)
 - Sources ingested (P1.1 partial, P1.2 done, P1.3 partial, P1.4 partial of seed-corpus-technical-ceo manifest):
-  - [[Bezos 1997 Letter]] — founding compact, nine decision criteria verbatim
-  - [[Bezos 2016 Day 1 Letter]] — Day 1, customer obsession, resist proxies, high-velocity decision-making (two-way doors, 70% info, disagree-and-commit)
-  - [[Bezos 2002 API Mandate]] — five-point service-interface directive (Yegge's 2011 leaked account)
-  - [[Karpathy Software 2.0]] — paradigm-shift framing, 8 benefits, infrastructure gaps
-  - [[Karpathy Recipe for Training Neural Networks]] — leaky abstraction, silent failure, six-step recipe, patience-and-attention
-  - [[Dean Latency Numbers]] — full ~2012 latency table, 9 orders of magnitude
+  - [[Bezos 1997 Letter]], founding compact, nine decision criteria verbatim
+  - [[Bezos 2016 Day 1 Letter]], Day 1, customer obsession, resist proxies, high-velocity decision-making (two-way doors, 70% info, disagree-and-commit)
+  - [[Bezos 2002 API Mandate]], five-point service-interface directive (Yegge's 2011 leaked account)
+  - [[Karpathy Software 2.0]], paradigm-shift framing, 8 benefits, infrastructure gaps
+  - [[Karpathy Recipe for Training Neural Networks]], leaky abstraction, silent failure, six-step recipe, patience-and-attention
+  - [[Dean Latency Numbers]], full ~2012 latency table, 9 orders of magnitude
 - Raw layer (immutable extracts): `.raw/source-bezos-1997-letter.md`, `.raw/source-bezos-2016-day1-letter.md`, `.raw/source-bezos-2002-api-mandate.md`, `.raw/source-karpathy-software-2.md`, `.raw/source-karpathy-recipe-training.md`, `.raw/source-dean-latency-numbers.md`
-- Wiki source pages (synthesis layer): 6 new pages in `wiki/sources/` — see Sources Index
-- Entities upgraded paraphrase→quoted: [[Jeff Bezos]] (mature), [[Andrej Karpathy]] (mature), [[Jeff Dean]] (developing — partial; needs Stanford talk)
+- Wiki source pages (synthesis layer): 6 new pages in `wiki/sources/`, see Sources Index
+- Entities upgraded paraphrase→quoted: [[Jeff Bezos]] (mature), [[Andrej Karpathy]] (mature), [[Jeff Dean]] (developing, partial; needs Stanford talk)
 - Entities still stubs: [[Patrick Collison]], [[John Collison]], [[Werner Vogels]] (P2.x sources not yet ingested)
 - [[Operating Principles]] page: 11 of ~18 principles now have primary-source citations. Page promoted developing→maturing.
 - Fetch method: WebFetch summarization (not full-text). Marked clearly in each .raw/ file. Future improvement: re-ingest full-text where copyright allows.
 - Key insight from synthesis: Bezos's 1997 letter is the cleanest single source for long-horizon discipline because it's framed as a *compact* (specific behavioral commitments with named tradeoffs) rather than as values. Worth re-reading annually.
 - Tokens consumed: ~6 WebFetch calls (summaries returned ~500-1500 tokens each); wiki output ~30k tokens of synthesis
-- Next batch (P2.x — Collison interviews, Vogels All Things Distributed, Working Backwards): queued
+- Next batch (P2.x, Collison interviews, Vogels All Things Distributed, Working Backwards): queued
 
-## [2026-05-24] save | Phase 1 — Persona scaffold (Technical CEO archetype)
+## [2026-05-24] save | Phase 1, Persona scaffold (Technical CEO archetype)
 - Type: persona scaffold (instruction set for the brain)
 - Locations (new): `wiki/Persona.md` (operating identity), `wiki/concepts/Operating Principles.md` (developing), `wiki/entities/{Jeff Bezos, Patrick Collison, John Collison, Jeff Dean, Werner Vogels}.md` (5 stubs), `wiki/meta/seed-corpus-technical-ceo.md` (14-source roadmap)
 - Locations (modified): `wiki/hot.md` (Operating Identity header added at top so SessionStart loads it), `wiki/index.md` (Operating Identity section), `wiki/entities/_index.md` (mentor bench section), `wiki/concepts/_index.md` (Decision-Making section)
@@ -166,7 +176,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Deliberately NOT done: no real M1 fold committed; no M3 end-to-end run (needs `ollama pull nomic-embed-text`); pre-existing em-dashes in install-guide.md and README.md left untouched (clean-room boundary, not in write scope this slice); CLAUDE.md pre-existing uncommitted change left untouched.
 - Next recommended slice: either (E) push to origin/main and create annotated tags v1.5.0, v1.5.1, v1.6.0 in landing order, or (F) dedicated style pass to scrub pre-existing em-dashes across install-guide.md, README.md, and any other wiki files flagged by a grep scan.
 
-## [2026-04-24] save | DragonScale Phase 4 — boundary-first autoresearch shipped (v1.6.0)
+## [2026-04-24] save | DragonScale Phase 4, boundary-first autoresearch shipped (v1.6.0)
 - Type: feature release
 - Locations (new): scripts/boundary-score.py (with --top, --page, --json, stdout-only CLI), tests/test_boundary_score.py (40+ assertions)
 - Locations (modified): skills/autoresearch/SKILL.md (new Topic Selection section A/B/C with helper-failure fallback), commands/autoresearch.md (no-topic candidate flow with agenda-control label), wiki/concepts/DragonScale Memory.md (v0.4: M4 flipped from NOT IMPLEMENTED to shipped; exact formula without recency floor; filename-stem disclosure; fence-handling qualifiers), CHANGELOG.md, .claude-plugin/{plugin,marketplace}.json (1.5.0 -> 1.6.0), Makefile (test-boundary target), wiki/hot.md, wiki/index.md, wiki/concepts/_index.md (status drift resolved).
@@ -177,7 +187,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Phase 3.6 (pre-Phase-4 hardening) already landed as v1.5.1: tiling --report VAULT_ROOT confinement, rollout baseline, AGENTS.md consistency, wiki-ingest .raw/ contradiction, install-guide version.
 - All four DragonScale mechanisms now shipped and opt-in. 44 commits ahead of origin/main, no push.
 
-## [2026-04-24] save | DragonScale Phase 3.5 — cross-phase hardening to v1.5.0
+## [2026-04-24] save | DragonScale Phase 3.5, cross-phase hardening to v1.5.0
 - Type: release hardening
 - Locations (new): bin/setup-dragonscale.sh (opt-in installer), tests/test_allocate_address.sh, tests/test_tiling_check.py, Makefile, CHANGELOG.md
 - Locations (modified): hooks/hooks.json (+.vault-meta/ staging), agents/wiki-ingest.md (single-writer rule for addresses), agents/wiki-lint.md (Mechanism 2+3 checks), skills/wiki-ingest/SKILL.md (aligned non-DragonScale wording), wiki/concepts/DragonScale Memory.md (M2 severity matches lint, M4 marked NOT IMPLEMENTED, seed page gets address c-000001), .claude-plugin/{plugin.json,marketplace.json} (1.4.2/1.4.3 → 1.5.0), README.md (11 skills + DragonScale callout), wiki/hot.md (refreshed for v1.5.0), .raw/.manifest.json (address_map now has DragonScale Memory.md → c-000001), .gitignore (.vault-meta/.tiling.lock + cache), .vault-meta/address-counter.txt (advanced to 2).
@@ -186,7 +196,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Tests: `make test` runs 12 shell assertions (allocator) + 18 python assertions (tiling-check). All pass; no ollama dependency.
 - Phase 3.5 complete. Repo state: 6 developer commits added this pass (f2e73c1, 2b49a0c, 8b28e48, 19ad7e4, 365f557, 2e7dd16). Total 39 commits ahead of origin/main. No push.
 
-## [2026-04-24] save | DragonScale Phase 3 — semantic tiling MVP
+## [2026-04-24] save | DragonScale Phase 3, semantic tiling MVP
 - Type: skill update + new script + threshold state
 - Locations: scripts/tiling-check.py (485 lines), .vault-meta/tiling-thresholds.json (seed defaults), skills/wiki-lint/SKILL.md (109-line Semantic Tiling section + item #10 in checks), wiki/concepts/DragonScale Memory.md (Mechanism 3 cost framing clarified)
 - Scope: opt-in embedding-based duplicate detection via ollama nomic-embed-text. Default bands error>=0.90, review>=0.80, explicitly documented as conservative seeds (not literature-backed interpolation). Calibration procedure documented, not automated.
@@ -203,7 +213,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Final verdict: 10/10 accept.
 - Phase 3 complete. All three DragonScale mechanisms that were in-scope for the initial spec are now shipped as opt-in features. Mechanism 4 (boundary-first autoresearch) was flagged as agenda-control out-of-scope per the v0.2 scope boundary; may or may not ship as a future phase.
 
-## [2026-04-23] save | DragonScale Phase 2 — deterministic page addresses MVP
+## [2026-04-23] save | DragonScale Phase 2, deterministic page addresses MVP
 - Type: skill update + new script
 - Locations: scripts/allocate-address.sh, skills/wiki-ingest/SKILL.md (Address Assignment section), skills/wiki-lint/SKILL.md (Address Validation section), wiki/concepts/DragonScale Memory.md (Mechanism 2 rewritten v0.2→v0.3), .vault-meta/address-counter.txt, .raw/.manifest.json (new)
 - Scope: MVP address format `c-NNNNNN` (creation-order counter, zero-padded 6 digits). Rollout baseline 2026-04-23. Legacy pages exempt until deliberate backfill (future `l-` prefix). No content hash, no fold-ancestry encoding in the MVP (both deferred).
@@ -215,7 +225,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Final verdict: 8/8 accept.
 - Phase 2 complete. Phase 3 (semantic tiling lint) gated on human approval.
 
-## [2026-04-23] save | DragonScale Phase 1 — wiki-fold skill shipped
+## [2026-04-23] save | DragonScale Phase 1, wiki-fold skill shipped
 - Type: skill
 - Location: skills/wiki-fold/SKILL.md, skills/wiki-fold/references/fold-template.md
 - Scope: flat extractive fold over raw wiki/log.md entries. Dry-run default via Bash stdout (no Write tool, avoids PostToolUse hook residue). Structural idempotency via deterministic fold_id. Duplicate-range detection. Fold-of-folds explicitly out of scope.
@@ -224,7 +234,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Dry-run artifact: /tmp/wiki-fold-dry-run-v2.md (not committed). fold_id: fold-k3-from-2026-04-10-to-2026-04-23-n8.
 - Phase 1 complete. Phase 2 (content-addressable paths) gated on human approval.
 
-## [2026-04-23] save | DragonScale Memory v0.2 — post-adversarial-review
+## [2026-04-23] save | DragonScale Memory v0.2, post-adversarial-review
 - Type: concept revision
 - Location: wiki/concepts/DragonScale Memory.md
 - Review: codex exec adversarial review rejected all 7 load-bearing claims in v0.1
@@ -232,7 +242,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Re-review result: 7/7 accepted (after one surgical fix on tagging-scope language)
 - Phase 0 complete. Phase 1 (wiki-fold skill) gated on human approval.
 
-## [2026-04-23] save | DragonScale Memory — Phase 0 design doc (proposed)
+## [2026-04-23] save | DragonScale Memory, Phase 0 design doc (proposed)
 - Type: concept
 - Location: wiki/concepts/DragonScale Memory.md
 - From: brainstorming session on applying Heighway dragon curve properties to LLM wiki memory architecture
@@ -248,7 +258,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Key lessons: Path.home() not hardcoded paths, git pull --rebase before big pushes, Chrome blocks file:// cross-origin images, .claude/ always in .gitignore
 - Release: https://github.com/AgriciDaniel/claude-seo/releases/tag/v1.9.0
 
-## [2026-04-15] save | Claude SEO v1.9.0 Release Report — PDF Complete
+## [2026-04-15] save | Claude SEO v1.9.0 Release Report, PDF Complete
 - Type: session
 - Location: wiki/meta/2026-04-15-release-report-session.md
 - From: full session completing the v1.9.0 PDF release report. Dark theme, 13 pages, 1.53 MB. Fixed logo (double-space filename), empty spaces, page-break orphans, file:// URL encoding.
@@ -256,10 +266,10 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Challenge v2 added: keyword LEADS, $600 prize pool, deadline April 28
 - Output: `~/Desktop/Claude-SEO-v1.9.0-Release-Report.pdf`
 
-## [2026-04-14] save | Claude SEO v1.9.0 — Pro Hub Challenge Integration Session
+## [2026-04-14] save | Claude SEO v1.9.0, Pro Hub Challenge Integration Session
 - Type: session + 4 concept pages + 1 entity page
 - Location: wiki/meta/2026-04-14-claude-seo-v190-session.md
-- From: full v1.9.0 implementation session — reviewed 5 community submissions, integrated 4 new skills (seo-cluster, seo-sxo, seo-drift, seo-ecommerce), enhanced seo-hreflang, added DataForSEO cost guardrails
+- From: full v1.9.0 implementation session, reviewed 5 community submissions, integrated 4 new skills (seo-cluster, seo-sxo, seo-drift, seo-ecommerce), enhanced seo-hreflang, added DataForSEO cost guardrails
 - Pages created: [[2026-04-14-claude-seo-v190-session]], [[Claude SEO]], [[Pro Hub Challenge]], [[Semantic Topic Clustering]], [[Search Experience Optimization]], [[SEO Drift Monitoring]]
 - Review rounds: 4 (code review x3 + cybersecurity audit). Score: 87 → 93 → 97 → 85 security
 - Key learnings: always verify subagent output (40-line count error caught), insertion-point bugs caught by max-effort plan review, pre-existing security debt identified (10 of 15 findings)
@@ -305,12 +315,12 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 ## [2026-04-07] session | claude-obsidian v1.2.0 Release Session
 - Type: session
 - Location: wiki/meta/claude-obsidian-v1.2.0-release-session.md
-- From: full build session — v1.2.0 plan execution, cosmic-brain→claude-obsidian rename, legal/security audit, branded GIFs, PDF install guide, dual GitHub repos
+- From: full build session, v1.2.0 plan execution, cosmic-brain→claude-obsidian rename, legal/security audit, branded GIFs, PDF install guide, dual GitHub repos
 
 
 - Source: `.raw/` (first ingest)
 - Pages updated: [[index]], [[log]], [[hot]], [[overview]]
-- Key insight: The wiki pattern turns ephemeral AI chat into compounding knowledge — one user dropped token usage by 95%.
+- Key insight: The wiki pattern turns ephemeral AI chat into compounding knowledge, one user dropped token usage by 95%.
 
 ## [2026-04-07] setup | Vault initialized
 

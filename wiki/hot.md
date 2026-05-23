@@ -22,9 +22,11 @@ Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
 
 **Archetype: Technical CEO.** This brain reads, decides, and synthesizes the way [[Jeff Bezos]], [[Patrick Collison]], [[John Collison]], [[Andrej Karpathy]], [[Jeff Dean]], and [[Werner Vogels]] would. See [[Persona]] for the full operating identity, [[Operating Principles]] for decision frames, and [[seed-corpus-technical-ceo]] for the source roadmap.
 
-Synthesis defaults: long-horizon over local maxima, customer obsession, written-memo discipline, first principles, regret minimization frame for irreversible decisions, two-way doors for the rest. Mentor anchor pages are **developing** — primary-source ingest pending.
+Synthesis defaults: long-horizon over local maxima, customer obsession, written-memo discipline, first principles, regret minimization frame for irreversible decisions, two-way doors for the rest. Mentor anchor pages are **developing**, primary-source ingest pending.
 
 ## Last Updated
+
+2026-05-24 (Phase 8): Final lint pass and closing session summary. Cleaned 56 em-dashes in log/index/hot/sources_index that the Phase 2 cleanup script missed. Added 3 orphan source pages to sources/_index. Wrote closing summary at `wiki/meta/2026-05-24-persona-training-session.md` documenting the full 7-phase arc. Final state: 25 sources ingested this session, 6 of 6 mentors mature, Operating Principles fully cited and mature, zero em-dashes in session author prose. Pre-existing vault em-dashes (33 files) untouched per lint rule.
 
 2026-05-24 (Phase 7): Three more high-signal sources. [[Bezos 2017 Letter]] (High Standards: teachable, domain-specific, scope part of standard, six-pager in Bezos voice). [[Bezos 2020 Letter]] (farewell: differentness principle, create more than you consume, "never let the universe smooth you into your surroundings"). [[Karpathy 33 Years Ago and 33 Years From Now]] (1989 LeCun reproduction, 10^7 scale change, projection that foundation models replace from-scratch training). 7 new principles added. Total sources: 25.
 
@@ -38,7 +40,7 @@ Synthesis defaults: long-horizon over local maxima, customer obsession, written-
 
 2026-05-24 (Phase 2): First real persona-training ingest. Six primary sources landed (Bezos 1997 / 2016 / 2002 API mandate; Karpathy Software 2.0 / Recipe for Training Neural Networks; Dean Latency Numbers). Raw extracts in `.raw/source-*.md`, synthesized pages in `wiki/sources/`. [[Jeff Bezos]] and [[Andrej Karpathy]] entities promoted developing to mature (citation-backed). [[Jeff Dean]] still developing (Stanford talk queued). [[Operating Principles]] page: 11 of about 18 principles now have primary-source citations. Seed-corpus manifest updated: P1.2 done, P1.1/P1.3/P1.4 partial. Vault grew from 0 source pages (in technical-CEO domain) to 6. Fetch method: WebFetch summarization (not full-text), clearly marked in each .raw/.
 
-2026-05-24 (Phase 1): Persona scaffold. `wiki/Persona.md` (operating identity, 10 principles, decision frames, source preferences, synthesis style) + `wiki/concepts/Operating Principles.md` (developing) + 5 new mentor entity stubs (Bezos, P.Collison, J.Collison, Dean, Vogels — Karpathy already existed) + `wiki/meta/seed-corpus-technical-ceo.md` (14 queued sources prioritized P1-P3). Indices updated. Vault counter unchanged (c-000003); addresses deferred to next lint pass.
+2026-05-24 (Phase 1): Persona scaffold. `wiki/Persona.md` (operating identity, 10 principles, decision frames, source preferences, synthesis style) + `wiki/concepts/Operating Principles.md` (developing) + 5 new mentor entity stubs (Bezos, P.Collison, J.Collison, Dean, Vogels, Karpathy already existed) + `wiki/meta/seed-corpus-technical-ceo.md` (14 queued sources prioritized P1-P3). Indices updated. Vault counter unchanged (c-000003); addresses deferred to next lint pass.
 
 ## Last Updated (prior)
 
