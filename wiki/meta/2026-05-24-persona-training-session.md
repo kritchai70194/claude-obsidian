@@ -61,7 +61,7 @@ Style audit discovered 182 em-dash violations across 21 session files (rule from
 
 Method upgrade: WebFetch returned binary stubs for PDFs. Installed pypdf in user space (`python3 -m pip install --user pypdf`) and extracted full text. Reading discipline broke past the summarization fidelity ceiling.
 
-- [[Bezos 2015 Letter]] (9-page full PDF) — **CITATION CORRECTION**: this is the ORIGIN of the Type 1/Type 2 (one-way/two-way doors) decision framework, not the 2016 letter that Phase 2 had cited.
+- [[Bezos 2015 Letter]] (9-page full PDF). **CITATION CORRECTION**: this is the ORIGIN of the Type 1/Type 2 (one-way/two-way doors) decision framework, not the 2016 letter that Phase 2 had cited.
 - [[Stripe Annual Letter 2024]] (14-page full PDF)
 - [[Dean Stanford Talk]] (103-slide full PDF, 2010 lecture)
 - [[Karpathy Unreasonable Effectiveness of RNNs]] (WebFetch)

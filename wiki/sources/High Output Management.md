@@ -24,7 +24,7 @@ related:
 
 # High Output Management (Andy Grove, 1983)
 
-The most-cited management book in the technology industry. Written by [[Andy Grove (Intel)|Andy Grove]] (Intel co-founder, CEO 1979 to 1997) originally as an internal Intel management course textbook. Endorsed by [[Patrick Collison]] and central to the Stripe Press canon.
+The most-cited management book in the technology industry. Written by Andy Grove (Intel co-founder, CEO 1979 to 1997) originally as an internal Intel management course textbook. Endorsed by [[Patrick Collison]] and central to the Stripe Press canon.
 
 ## Provenance
 
