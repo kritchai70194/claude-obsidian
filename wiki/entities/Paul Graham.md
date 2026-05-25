@@ -148,7 +148,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Seed. Single ingest pass planned in Phase 6 (4 essays, each shorter than the Lenny/Thompson long-form sources).
+Mature. Four canonical PG essays ingested: [[PG How to Start a Startup]] (2005), [[PG Do Things That Dont Scale]] (2013), [[PG Startup = Growth]] (2012), [[PG How to Get Startup Ideas]] (2012). Operating frame stable. The PG Mt-Rushmore covering people-product-money, growth definition, manual recruitment, and idea discovery.
 
 ---
 
