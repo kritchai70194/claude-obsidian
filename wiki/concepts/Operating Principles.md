@@ -385,6 +385,24 @@ The minimal claim about planning: thinking does not eliminate bugs. Not thinking
 
 The asymmetry is the argument. The cost of thinking is bounded (some hours of writing); the cost of not thinking is unbounded (each downstream bug costs more to fix than the upstream thinking would have cost).
 
+### Clarity is engineering work
+
+The same content can be incomprehensible or trivial depending on how it is written. The choice between the two is engineering work, not aesthetic preference.
+
+> "The Paxos algorithm, when presented in plain English, is very simple." ([[Lamport Paxos Made Simple]])
+
+> "In fact, it is among the simplest and most obvious of distributed algorithms." ([[Lamport Paxos Made Simple]], on the underlying algorithm that the original 1998 paper made appear difficult)
+
+The implication: when an explanation fails, the fix is not to add more words; the fix is to rewrite at the level the audience needs.
+
+### Rewrite your own work when it fails to communicate
+
+Lamport's 13-page 2001 rewrite of his own 1998 Paxos paper is a canonical example of engineering rewrite as discipline. The 1998 paper used parliamentary metaphors; the 2001 rewrite dropped the metaphors and is shorter and clearer. The algorithm did not change. The writing did.
+
+> "Length is not the metric; clarity is." ([[Lamport Paxos Made Simple]])
+
+The corresponding [[Carmack Lex Fridman 309]] frame is "willingness to throw away your own code". Same shape: the artifact serves the goal, not your ego.
+
 ---
 
 ## Communication
