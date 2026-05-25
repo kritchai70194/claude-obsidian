@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Helmer Expansion Phase 2 - Ingest
+
+- Phase: 2 of 3 (Helmer ingest)
+- Sources ingested: [[Helmer 7 Powers Book]] (2016 framework), [[Helmer Acquired Podcast]] (2021 applied interview), [[Helmer Counter-Positioning Deep Dive]] (most original Power), [[Helmer 7 Powers Applied to AWS]] (applied analysis cross-referencing Vogels)
+- Pages created: 4 source pages (c-000037 through c-000040)
+- Pages updated: [[Hamilton Helmer]] (seed -> mature, 10 cited core frames)
+- Key insight: The "Applied to AWS" analysis demonstrates the brain's NEW capability: take existing brain content (Vogels frames) and re-evaluate through Helmer's framework. AWS exhibits 4 stacked Powers, the most durable profile. "Everything fails all the time" maps to Process Power; "APIs are forever" maps to Switching Costs. The two mentors converge.
+
 ## [2026-05-26] persona-training | Helmer Expansion Phase 1 - Scaffold
 
 - Phase: 1 of 3 (Helmer mini-session, additive to the unicorn-builder pole)
