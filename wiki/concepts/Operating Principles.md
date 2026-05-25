@@ -338,6 +338,50 @@ The reverse-engineering skill is rarer than the writing skill and more valuable 
 
 > Recurring advice in [[Carmack Lex Fridman 309]]: read code, especially code you didn't write. The portfolio is evidence; the reading is preparation.
 
+### Specification is a separate task from coding
+
+No programming language, no methodology, no type system obviates the need for specification. The spec answers "what is the system supposed to do?" which no implementation language addresses on its own.
+
+> "No programming language, no methodology, obviates the need for specification. A specification is a separate task from coding." ([[Lamport Thinking for Programmers]])
+
+> "If you don't start with a spec, every piece of code you write is a patch." ([[Lamport Thinking for Programmers]])
+
+The implication for engineering planning: design docs, RFCs, TLA+ specs, or even informal prose plans, in some form, every system worth building deserves a spec before code.
+
+### Writing is the medium of thinking
+
+Thinking does not happen silently in your head. Writing is what makes it real and exposes its gaps.
+
+> "Writing is nature's way of letting you know how sloppy your thinking is." ([[Lamport Thinking for Programmers]])
+
+> "To think, you have to write. If you think without writing, you only think you're thinking." ([[Lamport Thinking for Programmers]])
+
+> "Everyone thinks they think. If you don't write down your thoughts, you're fooling yourself." ([[Lamport Thinking for Programmers]])
+
+This unifies Lamport's TLA+ thesis with Carmack's `.plan` discipline ([[Carmack Plan Archive 1998]]) and Bezos's written memo discipline. Different mediums, same underlying claim: the writing is the thinking.
+
+### The model checker is the feedback loop
+
+Specifications without checking are documentation. Specifications with checking are thinking, because the check surfaces inconsistencies the writer would not have noticed.
+
+> "TLA+ is a notation that makes thinking possible. The mechanical checking is what turns specification from documentation into thinking." ([[Lamport TLA+ Course Intro]])
+
+In practical engineering: design docs benefit from review (humans as checkers); RFC drafts benefit from "would this work" questioning; type systems are mechanical checkers for properties they can express. The feedback loop is the discipline.
+
+### Small specs surface deep questions
+
+A two-page spec of a small system reveals questions a thousand lines of code would not. The act of trying to write the spec is what discovers what you did not understand.
+
+> Lamport's pedagogical pattern: pick a system whose spec fits on a slide (distributed counter, dining philosophers, two-phase commit), write the spec, observe what it forces you to confront. The forced confrontations are the lesson. ([[Lamport TLA+ Course Intro]])
+
+### Not thinking guarantees mistakes
+
+The minimal claim about planning: thinking does not eliminate bugs. Not thinking does ensure them.
+
+> "Thinking doesn't guarantee that you won't make mistakes. Not thinking guarantees that you will." ([[Lamport Thinking for Programmers]])
+
+The asymmetry is the argument. The cost of thinking is bounded (some hours of writing); the cost of not thinking is unbounded (each downstream bug costs more to fix than the upstream thinking would have cost).
+
 ---
 
 ## Communication
