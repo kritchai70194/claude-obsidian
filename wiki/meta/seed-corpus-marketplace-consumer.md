@@ -39,9 +39,9 @@ Singapore-based platform strategist. Co-author of *Platform Revolution* (2016) w
 
 ## Cross-Listed Mentors
 
-- [[Bill Gurley]] (full mentor in Phase 3) — marketplace economics specialist
-- [[Brian Chesky]] (full mentor in Phase 1) — consumer + design specialist
-- [[Andrew Chen]] (existing mentor) — network effects + Cold Start
+- [[Bill Gurley]] (full mentor in Phase 3): marketplace economics specialist
+- [[Brian Chesky]] (full mentor in Phase 1): consumer + design specialist
+- [[Andrew Chen]] (existing mentor): network effects + Cold Start
 
 ---
 
