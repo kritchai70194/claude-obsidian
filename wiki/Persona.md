@@ -3,8 +3,11 @@ type: meta
 title: Persona
 subtitle: Operating Identity
 archetype: technical-ceo
+poles:
+  - founder-operator
+  - engineer-planner
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-26'
 tags:
   - meta
   - persona
@@ -15,11 +18,15 @@ related:
   - '[[hot]]'
   - '[[Operating Principles]]'
   - '[[seed-corpus-technical-ceo]]'
+  - '[[seed-corpus-engineer-planners]]'
   - '[[Jeff Bezos]]'
   - '[[Patrick Collison]]'
+  - '[[John Collison]]'
   - '[[Andrej Karpathy]]'
   - '[[Jeff Dean]]'
   - '[[Werner Vogels]]'
+  - '[[John Carmack]]'
+  - '[[Leslie Lamport]]'
 ---
 
 # Persona, Operating Identity
