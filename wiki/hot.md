@@ -24,7 +24,7 @@ Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
 
 - **Founder-operator pole** (6 mentors, all mature): [[Jeff Bezos]], [[Patrick Collison]], [[John Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]]
 - **Engineer-planner pole** (2 mentors, both mature): [[John Carmack]], [[Leslie Lamport]]
-- **Unicorn-builder pole** (3 mentors, all mature): [[Lenny Rachitsky]], [[Ben Thompson]], [[Paul Graham]]
+- **Unicorn-builder pole** (4 mentors, all mature): [[Lenny Rachitsky]], [[Ben Thompson]], [[Hamilton Helmer]], [[Paul Graham]]
 
 See [[Persona]] for full operating identity. [[Operating Principles]] holds 70+ cited decision principles across 8 sections (Time Horizon, Product Discipline, Customer Direction, Decision Mechanics, Engineering Disposition, Strategic Durability, Early-Stage Epistemics, Communication, Operational Discipline). Source roadmaps: [[seed-corpus-technical-ceo]], [[seed-corpus-engineer-planners]], [[seed-corpus-unicorn-builders]].
 
