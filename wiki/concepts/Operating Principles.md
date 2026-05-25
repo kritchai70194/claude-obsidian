@@ -161,6 +161,48 @@ Demand retention depends on supply economics; cannot be optimized in isolation.
 
 Apply when reasoning about any two-sided model: marketplaces, payment networks, social networks, developer platforms.
 
+### Cold start is solved by atomic networks, not big launches
+
+> An Atomic Network is the smallest network that can stand on its own. ([[Chen Atomic Network]])
+
+Most network startups die at Stage 1 (Cold Start). The fix is finding the smallest viable network and making THAT work, then replicating. Tinder = USC students; Uber = one SF neighborhood; Slack = one team of 5-50; Reddit = ~50 active discussions seeded by founders.
+
+The diagnostic: does the network retain when you stop subsidizing it?
+
+### Growth loops compound; funnels do not
+
+> Funnels scale linearly with spend. Loops scale exponentially with users. ([[Chen Growth Loops]])
+
+Four loop types: viral, content/SEO, paid, sales. Most billion-dollar products stack 2-4. If you cannot diagram your loop in 5 steps (input, action, distribution, conversion, cycle time), you do not yet have one.
+
+### The hard side dictates strategy
+
+In two-sided markets, one side is harder to acquire. The hard side determines whether the marketplace exists.
+
+> Uber's "power drivers" handle 60% of trips. The hard side = drivers, not riders. ([[Chen Cold Start Problem Book]])
+
+Wikipedia: editors > readers. Dating apps: attractive users > everyone else. YouTube: creators > viewers. Invest disproportionately in the hard side.
+
+### Every channel saturates; build the next loop before the current dies
+
+The growth team's perpetual job. Mature products have multiple loops stacked, not one.
+
+> Uber stacked 4 loops at peak: word of mouth + referral program + paid acquisition + driver incentives. ([[Chen Uber Rider Growth]])
+
+When a channel saturates (CPCs rising, viral coefficient declining, SEO crowding), the next loop should already be operating.
+
+### Network products are often local; replication beats global scaling
+
+> Uber is not one global network. It is hundreds of hyperlocal marketplaces. ([[Chen Uber Rider Growth]])
+
+The play replicates across markets with ~20% local variation. The play is the asset; the markets are the canvas. This inverts the "build globally" instinct: build locally first, then replicate.
+
+### The 5 stages each need different teams and tactics
+
+Cold Start tactics fail at Escape Velocity. Moat tactics fail at Cold Start. Mismatching stage to tactics is the most common founder failure.
+
+> Stage 1 needs founder-led manual recruitment; Stage 3 needs growth team with experimentation infrastructure; Stage 5 needs platform/ecosystem investment. ([[Chen Cold Start Problem Book]])
+
 ### The North Star Metric is the strategy compressed into one number
 
 A single metric the whole company optimizes against. If you cannot point to it in one sentence, you do not have a strategy.
