@@ -52,4 +52,12 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Unicorn-Building Discipline
+
+- [[Product-Market Fit]], the measurable state of having made something people want; synthesizes Lenny + PG + Bezos PMF disciplines into one diagnostic
+- [[Aggregation Theory]], Thompson's four-essay arc on why digital businesses converge on winner-take-all dynamics; explains modern competitive durability
+- [[Early-Stage Discipline]], the compressed PG discipline for the first year of a startup; ideas-are-noticed + do-unscalable-work + growth-as-compass
+
+---
+
 ## Add new concepts here as they are extracted from sources.
