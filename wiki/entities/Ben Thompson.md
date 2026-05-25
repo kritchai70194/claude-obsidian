@@ -51,21 +51,57 @@ Frames here: distribution is the moat, not the product; aggregators win by ownin
 
 ## Primary-Source Citations
 
-*(Pending, sources queued in [[seed-corpus-unicorn-builders]], see T1-T4.)*
+### From [[Thompson Aggregation Theory]] (2015)
 
-Will be populated through Phase 4-5 ingest passes.
+The foundational essay. Defines the framework that named modern tech competition.
+
+The setup:
+> "The value chain for any given consumer market is divided into three parts: suppliers, distributors, and consumers/users."
+
+The two internet inversions:
+> "The Internet has made distribution (of digital goods) free, neutralizing the advantage that pre-Internet distributors leveraged to integrate with suppliers."
+
+> "The Internet has made transaction costs zero, making it viable for a distributor to integrate forward with end users/consumers at scale."
+
+The new pattern:
+> "Aggregators integrate forward with consumers instead, commoditizing suppliers in the process."
+
+The virtuous cycle:
+> "The best distributors/aggregators/market-makers win by providing the best experience, which earns them the most consumers/users, which attracts the most suppliers, which enhances the user experience in a virtuous cycle."
+
+Six worked examples (Google, Facebook, Amazon, Netflix, Uber, Airbnb) all show the same pattern: modularize the supply side, integrate the demand side.
+
+### From [[Thompson Defining Aggregators]] (2017)
+
+The taxonomy that refined Aggregation Theory. The hierarchy predicts durability.
+
+Three defining attributes (all required):
+
+> "Aggregators have a direct relationship with users." (user relationship)
+> "The goods 'sold' by an aggregator are digital and thus have zero marginal costs." (cost structure)
+> "Customer acquisition costs decrease over time; marginal customers are attracted to the platform by virtue of the increasing number of suppliers." (multi-sided network)
+
+The four levels:
+- **Level 1** (Netflix): paid supply acquisition
+- **Level 2** (Uber): supply onboarding friction
+- **Level 3** (Google, social networks): suppliers come for free, "actively make themselves more easily searchable and discoverable"
+- **Super-Aggregators** (Facebook, Google only): three-sided markets at zero marginal cost on all sides
+
+> "Since the value of an aggregator to end users is continually increasing it is exceedingly difficult for competitors to take away users or win new ones."
+
+Winner-take-all within a category.
 
 ---
 
-## Core Frames (Pending Citation)
+## Core Frames (now backed by citations)
 
-*Stub list, each will graduate to a primary-source citation as ingestion completes.*
-
-- **Distribution is the moat, not the product.** The product is necessary but not sufficient. The durable advantage is owning the user relationship.
-- **Aggregators win at zero marginal cost.** Software has zero marginal cost of distribution. Whoever owns the user at scale wins; suppliers become commoditized.
-- **Modularize your suppliers, integrate your demand.** The aggregator's playbook. Many suppliers, one user relationship.
-- **The platform vs aggregator distinction.** Platforms (Microsoft, AWS) enable third parties to build products that they sell to users directly. Aggregators (Google, Facebook, Amazon) intermediate between users and suppliers. Critical for positioning.
-- **Build for the audience you own.** Stratechery itself is the proof: the writer who owns the relationship outperforms the writer who borrows it from a publication.
+- **The internet inverted two pillars of incumbent advantage: distribution scarcity and transaction cost.** ([[Thompson Aggregation Theory]]) Pre-internet moats stopped working; incumbents lost not because they did anything wrong but because the structural ground shifted.
+- **Aggregators win by commoditizing suppliers and owning the consumer relationship.** ([[Thompson Aggregation Theory]]) The reversal: integrate forward to consumers, not backward to suppliers.
+- **The moat is the user relationship, not the product features.** ([[Thompson Aggregation Theory]]) Never let a third party intermediate.
+- **Within a category, aggregation is winner-take-all.** ([[Thompson Aggregation Theory]], [[Thompson Defining Aggregators]]) Two viable competitors at Super-Aggregator level is unstable.
+- **Three defining attributes of aggregators: direct user relationship, zero marginal cost, demand-driven multi-sided network.** ([[Thompson Defining Aggregators]]) All three required; if any is missing, you are not an aggregator.
+- **Four levels by supply cost.** ([[Thompson Defining Aggregators]]) Level 1 (Netflix, paid), Level 2 (Uber, onboarding), Level 3 (Google, free), Super-Aggregator (3-sided zero-cost).
+- **Climb the levels when possible; treat Level 3 competitors as existential.** ([[Thompson Defining Aggregators]]) Netflix originals are Level 1 → Level 2. A Level 3 competitor in your category is the existential threat; everything else is noise.
 
 ---
 
