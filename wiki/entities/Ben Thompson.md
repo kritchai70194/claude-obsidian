@@ -14,7 +14,7 @@ tags:
   - analyst
   - mentor
   - unicorn-builder
-status: developing
+status: mature
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
@@ -23,10 +23,14 @@ related:
   - "[[Paul Graham]]"
   - "[[Thompson Aggregation Theory]]"
   - "[[Thompson Defining Aggregators]]"
+  - "[[Thompson Bill Gates Line]]"
+  - "[[Thompson End of the Beginning]]"
   - "[[entities/_index]]"
 sources:
   - "[[Thompson Aggregation Theory]]"
   - "[[Thompson Defining Aggregators]]"
+  - "[[Thompson Bill Gates Line]]"
+  - "[[Thompson End of the Beginning]]"
 ---
 
 # Ben Thompson
