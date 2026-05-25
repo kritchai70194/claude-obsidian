@@ -44,10 +44,10 @@ Plus Munger's personal reading list, which is itself a curriculum for the lattic
 ## The Eleven Talks (most cited)
 
 - **Talk One (1986)**: Harvard School Commencement (the precursor to the 2007 USC misery speech)
-- **Talk Two (1994)**: "A Lesson on Elementary Worldly Wisdom as it Relates to Investment Management and Business" (USC Business School) — the foundational latticework lecture
-- **Talk Four (1995)**: "Practical Thought About Practical Thought?" — the case study lecture (building a trillion-dollar business from $2 trillion)
-- **Talk Eight (2003)**: "Academic Economics: Strengths and Faults After Considering Interdisciplinary Needs" — the critique of single-discipline thinking
-- **Talk Eleven (2007)**: USC Law School commencement — the inversion masterclass, separately cited as [[Munger USC Misery]]
+- **Talk Two (1994)**: "A Lesson on Elementary Worldly Wisdom as it Relates to Investment Management and Business" (USC Business School), the foundational latticework lecture.
+- **Talk Four (1995)**: "Practical Thought About Practical Thought?", the case-study lecture (building a trillion-dollar business from $2 trillion).
+- **Talk Eight (2003)**: "Academic Economics: Strengths and Faults After Considering Interdisciplinary Needs", the critique of single-discipline thinking.
+- **Talk Eleven (2007)**: USC Law School commencement, the inversion masterclass, separately cited as [[Munger USC Misery]].
 
 Plus the Psychology of Human Misjudgment speech, separately cited as [[Munger Psychology of Misjudgment]].
 
