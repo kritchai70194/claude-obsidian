@@ -59,6 +59,11 @@ related:
   - '[[Thompson Defining Aggregators]]'
   - '[[Thompson Bill Gates Line]]'
   - '[[Thompson End of the Beginning]]'
+  - '[[Paul Graham]]'
+  - '[[PG How to Start a Startup]]'
+  - '[[PG Do Things That Dont Scale]]'
+  - '[[PG Startup = Growth]]'
+  - '[[PG How to Get Startup Ideas]]'
 ---
 
 # Operating Principles
