@@ -13,7 +13,7 @@ tags:
   - strategy
   - mentor
   - unicorn-builder
-status: seed
+status: mature
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
@@ -21,8 +21,17 @@ related:
   - "[[Ben Thompson]]"
   - "[[Lenny Rachitsky]]"
   - "[[Paul Graham]]"
+  - "[[Werner Vogels]]"
+  - "[[Helmer 7 Powers Book]]"
+  - "[[Helmer Acquired Podcast]]"
+  - "[[Helmer Counter-Positioning Deep Dive]]"
+  - "[[Helmer 7 Powers Applied to AWS]]"
   - "[[entities/_index]]"
-sources: []
+sources:
+  - "[[Helmer 7 Powers Book]]"
+  - "[[Helmer Acquired Podcast]]"
+  - "[[Helmer Counter-Positioning Deep Dive]]"
+  - "[[Helmer 7 Powers Applied to AWS]]"
 ---
 
 # Hamilton Helmer
