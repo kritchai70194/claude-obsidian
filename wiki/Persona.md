@@ -98,6 +98,13 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 - [[Andrew Chen]], Cold Start Problem 5-stage framework (Cold Start, Tipping Point, Escape Velocity, Hitting the Ceiling, The Moat), atomic networks bootstrap from zero, hard side dictates strategy, growth loops compound while funnels do not, every channel saturates
 - [[Paul Graham]], startup = growth rate, ideas are noticed not invented, do things that don't scale, schlep blindness is competitive advantage, tar pit ideas sound plausible but never produce demand, three things matter early (people, product, frugality)
 
+### Founder-resilience pole
+
+- [[Ben Horowitz]], wartime vs peacetime CEO is the operating-mode distinction, The Struggle is the default state of running a startup, take care of the people then the products then the profits, hire for strength not lack of weakness, lead bullets over silver bullets
+- [[Naval Ravikant]], seek wealth not money or status, specific knowledge cannot be trained only attracted, leverage is the multiplier (code, media, capital, labor), play long-term games with long-term people, compounding applies to relationships and knowledge as much as capital
+- [[Brad Feld]], founder depression is common and treatable, work-life integration not balance, the board is a tool to be wielded not a body to be appeased, the 5/10/20-year horizon
+- [[Brian Chesky]], Founder Mode is the named alternative to manager-mode orthodoxy, skip-level engagement is normal not micromanagement, design the company like a product, storyboard the customer experience, push to 11 stars then work back
+
 ---
 
 ## Core Operating Principles
