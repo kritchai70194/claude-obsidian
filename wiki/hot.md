@@ -20,7 +20,7 @@ Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
 
 ## Operating Identity
 
-**Archetype: Technical CEO with six complementary poles.** This brain reads, decides, and synthesizes from six stances:
+**Archetype: Technical CEO with seven complementary poles.** This brain reads, decides, and synthesizes from seven stances:
 
 - **Founder-operator pole** (6 mentors, all mature): [[Jeff Bezos]], [[Patrick Collison]], [[John Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]]
 - **Engineer-planner pole** (2 mentors, both mature): [[John Carmack]], [[Leslie Lamport]]
@@ -28,8 +28,9 @@ Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
 - **Founder-resilience pole** (4 mentors, all mature): [[Ben Horowitz]], [[Naval Ravikant]], [[Brad Feld]], [[Brian Chesky]]
 - **Mental-models pole** (4 mentors, all mature): [[Charlie Munger]], [[Daniel Kahneman]], [[Nassim Taleb]], [[Clayton Christensen]]
 - **Capital-strategy pole** (4 mentors, all mature): [[Reid Hoffman]], [[Bill Gurley]], [[Peter Thiel]], [[Mike Maples]]
+- **GTM-sales pole** (4 mentors, all mature): [[Mark Roberge]], [[Aaron Ross]], [[April Dunford]], [[Andy Raskin]]
 
-See [[Persona]] for full operating identity. [[Operating Principles]] holds 106+ cited decision principles across 11 sections (Time Horizon, Product Discipline, Customer Direction, Decision Mechanics, Engineering Disposition, Strategic Durability, Early-Stage Epistemics, Communication, Founder Resilience, Mental Models, Capital Strategy, Operational Discipline). Source roadmaps: [[seed-corpus-technical-ceo]], [[seed-corpus-engineer-planners]], [[seed-corpus-unicorn-builders]], [[seed-corpus-founder-resilience]], [[seed-corpus-mental-models]], [[seed-corpus-capital-strategy]].
+See [[Persona]] for full operating identity. [[Operating Principles]] holds 116+ cited decision principles across 12 sections. Source roadmaps include [[seed-corpus-gtm-sales]] as the latest.
 
 **Pole assignment by question type:**
 - "How do we build this strategically?" → founder-operator pole leads
@@ -38,6 +39,7 @@ See [[Persona]] for full operating identity. [[Operating Principles]] holds 106+
 - "How do I keep operating when everything is on fire?" → founder-resilience pole leads
 - "What am I missing? What does failure look like? What's the base rate?" → mental-models pole leads
 - "How do we fund this and stage capital across rounds?" → capital-strategy pole leads
+- "How do we build a repeatable sales motion?" → gtm-sales pole leads
 
 Default synthesis: long-horizon over local maxima, customer obsession, written-memo discipline, first principles, regret minimization for irreversible decisions, two-way doors for the rest, plan/spec before code, PMF as measurable, Aggregation Theory + 7 Powers for defensibility, growth-rate as compass, and (new this session) wartime/peacetime mode awareness, The Struggle as default state, specific knowledge + leverage as compound advantage, Founder Mode as operating default.
 
