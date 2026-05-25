@@ -75,20 +75,65 @@ Frames here: growth loops compound, funnels do not; cold start is solved by atom
 
 ## Primary-Source Citations
 
-*(Pending, sources will be added through Phase 2 ingest.)*
+### From [[Chen Cold Start Problem Book]] (2021)
+
+The canonical text. 5-stage framework: Cold Start, Tipping Point, Escape Velocity, Hitting the Ceiling, The Moat. Each stage requires different teams and tactics.
+
+Core concept:
+> An Atomic Network is the smallest network that can stand on its own.
+
+Most network startups die at Stage 1 (Cold Start). The fix is not "build the platform, users will come"; the fix is finding the smallest viable network and making THAT work, then replicating.
+
+On the hard side:
+> Focus on the "hard side" of the network, generally the small number of users whose participation creates disproportionate value.
+
+Examples: Wikipedia (4,000 editors), Uber (power drivers handle 60% of trips), dating apps (attractive users).
+
+### From [[Chen Growth Loops]]
+
+The core conceptual distinction underlying modern growth practice:
+
+> Growth loops compound; funnels do not.
+
+Four loop types: viral (Dropbox referral, PayPal P2P), content/SEO (Pinterest, Quora), paid (DTC brands, retention-rich SaaS), sales (Salesforce, Stripe enterprise).
+
+> If you cannot diagram your growth loop in 5 steps (input, user action, distribution mechanic, conversion rate, cycle time), you do not yet have one.
+
+### From [[Chen Atomic Network]]
+
+The single most important contribution in Chen's body of work. The answer to "how do you start a network from zero?"
+
+Tinder atomic network: the founders threw a party at USC. Required app download to enter. A few hundred USC students.
+
+Uber atomic network: a few dozen drivers + a few hundred riders in one neighborhood of San Francisco.
+
+The atomic network must be derived empirically, not estimated theoretically. The diagnostic: does the network retain when you stop subsidizing it?
+
+### From [[Chen Uber Rider Growth]]
+
+Chen ran Uber Rider Growth 2015-2018 across 70+ markets at ~$1B annual growth spend. The Cold Start Problem framework is largely the generalization of this operating experience.
+
+Key insight from the Uber play:
+> Uber is not one global network. It is hundreds of hyperlocal marketplaces.
+
+Each city is structurally independent and requires its own atomic-network bootstrap. The play replicated ~70 times with ~20% local variation.
+
+Uber stacked four growth loops at peak: word of mouth + referral program + paid acquisition + driver incentives. Stage-5 moat (brand, switching costs, regulatory) was built only after the network was at scale; trying to build it in Stage 1 is premature.
 
 ---
 
-## Core Frames (Pending Citation)
+## Core Frames (now backed by citations)
 
-*Stub list, each will graduate to a primary-source citation as ingestion completes.*
-
-- **Cold start is solved by atomic networks, not big launches.** Find the smallest possible network that creates value; get it working; then replicate.
-- **The hard side gets disproportionate attention.** In two-sided markets, the side that is harder to acquire dictates strategy.
-- **Growth loops compound; funnels do not.** A funnel converts visitors once; a loop turns each new user into the source of the next user.
-- **Every channel saturates.** Acquisition channels have lifespans; need multiple loops to escape the ceiling.
-- **Network effects are not one thing.** Direct, indirect, two-sided, data, social — different mechanics with different leverage points.
-- **The 5 stages each need different teams and tactics.** Cold Start needs founder-led manual recruitment; Escape Velocity needs growth team with experimentation infrastructure; The Moat needs platform/ecosystem investment.
+- **Cold start is solved by atomic networks, not big launches.** ([[Chen Cold Start Problem Book]], [[Chen Atomic Network]]) Find the smallest possible network that creates value; get it working; then replicate.
+- **The atomic network is product-specific and must be derived empirically.** ([[Chen Atomic Network]]) Tinder = USC students; Uber = one city; Slack = one team of 5-50.
+- **The hard side gets disproportionate attention.** ([[Chen Cold Start Problem Book]]) Drivers > riders for Uber. Editors > readers for Wikipedia.
+- **Growth loops compound; funnels do not.** ([[Chen Growth Loops]]) The structural distinction between linear and exponential growth.
+- **Four loop types: viral, content/SEO, paid, sales.** ([[Chen Growth Loops]]) Most billion-dollar products stack 2-4.
+- **Every channel saturates; build the next loop before the current dies.** ([[Chen Growth Loops]]) Growth team's perpetual job.
+- **Network effects are not one thing.** ([[Chen Cold Start Problem Book]]) Direct, indirect, two-sided, data, social, different mechanics.
+- **The 5 stages each need different teams and tactics.** ([[Chen Cold Start Problem Book]]) Cold Start tactics fail at Escape Velocity; Moat tactics fail at Cold Start.
+- **Network products are often local; replication is the strategy, not scaling.** ([[Chen Uber Rider Growth]]) Uber = hundreds of hyperlocal marketplaces, not one global network.
+- **The play replicates with ~20% local variation; the playbook is the asset.** ([[Chen Uber Rider Growth]]) Build the play once, deploy it many times.
 
 ---
 
