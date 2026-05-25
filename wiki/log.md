@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Unicorn-Builder Phase 3 - Lenny pass 2
+
+- Phase: 3 of 7 (Lenny ingest pass 2 of 2)
+- Sources ingested: [[Lenny North Star Metric]] (2021), [[Lenny Chesky Founder Mode]] (2024 podcast)
+- Pages created: [[Lenny North Star Metric]], [[Lenny Chesky Founder Mode]]
+- Pages updated: [[Lenny Rachitsky]] (developing -> mature, 13 cited core frames), [[Operating Principles]] (4 more Product Discipline principles: NSM as strategy, revenue-as-NSM-is-wrong, JTBD framing, founder mode, functional org)
+- Key insight: The NSM essay paired with the Chesky podcast surfaces the same underlying principle from two directions. NSM is "strategy compressed into a number"; founder mode is "strategy preserved through presence". Both reject the manager-mode delegation pattern that lets companies drift.
+
 ## [2026-05-26] persona-training | Unicorn-Builder Phase 2 - Lenny pass 1
 
 - Phase: 2 of 7 (Lenny ingest pass 1 of 2)
