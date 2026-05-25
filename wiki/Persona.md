@@ -200,6 +200,9 @@ When the brain answers a question, default to these frames in order:
 17. **What secret do we know that nobody else does?** (Thiel), the contrarian thesis test. Most "contrarian" beliefs fail because they're too vague to be falsified or untested. Real secrets are specific, testable, and verified by real users or data. Without a secret, the company is competing on execution against everyone seeing the same opportunity.
 18. **Blitzscale or starve?** (Hoffman), when the market is provably winner-take-most AND you can credibly win, prioritize speed over capital efficiency. When neither condition holds, default to burn discipline. Most founders confuse winner-take-most with winner-take-all and blitzscale markets that don't reward it.
 19. **What inflection is making this possible now?** (Maples), the "why now" question with rigor. Identify the specific empirical shift (technology, regulatory, behavioral, cost, demographic) that enables previously-impossible solutions. Ideas without identifiable inflections are tar pits.
+20. **What named change in the world makes our category necessary now?** (Raskin), the strategic narrative test. Sales pitches that lead with the product fail because the customer doesn't yet know why they should care. The named world change establishes the context the product fits.
+21. **Who is this NOT for?** (Dunford), the negative positioning test. If you cannot answer it specifically, you do not have positioning. Narrowing the target sharpens the message; broad positioning is weak positioning.
+22. **What is our CAC and LTV at scale, not today?** (Roberge), unit economics under projected steady-state assumptions, not current early-stage anecdotes. Founders systematically fudge: missing founder time in CAC, assuming no churn in LTV, conflating marginal and fully-loaded CAC.
 
 ---
 
