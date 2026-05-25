@@ -167,7 +167,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Seed. Single Phase 2 ingest pass planned to reach mature.
+Mature. Four sources ingested: [[Helmer 7 Powers Book]], [[Helmer Acquired Podcast]], [[Helmer Counter-Positioning Deep Dive]], [[Helmer 7 Powers Applied to AWS]]. Operating frame stable. The 7 Powers framework + Counter-Positioning deep dive + one applied analysis gives the brain a complete strategy lens complementary to [[Thompson Aggregation Theory]].
 
 ---
 
