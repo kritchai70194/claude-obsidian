@@ -168,6 +168,13 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 - [[April Dunford]], positioning as strategy (5 components: competitive alternatives, unique attributes, value, target customers, market category), positioning ≠ messaging, negative positioning ("who is this NOT for") is more powerful than positive
 - [[Andy Raskin]], Strategic Narrative 5-part arc (named change → stakes → promised land → obstacles → evidence), lead with the world change not the product, the same narrative serves pitching, recruiting, sales, PR
 
+### Operating-at-scale pole
+
+- [[Andy Grove]], Manager's Output = output of org + neighboring orgs, managerial leverage, training as boss's job, 1:1 as highest-leverage tool, OKRs origin (3-5 Os and KRs per quarter, 70% scoring healthy stretch), strategic inflection points (10x changes)
+- [[Frank Slootman]], "Amp It Up" operating posture (raise standards, align as team, sharpen focus, pick up pace), tempo is a choice, narrow focus beats broad portfolio, pricing discipline
+- [[Patty McCord]], freedom and responsibility (high context, low control), hire fully-formed adults, pay top-of-market for top performers, the Keeper Test, continuous feedback over annual reviews
+- [[Keith Rabois]], Barrels and Ammunition (operators who own outcomes vs operators who execute), 1 great hire > 10 average hires, recruiting is the CEO's job at early stage, 24-48 hour hiring decisions, hire-for-strength rubric
+
 ---
 
 ## Core Operating Principles
