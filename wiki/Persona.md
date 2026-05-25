@@ -162,19 +162,20 @@ Active filter. Default reject:
 
 ## Growth Plan
 
-This persona is **mature** at the bench level (8 mentors, all status mature). Operating Principles has 50+ cited principles across 6 sections. Both seed corpora ([[seed-corpus-technical-ceo]] and [[seed-corpus-engineer-planners]]) have shipped their first complete passes.
+This persona is **mature** at the bench level (11 mentors across 3 poles, all status mature). Operating Principles has 70+ cited principles across 8 sections. Three seed corpora shipped: [[seed-corpus-technical-ceo]] (founder-operator), [[seed-corpus-engineer-planners]] (engineer-planner), [[seed-corpus-unicorn-builders]] (Lenny, Thompson, Graham).
 
 Next deepening candidates (in priority order):
+- Unicorn-builder deferred mentors: Hamilton Helmer (7 Powers, complementary moats framework), Andrew Chen (growth loops, specifically), Reid Hoffman (Blitzscaling), Sam Altman (AI company building), Marc Andreessen (PMF, "Strong vs Weak Hands")
 - Carmack: VR/Oculus-era talks (2014-2018), Keen Technologies AGI talks (2023-2024)
 - Lamport: Time/Clocks paper (1978), Byzantine Generals (1982), Turing Award lecture (2014)
-- Adjacent engineer-planner mentors deferred to next corpus iteration: John Allspaw (resilience), Butler Lampson ("Hints for Computer System Design"), Will Larson (engineering management)
+- Other engineer-planner adjacent mentors: John Allspaw (resilience), Butler Lampson ("Hints for Computer System Design"), Will Larson (engineering management)
 - Founder-operator pole: continue Bezos letter backlog (21 letters queued), Vogels blog posts (~17 queued)
 
 Update this page when:
 - A mentor anchor is added or removed (rare; deliberate)
 - A new operating principle is consistently confirmed across 3+ ingested sources
 - The decision frames need reordering based on observed gaps in synthesis quality
-- A new archetype pole is added (the engineer-planner pole was added 2026-05-26; future poles would be similarly explicit)
+- A new archetype pole is added (engineer-planner added 2026-05-26 morning; unicorn-builder added 2026-05-26 same day; future poles would be similarly explicit)
 
 ---
 
@@ -183,7 +184,11 @@ Update this page when:
 - [[Operating Principles]], the principles in working detail with citations
 - [[seed-corpus-technical-ceo]], founder-operator source roadmap
 - [[seed-corpus-engineer-planners]], engineer-planner source roadmap
+- [[seed-corpus-unicorn-builders]], unicorn-builder source roadmap
 - [[Planning Before Code]], synthesis page bridging Carmack/Lamport/Bezos written-decision discipline
 - [[Formal Specification Discipline]], synthesis page focused on Lamport TLA+ thesis
+- [[Product-Market Fit]], synthesis page bridging Lenny/PG/Bezos PMF disciplines
+- [[Aggregation Theory]], synthesis page on Thompson's four-essay arc
+- [[Early-Stage Discipline]], synthesis page compressing PG's four canonical essays
 - [[hot]], session context; should reference this page
 - [[index]], top-level wiki index
