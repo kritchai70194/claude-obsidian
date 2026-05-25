@@ -272,6 +272,55 @@ Substrate is stable. The platform incumbents (Amazon, Microsoft, Apple, Google, 
 
 The next wave: vertical aggregation on top of the platform layer (healthcare, finance, AI applications, logistics).
 
+### Seven Powers, not infinite
+
+> Power is "a set of conditions creating the potential for persistent differential returns." ([[Helmer 7 Powers Book]])
+
+Seven specific Powers exist: Scale Economies, Network Economies, Counter-Positioning, Switching Costs, Branding, Cornered Resource, Process Power. Strategy discussions that do not name one of the 7 are theater.
+
+### Each Power requires both Benefit and Barrier
+
+The universal test ([[Helmer 7 Powers Book]]):
+- **Benefit:** creates value (lower cost or higher willingness-to-pay)
+- **Barrier:** prevents competitive imitation
+
+If you have one without the other, you do not have a Power. "Network effects" is not a Power; "Network Economies with Benefit AND Barrier" is. Most "moats" fail the test ([[Helmer Acquired Podcast]]).
+
+### Strategy = the route to Power
+
+> A strategy that does not lead to one of the 7 Powers is not a strategy. It is an operating plan in fancy dress. ([[Helmer Acquired Podcast]])
+
+The discipline for founders: name the Power you are building toward. If you cannot, no strategy. The discipline for investors: name the Power the company already has. If you cannot, no moat.
+
+### Counter-Positioning is the most underrated Power
+
+> "Counter-Positioning occurs when a newcomer adopts a new, superior business model which the incumbent does not mimic due to anticipated damage to their existing business." ([[Helmer Counter-Positioning Deep Dive]])
+
+The Barrier is structural/psychological, not technical. The incumbent could respond; cannibalization risk + agency problem prevents it. Canonical examples: Vanguard vs Fidelity, Netflix vs Blockbuster, Dell vs Compaq.
+
+### Counter-Positioning is a transition Power
+
+Lasts a few years; plan what follows. Netflix progressed Counter-Positioning → Scale Economies → Branding. Vanguard progressed Counter-Positioning → Scale Economies + Cornered Resource. ([[Helmer Counter-Positioning Deep Dive]])
+
+### Find Counter-Positioning opportunities by finding what the incumbent's economics depend on
+
+The inverse diagnostic: identify what the incumbent cannot lose (Fidelity's active management fees, Blockbuster's late fees, Compaq's retail channel). Design around it. If the incumbent rationally will not respond, you have a Counter-Positioning candidate. ([[Helmer Counter-Positioning Deep Dive]])
+
+### Stacked Powers compound; aim for multiple
+
+> AWS exhibits four stacked Powers: Scale Economies + Switching Costs + Process Power + (partial) Cornered Resource. This is the most durable profile Helmer's framework permits. ([[Helmer 7 Powers Applied to AWS]])
+
+Most large businesses have one Power if any. Two or more is rare. Four or more is the structurally most durable position. Plan the sequence: which Power first, which second, which third.
+
+### Existing brain disciplines map to specific Powers
+
+The Helmer framework provides a check on which brain principles actually produce durability:
+- "Everything fails all the time" ([[Vogels 10 Lessons from 10 Years of AWS]]) = Process Power construction
+- "APIs are forever" ([[Bezos 2002 API Mandate]]) = Switching Costs construction
+- "Customer obsession beats competitor obsession" ([[Bezos 1997 Letter]]) = Scale Economies operational discipline (serve more customers, drive volume, lower unit cost)
+
+Use Helmer's framework to evaluate which of your operating disciplines actually compound into Powers vs which are merely good-but-not-durable habits ([[Helmer 7 Powers Applied to AWS]]).
+
 ---
 
 ## Early-Stage Epistemics
