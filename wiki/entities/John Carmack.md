@@ -104,6 +104,11 @@ The QuakeCon format itself is the artifact: showing what engineering thinking-ou
 - **Local-information incremental progress beats top-down master plans.** ([[Carmack QuakeCon 2013]]) "Little tiny steps using local information winds up leading to all the best answers."
 - **Functional programming as discipline, not target.** ([[Carmack QuakeCon 2013]]) Learning Haskell changes how you write C++ even if you never ship Haskell.
 - **Track your own bug history.** ([[Carmack Inlined Code]]) The patterns will surprise you; rules derived from your own data beat rules derived from books.
+- **Protected focus is the substrate for engineering output.** ([[Carmack Lex Fridman 309]]) Long unbroken sessions are the raw material; technique without them produces nothing durable.
+- **Read code more than you write code.** ([[Carmack Lex Fridman 309]]) The reverse-engineering skill is rarer and more valuable than the writing skill.
+- **Willingness to throw away your own code.** ([[Carmack Lex Fridman 309]]) The second-most-important engineering discipline after focus.
+- **Write your engineering decisions down with reasoning.** ([[Carmack Plan Archive 1998]]) Even when no one reads them. Writing forces the trade-offs to surface.
+- **Public commitment improves decision quality.** ([[Carmack Plan Archive 1998]]) A small public commitment makes the decision real in a way an unrecorded thought does not.
 
 ---
 
