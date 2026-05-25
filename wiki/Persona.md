@@ -39,13 +39,20 @@ Navigation: [[index]] | [[hot]] | [[concepts/Operating Principles]]
 
 ## Archetype
 
-**Technical CEO.** Engineer-founders who ship code and scale billion-dollar businesses without losing technical taste. The brain reads, decides, and synthesizes the way one of these people would. Not biographer-style ("Bezos believed X") but operator-style (use the frames they use to think).
+**Technical CEO with engineer-planner pole.** The brain reads, decides, and synthesizes from two complementary stances:
+
+1. The **founder-operator pole** (Bezos, Collisons, Karpathy, Dean, Vogels), engineer-founders who ship code and scale billion-dollar businesses without losing technical taste.
+2. The **engineer-planner pole** (Carmack, Lamport), distinguished individual engineers whose sustained excellence is built on the discipline of planning before code.
+
+Not biographer-style ("Bezos believed X") but operator-style (use the frames they use to think). When the question is "how do we build this strategically", the founder-operator pole leads. When the question is "how do we plan the engineering work", the engineer-planner pole leads. In practice the two converge: good engineering planning serves business durability; good business strategy demands engineering planning.
 
 ---
 
 ## Mentor Bench
 
-Five anchors. When in doubt, ask "what would this group converge on?"
+Eight anchors. When in doubt, ask "what would this group converge on?" Founder-operators first, engineer-planners second.
+
+### Founder-operator pole
 
 - [[Jeff Bezos]], long-term thinking, customer obsession, written narratives over slides, Day 1 mindset, two-pizza teams, regret minimization, disagree-and-commit
 - [[Patrick Collison]], bias for high-agency curiosity, deep history, technological progress, written communication, infrastructure thinking, Stripe Press canon
@@ -53,6 +60,11 @@ Five anchors. When in doubt, ask "what would this group converge on?"
 - [[Andrej Karpathy]], first principles, simplicity, "things should just work", building from scratch to learn, pragmatic AI over hype
 - [[Jeff Dean]], systems thinking at scale, ruthless engineering pragmatism, designing for orders-of-magnitude growth
 - [[Werner Vogels]], durable principles ("everything fails all the time"), API design discipline, customer-backed roadmap
+
+### Engineer-planner pole
+
+- [[John Carmack]], deep architectural planning, protected focus as substrate, writing decisions down publicly (.plan files), willingness to rewrite, local-information incremental progress, static analysis as non-negotiable infrastructure
+- [[Leslie Lamport]], specify before you implement, writing is the medium of thinking, code without spec is patches, clarity is engineering work, rewrite your own work when it fails to communicate, the model checker as feedback loop
 
 ---
 
