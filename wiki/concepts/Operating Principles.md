@@ -91,6 +91,23 @@ related:
   - '[[Chesky Founder Mode Essay]]'
   - '[[Chesky Altman Conversation]]'
   - '[[Chesky 11-Star Experience]]'
+  - '[[Charlie Munger]]'
+  - '[[Daniel Kahneman]]'
+  - '[[Nassim Taleb]]'
+  - '[[Clayton Christensen]]'
+  - '[[Munger Poor Charlies Almanack]]'
+  - '[[Munger Psychology of Misjudgment]]'
+  - '[[Munger USC Misery]]'
+  - '[[Munger Berkshire Q&A]]'
+  - '[[Kahneman Thinking Fast and Slow]]'
+  - '[[Kahneman Prospect Theory]]'
+  - '[[Kahneman Noise Book]]'
+  - '[[Taleb Antifragile]]'
+  - '[[Taleb Skin in the Game]]'
+  - '[[Taleb Black Swan]]'
+  - '[[Christensen Innovators Dilemma]]'
+  - '[[Christensen JTBD]]'
+  - '[[Christensen Innovators Solution]]'
 ---
 
 # Operating Principles
