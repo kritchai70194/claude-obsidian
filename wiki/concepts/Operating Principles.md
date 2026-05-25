@@ -42,6 +42,8 @@ related:
   - '[[John Carmack]]'
   - '[[Carmack Inlined Code]]'
   - '[[Carmack QuakeCon 2013]]'
+  - '[[Carmack Lex Fridman 309]]'
+  - '[[Carmack Plan Archive 1998]]'
 ---
 
 # Operating Principles
