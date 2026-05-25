@@ -32,8 +32,9 @@ Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
 - **Operating-at-scale pole** (4 mentors, all mature): [[Andy Grove]], [[Frank Slootman]], [[Patty McCord]], [[Keith Rabois]]
 - **AI-native sub-pole** (3 mentors, all mature): [[Sam Altman]], [[Dario Amodei]], [[Demis Hassabis]]
 - **Marketplace-consumer sub-pole** (1 new + 2 cross-listed): [[Sangeet Paul Choudary]] (new), [[Bill Gurley]] (Phase 3 cross), [[Brian Chesky]] (Phase 1 cross)
+- **Decision-customer-discovery sub-pole** (3 mentors, all mature): [[Annie Duke]], [[Steve Blank]], [[Rob Fitzpatrick]]
 
-See [[Persona]] for full operating identity. [[Operating Principles]] holds 141+ cited decision principles across 14 sections.
+See [[Persona]] for full operating identity. [[Operating Principles]] holds ~150 cited decision principles across 15 sections. **8-phase unicorn-expansion roadmap COMPLETE as of 2026-05-26.**
 
 **Pole assignment by question type:**
 - "How do we build this strategically?" → founder-operator pole leads
