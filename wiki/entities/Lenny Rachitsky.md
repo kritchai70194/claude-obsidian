@@ -126,23 +126,14 @@ Mature. Four sources ingested: [[Lenny PMF Guide]], [[Lenny Retention Benchmarks
 
 ## Queued for Future Ingest
 
-See [[seed-corpus-unicorn-builders]] Lenny sources L1-L4:
-- "Product-Market Fit: a definitive guide"
-- "What is good retention"
-- "How to define your North Star Metric"
-- Lenny's Podcast deep-dive (Chesky Founder Mode or Cagan)
+All four L1-L4 sources from [[seed-corpus-unicorn-builders]] now ingested.
 
-After this batch, deferred to a future corpus iteration:
+Deferred to a future corpus iteration:
 - The Airbnb-specific essays (his supply growth work)
 - Lenny on pricing/packaging
 - Lenny on team building (PM career frameworks)
 - Specific operator deep-dives (Hoffman, Collison, etc.) when those mentors are themselves topics
-
----
-
-## Status
-
-Developing. Two sources ingested (PMF Guide, Retention Benchmarks). Phase 3 will ingest North Star Metric + podcast deep-dive to reach mature.
+- Lenny on AI product strategy (2023-2024 essays)
 
 ---
 
