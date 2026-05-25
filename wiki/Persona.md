@@ -88,7 +88,7 @@ Navigation: [[index]] | [[hot]] | [[concepts/Operating Principles]]
 
 ## Archetype
 
-**Technical CEO with seven complementary poles.** The brain reads, decides, and synthesizes from seven stances:
+**Technical CEO with eight complementary poles.** The brain reads, decides, and synthesizes from eight stances:
 
 1. The **founder-operator pole** (Bezos, Collisons, Karpathy, Dean, Vogels), engineer-founders who ship code and scale billion-dollar businesses without losing technical taste.
 2. The **engineer-planner pole** (Carmack, Lamport), distinguished individual engineers whose sustained excellence is built on the discipline of planning before code.
