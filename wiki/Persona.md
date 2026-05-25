@@ -78,6 +78,12 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 - [[John Carmack]], deep architectural planning, protected focus as substrate, writing decisions down publicly (.plan files), willingness to rewrite, local-information incremental progress, static analysis as non-negotiable infrastructure
 - [[Leslie Lamport]], specify before you implement, writing is the medium of thinking, code without spec is patches, clarity is engineering work, rewrite your own work when it fails to communicate, the model checker as feedback loop
 
+### Unicorn-builder pole
+
+- [[Lenny Rachitsky]], PMF is measurable, retention is the PMF signal, the NSM is the strategy compressed into one number, JTBD keeps the NSM customer-centered, founder mode = presence not absence
+- [[Ben Thompson]], Aggregation Theory, distribution is the moat not the product, aggregators win by commoditizing suppliers and owning the user relationship, the Bill Gates Line distinguishes platforms from aggregators, build on platforms not on aggregators, cloud + mobile is the substrate endpoint and the next wave is vertical aggregation
+- [[Paul Graham]], startup = growth rate, ideas are noticed not invented, do things that don't scale, schlep blindness is competitive advantage, tar pit ideas sound plausible but never produce demand, three things matter early (people, product, frugality)
+
 ---
 
 ## Core Operating Principles
