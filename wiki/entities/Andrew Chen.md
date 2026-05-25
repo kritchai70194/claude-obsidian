@@ -13,7 +13,7 @@ tags:
   - growth
   - mentor
   - unicorn-builder
-status: seed
+status: mature
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
@@ -22,8 +22,16 @@ related:
   - "[[Ben Thompson]]"
   - "[[Hamilton Helmer]]"
   - "[[Paul Graham]]"
+  - "[[Chen Cold Start Problem Book]]"
+  - "[[Chen Growth Loops]]"
+  - "[[Chen Atomic Network]]"
+  - "[[Chen Uber Rider Growth]]"
   - "[[entities/_index]]"
-sources: []
+sources:
+  - "[[Chen Cold Start Problem Book]]"
+  - "[[Chen Growth Loops]]"
+  - "[[Chen Atomic Network]]"
+  - "[[Chen Uber Rider Growth]]"
 ---
 
 # Andrew Chen
