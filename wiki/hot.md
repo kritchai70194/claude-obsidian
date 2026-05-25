@@ -37,6 +37,8 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Last Updated
 
+2026-05-26 (Unicorn-expansion roadmap session, no ingestion): Audit + 8-phase roadmap written to `~/.claude/plans/second-brain-jazzy-ullman.md`. Identifies 4 critical gaps (Founder Resilience, Mental Models, Capital Strategy, GTM/Sales) plus 4 secondary (Operating at Scale, AI-Native, Marketplace+Consumer Deep, Decision Protocols+Customer Discovery). Target end state: ~30 mentors, ~22 decision frames, ~24 concept pages. Recommended order: Phase 1 Founder Resilience → 2 Mental Models → 3 Capital Strategy. No wiki content created this session, no addresses allocated.
+
 2026-05-26 (Chen expansion, additive to unicorn-builder pole): Added [[Andrew Chen]] as 13th mentor. 4 sources ingested (Cold Start Problem Book, Growth Loops, Atomic Network, Uber Rider Growth applied). New concept page [[Growth Loops]] cross-referencing [[7 Powers]] (Network Economies). Operating Principles gained 7 new cited principles in Product Discipline section (atomic network, hard side, loops compound, channel saturation, hyperlocal play, 5 stages). New decision frame 11 ("What stage of Cold Start framework are we in?"). Bench now 13 mentors, 11 decision frames, 70+ Operating Principles.
 
 2026-05-26 (Helmer expansion, additive to unicorn-builder pole): Added [[Hamilton Helmer]] as 12th mentor. 4 sources ingested (7 Powers Book, Acquired Podcast, Counter-Positioning Deep Dive, 7 Powers Applied to AWS). New concept page [[7 Powers]] cross-referencing [[Aggregation Theory]]. Operating Principles gained 10+ cited principles in Strategic Durability section. Decision frame 9 ("Is this defensible?") updated to include both Aggregation Theory + 7 Powers lenses.
