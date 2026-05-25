@@ -44,6 +44,9 @@ related:
   - '[[Carmack QuakeCon 2013]]'
   - '[[Carmack Lex Fridman 309]]'
   - '[[Carmack Plan Archive 1998]]'
+  - '[[Leslie Lamport]]'
+  - '[[Lamport Thinking for Programmers]]'
+  - '[[Lamport TLA+ Course Intro]]'
 ---
 
 # Operating Principles

@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Engineer-Planner Phase 4 - Lamport pass 1
+
+- Phase: 4 of 7 (Lamport ingest pass 1 of 2)
+- Sources ingested: [[Lamport Thinking for Programmers]] (2014 Microsoft Build keynote), [[Lamport TLA+ Course Intro]] (his own video lectures)
+- Pages created: [[Lamport Thinking for Programmers]], [[Lamport TLA+ Course Intro]]
+- Pages updated: [[Leslie Lamport]] (seed -> developing, 8 cited core frames), [[Operating Principles]] (5 more principles added: spec is separate from coding, writing is the medium of thinking, model checker as feedback loop, small specs surface deep questions, not thinking guarantees mistakes)
+- Key insight: Lamport's "writing is the medium of thinking" unifies with Carmack's .plan discipline and Bezos's written memos. Different mediums, same claim: planning is what writing makes real.
+
 ## [2026-05-26] persona-training | Engineer-Planner Phase 3 - Carmack pass 2
 
 - Phase: 3 of 7 (Carmack ingest pass 2 of 2)
