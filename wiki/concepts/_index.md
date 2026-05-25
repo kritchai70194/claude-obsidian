@@ -92,4 +92,11 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Operating at Scale Discipline
+
+- [[Scaling Operations]], the 10 → 100 → 1000 people disciplines; Grove managerial leverage + OKRs + 1:1 cadence, Slootman amp-it-up tempo, McCord freedom-and-responsibility culture, stage transitions
+- [[Hiring at Scale]], hiring discipline as company grows; Rabois Barrels-and-Ammunition, Bezos Bar Raiser, McCord Keeper Test, Horowitz hire-for-strength, 24-48 hour decisions, 1 great > 10 average
+
+---
+
 ## Add new concepts here as they are extracted from sources.
