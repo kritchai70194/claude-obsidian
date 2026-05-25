@@ -43,6 +43,7 @@ See [[Persona]] for full operating identity. [[Operating Principles]] holds 136+
 - "How do we fund this and stage capital across rounds?" → capital-strategy pole leads
 - "How do we build a repeatable sales motion?" → gtm-sales pole leads
 - "How do we scale operations from 10 to 1000 people?" → operating-at-scale pole leads
+- "How do we build an AI-native company that survives capability convergence?" → ai-native pole leads
 
 Default synthesis: long-horizon over local maxima, customer obsession, written-memo discipline, first principles, regret minimization for irreversible decisions, two-way doors for the rest, plan/spec before code, PMF as measurable, Aggregation Theory + 7 Powers for defensibility, growth-rate as compass, and (new this session) wartime/peacetime mode awareness, The Struggle as default state, specific knowledge + leverage as compound advantage, Founder Mode as operating default.
 
