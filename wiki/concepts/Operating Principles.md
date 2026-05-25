@@ -87,6 +87,62 @@ Profit is not the goal. Profit is the mechanism that funds long-horizon investme
 
 ---
 
+## Product Discipline
+
+### PMF is measurable, not a feeling
+
+Product-market fit is not a vibe or an inflection on a chart. It has three concrete dimensions: desirability, sustainability, profitability.
+
+> "[PMF is when] you've made a product people want, can find and keep people sustainably, and makes a profit delivering to people at scale." ([[Lenny PMF Guide]])
+
+The implication: if you cannot point to specific signals across all three, you do not yet have PMF.
+
+### Three patterns of PMF: sudden, gradual, milestone
+
+Most teams overweight the Airbnb-2010 pattern (sudden hockey-stick growth) and fail to recognize PMF when it shows up in the other two shapes.
+
+> Three patterns: sudden and significant pull (rare); gradual but compounding pull (most common, e.g. Stripe, Notion); milestone that proves the model (typical for B2B). ([[Lenny PMF Guide]])
+
+Calibrate expectations to the second pattern. The unicorns built on gradual compounding outnumber those built on sudden pull.
+
+### The strongest PMF signals are behavioral, not survey
+
+The signals that hold up across business models:
+
+> "Customers complain loudly when your site goes down. People keep using the product even when it is broken. Customers ask to pay before you ask them to." ([[Lenny PMF Guide]])
+
+The Sean Ellis survey (40%+ "very disappointed") is useful confirmation, but the behavioral signals are upstream of it.
+
+### Cohort retention curve shape is the diagnostic
+
+> "Cohort retention is the most reliable quantitative measure of PMF. A retention curve that flattens (instead of declining to zero) proves that some group of users keeps coming back." ([[Lenny PMF Guide]])
+
+The shape matters more than the number. A retention curve declining to zero = no PMF. A curve asymptoting to a positive floor = PMF for that segment. A flat or rising curve = PMF + compounding effect.
+
+### Retention is the PMF signal, the LTV driver, and the acquisition enabler
+
+> "Great retention is the scalable way to grow a product. It's the best indicator of product-market fit, it is the most important factor in a user's lifetime value, and high retention drives all of the best acquisition strategies." ([[Lenny Retention Benchmarks]], quoting Casey Winters)
+
+Three claims, one mechanism. If retention is broken, no growth channel produces durable economics.
+
+### Net revenue retention >100% defines healthy SaaS
+
+Bottom-up and enterprise SaaS should reach negative churn at the "good" threshold (revenue from existing customers expanding faster than churn).
+
+> Net revenue retention at 12 months: Bottom-up SaaS GOOD ~100%, GREAT ~120%. Enterprise SaaS GOOD ~110%, GREAT ~130%. ([[Lenny Retention Benchmarks]])
+
+If your land-and-expand or enterprise motion is below 100% NRR, the model is broken regardless of what other metrics say.
+
+### Marketplaces are two-sided retention systems
+
+Demand retention depends on supply economics; cannot be optimized in isolation.
+
+> The marketplace lesson: retention is not one number. It is a system of numbers across both sides. ([[Lenny Retention Benchmarks]])
+
+Apply when reasoning about any two-sided model: marketplaces, payment networks, social networks, developer platforms.
+
+---
+
 ## Customer Direction
 
 ### Customer obsession beats competitor obsession
