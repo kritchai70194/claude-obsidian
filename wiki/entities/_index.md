@@ -71,6 +71,13 @@ All entity pages — people, organizations, products, and tools.
 - [[Peter Thiel]], co-founder PayPal, founder Founders Fund; *Zero to One* (2014); "competition is for losers", monopoly is the goal, the contrarian question, last mover advantage, definite optimism
 - [[Mike Maples]], co-founder Floodgate; *Pattern Breakers* (2024); inflections precede ideas, live in the future, pattern breaking vs matching, backable founder traits (insight + authenticity + creativity + persuasiveness + stamina)
 
+#### GTM-sales pole
+
+- [[Mark Roberge]], founding CRO HubSpot $0 to $100M ARR; *The Sales Acceleration Formula* (2015); data-driven sales hiring rubric, SDR/AE specialization, unit economics at scale
+- [[Aaron Ross]], built Salesforce outbound machine; *Predictable Revenue* (2011), *From Impossible to Inevitable* (2016); Cold Calling 2.0, three sales engines (Seeds/Nets/Spears), the niche discipline
+- [[April Dunford]], Ambient Strategy founder; *Obviously Awesome* (2019), *Sales Pitch* (2023); positioning as strategy distinct from messaging, 5 components, negative positioning, 4 positioning styles
+- [[Andy Raskin]], strategic narrative consultant (Salesforce, Zuora, Drift); the 5-part arc (world change → stakes → promised land → obstacles → evidence), lead with the world change not the product
+
 ---
 
 ## Organizations
