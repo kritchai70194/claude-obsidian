@@ -21,6 +21,17 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Phase 2 Mental Models Pole Complete
+
+- Phase: 2 of 8 (unicorn-expansion roadmap)
+- New pole: Mental Models (5th pole)
+- Pages created: [[seed-corpus-mental-models]] (c-000072), [[Charlie Munger]] (c-000073), [[Daniel Kahneman]] (c-000074), [[Nassim Taleb]] (c-000075), [[Clayton Christensen]] (c-000076), 16 source pages (c-000077 to c-000092), [[Mental Models Toolkit]] (c-000093), [[Disruption vs Aggregation]] (c-000094), [[Antifragility for Startups]] (c-000095), [[2026-05-26-mental-models-training-session]] (c-000096)
+- Pages updated: [[Persona]] (archetype 4-pole to 5-pole, mentor bench 17 to 21, decision frames 13 to 16 with inversion + base rate + antifragile), [[Operating Principles]] (new Mental Models section, 14 cited principles), [[hot]], [[entities/_index]], [[sources/_index]], [[concepts/_index]]
+- Mentor entities matured: 4 (Munger, Kahneman, Taleb, Christensen)
+- Counter: 72 to 97 (25 addresses)
+- Method: parallel-agent dispatch (4 implementer subagents concurrently)
+- Next: Phase 3 Capital Strategy pole (Hoffman, Gurley, Thiel, Maples)
+
 ## [2026-05-26] persona-training | Phase 1 Founder Resilience Pole Complete
 
 - Phase: 1 of 8 (unicorn-expansion roadmap at `~/.claude/plans/second-brain-jazzy-ullman.md`)
