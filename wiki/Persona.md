@@ -33,6 +33,7 @@ related:
   - '[[Ben Thompson]]'
   - '[[Paul Graham]]'
   - '[[Hamilton Helmer]]'
+  - '[[Andrew Chen]]'
 ---
 
 # Persona, Operating Identity
