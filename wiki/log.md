@@ -21,6 +21,15 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Unicorn-Builder Phase 7 - Lint and Close
+
+- Phase: 7 of 7 (lint + session close)
+- Pages updated: wiki/sources/_index.md (3 new sections: Product Discipline, Strategic Durability, Early-Stage Epistemics), wiki/entities/_index.md (Unicorn-builder pole subsection), wiki/concepts/_index.md (Unicorn-Building Discipline section)
+- Pages created: wiki/meta/2026-05-26-unicorn-builder-training-session.md (closing summary, c-000035)
+- Lint results: 20 new pages all have valid addresses (c-000016 through c-000035); 23 session-author files have zero em-dashes after lint; orphan check shows all new pages with 3+ inbound links; pre-existing em-dashes untouched per rule.
+- Counter state: was 16 at session start; now 36. Allocated 20 addresses this session.
+- Session arc: 7 phases, 20 new vault pages, 12 sources ingested, 3 mentors matured, 3 synthesis concept pages, Persona expanded to three-pole archetype with 3 new decision frames (10 total), Operating Principles grew by ~22 cited principles across 3 new sections. Plan file at /Users/simon/.claude/plans/secondbrain-velvet-crown.md Plan 2 section fully executed.
+
 ## [2026-05-26] persona-training | Unicorn-Builder Phase 6 - Graham + Synthesis
 
 - Phase: 6 of 7 (Graham ingest + 3 synthesis concept pages + Persona update)
