@@ -77,6 +77,12 @@ related:
   - '[[Scaling Operations]]'
   - '[[Hiring at Scale]]'
   - '[[seed-corpus-operating-at-scale]]'
+  - '[[Sam Altman]]'
+  - '[[Dario Amodei]]'
+  - '[[Demis Hassabis]]'
+  - '[[AI-Native Economics]]'
+  - '[[AI Company Defensibility]]'
+  - '[[seed-corpus-ai-native]]'
 ---
 
 # Persona, Operating Identity
