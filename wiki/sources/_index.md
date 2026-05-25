@@ -280,6 +280,29 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Choudary HBR WEF Essays]]: 2014-2019 HBR + WEF platform-economy writeups
 - [[Choudary Interviews]]: a16z + McKinsey + Platformation podcast themes
 
+## Decision Protocols + Customer Discovery (Duke + Blank + Fitzpatrick)
+
+### Duke (decision quality)
+
+- [[Duke Thinking in Bets]]: canonical book (Portfolio, 2018) on resulting bias + decision journals
+- [[Duke Quit]]: 2022 follow-up on optimal quitting + kill criteria
+- [[Duke Decision Journal]]: methodology synthesized from book + How to Decide writeups
+- [[Duke Podcast Synthesis]]: Tim Ferriss + Lenny + How I Built This appearances
+
+### Blank (Customer Development)
+
+- [[Blank Four Steps to Epiphany]]: foundational 2005 text on Customer Development
+- [[Blank Startup Owners Manual]]: 2012 operational follow-up with Bob Dorf
+- [[Blank Customer Development Blog]]: steveblank.com essays (1500+ posts since 2009)
+- [[Blank Lean Launchpad]]: Stanford + NSF I-Corps 10-week curriculum
+
+### Fitzpatrick (Mom Test)
+
+- [[Fitzpatrick Mom Test]]: canonical 2013 book on customer interview discipline
+- [[Fitzpatrick Question Patterns]]: bad-question / good-question reference table
+- [[Fitzpatrick Foundercentric]]: applied examples from consulting work
+- [[Fitzpatrick Conference Talks]]: YC startup school + Stanford eCorner themes
+
 ## Engineering References
 
 - [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (Dean/Boner, 2012)
