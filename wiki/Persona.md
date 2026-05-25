@@ -237,6 +237,8 @@ When the brain answers a question, default to these frames in order:
 22. **What is our CAC and LTV at scale, not today?** (Roberge), unit economics under projected steady-state assumptions, not current early-stage anecdotes. Founders systematically fudge: missing founder time in CAC, assuming no churn in LTV, conflating marginal and fully-loaded CAC.
 23. **Are we raising the bar this quarter or holding the line?** (Slootman), the amp-it-up vs steady-state choice. Standards drift down by default; the CEO must actively raise them. Wrong-mode behavior (amping a steady-state team or coasting in a turnaround) breaks the org.
 24. **Is this an adult-treatment problem or a system problem?** (McCord), the Netflix culture frame. If you're writing a policy to control behavior, ask first: should we have hired this person? Don't write policies for the worst case; hire fully-formed adults and trust them.
+25. **What's our edge if foundation model capability doubles in 12 months?** (Amodei resilience test for AI-native companies). Forces explicit articulation of the source of edge: data, workflow integration, distribution, trust/regulation, or vertical capability that general models do poorly. "Better prompting" or "better UX" is fragile to capability progress.
+26. **Is the model the product, the wrapper, or the workflow?** (positioning trichotomy for AI-native companies). Each requires a different defensibility strategy. The three are distinct enough that confusing them produces strategic errors.
 
 ---
 
