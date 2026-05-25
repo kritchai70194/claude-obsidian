@@ -155,7 +155,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Seed. Single Phase 2 ingest pass planned to reach mature.
+Mature. Four sources ingested: [[Chen Cold Start Problem Book]], [[Chen Growth Loops]], [[Chen Atomic Network]], [[Chen Uber Rider Growth]]. Operating frame stable. Brain now has the missing mechanics layer between Helmer's Network Economies (destination) and PG's "do things that don't scale" (manual recruitment).
 
 ---
 
