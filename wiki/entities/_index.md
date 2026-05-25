@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Entities Index"
-updated: 2026-04-07
+updated: 2026-05-26
 tags:
   - meta
   - index
@@ -10,6 +10,8 @@ status: evergreen
 related:
   - "[[index]]"
   - "[[Andrej Karpathy]]"
+  - "[[John Carmack]]"
+  - "[[Leslie Lamport]]"
   - "[[hot]]"
   - "[[LLM Wiki Pattern]]"
 ---
