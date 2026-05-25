@@ -14,15 +14,19 @@ tags:
   - analyst
   - mentor
   - unicorn-builder
-status: seed
+status: developing
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
   - "[[seed-corpus-unicorn-builders]]"
   - "[[Lenny Rachitsky]]"
   - "[[Paul Graham]]"
+  - "[[Thompson Aggregation Theory]]"
+  - "[[Thompson Defining Aggregators]]"
   - "[[entities/_index]]"
-sources: []
+sources:
+  - "[[Thompson Aggregation Theory]]"
+  - "[[Thompson Defining Aggregators]]"
 ---
 
 # Ben Thompson
