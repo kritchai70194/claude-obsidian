@@ -1,7 +1,7 @@
 ---
 type: meta
 title: Sources Index
-updated: '2026-05-24T00:00:00.000Z'
+updated: 2026-05-26
 tags:
   - meta
   - index
@@ -14,6 +14,8 @@ related:
   - '[[concepts/_index]]'
   - '[[Andrej Karpathy]]'
   - '[[Jeff Bezos]]'
+  - '[[John Carmack]]'
+  - '[[Leslie Lamport]]'
 ---
 
 # Sources Index
