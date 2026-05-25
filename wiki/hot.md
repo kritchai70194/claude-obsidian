@@ -37,7 +37,9 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Last Updated
 
-2026-05-26 (Unicorn-Builder session, Phase 6 of 7 complete): Three synthesis concept pages written ([[Product-Market Fit]], [[Aggregation Theory]], [[Early-Stage Discipline]]). [[Persona]] expanded to three-pole archetype with 10 decision frames (was 7). All 3 unicorn-builder mentors mature. Phase 7 lint pending.
+2026-05-26 (Helmer expansion, additive to unicorn-builder pole): Added [[Hamilton Helmer]] as 12th mentor. 4 sources ingested (7 Powers Book, Acquired Podcast, Counter-Positioning Deep Dive, 7 Powers Applied to AWS). New concept page [[7 Powers]] cross-referencing [[Aggregation Theory]]. Operating Principles gained 10+ cited principles in Strategic Durability section. Decision frame 9 ("Is this defensible?") updated to include both Aggregation Theory + 7 Powers lenses.
+
+2026-05-26 (Unicorn-Builder session, complete): Three synthesis concept pages written ([[Product-Market Fit]], [[Aggregation Theory]], [[Early-Stage Discipline]]). [[Persona]] expanded to three-pole archetype with 10 decision frames (was 7). 3 unicorn-builder mentors matured (Lenny, Thompson, Graham).
 
 2026-05-26 (Unicorn-Builder Phases 1-5): Scaffolded unicorn-builder pole. Matured [[Lenny Rachitsky]] (4 sources: PMF Guide, Retention Benchmarks, North Star Metric, Chesky Founder Mode). Matured [[Ben Thompson]] (4 sources: Aggregation Theory, Defining Aggregators, Bill Gates Line, End of the Beginning). Matured [[Paul Graham]] (4 essays: How to Start a Startup, Do Things That Don't Scale, Startup = Growth, How to Get Startup Ideas). Operating Principles gained two new sections (Product Discipline + Strategic Durability + Early-Stage Epistemics) with 20+ new cited principles.
 
