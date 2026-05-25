@@ -71,12 +71,21 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Lenny North Star Metric]]: the strategy compressed into one number; six NSM types from 40+ company survey (2021)
 - [[Lenny Chesky Founder Mode]]: Brian Chesky podcast on presence-not-absence leadership; predates and inspired PG's "Founder Mode" essay (2024)
 
-## Strategic Durability (Thompson)
+## Strategic Durability (Thompson + Helmer)
+
+### Thompson (internet-era aggregation)
 
 - [[Thompson Aggregation Theory]]: foundational essay; why digital companies converge on winner-take-all dynamics (2015)
 - [[Thompson Defining Aggregators]]: taxonomy; Level 1-3 and Super-Aggregator categories (2017)
 - [[Thompson Bill Gates Line]]: platform vs aggregator distinction; the economic test for real platforms (2018)
 - [[Thompson End of the Beginning]]: cloud + mobile as substrate endpoint; the next wave is vertical aggregation (2020)
+
+### Helmer (universal moat taxonomy)
+
+- [[Helmer 7 Powers Book]]: the canonical text; 7 specific Powers, each with Benefit + Barrier; strategy = route to Power (2016)
+- [[Helmer Acquired Podcast]]: applied framework; most "moats" are not Powers; precision of the 7 Powers test (2021)
+- [[Helmer Counter-Positioning Deep Dive]]: the most underrated Power; Vanguard vs Fidelity canonical example; transition Power, plan what follows
+- [[Helmer 7 Powers Applied to AWS]]: applied analysis cross-referencing Vogels; AWS exhibits 4 stacked Powers (Scale Economies + Switching Costs + Process Power + partial Cornered Resource)
 
 ## Early-Stage Epistemics (PG)
 
