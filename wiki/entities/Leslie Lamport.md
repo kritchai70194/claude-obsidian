@@ -14,7 +14,7 @@ tags:
   - scientist
   - mentor
   - engineer-planner
-status: developing
+status: mature
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
@@ -23,10 +23,14 @@ related:
   - "[[Jeff Dean]]"
   - "[[Lamport Thinking for Programmers]]"
   - "[[Lamport TLA+ Course Intro]]"
+  - "[[Lamport Specifying Systems Ch1-3]]"
+  - "[[Lamport Paxos Made Simple]]"
   - "[[entities/_index]]"
 sources:
   - "[[Lamport Thinking for Programmers]]"
   - "[[Lamport TLA+ Course Intro]]"
+  - "[[Lamport Specifying Systems Ch1-3]]"
+  - "[[Lamport Paxos Made Simple]]"
 ---
 
 # Leslie Lamport
