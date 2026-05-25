@@ -21,6 +21,17 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Phase 1 Founder Resilience Pole Complete
+
+- Phase: 1 of 8 (unicorn-expansion roadmap at `~/.claude/plans/second-brain-jazzy-ullman.md`)
+- New pole: Founder Resilience (4th pole, alongside founder-operator, engineer-planner, unicorn-builder)
+- Pages created: [[seed-corpus-founder-resilience]] (c-000049), [[Ben Horowitz]] (c-000050), [[Naval Ravikant]] (c-000051), [[Brad Feld]] (c-000052), [[Brian Chesky]] (c-000053), 15 source pages (c-000054 to c-000068), [[Founder Resilience]] (c-000069), [[Founder Mode]] (c-000070), [[2026-05-26-founder-resilience-training-session]] (c-000071)
+- Pages updated: [[Persona]] (archetype 3-pole to 4-pole, mentor bench 13 to 17, decision frames 11 to 13 with wartime/peacetime + leverage compounding), [[Operating Principles]] (new Founder Resilience section, 13 cited principles), [[hot]] (Last Updated entry, archetype, statistics, active threads), [[entities/_index]], [[sources/_index]] (new founder-resilience subsection with 15 sources), [[concepts/_index]] (new Founder Resilience Discipline section)
+- Mentor entities matured: 4 (Horowitz, Naval, Feld, Chesky)
+- Lint results: 0 em-dashes, 23 unique addresses c-000049 through c-000071, all pages have 5+ inbound links except session meta (1, will grow with future sessions), counter at 72
+- Method: parallel-agent dispatch (4 implementer subagents concurrently, disjoint output paths, ~5 min wall-clock vs ~25 min sequential)
+- Next: Phase 2 Mental Models pole (Munger, Kahneman, Taleb, Christensen)
+
 ## [2026-05-26] persona-training | Chen Expansion Phase 3 - Synthesis + Lint + Close
 
 - Phase: 3 of 3 (synthesis, Persona/indices update, lint)
