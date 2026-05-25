@@ -49,6 +49,20 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 ## Engineering Talks
 
 - [[Dean Stanford Talk]]: Stanford EE380 lecture, know-your-building-blocks, 6/7/8 scope heuristic, 1000x scaling (2010, full PDF)
+- [[Carmack QuakeCon 2013]]: annual unscripted technical keynote, functional-programming-as-discipline, static-analysis-as-non-negotiable, optimization-upstream-of-coding (~2.5h)
+- [[Lamport Thinking for Programmers]]: Microsoft Build 2014 keynote, writing-as-thinking, specification-as-separate-task, code-without-spec-is-patches
+- [[Lamport TLA+ Course Intro]]: Lamport's own video lectures, mechanical-checking-as-feedback-loop, small-specs-surface-deep-questions
+
+## Engineer-Planner Essays and Archives
+
+- [[Carmack Inlined Code]]: 2007 email on inlining, programmer-judgment-beats-mechanical-rules, state-mutation-as-real-enemy
+- [[Carmack Plan Archive 1998]]: a year of public engineering decisions made visible via .plan files, the original "build in public"
+- [[Lamport Specifying Systems Ch1-3]]: book chapters on math-objection-is-solvable, smallest-specs-discover-vagueness, asynchronous-interface-as-threshold-concept (2002 book)
+- [[Lamport Paxos Made Simple]]: 2001 rewrite of his own 1998 paper, clarity-is-engineering-work, rewrite-your-own-work-when-it-fails
+
+## Engineer-Planner Interviews
+
+- [[Carmack Lex Fridman 309]]: 5h interview, protected-focus-as-substrate, read-code-more-than-write, willingness-to-throw-away-your-own-code (2022)
 
 ## Engineering References
 
