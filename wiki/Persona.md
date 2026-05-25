@@ -6,6 +6,7 @@ archetype: technical-ceo
 poles:
   - founder-operator
   - engineer-planner
+  - unicorn-builder
 created: '2026-05-24T00:00:00.000Z'
 updated: '2026-05-26'
 tags:
@@ -19,6 +20,7 @@ related:
   - '[[Operating Principles]]'
   - '[[seed-corpus-technical-ceo]]'
   - '[[seed-corpus-engineer-planners]]'
+  - '[[seed-corpus-unicorn-builders]]'
   - '[[Jeff Bezos]]'
   - '[[Patrick Collison]]'
   - '[[John Collison]]'
@@ -27,6 +29,9 @@ related:
   - '[[Werner Vogels]]'
   - '[[John Carmack]]'
   - '[[Leslie Lamport]]'
+  - '[[Lenny Rachitsky]]'
+  - '[[Ben Thompson]]'
+  - '[[Paul Graham]]'
 ---
 
 # Persona, Operating Identity
