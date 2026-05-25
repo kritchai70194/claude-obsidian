@@ -64,6 +64,13 @@ All entity pages — people, organizations, products, and tools.
 - [[Nassim Taleb]], NYU Tandon; *Incerto* series (Fooled by Randomness, Black Swan, Antifragile, Skin in the Game, Bed of Procrustes); fat tails, antifragile, optionality, barbell strategy, Lindy, via negativa
 - [[Clayton Christensen]], HBS professor (until 2020); *The Innovator's Dilemma* (1997), JTBD framework; sustaining vs disruptive innovation, Milkshake Marketing, RPV framework, low-end vs new-market disruption
 
+#### Capital-strategy pole
+
+- [[Reid Hoffman]], co-founder LinkedIn, partner Greylock 2009-2023; *Blitzscaling* (2018), *The Alliance* (2014); blitzscale = speed over efficiency in winner-take-most markets, 5 stages of scaling, Alliance compact
+- [[Bill Gurley]], GP Benchmark 1999-2020; Above the Crowd blog; marketplace economics (liquidity, take rate, the rake), burn rate is the company killer, dirty late-stage terms, customer concentration as moat-killer
+- [[Peter Thiel]], co-founder PayPal, founder Founders Fund; *Zero to One* (2014); "competition is for losers", monopoly is the goal, the contrarian question, last mover advantage, definite optimism
+- [[Mike Maples]], co-founder Floodgate; *Pattern Breakers* (2024); inflections precede ideas, live in the future, pattern breaking vs matching, backable founder traits (insight + authenticity + creativity + persuasiveness + stamina)
+
 ---
 
 ## Organizations
