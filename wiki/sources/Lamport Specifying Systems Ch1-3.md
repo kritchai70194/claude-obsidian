@@ -29,9 +29,9 @@ The first three chapters of Lamport's textbook *Specifying Systems: The TLA+ Lan
 
 ## Chapter Titles (Methodology Encoded in the Titles)
 
-1. **A Little Simple Math** — the chapter answers "I don't have the math background"
-2. **Specifying a Simple Clock** — the smallest concrete system whose spec is nontrivial
-3. **An Asynchronous Interface** — the smallest example that crosses into distributed-systems territory
+1. **A Little Simple Math**, the chapter answers "I don't have the math background"
+2. **Specifying a Simple Clock**, the smallest concrete system whose spec is nontrivial
+3. **An Asynchronous Interface**, the smallest example that crosses into distributed-systems territory
 
 ## Chapter 1: A Little Simple Math
 

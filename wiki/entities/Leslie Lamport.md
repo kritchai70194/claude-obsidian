@@ -45,7 +45,7 @@ Anchor mentor on the **formal pole** of the engineer-planner archetype. Where [[
 
 Lamport's contributions are load-bearing for an entire industry. Distributed systems built without his algorithms would be insecure or impossible. But his deeper contribution is methodological: the insistence that thinking precedes coding, that specifications are not documentation but cognition, and that mathematical rigor scales to real systems.
 
-The TLA+ thesis: "If you don't write a spec, you're not really thinking about your system. You're just typing." This is the formal counterpart to Carmack's "plan in your head first" — Lamport externalizes the planning into TLA+ instead.
+The TLA+ thesis: "If you don't write a spec, you're not really thinking about your system. You're just typing." This is the formal counterpart to Carmack's "plan in your head first", Lamport externalizes the planning into TLA+ instead.
 
 His teaching style is unique. The TLA+ video course is taught by Lamport himself, with the patience of someone who has explained Paxos a thousand times and noticed which steps confuse people. "Paxos Made Simple" (2001) is the exemplar of explaining something deeply understood: trivial, once you see it.
 

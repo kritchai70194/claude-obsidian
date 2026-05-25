@@ -36,7 +36,7 @@ This source captures Carmack in his most reflective mode: 30+ years of engineeri
 
 ## Key Themes
 
-### Discipline as substrate (3:53:30 — programming setup)
+### Discipline as substrate (3:53:30, programming setup)
 
 Carmack's daily work pattern, consistent across interviews:
 
@@ -52,7 +52,7 @@ The discipline is the artifact. The system producing consistent technical output
 
 Carmack's recurring advice: learn one language deeply rather than many superficially. The recommended pair is a low-level systems language (C, Rust) and a high-level functional or dynamic language (Haskell, Racket). The two teach orthogonal disciplines that compound when combined.
 
-### On AGI (4:10:39 — the Keen Technologies bet)
+### On AGI (4:10:39, the Keen Technologies bet)
 
 Carmack's planning frame for the AGI bet:
 
