@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Concepts Index"
-updated: 2026-04-07
+updated: 2026-05-26
 tags:
   - meta
   - index
@@ -15,9 +15,8 @@ related:
   - "[[Hot Cache]]"
   - "[[LLM Wiki Pattern]]"
   - "[[Compounding Knowledge]]"
-  - "[[LLM Wiki Pattern]]"
-  - "[[Hot Cache]]"
-  - "[[Compounding Knowledge]]"
+  - "[[Planning Before Code]]"
+  - "[[Formal Specification Discipline]]"
 ---
 
 # Concepts Index
