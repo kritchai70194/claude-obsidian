@@ -269,6 +269,78 @@ The next wave: vertical aggregation on top of the platform layer (healthcare, fi
 
 ---
 
+## Early-Stage Epistemics
+
+### A startup is defined by growth rate, not stage or industry
+
+> "A startup is a company designed to grow fast. Being newly founded does not in itself make a company a startup." ([[PG Startup = Growth]])
+
+Barbershops are not startups. Restaurants are not startups. SaaS products can be. The test is the growth-rate target, not the appearance of being early.
+
+### 5-7% weekly growth is good; 10% exceptional; 1% means you have not figured it out
+
+> "A good growth rate during YC is 5-7% a week. If you can hit 10% a week you're doing exceptionally well. If you can only manage 1%, it's a sign you haven't yet figured out what you're doing." ([[PG Startup = Growth]])
+
+The numerical compass. 5%/week compounds to 12.6x annually; 10%/week to 142x. The asymmetry is enormous.
+
+### Growth as compass: any decision aiding growth is ipso facto right
+
+> "You can use that target growth rate to make all your decisions for you; anything that gets you the growth you need is ipso facto right." ([[PG Startup = Growth]])
+
+Single metric collapses the bewildering complexity of running a startup. Same shape as Lenny's NSM thesis: collapse strategy into one number, optimize relentlessly.
+
+### Three things matter early: people, product, frugality
+
+> "You need three things to create a successful startup: to start with good people, to make something customers actually want, and to spend as little money as possible." ([[PG How to Start a Startup]])
+
+Failure modes mirror requirements: wrong cofounders, wrong product, wrong burn rate. Frugality matters because money buys learning time, the most precious early resource.
+
+### Make something people want by removing the suck
+
+> "There is no magically difficult step that requires brilliance to solve. Look at something people are trying to do, and figure out how to do it in a way that doesn't suck." ([[PG How to Start a Startup]])
+
+Cuts against the "find a breakthrough idea" myth. The opportunity is in fixing things people already try to do badly, not in inventing new things.
+
+### The early-stage work is the unscalable work
+
+> "If you're worried that the things you're doing are unscalable, then you're probably doing the right thing." ([[PG Do Things That Dont Scale]])
+
+Examples: Airbnb founders taking photos of hosts' apartments themselves; Wufoo handwritten thank-you notes; the Stripe "Collison installation" (live sit-down installs instead of sending a link).
+
+The math: 100 users + 10%/week = 14K in a year, 2M in two years. Manual recruitment of 10 users per week makes the compound math work.
+
+### Start narrow; the contained fire creates critical mass
+
+> Facebook began restricted to Harvard students. ([[PG Do Things That Dont Scale]])
+
+The narrow audience makes the product better for that audience, which produces the love that lets the product expand outward. Trying to build for everyone produces a product that delights no one.
+
+### Ideas are noticed, not invented
+
+> "The way to get startup ideas is not to try to think of startup ideas. It's to look for problems, preferably problems you have yourself." ([[PG How to Get Startup Ideas]])
+
+> "The verb you want to be using with respect to startup ideas is not 'think up' but 'notice.'" ([[PG How to Get Startup Ideas]])
+
+The best ideas come from problems the founder personally lives. Mark Zuckerberg "already lived online". Drew Houston had forgotten his USB stick. The Stripe founders found payments unnecessarily painful.
+
+### Schlep blindness is competitive advantage
+
+> The psychological barrier where founders avoid ideas involving tedious, messy work. ([[PG How to Get Startup Ideas]])
+
+> "Stripe succeeded partly because most programmers shrank from handling payment complexities, leaving the opportunity uncontested." ([[PG How to Get Startup Ideas]])
+
+If an idea seems obvious but no one is doing it well, the moat is "willingness to do the schlep". This is a real competitive advantage.
+
+### Tar pit ideas sound plausible but never produce demand
+
+> If you have to argue for the existence of the problem, the problem is not there. ([[PG How to Get Startup Ideas]])
+
+Tar pit diagnostic: friends say "interesting" but do not preorder; market consists of people who "might" use it; you have to convince yourself the problem is real.
+
+The canonical example: "social network for X". Easy to start, never reaches PMF, eats years.
+
+---
+
 ## Customer Direction
 
 ### Customer obsession beats competitor obsession
