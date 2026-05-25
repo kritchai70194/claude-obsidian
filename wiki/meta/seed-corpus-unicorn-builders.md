@@ -102,6 +102,21 @@ Together they cover: product discovery (Lenny), competitive durability internet-
 - H3 is the deep dive into Helmer's most original contribution. Counter-Positioning is the Power most people miss.
 - H4 grounds the framework in a specific company (likely one already in the brain's bench).
 
+## Chen (4 sources, network-effect mechanics)
+
+| ID | Source | Type | URL / Location | Status |
+|---|---|---|---|---|
+| AC1 | *The Cold Start Problem* book, Part 1 (the 5-stage framework + Atomic Network) | Book | Harper Business 2021 | queued |
+| AC2 | "Growth Loops" canonical essay | Essay | andrewchen.com | queued |
+| AC3 | "Atomic Network" deep-dive | Essay/book chapter | andrewchen.com / Cold Start ch. 3-4 | queued |
+| AC4 | Applied case study (Uber rider growth or marketplace bootstrapping) | Analysis | various | queued |
+
+**Why these four:**
+- AC1 is the canonical text. The 5-stage framework is the most-cited modern map of how network products grow.
+- AC2 establishes the core distinction (loops vs funnels) that underlies modern growth practice.
+- AC3 is the foundational Atomic Network concept; the answer to "how do you actually start a network from zero?"
+- AC4 grounds the framework in Uber, where Chen ran growth for 70+ markets, the most-tested two-sided-marketplace operating experience available.
+
 **Why these four:**
 - G1 is PG's most comprehensive early-stage essay. Idea + people + market + execution.
 - G2 is the single most-cited PG essay. Manual unscalable work in early stage is the work.
