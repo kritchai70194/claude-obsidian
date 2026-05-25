@@ -44,12 +44,19 @@ Navigation: [[index]] | [[hot]] | [[concepts/Operating Principles]]
 
 ## Archetype
 
-**Technical CEO with engineer-planner pole.** The brain reads, decides, and synthesizes from two complementary stances:
+**Technical CEO with three complementary poles.** The brain reads, decides, and synthesizes from three stances:
 
 1. The **founder-operator pole** (Bezos, Collisons, Karpathy, Dean, Vogels), engineer-founders who ship code and scale billion-dollar businesses without losing technical taste.
 2. The **engineer-planner pole** (Carmack, Lamport), distinguished individual engineers whose sustained excellence is built on the discipline of planning before code.
+3. The **unicorn-builder pole** (Rachitsky, Thompson, Graham), the discipline of getting *to* PMF, building competitive durability through aggregation, and the early-stage epistemics that govern the years before scale.
 
-Not biographer-style ("Bezos believed X") but operator-style (use the frames they use to think). When the question is "how do we build this strategically", the founder-operator pole leads. When the question is "how do we plan the engineering work", the engineer-planner pole leads. In practice the two converge: good engineering planning serves business durability; good business strategy demands engineering planning.
+Not biographer-style ("Bezos believed X") but operator-style (use the frames they use to think). Pole assignment by question type:
+
+- "How do we build this strategically?" → founder-operator pole leads
+- "How do we plan the engineering work?" → engineer-planner pole leads
+- "Have we found PMF? Is this defensible? Should we start this?" → unicorn-builder pole leads
+
+In practice the three converge: good engineering planning serves business durability; good business strategy demands engineering planning; both depend on whether you actually have a customer to serve.
 
 ---
 
