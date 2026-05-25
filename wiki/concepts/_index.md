@@ -77,4 +77,11 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Capital Strategy Discipline
+
+- [[Capital Strategy]], the multi-stage capital game; round sequencing, dilution math, blitzscale vs starve diagnostic, board composition, dirty-terms catalog, monopoly capital vs inflection capital
+- [[Secrets and Inflections]], synthesis of Thiel "secrets" + Maples "inflections" as two angles on contrarian thesis formation; falsifiability, live in the future, the boring underbelly, the "what would have to be true" test
+
+---
+
 ## Add new concepts here as they are extracted from sources.
