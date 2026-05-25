@@ -124,7 +124,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Seed. Two ingest passes planned in the current session to reach mature.
+Developing. Two sources ingested (Aggregation Theory 2015, Defining Aggregators 2017). Phase 5 will ingest Bill Gates Line + one applied modern essay to reach mature.
 
 ---
 
