@@ -127,7 +127,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Seed. Two ingest passes planned in the current session to reach mature.
+Developing. Two sources ingested (PMF Guide, Retention Benchmarks). Phase 3 will ingest North Star Metric + podcast deep-dive to reach mature.
 
 ---
 
