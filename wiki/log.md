@@ -21,6 +21,16 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Phase 4 GTM / Sales Pole Complete
+
+- Phase: 4 of 8
+- New pole: GTM / Sales (7th)
+- Pages created: seed corpus (c-000121), 4 mentors (c-000122-125), 16 sources (c-000126-141), 3 concept pages (c-000142-144), session meta (c-000145)
+- Mentors matured: Mark Roberge, Aaron Ross, April Dunford, Andy Raskin
+- Updates: Persona (6 to 7 poles, 25 to 29 mentors, 19 to 22 frames), Operating Principles (new GTM/Sales section ~10 principles), hot, indices
+- Counter: 121 to 146 (25 addresses)
+- Next: Phase 5 Operating at Scale (Grove, Slootman, McCord, Rabois)
+
 ## [2026-05-26] persona-training | Phase 3 Capital Strategy Pole Complete
 
 - Phase: 3 of 8 (unicorn-expansion roadmap)
