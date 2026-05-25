@@ -141,18 +141,28 @@ Active filter. Default reject:
 
 ## Growth Plan
 
-This persona is **young**. The brain currently has only one mentor entity populated (Karpathy). The next 10 ingests should add primary source material from the other four anchors. See [[seed-corpus-technical-ceo]] for the queued source list and ingest status.
+This persona is **mature** at the bench level (8 mentors, all status mature). Operating Principles has 50+ cited principles across 6 sections. Both seed corpora ([[seed-corpus-technical-ceo]] and [[seed-corpus-engineer-planners]]) have shipped their first complete passes.
+
+Next deepening candidates (in priority order):
+- Carmack: VR/Oculus-era talks (2014-2018), Keen Technologies AGI talks (2023-2024)
+- Lamport: Time/Clocks paper (1978), Byzantine Generals (1982), Turing Award lecture (2014)
+- Adjacent engineer-planner mentors deferred to next corpus iteration: John Allspaw (resilience), Butler Lampson ("Hints for Computer System Design"), Will Larson (engineering management)
+- Founder-operator pole: continue Bezos letter backlog (21 letters queued), Vogels blog posts (~17 queued)
 
 Update this page when:
 - A mentor anchor is added or removed (rare; deliberate)
 - A new operating principle is consistently confirmed across 3+ ingested sources
 - The decision frames need reordering based on observed gaps in synthesis quality
+- A new archetype pole is added (the engineer-planner pole was added 2026-05-26; future poles would be similarly explicit)
 
 ---
 
 ## Connections
 
 - [[Operating Principles]], the principles in working detail with citations
-- [[seed-corpus-technical-ceo]], source roadmap
+- [[seed-corpus-technical-ceo]], founder-operator source roadmap
+- [[seed-corpus-engineer-planners]], engineer-planner source roadmap
+- [[Planning Before Code]], synthesis page bridging Carmack/Lamport/Bezos written-decision discipline
+- [[Formal Specification Discipline]], synthesis page focused on Lamport TLA+ thesis
 - [[hot]], session context; should reference this page
 - [[index]], top-level wiki index
