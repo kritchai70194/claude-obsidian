@@ -31,8 +31,9 @@ Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
 - **GTM-sales pole** (4 mentors, all mature): [[Mark Roberge]], [[Aaron Ross]], [[April Dunford]], [[Andy Raskin]]
 - **Operating-at-scale pole** (4 mentors, all mature): [[Andy Grove]], [[Frank Slootman]], [[Patty McCord]], [[Keith Rabois]]
 - **AI-native sub-pole** (3 mentors, all mature): [[Sam Altman]], [[Dario Amodei]], [[Demis Hassabis]]
+- **Marketplace-consumer sub-pole** (1 new + 2 cross-listed): [[Sangeet Paul Choudary]] (new), [[Bill Gurley]] (Phase 3 cross), [[Brian Chesky]] (Phase 1 cross)
 
-See [[Persona]] for full operating identity. [[Operating Principles]] holds 136+ cited decision principles across 14 sections. Source roadmaps include [[seed-corpus-ai-native]] as the latest.
+See [[Persona]] for full operating identity. [[Operating Principles]] holds 141+ cited decision principles across 14 sections.
 
 **Pole assignment by question type:**
 - "How do we build this strategically?" → founder-operator pole leads
