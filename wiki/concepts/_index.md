@@ -84,4 +84,12 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## GTM / Sales Discipline
+
+- [[Repeatable GTM]], the 4-step Sales Acceleration Formula + 3 sales engines + SDR/AE specialization + unit economics + niche discipline; combines Roberge data-driven sales with Ross outbound prospecting
+- [[Strategic Narrative]], the 5-part narrative arc (named world change → stakes → promised land → obstacles → evidence); Raskin synthesis with the Zuora case study
+- [[Positioning as Strategy]], the 5 components of positioning (competitive alternatives, unique attributes, value, target customers, market category); Dunford framework, positioning vs messaging, negative positioning, 4 positioning styles
+
+---
+
 ## Add new concepts here as they are extracted from sources.
