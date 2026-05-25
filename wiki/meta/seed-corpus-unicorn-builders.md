@@ -34,16 +34,17 @@ Total queued: 12. Designed for one focused session, mirroring the 2026-05-26 eng
 
 ---
 
-## The Four Mentors
+## The Five Mentors
 
 | Mentor | Pole | Core thesis |
 |---|---|---|
 | [[Lenny Rachitsky]] | Product + Growth | PMF is measurable. Retention is the signal. Define a North Star Metric and instrument everything around it. |
 | [[Ben Thompson]] | Strategy + Moats (internet-era) | The durable advantage is owning the user relationship (Aggregation Theory). Distribution is the moat, not the product. |
 | [[Hamilton Helmer]] | Strategy + Moats (universal) | Seven specific Powers, not infinite. Each Power has Benefit + Barrier. Strategy = the route to Power. |
+| [[Andrew Chen]] | Growth + Network Effects (mechanics) | Cold start is solved by atomic networks. Growth loops compound; funnels do not. The 5-stage framework: Cold Start, Tipping Point, Escape Velocity, Hitting the Ceiling, The Moat. |
 | [[Paul Graham]] | Early-Stage Epistemics | Startup = Growth. Do things that don't scale. Talk to users. The cofounders matter more than the idea. |
 
-Together they cover product discovery (Lenny), competitive durability internet-era (Thompson), competitive durability universal (Helmer), and early-stage discipline (Graham). Thompson + Helmer are complementary: Thompson explains why digital companies converge on winner-take-all; Helmer provides the universal moat taxonomy that predates and outlives any specific era.
+Together they cover: product discovery (Lenny), competitive durability internet-era (Thompson), competitive durability universal (Helmer), network-effect mechanics (Chen), and early-stage discipline (Graham). The four strategy/growth mentors form a complete stack: Thompson + Helmer name the destination Powers; Chen explains the route to Network Economies specifically; Lenny measures whether you have PMF along the way; Graham governs the early-stage discipline.
 
 ---
 
