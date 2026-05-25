@@ -238,6 +238,33 @@ The taxonomy predicts durability:
 
 Climb the levels when possible. A Level 3 competitor in your category is the existential threat; everything else is noise.
 
+### The Bill Gates Line: a real platform produces more third-party value than its own
+
+> "A platform is when the economic value of everybody that uses it, exceeds the value of the company that creates it." (Bill Gates, via Chamath Palihapitiya, in [[Thompson Bill Gates Line]])
+
+Economic test, not structural. App stores are below the line: structurally platforms (third parties build), economically aggregators (Apple captures the majority via 30% rake + distribution control).
+
+### Platforms distribute value; aggregators concentrate it
+
+Four choices for builders:
+
+1. **Build a platform**: Strong network effects, capture minority of ecosystem value
+2. **Build an aggregator**: Capture majority, must own user relationship
+3. **Build on a platform** (AWS): Strong leverage, recommended for most startups
+4. **Build on an aggregator** (Yelp on Google): Structurally disadvantaged
+
+> "Building on an aggregator gives the aggregator the option to take your business." ([[Thompson Bill Gates Line]])
+
+### Cloud + mobile is the endpoint of the substrate evolution
+
+> "The cloud meant applications and data could be accessed from anywhere; mobile made the I/O layer available anywhere. The combination of the two make computing continuous." ([[Thompson End of the Beginning]])
+
+Substrate is stable. The platform incumbents (Amazon, Microsoft, Apple, Google, Facebook) are GM/Ford/Chrysler-stable. Do not attack at their core; route around into industries they have not entered.
+
+> "New ventures no longer challenge cloud/mobile infrastructure directly. Instead, they take their presence as an assumption, and seek to transform society in ways that were previously impossible." ([[Thompson End of the Beginning]])
+
+The next wave: vertical aggregation on top of the platform layer (healthcare, finance, AI applications, logistics).
+
 ---
 
 ## Customer Direction
