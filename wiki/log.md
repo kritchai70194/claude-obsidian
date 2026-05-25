@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Engineer-Planner Phase 5 - Lamport pass 2
+
+- Phase: 5 of 7 (Lamport ingest pass 2 of 2)
+- Sources ingested: [[Lamport Specifying Systems Ch1-3]] (book chapters), [[Lamport Paxos Made Simple]] (2001 rewrite paper)
+- Pages created: [[Lamport Specifying Systems Ch1-3]], [[Lamport Paxos Made Simple]]
+- Pages updated: [[Leslie Lamport]] (developing -> mature, 13 cited core frames), [[Operating Principles]] (2 more principles: clarity is engineering work, rewrite your own work when it fails)
+- Key insight: "Paxos Made Simple" is a canonical artifact of rewrite-as-engineering-discipline. The algorithm did not change between 1998 and 2001; the writing did. Pairs with Carmack's "willingness to throw away your own code".
+
 ## [2026-05-26] persona-training | Engineer-Planner Phase 4 - Lamport pass 1
 
 - Phase: 4 of 7 (Lamport ingest pass 1 of 2)
