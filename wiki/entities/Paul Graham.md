@@ -14,15 +14,23 @@ tags:
   - essayist
   - mentor
   - unicorn-builder
-status: seed
+status: mature
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
   - "[[seed-corpus-unicorn-builders]]"
   - "[[Lenny Rachitsky]]"
   - "[[Ben Thompson]]"
+  - "[[PG How to Start a Startup]]"
+  - "[[PG Do Things That Dont Scale]]"
+  - "[[PG Startup = Growth]]"
+  - "[[PG How to Get Startup Ideas]]"
   - "[[entities/_index]]"
-sources: []
+sources:
+  - "[[PG How to Start a Startup]]"
+  - "[[PG Do Things That Dont Scale]]"
+  - "[[PG Startup = Growth]]"
+  - "[[PG How to Get Startup Ideas]]"
 ---
 
 # Paul Graham
