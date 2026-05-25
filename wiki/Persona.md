@@ -32,6 +32,7 @@ related:
   - '[[Lenny Rachitsky]]'
   - '[[Ben Thompson]]'
   - '[[Paul Graham]]'
+  - '[[Hamilton Helmer]]'
 ---
 
 # Persona, Operating Identity
