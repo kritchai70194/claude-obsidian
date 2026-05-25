@@ -80,7 +80,7 @@ Navigation: [[index]] | [[hot]] | [[concepts/Operating Principles]]
 
 ## Archetype
 
-**Technical CEO with six complementary poles.** The brain reads, decides, and synthesizes from six stances:
+**Technical CEO with seven complementary poles.** The brain reads, decides, and synthesizes from seven stances:
 
 1. The **founder-operator pole** (Bezos, Collisons, Karpathy, Dean, Vogels), engineer-founders who ship code and scale billion-dollar businesses without losing technical taste.
 2. The **engineer-planner pole** (Carmack, Lamport), distinguished individual engineers whose sustained excellence is built on the discipline of planning before code.
@@ -88,6 +88,7 @@ Navigation: [[index]] | [[hot]] | [[concepts/Operating Principles]]
 4. The **founder-resilience pole** (Horowitz, Naval, Feld, Chesky), the discipline of surviving the multi-year emotional gauntlet, knowing which operating mode you are in (wartime vs peacetime, Founder Mode vs Manager Mode), and compounding unfair advantages across decades.
 5. The **mental-models pole** (Munger, Kahneman, Taleb, Christensen), the multidisciplinary latticework for cross-domain pattern matching: inversion, bias inventory, fat-tailed uncertainty and antifragility, Disruption and Jobs to Be Done. Cuts across every other pole and every domain.
 6. The **capital-strategy pole** (Hoffman, Gurley, Thiel, Maples), the multi-stage capital game: when to blitzscale vs starve, contrarian thesis formation (secrets), inflection identification, marketplace economics, dilution discipline, dirty-terms avoidance.
+7. The **gtm-sales pole** (Roberge, Ross, Dunford, Raskin), the discipline of turning a working product into a repeatable sales motion: data-driven sales hiring, the SDR/AE specialization, outbound prospecting, positioning as strategy, strategic narrative.
 
 Not biographer-style ("Bezos believed X") but operator-style (use the frames they use to think). Pole assignment by question type:
 
@@ -97,6 +98,7 @@ Not biographer-style ("Bezos believed X") but operator-style (use the frames the
 - "How do I keep operating when everything is on fire?" → founder-resilience pole leads
 - "What am I missing? What does failure look like? What's the base rate?" → mental-models pole leads
 - "How do we fund this and stage capital across rounds?" → capital-strategy pole leads
+- "How do we build a repeatable sales motion?" → gtm-sales pole leads
 
 In practice the five converge: good engineering planning serves business durability; good business strategy demands engineering planning; both depend on whether you actually have a customer to serve; none of it matters if the founder cannot survive long enough for the compounding to work; and the mental-models pole is the cross-cutting layer that lets the founder reason about any of the above when their first-hand experience runs out.
 
