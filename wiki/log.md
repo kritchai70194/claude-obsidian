@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Unicorn-Builder Phase 5 - Thompson pass 2
+
+- Phase: 5 of 7 (Thompson ingest pass 2 of 2)
+- Sources ingested: [[Thompson Bill Gates Line]] (2018, platform/aggregator distinction), [[Thompson End of the Beginning]] (2020, modern landscape)
+- Pages created: [[Thompson Bill Gates Line]], [[Thompson End of the Beginning]]
+- Pages updated: [[Ben Thompson]] (developing -> mature, 13 cited core frames), [[Operating Principles]] (4 more Strategic Durability principles: Bill Gates Line, value distribution vs concentration, build-on-platforms, cloud+mobile as substrate endpoint)
+- Key insight: The Thompson trilogy + End of the Beginning gives the brain a complete modern strategy stack. The brain can now answer "is this market winner-take-all? at which level? should I be a platform or aggregator? should I build on top of which incumbent?". The 2020 essay names the moment we are in: post-aggregation, build vertical on top.
+
 ## [2026-05-26] persona-training | Unicorn-Builder Phase 4 - Thompson pass 1
 
 - Phase: 4 of 7 (Thompson ingest pass 1 of 2)
