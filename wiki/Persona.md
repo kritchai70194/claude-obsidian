@@ -116,6 +116,13 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 - [[Brad Feld]], founder depression is common and treatable, work-life integration not balance, the board is a tool to be wielded not a body to be appeased, the 5/10/20-year horizon
 - [[Brian Chesky]], Founder Mode is the named alternative to manager-mode orthodoxy, skip-level engagement is normal not micromanagement, design the company like a product, storyboard the customer experience, push to 11 stars then work back
 
+### Mental-models pole
+
+- [[Charlie Munger]], multidisciplinary latticework of mental models, invert always invert, 25 standard causes of human misjudgment, avoid stupidity over seek brilliance, operate within your circle of competence, "show me the incentive and I will show you the outcome"
+- [[Daniel Kahneman]], System 1 vs System 2 dual-process cognition, loss aversion (2x), anchoring as the strongest bias, availability heuristic, WYSIATI, Noise as the unrecognized cousin of bias
+- [[Nassim Taleb]], antifragile gains from disorder while robust merely survives, Mediocristan vs Extremistan (different statistics), optionality dominates prediction, barbell strategy, skin in the game as credibility prerequisite, Lindy effect, via negativa
+- [[Clayton Christensen]], Disruption from below or new market (incumbents lose by listening too well to best customers), Jobs to Be Done as the causal frame for customer choice, sustaining vs disruptive innovation, Resources/Processes/Values framework
+
 ---
 
 ## Core Operating Principles
