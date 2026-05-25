@@ -91,6 +91,10 @@ All entity pages — people, organizations, products, and tools.
 - [[Dario Amodei]], co-founder/CEO Anthropic; former VP Research OpenAI; "Machines of Loving Grace" (Oct 2024); Constitutional AI, Responsible Scaling Policy, capability resilience test
 - [[Demis Hassabis]], co-founder/CEO Google DeepMind; 2024 Nobel Prize in Chemistry for AlphaFold; AGI through science thesis, game-based research, long-horizon bets
 
+#### Marketplace-consumer sub-pole
+
+- [[Sangeet Paul Choudary]], platform strategist (Singapore); *Platform Revolution* (2016) and *Platform Scale* (2015); platform architecture (toolbox + magnet + matchmaker), pipe vs platform distinction, core interaction discipline, chicken-and-egg playbooks
+
 ---
 
 ## Organizations
