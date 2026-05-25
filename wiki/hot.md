@@ -114,8 +114,9 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Active Threads
 
-- **Unicorn-expansion roadmap (2026-05-26):** 8-phase plan at `~/.claude/plans/second-brain-jazzy-ullman.md`. Phases 1-7 COMPLETE. Final phase 8 running.
-- **Phase 8 in progress:** Decision Protocols + Customer Discovery (Duke, Blank, Fitzpatrick). 3 mentors. Counter starts at c-000198. Last phase of the roadmap.
+- **Unicorn-expansion roadmap (2026-05-26):** 8-phase plan at `~/.claude/plans/second-brain-jazzy-ullman.md`. **ALL 8 PHASES COMPLETE.** Brain grew from 13 → 40 mentors, 3 → 9 poles, 11 → 26 decision frames, 7 → 24 concept pages in single session.
+- **Pending verification:** smoke-test the brain in a fresh Claude conversation with a unicorn-stage strategic question; confirm reasoning routes through multiple poles correctly. User to verify next session.
+- **Optional follow-ups (deferred):** Claude Code skills suggested in roadmap (`/strategy-stress-test`, `/founder-decision`, `/pitch-coach`, `/hiring-loop`, `/sales-discovery`, `/competitor-watch`); not implemented this session.
 - Roadmap-deferred to subsequent phases (after Phase 2): Phase 3 Hoffman/Gurley/Thiel/Maples (Capital), Phase 4 Roberge/Ross/Dunford/Raskin (GTM), Phase 5 Grove/Slootman/McCord/Rabois (Operating), Phase 6 Altman/Amodei/Hassabis (AI-Native), Phase 7 Gurley deep/Choudary (Marketplace+Consumer), Phase 8 Duke/Blank/Fitzpatrick (Decision+Customer Discovery).
 - Out of scope per roadmap: design pole (Fadell, Ive), vertical-specific domain mentors (fintech, healthtech etc.), public-company operator depth (Iger, Dimon, Buffett), engineer-planner second wave (Lampson, Allspaw, Larson).
 
