@@ -47,22 +47,59 @@ Frames here: plan the architecture in your head before writing code; deep over b
 
 ## Primary-Source Citations
 
-*(Pending — sources queued in [[seed-corpus-engineer-planners]], see C1-C4.)*
+### From [[Carmack Inlined Code]] (2007 email)
 
-Will be populated through Phase 2-3 ingest passes.
+A 2007 email to id Software programmers about inlining vs extracting functions, opening from a concrete experiment: inlining all subroutines in the Armadillo Aerospace flight control code (a few thousand lines). The act of inlining revealed bugs the function decomposition had hidden.
+
+The deep claim:
+
+> "The real enemy addressed by inlining is unexpected dependency and mutation of state, which functional programming solves more directly."
+
+> "Most bugs are a result of the execution state not being exactly what you think it is."
+
+On rejecting mechanical style rules:
+
+> "I now specifically disagree" (with rules limiting function size to a page or two).
+
+On visibility into execution flow:
+
+> "Awareness of all the code that is actually executing is important, and it is too easy to have very large blocks of code that you just always skip over while debugging."
+
+On the partial-call bug, the canonical hazard of decomposed code:
+
+> "There might be a FullUpdate() function that calls PartialUpdateA() and PartialUpdateB(), but in some particular case you may realize (or think) that you only need to do PartialUpdateB()."
+
+On copy-paste-modify as the most common bug source:
+
+> "I now strongly encourage explicit loops for everything, and hope the compiler unrolls it properly."
+
+### From [[Carmack QuakeCon 2013]] (annual keynote)
+
+The QuakeCon keynote series (2011-2019) is itself an engineering artifact: ~2.5 hours, unscripted, no slides. The 2013 keynote is at an inflection point. id Tech 5 had shipped, Oculus acquisition had just happened (Carmack became CTO that August), and he was deep in his functional programming phase.
+
+Three durable points from the 2013 keynote:
+
+1. **Functional programming as a discipline, not a target language.** Learn Haskell deeply even if you ship in C++; the discipline changes how you think when you return.
+2. **Static analysis is non-negotiable.** Warnings are errors. Run multiple analyzers; they catch different bug classes. A bug a tool can catch should never reach production.
+3. **Optimization is upstream of coding.** It lives in architectural decisions. Many "optimizations" make the code less optimizable later by obscuring the hot path.
+
+The often-quoted line on incremental progress:
+
+> "Little tiny steps using local information winds up leading to all the best answers."
+
+The QuakeCon format itself is the artifact: showing what engineering thinking-out-loud looks like at the level of someone who has internalized the system deeply enough to discuss the whole stack without notes.
 
 ---
 
-## Core Frames (Pending Citation)
+## Core Frames (now backed by citations)
 
-*Stub list — each will graduate to a primary-source citation as ingestion completes.*
-
-- **Plan in your head first, then write minimal code.** The .plan files were not journals; they were architectural reasoning made visible.
-- **Deep over broad.** Mastery of a few primitives (rendering pipeline, memory layout, cache behavior) beats fluency in many frameworks.
-- **First principles over received wisdom.** Question every "best practice" before applying it. Sometimes the textbook is wrong.
-- **Programmer judgment beats rules.** "Inlined Code" essay: when to inline, when to extract, why mechanical style rules fail.
-- **The architecture is the long-lived thing.** Implementation is rewritable; the structure persists across rewrites.
-- **Optimize for clarity at the call site.** Code is read more than written; the next engineer needs to follow your reasoning.
+- **Programmer judgment beats mechanical style rules.** ([[Carmack Inlined Code]]) Rules about function size, decomposition, or "best practice" are usually wrong in the specific. Context decides.
+- **The real enemy is unexpected state mutation; visibility is the cure.** ([[Carmack Inlined Code]]) Whether you achieve visibility through inlining or through pure functions matters less than achieving it.
+- **Static analysis is non-negotiable infrastructure.** ([[Carmack QuakeCon 2013]]) Warnings are errors; a bug a tool can catch should never reach production.
+- **Optimization is upstream of coding.** ([[Carmack QuakeCon 2013]]) It lives in architecture decisions made early, not in micro-optimizations late.
+- **Local-information incremental progress beats top-down master plans.** ([[Carmack QuakeCon 2013]]) "Little tiny steps using local information winds up leading to all the best answers."
+- **Functional programming as discipline, not target.** ([[Carmack QuakeCon 2013]]) Learning Haskell changes how you write C++ even if you never ship Haskell.
+- **Track your own bug history.** ([[Carmack Inlined Code]]) The patterns will surprise you; rules derived from your own data beat rules derived from books.
 
 ---
 
