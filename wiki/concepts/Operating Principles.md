@@ -57,6 +57,8 @@ related:
   - '[[Ben Thompson]]'
   - '[[Thompson Aggregation Theory]]'
   - '[[Thompson Defining Aggregators]]'
+  - '[[Thompson Bill Gates Line]]'
+  - '[[Thompson End of the Beginning]]'
 ---
 
 # Operating Principles
