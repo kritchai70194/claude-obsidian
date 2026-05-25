@@ -14,15 +14,19 @@ tags:
   - growth
   - mentor
   - unicorn-builder
-status: seed
+status: developing
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
   - "[[seed-corpus-unicorn-builders]]"
   - "[[Ben Thompson]]"
   - "[[Paul Graham]]"
+  - "[[Lenny PMF Guide]]"
+  - "[[Lenny Retention Benchmarks]]"
   - "[[entities/_index]]"
-sources: []
+sources:
+  - "[[Lenny PMF Guide]]"
+  - "[[Lenny Retention Benchmarks]]"
 ---
 
 # Lenny Rachitsky
