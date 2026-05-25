@@ -123,6 +123,18 @@ related:
   - '[[Maples Live in the Future]]'
   - '[[Maples Inflections vs Ideas]]'
   - '[[Maples Backable Founders]]'
+  - '[[Mark Roberge]]'
+  - '[[Aaron Ross]]'
+  - '[[April Dunford]]'
+  - '[[Andy Raskin]]'
+  - '[[Roberge Sales Acceleration Formula]]'
+  - '[[Roberge Math of B2B Sales]]'
+  - '[[Ross Predictable Revenue]]'
+  - '[[Ross Cold Calling 2.0]]'
+  - '[[Dunford Obviously Awesome]]'
+  - '[[Dunford Positioning Not Messaging]]'
+  - '[[Raskin Strategic Narrative]]'
+  - '[[Raskin Zuora Pitch]]'
 ---
 
 # Operating Principles
