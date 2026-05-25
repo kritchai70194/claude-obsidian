@@ -14,7 +14,7 @@ tags:
   - growth
   - mentor
   - unicorn-builder
-status: developing
+status: mature
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
@@ -23,10 +23,14 @@ related:
   - "[[Paul Graham]]"
   - "[[Lenny PMF Guide]]"
   - "[[Lenny Retention Benchmarks]]"
+  - "[[Lenny North Star Metric]]"
+  - "[[Lenny Chesky Founder Mode]]"
   - "[[entities/_index]]"
 sources:
   - "[[Lenny PMF Guide]]"
   - "[[Lenny Retention Benchmarks]]"
+  - "[[Lenny North Star Metric]]"
+  - "[[Lenny Chesky Founder Mode]]"
 ---
 
 # Lenny Rachitsky
