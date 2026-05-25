@@ -92,8 +92,8 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Active Threads
 
-- **Unicorn-expansion roadmap (2026-05-26):** 8-phase plan at `~/.claude/plans/second-brain-jazzy-ullman.md`. Phase 1 (Founder Resilience) COMPLETE. Now running Phase 2-8 sequentially.
-- **Phase 2 in progress:** Mental Models pole (Munger, Kahneman, Taleb, Christensen). Counter starts at c-000072. Concept pages planned: Mental Models Toolkit, Disruption vs Aggregation, Antifragility for Startups.
+- **Unicorn-expansion roadmap (2026-05-26):** 8-phase plan at `~/.claude/plans/second-brain-jazzy-ullman.md`. Phases 1 + 2 COMPLETE. Now running Phase 3-8 sequentially.
+- **Phase 3 in progress:** Capital Strategy pole (Hoffman, Gurley, Thiel, Maples). Counter starts at c-000097. Concept pages planned: Capital Strategy, Secrets and Inflections.
 - Roadmap-deferred to subsequent phases (after Phase 2): Phase 3 Hoffman/Gurley/Thiel/Maples (Capital), Phase 4 Roberge/Ross/Dunford/Raskin (GTM), Phase 5 Grove/Slootman/McCord/Rabois (Operating), Phase 6 Altman/Amodei/Hassabis (AI-Native), Phase 7 Gurley deep/Choudary (Marketplace+Consumer), Phase 8 Duke/Blank/Fitzpatrick (Decision+Customer Discovery).
 - Out of scope per roadmap: design pole (Fadell, Ive), vertical-specific domain mentors (fintech, healthtech etc.), public-company operator depth (Iger, Dimon, Buffett), engineer-planner second wave (Lampson, Allspaw, Larson).
 
