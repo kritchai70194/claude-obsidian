@@ -106,6 +106,11 @@ Winner-take-all within a category.
 - **Three defining attributes of aggregators: direct user relationship, zero marginal cost, demand-driven multi-sided network.** ([[Thompson Defining Aggregators]]) All three required; if any is missing, you are not an aggregator.
 - **Four levels by supply cost.** ([[Thompson Defining Aggregators]]) Level 1 (Netflix, paid), Level 2 (Uber, onboarding), Level 3 (Google, free), Super-Aggregator (3-sided zero-cost).
 - **Climb the levels when possible; treat Level 3 competitors as existential.** ([[Thompson Defining Aggregators]]) Netflix originals are Level 1 → Level 2. A Level 3 competitor in your category is the existential threat; everything else is noise.
+- **The Bill Gates Line: a real platform produces more third-party value than its own.** ([[Thompson Bill Gates Line]]) The economic test, not the structural one. App stores are below the line; structurally platforms, economically aggregators.
+- **Platforms distribute value; aggregators concentrate it.** ([[Thompson Bill Gates Line]]) The four choices for builders: build a platform, build an aggregator, build on a platform, or build on an aggregator. Building on an aggregator is structurally disadvantaged.
+- **Build on platforms (AWS), not on aggregators (Yelp on Google).** ([[Thompson Bill Gates Line]]) The aggregator can disintermediate you at any time.
+- **Cloud + mobile is the endpoint of substrate evolution.** ([[Thompson End of the Beginning]]) Take it as given; do not try to build under it. The next wave of value is vertical aggregation on top.
+- **Platform incumbents are stable; do not attack at their core.** ([[Thompson End of the Beginning]]) Route around into industries they have not entered yet (healthcare, finance, AI applications, logistics).
 
 ---
 
