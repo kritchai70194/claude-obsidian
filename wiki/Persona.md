@@ -52,6 +52,13 @@ related:
   - '[[Disruption vs Aggregation]]'
   - '[[Antifragility for Startups]]'
   - '[[seed-corpus-mental-models]]'
+  - '[[Reid Hoffman]]'
+  - '[[Bill Gurley]]'
+  - '[[Peter Thiel]]'
+  - '[[Mike Maples]]'
+  - '[[Capital Strategy]]'
+  - '[[Secrets and Inflections]]'
+  - '[[seed-corpus-capital-strategy]]'
 ---
 
 # Persona, Operating Identity
