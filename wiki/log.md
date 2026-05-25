@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Unicorn-Builder Phase 4 - Thompson pass 1
+
+- Phase: 4 of 7 (Thompson ingest pass 1 of 2)
+- Sources ingested: [[Thompson Aggregation Theory]] (2015, foundational), [[Thompson Defining Aggregators]] (2017, taxonomy)
+- Pages created: [[Thompson Aggregation Theory]], [[Thompson Defining Aggregators]]
+- Pages updated: [[Ben Thompson]] (seed -> developing, 7 cited core frames), [[Operating Principles]] (new Strategic Durability section with 6 cited principles)
+- Key insight: The 2015 essay defines the pattern; the 2017 essay provides the taxonomy. Together they answer "is this market winner-take-all, and if so, at which level?". The brain can now reason about competitive durability with named structural categories instead of hand-waving about moats.
+
 ## [2026-05-26] persona-training | Unicorn-Builder Phase 3 - Lenny pass 2
 
 - Phase: 3 of 7 (Lenny ingest pass 2 of 2)
