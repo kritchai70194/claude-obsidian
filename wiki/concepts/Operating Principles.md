@@ -1259,6 +1259,80 @@ RPV: organizations have capabilities defined by what resources they have, what p
 
 ---
 
+## Capital Strategy
+
+The multi-stage capital game. When to raise, how much, on what terms, against what plan. The 4 mentors disagree productively; the brain holds all four lenses.
+
+### Blitzscale only when the market is provably winner-take-most
+
+> Blitzscaling is prioritizing speed over efficiency in the face of uncertainty. In winner-take-all markets, the cost of being slow is permanent loss of the market. ([[Hoffman Blitzscaling Book]])
+
+Three preconditions: (1) network effects produce winner-take-most dynamics, (2) a credible #2 has not yet won, (3) you have 18+ months of runway to sustain the burn. Mismatching tactics to market kills companies.
+
+### Default to capital efficiency
+
+> Boomtown burn rates pose risk to startups; founders confuse high growth with sustainable growth. ([[Bill Gurley]])
+
+Most markets are not winner-take-most. Default to burn discipline unless evidence specifically argues for blitzscale. The base-rate Kahneman frame applies: most "winner-take-most" claims are post-hoc rationalizations of unsustainable burn.
+
+### Raise enough for the next milestone plus 6-12 month buffer
+
+Do NOT raise "as much as possible". Excess capital removes optionality: it forces faster growth, locks valuations, gives away dilution that could have been preserved. The right round is calibrated to the cost of reaching the next inflection point.
+
+### Clean terms at lower valuation beat dirty terms at higher valuation
+
+> Take the lower valuation with clean terms over the higher valuation with dirty terms. Always. ([[Gurley J-curve and Recap]])
+
+Dirty terms (participating preferred, multi-x liquidation preferences, full ratchets, IPO ratchets, cumulative dividends) transfer all founder upside to investors below the unicorn outcome. Clean structure preserves outcome optionality.
+
+### Monopoly is the goal, not competition
+
+> Competition is for losers. ([[Thiel Zero to One]])
+
+Capital strategy should be calibrated to dominating one niche completely before expanding. The right round size is "enough to win the niche", not "enough to attack the market". 4 monopoly characteristics: proprietary tech (10x), network effects, economies of scale, branding.
+
+### Last mover advantage in defined markets
+
+> In a defined market, the last meaningful innovator captures the value, not the first. ([[Thiel Last Mover Advantage]])
+
+Don't enter as the 50th search engine; enter the next market that hasn't been defined yet. The contrarian thesis is identifying which markets are still undefined.
+
+### Secrets exist; you need a thesis
+
+> What important truth do very few people agree with you on? ([[Thiel CS183 Notes]])
+
+A secret is a specific, falsifiable, contrarian belief tested with real users or data. Most "contrarian" claims fail one of these tests. Real secrets are the foundation of breakthrough startups.
+
+### Inflections precede ideas; ideas without inflections are tar pits
+
+> Most successful startups ride 1-3 inflections; ideas without inflections fail. ([[Maples Inflections vs Ideas]])
+
+An inflection is an empirical shift in the world (technology, regulatory, behavioral, cost, demographic). Identify the specific shift with dates and magnitudes before falling in love with an idea.
+
+### Live in the future to see inflections others can't
+
+> The founders who already use the technology of the future as part of their daily life see opportunities the rest of the market hasn't noticed. ([[Maples Live in the Future]])
+
+You can't reason about inflections you don't experience. The discipline: use new tools heavily yourself, use new behaviors, talk to early users about what they actually do.
+
+### Backable founders combine 5 traits
+
+> Insight (sees something others miss), authenticity (lives the problem), creativity (designs solutions others wouldn't), persuasiveness (recruits and raises), stamina (multi-decade game). ([[Maples Backable Founders]])
+
+The seed investor's filter. Not optionally any of the 5, but compoundingly all of them.
+
+### The Alliance compact is rotational, not permanent
+
+> The manager-employee compact is a series of tours of duty, not a permanent commitment in either direction. ([[Hoffman The Alliance]])
+
+Three tour types: rotational (1-3 years, defined output), transformational (3-7 years, mutual growth), foundational (lifetime, leadership track). Make the compact explicit. The corporate alumni network is the long-term relationship.
+
+### Customer concentration is a moat-killer
+
+A customer that is 30%+ of revenue holds you hostage. They eventually leverage that concentration to extract terms (better pricing, exclusivity, custom features, free services). The defense is multiple customers from the start, even at lower aggregate revenue.
+
+---
+
 ## Things This Brain is Explicitly Skeptical Of
 
 - Productivity advice that's archetype-neutral (5am club, etc.)
