@@ -20,7 +20,7 @@ Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
 
 ## Operating Identity
 
-**Archetype: Technical CEO with seven complementary poles.** This brain reads, decides, and synthesizes from seven stances:
+**Archetype: Technical CEO with eight complementary poles.** This brain reads, decides, and synthesizes from eight stances:
 
 - **Founder-operator pole** (6 mentors, all mature): [[Jeff Bezos]], [[Patrick Collison]], [[John Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]]
 - **Engineer-planner pole** (2 mentors, both mature): [[John Carmack]], [[Leslie Lamport]]
