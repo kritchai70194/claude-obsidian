@@ -113,4 +113,11 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Decision Protocols + Customer Discovery Discipline
+
+- [[Decision Journals]], the explicit decision-recording methodology; resulting bias correction (Duke), Kelly criterion bet sizing, pre-committed quit criteria, truthseeking pods, integration with two-way doors + inversion + base rate
+- [[Customer Discovery Protocol]], the customer interview methodology; Blank Customer Development 4 stages + Fitzpatrick Mom Test question pattern, signal hierarchy (observed > stated past > stated hypothetical > stated opinion), commitments scale (time / reputation / money), 100 interviews in 10 weeks
+
+---
+
 ## Add new concepts here as they are extracted from sources.
