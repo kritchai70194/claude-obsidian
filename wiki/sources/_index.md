@@ -160,6 +160,36 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Christensen Innovators Solution]]: how to act on the dilemma; autonomous unit, modular vs interdependent (2003)
 - [[Christensen How Will You Measure Your Life]]: HBR essay + book; applying business frameworks to personal life (2010)
 
+## Capital Strategy (Hoffman + Gurley + Thiel + Maples)
+
+### Hoffman (blitzscaling + Alliance)
+
+- [[Hoffman Blitzscaling Book]]: canonical text on speed > efficiency in winner-take-most markets (Currency, 2018)
+- [[Hoffman Stanford CS183C]]: course notes from "Technology-Enabled Blitzscaling" Fall 2015
+- [[Hoffman The Alliance]]: tours of duty as employment compact (HBR Press, 2014)
+- [[Hoffman Masters of Scale]]: 210+ episodes synthesized; counterintuitive scaling rules
+
+### Gurley (marketplace economics + burn discipline)
+
+- [[Gurley All Markets Not Equal]]: 10 marketplace evaluation factors (2012)
+- [[Gurley J-curve and Recap]]: 2015 + 2016 warnings on late-stage valuations and dirty terms
+- [[Gurley All-In Podcast]]: recurring appearances 2020-2025; regulatory, late-stage dynamics
+- [[Gurley Above the Crowd]]: 1996-present blog selection on rake, customer concentration, moats
+
+### Thiel (monopoly + secrets)
+
+- [[Thiel Zero to One]]: canonical book on 0-to-1 vs 1-to-n (Crown Business, 2014)
+- [[Thiel CS183 Notes]]: Stanford "Startup" Spring 2012 (Blake Masters)
+- [[Thiel Last Mover Advantage]]: WSJ excerpt + Zero to One Ch.5 (Sept 2014)
+- [[Thiel Interviews Synthesis]]: Tim Ferriss + Joe Rogan + Conversations with Bill Kristol themes
+
+### Maples (inflections + pattern breaking)
+
+- [[Maples Pattern Breakers]]: book on insights, inflections, secret manifesto (Public Affairs, 2024)
+- [[Maples Live in the Future]]: essay on using-the-future as opportunity-finding discipline
+- [[Maples Inflections vs Ideas]]: ideas without inflections are tar pits
+- [[Maples Backable Founders]]: 5 traits filter (insight, authenticity, creativity, persuasiveness, stamina)
+
 ## Engineering References
 
 - [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (Dean/Boner, 2012)
