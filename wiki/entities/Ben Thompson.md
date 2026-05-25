@@ -133,7 +133,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Developing. Two sources ingested (Aggregation Theory 2015, Defining Aggregators 2017). Phase 5 will ingest Bill Gates Line + one applied modern essay to reach mature.
+Mature. Four sources ingested: [[Thompson Aggregation Theory]], [[Thompson Defining Aggregators]], [[Thompson Bill Gates Line]], [[Thompson End of the Beginning]]. Operating frame stable. The trilogy + applied 2020 frame gives the brain a complete modern strategy stack for reasoning about competitive durability.
 
 ---
 
