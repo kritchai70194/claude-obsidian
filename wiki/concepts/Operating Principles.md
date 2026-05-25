@@ -1348,6 +1348,84 @@ A customer that is 30%+ of revenue holds you hostage. They eventually leverage t
 
 ---
 
+## GTM / Sales
+
+The discipline of turning a working product into a repeatable, scalable sales motion. Precondition: PMF first. Building sales process before PMF burns capital faster than any other founder mistake.
+
+### PMF before sales motion
+
+> Don't hire salespeople until founder-led sales is working and consuming 50%+ of CEO time. ([[Mark Roberge]] precondition)
+
+The signal it's time to hire: the founder can articulate why customers buy in one sentence, the funnel is consistent week-over-week, the first sales hire can be onboarded with a written playbook rather than "shadow me for 6 months".
+
+### The 4-step Sales Acceleration Formula
+
+> Hire the same kind of salesperson repeatedly. Train them the same way. Give them a consistent process. Generate predictable demand. ([[Roberge Sales Acceleration Formula]])
+
+Each step is a discrete discipline. Skip any one and the formula breaks. Most companies skip hiring rigor (it's slow and uncomfortable) and pay for it in turnover.
+
+### SDR / AE specialization beats generalist sellers at scale
+
+> Specialize prospecting (SDR) from closing (AE). Different skills, different cost structures, different cadences. ([[Roberge Sales Acceleration Formula]] + [[Ross Predictable Revenue]])
+
+SDR compensation tied to qualified meetings, not revenue. Otherwise SDRs corrupt qualification to pump short-term metrics.
+
+### Three sales engines: Seeds, Nets, Spears
+
+> Most companies need all three: customer referrals (Seeds), inbound marketing (Nets), outbound prospecting (Spears). ([[Ross Predictable Revenue]])
+
+Mix depends on stage and ACV. < $1K ACV = Nets dominant (PLG). $10K-100K = balanced. $100K+ = Spears dominant. $1M+ enterprise = named-account selling.
+
+### Cold Calling 2.0
+
+> Replace cold calling with researched, cold-emailed outbound to the right decision-maker. ([[Ross Cold Calling 2.0]])
+
+The first email is 2-3 sentences asking for the right person, not a pitch. Replies become qualified meetings. Beats traditional cold calling on response rate and seller productivity.
+
+### Unit economics define the motion
+
+> CAC payback under 12 months. LTV/CAC > 3:1 at scale. NRR > 110% for SaaS. ([[Roberge Math of B2B Sales]])
+
+If unit economics don't work at scale, fix product or pricing, not sales motion. The honest unit-economics conversation usually happens too late.
+
+### Nail a niche before broadening
+
+> Dominate one customer profile (50%+ market share in a vertical or segment) before expanding. Counterintuitive but consistently proven. ([[Ross Predictable Revenue]])
+
+Three reasons: referenceability compounds; one case study works for 20 prospects; product focus wins niches.
+
+### Positioning is strategic, messaging is tactical
+
+> Most marketing failures are positioning failures. ([[Dunford Obviously Awesome]])
+
+The 5 components of positioning: competitive alternatives, unique attributes, value derived from attributes, target customers, market category. Done once, revised when business shifts. Messaging is downstream and tactical.
+
+### Negative positioning ("who is this NOT for") is more powerful than positive
+
+> Narrowing the target sharpens the message. Founders fear it but it works. ([[Dunford Positioning Not Messaging]])
+
+"We are not for solo founders / not for enterprises over 5,000 / not for healthcare" prevents wasted sales time and sharpens win rates with the real target.
+
+### Lead with the world change, not the product
+
+> The audience cannot care about the product until they understand the world the product is for. ([[Andy Raskin]])
+
+The 5-part Strategic Narrative arc: named world change → stakes (winners/losers) → promised land → obstacles → evidence. The order matters; reversing it produces a normal pitch and fails.
+
+### Strategic narrative is multi-use
+
+> One core story serves fundraising pitch, sales pitch, recruiting pitch, PR, and internal alignment. ([[Raskin Strategic Narrative]])
+
+Companies without a narrative tell five different stories and confuse everyone. A company with a strong strategic narrative uses one across all five.
+
+### Customer concentration is a moat-killer (cross-pole)
+
+> Customers that are 30%+ of revenue eventually leverage that concentration to extract terms. ([[Bill Gurley]] applied here)
+
+The defense is multiple customers from the start, even at lower aggregate revenue.
+
+---
+
 ## Things This Brain is Explicitly Skeptical Of
 
 - Productivity advice that's archetype-neutral (5am club, etc.)
