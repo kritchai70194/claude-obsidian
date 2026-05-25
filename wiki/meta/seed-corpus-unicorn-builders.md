@@ -34,15 +34,16 @@ Total queued: 12. Designed for one focused session, mirroring the 2026-05-26 eng
 
 ---
 
-## The Three Mentors
+## The Four Mentors
 
 | Mentor | Pole | Core thesis |
 |---|---|---|
 | [[Lenny Rachitsky]] | Product + Growth | PMF is measurable. Retention is the signal. Define a North Star Metric and instrument everything around it. |
-| [[Ben Thompson]] | Strategy + Moats | The durable advantage is owning the user relationship (Aggregation Theory). Distribution is the moat, not the product. |
+| [[Ben Thompson]] | Strategy + Moats (internet-era) | The durable advantage is owning the user relationship (Aggregation Theory). Distribution is the moat, not the product. |
+| [[Hamilton Helmer]] | Strategy + Moats (universal) | Seven specific Powers, not infinite. Each Power has Benefit + Barrier. Strategy = the route to Power. |
 | [[Paul Graham]] | Early-Stage Epistemics | Startup = Growth. Do things that don't scale. Talk to users. The cofounders matter more than the idea. |
 
-Together they cover product discovery (Lenny), competitive durability (Thompson), and early-stage discipline (Graham). None overlap with the existing 8 mentors.
+Together they cover product discovery (Lenny), competitive durability internet-era (Thompson), competitive durability universal (Helmer), and early-stage discipline (Graham). Thompson + Helmer are complementary: Thompson explains why digital companies converge on winner-take-all; Helmer provides the universal moat taxonomy that predates and outlives any specific era.
 
 ---
 
