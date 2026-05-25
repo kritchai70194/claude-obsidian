@@ -120,7 +120,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Seed. Two ingest passes planned in the current session to reach mature.
+Developing. Two sources ingested (Inlined Code essay, QuakeCon 2013 keynote). Phase 3 will ingest Lex Fridman #309 and selected .plan entries to reach mature.
 
 ---
 
