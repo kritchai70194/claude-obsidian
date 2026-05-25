@@ -42,6 +42,12 @@ All entity pages — people, organizations, products, and tools.
 - [[John Carmack]], founder Keen Technologies (AGI), prior id Software/Oculus; deep architectural planning, protected focus, .plan files, willingness to rewrite
 - [[Leslie Lamport]], Distinguished Scientist Microsoft Research; Turing Award 2013; specify-before-implement, writing-is-the-medium-of-thinking, TLA+ as discipline
 
+#### Unicorn-builder pole
+
+- [[Lenny Rachitsky]], author of Lenny's Newsletter (largest paid Substack on product/growth); PMF is measurable, retention is the signal, NSM as strategy, founder mode = presence
+- [[Ben Thompson]], author of Stratechery; originator of Aggregation Theory; distribution is the moat, aggregators commoditize suppliers, cloud+mobile is the substrate endpoint
+- [[Paul Graham]], co-founder Y Combinator; 180+ essays since 2001; startup = growth rate, ideas are noticed, do things that don't scale, schlep blindness is competitive advantage
+
 ---
 
 ## Organizations
