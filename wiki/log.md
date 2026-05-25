@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Chen Expansion Phase 2 - Ingest
+
+- Phase: 2 of 3 (Chen ingest)
+- Sources ingested: [[Chen Cold Start Problem Book]] (2021), [[Chen Growth Loops]] (essay framework), [[Chen Atomic Network]] (foundational concept), [[Chen Uber Rider Growth]] (applied case study)
+- Pages created: 4 source pages (c-000043 through c-000046)
+- Pages updated: [[Andrew Chen]] (seed -> mature, 10 cited core frames)
+- Key insight: The Cold Start Problem framework is largely the Uber operating playbook generalized. Chen ran 70+ city expansions at ~$1B annual growth spend; the book is the consultant-style abstraction of an operating reality. Brain now has empirically-grounded network-effect mechanics, not just theory.
+
 ## [2026-05-26] persona-training | Chen Expansion Phase 1 - Scaffold
 
 - Phase: 1 of 3 (Chen mini-session, additive to the unicorn-builder pole)
