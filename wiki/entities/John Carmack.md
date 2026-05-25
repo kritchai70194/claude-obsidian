@@ -13,14 +13,18 @@ tags:
   - engineer
   - mentor
   - engineer-planner
-status: seed
+status: developing
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
   - "[[seed-corpus-engineer-planners]]"
   - "[[Leslie Lamport]]"
+  - "[[Carmack Inlined Code]]"
+  - "[[Carmack QuakeCon 2013]]"
   - "[[entities/_index]]"
-sources: []
+sources:
+  - "[[Carmack Inlined Code]]"
+  - "[[Carmack QuakeCon 2013]]"
 ---
 
 # John Carmack
