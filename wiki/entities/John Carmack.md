@@ -129,7 +129,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Developing. Two sources ingested (Inlined Code essay, QuakeCon 2013 keynote). Phase 3 will ingest Lex Fridman #309 and selected .plan entries to reach mature.
+Mature. Four sources ingested: [[Carmack Inlined Code]], [[Carmack QuakeCon 2013]], [[Carmack Lex Fridman 309]], [[Carmack Plan Archive 1998]]. Operating frame is stable. Further ingest would deepen specific topics (functional programming, VR/Oculus era, recent AGI work) rather than the core frame.
 
 ---
 
