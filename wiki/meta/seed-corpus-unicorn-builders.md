@@ -86,6 +86,21 @@ Together they cover product discovery (Lenny), competitive durability internet-e
 | G3 | "Startup = Growth" (2012) | Essay | paulgraham.com | queued |
 | G4 | "How to Get Startup Ideas" (2012) | Essay | paulgraham.com | queued |
 
+## Helmer (4 sources, universal moat taxonomy)
+
+| ID | Source | Type | URL / Location | Status |
+|---|---|---|---|---|
+| H1 | "7 Powers" book core chapters | Book | Strategy Capital / amazon | queued |
+| H2 | Helmer on Acquired Podcast | Long-form interview | acquired.fm | queued |
+| H3 | "Counter-Positioning" deep-dive | Essay/talk | various Helmer content | queued |
+| H4 | Applied case study (Spotify / Netflix / Adobe) | Analysis | various | queued |
+
+**Why these four:**
+- H1 is the canonical text. The 200-page book is the source of every other Helmer artifact.
+- H2 is the most-cited Helmer interview, covering the framework + how it applies to real Acquired-podcast unicorns.
+- H3 is the deep dive into Helmer's most original contribution. Counter-Positioning is the Power most people miss.
+- H4 grounds the framework in a specific company (likely one already in the brain's bench).
+
 **Why these four:**
 - G1 is PG's most comprehensive early-stage essay. Idea + people + market + execution.
 - G2 is the single most-cited PG essay. Manual unscalable work in early stage is the work.
