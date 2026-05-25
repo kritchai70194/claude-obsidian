@@ -21,6 +21,16 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Phase 8 Complete + ROADMAP DONE
+
+- Phase: 8 of 8 (FINAL)
+- New mentors: Annie Duke, Steve Blank, Rob Fitzpatrick (3 mentors)
+- New concept pages: Decision Journals (c-000214), Customer Discovery Protocol (c-000215)
+- Counter: 198 to 217
+- **8-phase unicorn-expansion roadmap COMPLETE in single session.**
+- Final state: 40 mentors / 9 poles / 26 decision frames / ~24 concept pages / ~150 cited principles / ~190 source pages
+- Pending: smoke-test in fresh Claude conversation
+
 ## [2026-05-26] persona-training | Phase 7 Marketplace + Consumer Deep Complete
 
 - Phase: 7 of 8
