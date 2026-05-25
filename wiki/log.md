@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Helmer Expansion Phase 1 - Scaffold
+
+- Phase: 1 of 3 (Helmer mini-session, additive to the unicorn-builder pole)
+- Pages created: [[Hamilton Helmer]] (seed)
+- Pages updated: [[seed-corpus-unicorn-builders]] (added Helmer section, 4 sources H1-H4; bench grew from 3 to 4 mentors)
+- Addresses allocated: c-000036 (Helmer)
+- Key insight: Helmer + Thompson are complementary, not redundant. Thompson explains internet-era dynamics specifically; Helmer provides the universal moat taxonomy that predates and outlives any specific era. Brain now has both modern and timeless strategy lenses.
+
 ## [2026-05-26] persona-training | Unicorn-Builder Phase 7 - Lint and Close
 
 - Phase: 7 of 7 (lint + session close)
