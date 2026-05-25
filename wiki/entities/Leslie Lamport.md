@@ -51,22 +51,52 @@ Frames here: specify before you implement; the spec is the thinking; mathematics
 
 ## Primary-Source Citations
 
-*(Pending — sources queued in [[seed-corpus-engineer-planners]], see L1-L4.)*
+### From [[Lamport Thinking for Programmers]] (2014 keynote)
 
-Will be populated through Phase 4-5 ingest passes.
+Microsoft Build 2014 keynote. Lamport's most-quoted public statement of his thesis that programmers should write specifications before code.
+
+> "Writing is nature's way of letting you know how sloppy your thinking is."
+
+> "To think, you have to write. If you think without writing, you only think you're thinking."
+
+> "No programming language, no methodology, obviates the need for specification. A specification is a separate task from coding."
+
+> "If you don't start with a spec, every piece of code you write is a patch."
+
+> "Thinking doesn't guarantee that you won't make mistakes. Not thinking guarantees that you will."
+
+On the cultural barrier rather than the technical one:
+
+> "The mathematics needed for writing specifications is simpler than any programming language: basically undergraduate-level discrete math, including first-order logic, sets, and functions."
+
+> TLA+ described as "a quixotic attempt to overcome engineers' antipathy towards mathematics."
+
+### From [[Lamport TLA+ Course Intro]] (video lectures)
+
+Lamport's own video course teaching TLA+ to working programmers. The intro lectures cover why and when before any syntax.
+
+Why the course exists:
+
+> "The Hyperbook is unfinished because people don't read anymore and I made the video course."
+
+The discipline is so valuable that he is willing to teach it in any medium. The medium is incidental; the discipline is the thing.
+
+The framing: TLA+ is a means, not an end. The end is precise thinking about concurrent and distributed systems. TLA+ is the notation that makes the thinking possible and is mechanically checkable, which turns specification from documentation into thinking.
+
+The pedagogical pattern: pick a small system whose spec fits on a slide (distributed counter, dining philosophers, two-phase commit), write the spec, observe what the spec forces you to confront. The forced confrontations are the lesson.
 
 ---
 
-## Core Frames (Pending Citation)
+## Core Frames (now backed by citations)
 
-*Stub list — each will graduate to a primary-source citation as ingestion completes.*
-
-- **Specify before you implement.** The spec is not validation; it is the thinking. If you can't write it, you don't understand it.
-- **Math scales to real systems.** TLA+ and PlusCal are not academic exercises; AWS, Microsoft, and others use them on production systems.
-- **Trivial is the goal.** A clear explanation is harder than a complex one. Paxos Made Simple rewrites the original Paxos paper into something a junior engineer can follow.
-- **Distributed thinking starts with time.** Logical clocks (Lamport timestamps) are the prerequisite mental model for reasoning about concurrent events.
-- **Failure is part of the spec.** Byzantine fault tolerance treats malicious or buggy participants as part of the system's expected environment.
-- **Sequential consistency, not always strong consistency.** Different consistency models serve different purposes; collapse to "strongly consistent" loses important distinctions.
+- **Writing is the medium of thinking.** ([[Lamport Thinking for Programmers]]) Unwritten thoughts are not thoughts. You only think you are thinking.
+- **Specification is a separate task from coding.** ([[Lamport Thinking for Programmers]]) No language, methodology, or type system obviates it.
+- **Code without a spec is patches.** ([[Lamport Thinking for Programmers]]) Each piece of code you write becomes a patch on an undefined problem.
+- **Not thinking guarantees mistakes.** ([[Lamport Thinking for Programmers]]) Thinking only reduces them; not thinking guarantees them.
+- **The barrier to formal methods is cultural, not technical.** ([[Lamport Thinking for Programmers]]) Undergraduate discrete math is sufficient; the resistance is psychological.
+- **TLA+ is a notation; the discipline is what matters.** ([[Lamport TLA+ Course Intro]]) Other notations might work; this is the one that has been validated for decades.
+- **The model checker is the feedback loop.** ([[Lamport TLA+ Course Intro]]) Specifications without checking are documentation; specifications with checking are thinking.
+- **Small specs surface deep questions.** ([[Lamport TLA+ Course Intro]]) A two-page spec of a counter reveals questions a thousand lines of code would not.
 
 ---
 
