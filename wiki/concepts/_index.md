@@ -106,4 +106,11 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Marketplace + Consumer Discipline
+
+- [[Marketplace Liquidity]], the chicken-and-egg discipline; atomic network bootstrap, hard-side focus, 10 Gurley evaluation criteria, platform architecture (toolbox + magnet + matchmaker), take rate discipline
+- [[Consumer Defensibility]], brand + network density + design as the three load-bearing sources; why B2B defensibility frameworks under-deliver in consumer; the combined discipline at $1B+ scale
+
+---
+
 ## Add new concepts here as they are extracted from sources.
