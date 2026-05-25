@@ -14,15 +14,19 @@ tags:
   - scientist
   - mentor
   - engineer-planner
-status: seed
+status: developing
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
   - "[[seed-corpus-engineer-planners]]"
   - "[[John Carmack]]"
   - "[[Jeff Dean]]"
+  - "[[Lamport Thinking for Programmers]]"
+  - "[[Lamport TLA+ Course Intro]]"
   - "[[entities/_index]]"
-sources: []
+sources:
+  - "[[Lamport Thinking for Programmers]]"
+  - "[[Lamport TLA+ Course Intro]]"
 ---
 
 # Leslie Lamport
