@@ -82,9 +82,10 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Active Threads
 
+- **Unicorn-expansion roadmap (NEW, 2026-05-26):** 8-phase plan at `~/.claude/plans/second-brain-jazzy-ullman.md`. Phase 1 (Founder Resilience: Horowitz, Naval, Feld, Chesky) is highest leverage and recommended first. When user says "let's do phase X" or "expand the brain", reference this roadmap.
 - Phase 7 lint + close pending (em-dash scan on session author prose, address validation, orphan check, index updates, session summary at `wiki/meta/2026-05-26-unicorn-builder-training-session.md`).
-- Deferred to next session: Hamilton Helmer (7 Powers, complementary moat framework), Andrew Chen (growth loops), Reid Hoffman (Blitzscaling), Sam Altman (AI company building), Marc Andreessen (PMF, Strong vs Weak Hands).
-- Deferred to Plan 3+: design pole (Tony Fadell, Jony Ive), founder psychology pole (Ben Horowitz Hard Things, Naval), AI-vertical specialization (Demis Hassabis, Dario Amodei).
+- Roadmap-deferred to next training sessions: Phase 1 Horowitz/Naval/Feld/Chesky, Phase 2 Munger/Kahneman/Taleb/Christensen, Phase 3 Hoffman/Gurley/Thiel/Maples, Phase 4 Roberge/Ross/Dunford/Raskin, Phase 5 Grove/Slootman/McCord/Rabois, Phase 6 Altman/Amodei/Hassabis, Phase 7 Gurley deep/Choudary, Phase 8 Duke/Blank/Fitzpatrick.
+- Out of scope per roadmap: design pole (Fadell, Ive), vertical-specific domain mentors (fintech, healthtech etc.), public-company operator depth (Iger, Dimon, Buffett), engineer-planner second wave (Lampson, Allspaw, Larson).
 
 ## Repo Locations
 
