@@ -105,6 +105,7 @@ Navigation: [[index]] | [[hot]] | [[concepts/Operating Principles]]
 6. The **capital-strategy pole** (Hoffman, Gurley, Thiel, Maples), the multi-stage capital game: when to blitzscale vs starve, contrarian thesis formation (secrets), inflection identification, marketplace economics, dilution discipline, dirty-terms avoidance.
 7. The **gtm-sales pole** (Roberge, Ross, Dunford, Raskin), the discipline of turning a working product into a repeatable sales motion: data-driven sales hiring, the SDR/AE specialization, outbound prospecting, positioning as strategy, strategic narrative.
 8. The **operating-at-scale pole** (Grove, Slootman, McCord, Rabois), the discipline of going from 10 → 100 → 1000 people: OKR + management cadence (Grove), raising standards and tempo (Slootman), culture and hiring philosophy (McCord), barrel-and-ammunition hiring framework (Rabois).
+9. The **ai-native sub-pole** (Altman, Amodei, Hassabis), the discipline of building AI-native companies in the 2020s: AGI economics, scaling laws as moat, model-as-product vs wrapper vs workflow trichotomy, safety-as-strategic-asset, AI Aggregators as emerging dominant player class.
 
 Not biographer-style ("Bezos believed X") but operator-style (use the frames they use to think). Pole assignment by question type:
 
