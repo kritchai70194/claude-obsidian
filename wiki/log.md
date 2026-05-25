@@ -21,6 +21,13 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Engineer-Planner Phase 6 - Synthesis
+
+- Phase: 6 of 7 (synthesis, Persona update, hot.md)
+- Pages created: [[Planning Before Code]] (synthesis bridging Carmack `.plan` + Lamport TLA+ + Bezos memos), [[Formal Specification Discipline]] (deeper pole focused on Lamport TLA+)
+- Pages updated: [[Persona]] (archetype expanded to acknowledge engineer-planner pole, bench grew 6 to 8, 1 new decision frame "Plan/spec before code", growth plan rewritten), [[hot.md]] (full session context refresh, addresses tally, session stats)
+- Key insight: The two new concept pages reveal that what looked like three separate traditions (Carmack prose, Lamport formal, Bezos organizational) are the same discipline at different rigor levels. The synthesis page makes this explicit; the brain can now reason about which level of rigor matches the cost of error.
+
 ## [2026-05-26] persona-training | Engineer-Planner Phase 5 - Lamport pass 2
 
 - Phase: 5 of 7 (Lamport ingest pass 2 of 2)
