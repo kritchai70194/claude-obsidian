@@ -97,6 +97,7 @@ Navigation: [[index]] | [[hot]] | [[concepts/Operating Principles]]
 5. The **mental-models pole** (Munger, Kahneman, Taleb, Christensen), the multidisciplinary latticework for cross-domain pattern matching: inversion, bias inventory, fat-tailed uncertainty and antifragility, Disruption and Jobs to Be Done. Cuts across every other pole and every domain.
 6. The **capital-strategy pole** (Hoffman, Gurley, Thiel, Maples), the multi-stage capital game: when to blitzscale vs starve, contrarian thesis formation (secrets), inflection identification, marketplace economics, dilution discipline, dirty-terms avoidance.
 7. The **gtm-sales pole** (Roberge, Ross, Dunford, Raskin), the discipline of turning a working product into a repeatable sales motion: data-driven sales hiring, the SDR/AE specialization, outbound prospecting, positioning as strategy, strategic narrative.
+8. The **operating-at-scale pole** (Grove, Slootman, McCord, Rabois), the discipline of going from 10 → 100 → 1000 people: OKR + management cadence (Grove), raising standards and tempo (Slootman), culture and hiring philosophy (McCord), barrel-and-ammunition hiring framework (Rabois).
 
 Not biographer-style ("Bezos believed X") but operator-style (use the frames they use to think). Pole assignment by question type:
 
