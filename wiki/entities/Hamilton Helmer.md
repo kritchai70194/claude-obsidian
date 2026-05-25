@@ -77,20 +77,76 @@ If you do not have both, you do not have the Power. This precision is what disti
 
 ## Primary-Source Citations
 
-*(Pending, sources will be added through Phase 2 ingest.)*
+### From [[Helmer 7 Powers Book]] (2016)
+
+The canonical text. 200 pages distilling 40 years of strategy practice.
+
+Definition:
+> Power is "a set of conditions creating the potential for persistent differential returns."
+
+Three required elements: Persistent + Differential + Returns. Power manifests as durable above-market growth and substantial free cash flow over extended periods.
+
+The 7 Powers each require BOTH Benefit (creates value) and Barrier (prevents imitation). If you have one without the other, you do not have a Power.
+
+The central thesis (paraphrased):
+> Strategy is the route to Power. Without Power, strategy is theater. Without strategy, Power is luck.
+
+### From [[Helmer Acquired Podcast]] (2021)
+
+The most-cited Helmer interview. Walks the framework through specific company examples Acquired knows deeply.
+
+The recurring correction: most "moats" are not Powers. The hosts try standard terminology; Helmer corrects each:
+- "First mover advantage" → not a Power unless it produces one of the 7
+- "Brand recognition" → not Branding Power without durable willingness to pay premium
+- "Network effects" → not Network Economies without Benefit AND Barrier per definition
+
+The precision is the value. The framework turns hand-waved "moats" into testable claims.
+
+### From [[Helmer Counter-Positioning Deep Dive]]
+
+Counter-Positioning is the only Power that originated as a wholly new Helmer contribution (the other six have predecessors in economics literature).
+
+The canonical example (Vanguard vs Fidelity):
+> Fidelity *had capability* to enter index funds but chose not to because "the joint NPV of our overall company be positive or negative" would be negative.
+
+Two psychological barriers reinforce the economic one:
+> "History's Slave": Management believes "this is how the world works"
+> "Job Security": CEO won't sacrifice incentive structure for unknowable upside
+
+Counter-Positioning is a transition Power — typically lasts a few years; need other Powers to sustain beyond the window.
+
+### From [[Helmer 7 Powers Applied to AWS]]
+
+Applied analysis using Helmer's framework on a company already in the brain's bench (AWS via Vogels).
+
+AWS exhibits **four stacked Powers**: Scale Economies + Switching Costs + Process Power + (partial) Cornered Resource. Unusually durable profile.
+
+AWS Powers built in sequence:
+- 2006-2012: Counter-Positioning (vs on-prem)
+- 2010+: Scale Economies
+- 2015+: Switching Costs
+- 2018+: Process Power
+
+Existing brain frames map to Helmer's Powers:
+- "Everything fails all the time" ([[Vogels 10 Lessons from 10 Years of AWS]]) = Process Power
+- "APIs are forever" ([[Bezos 2002 API Mandate]]) = Switching Costs construction
+
+The two mentors converge through Helmer's framework.
 
 ---
 
-## Core Frames (Pending Citation)
+## Core Frames (now backed by citations)
 
-*Stub list, each will graduate to a primary-source citation as ingestion completes.*
-
-- **Seven specific Powers, not infinite.** "Competitive advantage" is fuzzy; the seven Powers are precise.
-- **Every Power has Benefit + Barrier.** If you have one without the other, you do not have a Power.
-- **Powers establish on the S-curve.** Different Powers lock in at different stages: origination, take-off, stability.
-- **Counter-Positioning is the most underrated.** The incumbent cannot respond without cannibalizing — even if they see you coming.
-- **You can have more than one Power, but rare.** Most great businesses have one dominant Power and possibly a secondary.
-- **Strategy = the route to Power.** Power without strategy is luck; strategy without Power is theater.
+- **Seven specific Powers exist; "competitive advantage" is fuzzy, the Powers are precise.** ([[Helmer 7 Powers Book]]) Strategy discussions that do not name one of the 7 are theater.
+- **Each Power requires both Benefit and Barrier.** ([[Helmer 7 Powers Book]]) Benefit creates value; Barrier prevents imitation. One without the other is not a Power.
+- **Strategy = the route to Power.** ([[Helmer 7 Powers Book]]) Without Power, strategy is theater. Without strategy, Power is luck.
+- **Most "moats" are not Powers.** ([[Helmer Acquired Podcast]]) Network effects, first-mover, brand recognition: each requires the precise Benefit + Barrier test.
+- **Counter-Positioning Barrier is psychological/structural, not technical.** ([[Helmer Counter-Positioning Deep Dive]]) The incumbent could respond; cannibalization risk + agency problem prevents it.
+- **Counter-Positioning is a transition Power.** ([[Helmer Counter-Positioning Deep Dive]]) Lasts a few years; build other Powers for sustainability.
+- **Find Counter-Positioning opportunities by finding what the incumbent's economics depend on.** ([[Helmer Counter-Positioning Deep Dive]]) Design around it; the incumbent rationally will not respond.
+- **Stacked Powers compound; aim for multiple, not one.** ([[Helmer 7 Powers Applied to AWS]]) AWS has four; this is the most durable profile.
+- **Powers can be built sequentially.** ([[Helmer 7 Powers Applied to AWS]]) Counter-Positioning often starts; others follow over years.
+- **Use Helmer's framework to evaluate which Vogels/Bezos disciplines actually produce durability.** ([[Helmer 7 Powers Applied to AWS]]) "Everything fails" = Process Power. "APIs are forever" = Switching Costs.
 
 ---
 
