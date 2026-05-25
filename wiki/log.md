@@ -21,6 +21,15 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Engineer-Planner Phase 7 - Lint and Close
+
+- Phase: 7 of 7 (lint + session close)
+- Pages updated: wiki/sources/_index.md (8 new sources organized into 3 new sections), wiki/entities/_index.md (mentor bench split into founder-operator + engineer-planner poles), wiki/concepts/_index.md (new Engineering Discipline section)
+- Pages created: wiki/meta/2026-05-26-engineer-planner-training-session.md (closing summary, c-000015)
+- Lint results: 14 new pages all have valid addresses (c-000002 through c-000015); 16 new pages have zero em-dashes; orphan check shows all new pages with 6+ inbound links; pre-existing em-dashes in 2 index files untouched per lint rule.
+- Counter state: was 3 at session start (rebuilt to 2 since only c-000001 existed); now 16. flock unavailable on macOS; used Python fcntl shim at /tmp/alloc_addr.py as single-writer substitute.
+- Session arc: 7 phases, 14 new vault pages, 8 sources ingested, 2 mentors matured, 2 synthesis concept pages, Persona expanded to 2-pole archetype with 1 new decision frame, Operating Principles grew by 17 cited principles across 2 sections. Plan file at /Users/simon/.claude/plans/secondbrain-velvet-crown.md fully executed.
+
 ## [2026-05-26] persona-training | Engineer-Planner Phase 6 - Synthesis
 
 - Phase: 6 of 7 (synthesis, Persona update, hot.md)
