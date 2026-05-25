@@ -13,7 +13,7 @@ tags:
   - engineer
   - mentor
   - engineer-planner
-status: developing
+status: mature
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
@@ -21,10 +21,14 @@ related:
   - "[[Leslie Lamport]]"
   - "[[Carmack Inlined Code]]"
   - "[[Carmack QuakeCon 2013]]"
+  - "[[Carmack Lex Fridman 309]]"
+  - "[[Carmack Plan Archive 1998]]"
   - "[[entities/_index]]"
 sources:
   - "[[Carmack Inlined Code]]"
   - "[[Carmack QuakeCon 2013]]"
+  - "[[Carmack Lex Fridman 309]]"
+  - "[[Carmack Plan Archive 1998]]"
 ---
 
 # John Carmack
