@@ -250,6 +250,29 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Rabois 20VC Interview]]: 20VC + Founder's Field Guide themes
 - [[Rabois PayPal Mafia Hiring]]: cross-Mafia hiring template (PayPal → YouTube → Stripe etc.)
 
+## AI-Native (Altman + Amodei + Hassabis)
+
+### Altman (AGI economics + YC playbook)
+
+- [[Altman YC Essays]]: Startup Playbook (2015) + How to Succeed with a Startup (2019)
+- [[Altman AGI Economics]]: Moore's Law for Everything (2021), The Intelligence Age (2024)
+- [[Altman Interviews Synthesis]]: Lex Fridman + Trevor Noah + Bill Gates appearances
+- [[Altman Board Ousting]]: Nov 2023 OpenAI governance crisis + post-mortems
+
+### Amodei (safety-focused AI + Constitutional AI)
+
+- [[Amodei Machines of Loving Grace]]: 14,000-word AI optimism essay (Oct 2024)
+- [[Amodei RSP Constitutional AI]]: Responsible Scaling Policy + Constitutional AI papers
+- [[Amodei Lex Fridman]]: Nov 2024 episode 452 + Hard Fork themes
+- [[Amodei Anthropic Launches]]: Claude product strategy through Claude 4
+
+### Hassabis (AGI through science)
+
+- [[Hassabis Nobel Lecture]]: Dec 2024 lecture on AlphaFold
+- [[Hassabis Lex Fridman]]: Jan 2024 ep. 401 career synthesis
+- [[Hassabis DeepMind Research Strategy]]: AlphaGo → AlphaStar → AlphaFold → Gemini progression
+- [[Hassabis Keynote Synthesis]]: Founders Forum + TED + Davos themes
+
 ## Engineering References
 
 - [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (Dean/Boner, 2012)
