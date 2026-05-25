@@ -88,9 +88,9 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Active Threads
 
-- **Unicorn-expansion roadmap (NEW, 2026-05-26):** 8-phase plan at `~/.claude/plans/second-brain-jazzy-ullman.md`. Phase 1 (Founder Resilience: Horowitz, Naval, Feld, Chesky) is highest leverage and recommended first. When user says "let's do phase X" or "expand the brain", reference this roadmap.
-- Phase 7 lint + close pending (em-dash scan on session author prose, address validation, orphan check, index updates, session summary at `wiki/meta/2026-05-26-unicorn-builder-training-session.md`).
-- Roadmap-deferred to next training sessions: Phase 1 Horowitz/Naval/Feld/Chesky, Phase 2 Munger/Kahneman/Taleb/Christensen, Phase 3 Hoffman/Gurley/Thiel/Maples, Phase 4 Roberge/Ross/Dunford/Raskin, Phase 5 Grove/Slootman/McCord/Rabois, Phase 6 Altman/Amodei/Hassabis, Phase 7 Gurley deep/Choudary, Phase 8 Duke/Blank/Fitzpatrick.
+- **Unicorn-expansion roadmap (2026-05-26):** 8-phase plan at `~/.claude/plans/second-brain-jazzy-ullman.md`. Phase 1 (Founder Resilience) COMPLETE. Now running Phase 2-8 sequentially.
+- **Phase 2 in progress:** Mental Models pole (Munger, Kahneman, Taleb, Christensen). Counter starts at c-000072. Concept pages planned: Mental Models Toolkit, Disruption vs Aggregation, Antifragility for Startups.
+- Roadmap-deferred to subsequent phases (after Phase 2): Phase 3 Hoffman/Gurley/Thiel/Maples (Capital), Phase 4 Roberge/Ross/Dunford/Raskin (GTM), Phase 5 Grove/Slootman/McCord/Rabois (Operating), Phase 6 Altman/Amodei/Hassabis (AI-Native), Phase 7 Gurley deep/Choudary (Marketplace+Consumer), Phase 8 Duke/Blank/Fitzpatrick (Decision+Customer Discovery).
 - Out of scope per roadmap: design pole (Fadell, Ive), vertical-specific domain mentors (fintech, healthtech etc.), public-company operator depth (Iger, Dimon, Buffett), engineer-planner second wave (Lampson, Allspaw, Larson).
 
 ## Repo Locations
