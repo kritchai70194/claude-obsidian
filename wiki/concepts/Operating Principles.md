@@ -1148,6 +1148,100 @@ Imagine the most extreme version of the experience you offer (greeted at the air
 
 ---
 
+## Mental Models
+
+The multidisciplinary toolkit for cross-domain pattern matching. Cuts across every other section. Pulled in when first-hand intuition runs out.
+
+### Build a latticework of models from multiple disciplines
+
+> "The first rule is that you can't really know anything if you just remember isolated facts and try and bang 'em back. If the facts don't hang together on a latticework of theory, you don't have them in a usable form." ([[Munger Poor Charlies Almanack]])
+
+Mathematics (compound interest, decision trees, probability), statistics (Gaussian, regression to mean, fat tails), psychology (bias inventory), biology (evolution, niches), physics (equilibrium, critical mass), economics (opportunity cost, supply curves), history (base rates, structural stability). Most strategic mistakes are not execution errors but model-selection errors.
+
+### Invert, always invert
+
+> "Invert, always invert. Turn a situation or problem upside down. Look at it backward." ([[Munger USC Misery]])
+
+Forward thinking is biased. Ask what would guarantee failure, then avoid that. The 2007 USC speech is the canonical inversion masterclass. The corrective for planning fallacy and narrative-driven strategy.
+
+### Avoid stupidity beats seek brilliance
+
+> "It is remarkable how much long-term advantage people like us have gotten by trying to be consistently not stupid, instead of trying to be very intelligent." ([[Munger Berkshire Q&A]])
+
+The asymmetry: brilliance is hard to maintain and luck-dependent; avoiding stupidity is learnable and durable. Filter out the obviously bad before optimizing for the merely good.
+
+### 25 standard causes of human misjudgment
+
+> "Reward and punishment superresponse tendency, liking/loving tendency, doubt-avoidance tendency, inconsistency-avoidance tendency..." ([[Munger Psychology of Misjudgment]])
+
+Munger's 1995 Harvard speech compresses the bias literature into 25 named tendencies. Use as a checklist when evaluating decisions, especially under social pressure or emotional state. The Lollapalooza effect (multiple biases acting in same direction) produces extreme outcomes.
+
+### System 1 vs System 2
+
+> "System 1 operates automatically and quickly, with little or no effort and no sense of voluntary control. System 2 allocates attention to the effortful mental activities that demand it." ([[Kahneman Thinking Fast and Slow]])
+
+Most everyday decisions are System 1. System 2 is the override. Recognizing which system is active is the precondition for correcting bias. Most strategic mistakes are System 1 confidence applied to System 2 problems.
+
+### Loss aversion is 2x gain attraction
+
+> "Losses loom larger than gains. The aversion to the failure of not reaching the goal is much stronger than the desire to exceed it." ([[Kahneman Prospect Theory]])
+
+Empirically, losses are weighted ~2x relative to equivalent gains. Affects pricing (frame as savings not cost), feature deprecation (removing what users have is much harder than not adding it), and risk-taking (founders avoid bets with possible losses even when expected value is positive).
+
+### Anchoring is the strongest bias
+
+The number presented first biases all subsequent estimates, even when obviously irrelevant. In negotiation, the first offer biases the final price. In strategy, the first market-size estimate biases growth ambition for years. The mitigation: generate independent estimates from multiple analysts before exchanging numbers.
+
+### Noise is the unrecognized cousin of bias
+
+> "Wherever there is judgment there is noise, and more of it than you think." ([[Kahneman Noise Book]])
+
+Variation in judgment within or across people is as costly as bias and more often unrecognized. Decision protocols, structured rubrics, prediction markets, and algorithmic assists reduce noise.
+
+### Fat-tailed distributions break Gaussian intuition
+
+> "There are two domains, Mediocristan and Extremistan. In Mediocristan, no single observation can meaningfully change the aggregate. In Extremistan, a single observation can change everything." ([[Taleb Black Swan]])
+
+Most startup-relevant metrics are Extremistan: customer LTV (whales dominate), hire impact (top 1% is 10-100x), investor returns (one outlier in 50). Reasoning about averages is a category error in Extremistan.
+
+### Antifragile gains from disorder
+
+> "Some things benefit from shocks; they thrive and grow when exposed to volatility, randomness, disorder, and stressors and love adventure, risk, and uncertainty." ([[Taleb Antifragile]])
+
+Three categories: fragile (harmed by disorder), robust (unaffected), antifragile (gains). Most things mistaken for robust are actually fragile. Antifragile structures: startup portfolios, evolution, learning systems.
+
+### Optionality dominates prediction
+
+> "Optionality is the property of asymmetric upside (preferably unlimited) with correspondingly limited downside (preferably tiny)." ([[Taleb Antifragile]])
+
+Predicting which startup wins is hard; positioning to participate in many possible winners is easier. The barbell strategy (extreme safety paired with extreme risk; avoid the medium-risk middle) is the formal version.
+
+### Skin in the game is the credibility prerequisite
+
+> "Don't tell me what you think, tell me what's in your portfolio." ([[Taleb Skin in the Game]])
+
+If you don't bear consequences of being wrong, your opinion is not credible signal. Discount any advice not backed by an irreversible bet. Most pundits, consultants, and economists fail this test; founders pass it by definition.
+
+### Disruption from below is harder to see than competitive threats
+
+> "Incumbents fail not by being out-managed but by being well-managed." ([[Christensen Innovators Dilemma]])
+
+Sustaining innovations serve best customers; disruptive innovations enter under-served segments or new markets. The incumbent's rational decisions (serve best customers, focus on high-margin) prevent response until too late. Two flavors: low-end disruption (Honda vs Detroit) and new-market disruption (PC vs mainframe).
+
+### Jobs to Be Done is the causal frame
+
+> "Customers don't buy products; they hire them to do jobs." ([[Christensen JTBD]])
+
+Demographic segmentation is descriptive, not causal. Job segmentation is causal: who is hiring this product to do what job, in what circumstances. Reframes competitive analysis: your competitor is whatever the customer was using to do the job before.
+
+### Resources, Processes, Values define organizational capability
+
+> "Things companies cannot do are most often determined by their values." ([[Christensen Innovators Solution]])
+
+RPV: organizations have capabilities defined by what resources they have, what processes they use, and what values prioritize what gets funded. Disruption fails because the values of an incumbent prevent investing in low-margin emerging markets. Build an autonomous unit with different values to pursue disruptive growth.
+
+---
+
 ## Things This Brain is Explicitly Skeptical Of
 
 - Productivity advice that's archetype-neutral (5am club, etc.)
