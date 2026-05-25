@@ -20,52 +20,53 @@ Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
 
 ## Operating Identity
 
-**Archetype: Technical CEO, with engineer-planner pole.** This brain reads, decides, and synthesizes from two complementary stances:
+**Archetype: Technical CEO with three complementary poles.** This brain reads, decides, and synthesizes from three stances:
 
 - **Founder-operator pole** (6 mentors, all mature): [[Jeff Bezos]], [[Patrick Collison]], [[John Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]]
 - **Engineer-planner pole** (2 mentors, both mature): [[John Carmack]], [[Leslie Lamport]]
+- **Unicorn-builder pole** (3 mentors, all mature): [[Lenny Rachitsky]], [[Ben Thompson]], [[Paul Graham]]
 
-See [[Persona]] for full operating identity. [[Operating Principles]] holds 50+ cited decision principles across 6 sections. Source roadmaps: [[seed-corpus-technical-ceo]] (founder-operator) and [[seed-corpus-engineer-planners]] (engineer-planner).
+See [[Persona]] for full operating identity. [[Operating Principles]] holds 70+ cited decision principles across 8 sections (Time Horizon, Product Discipline, Customer Direction, Decision Mechanics, Engineering Disposition, Strategic Durability, Early-Stage Epistemics, Communication, Operational Discipline). Source roadmaps: [[seed-corpus-technical-ceo]], [[seed-corpus-engineer-planners]], [[seed-corpus-unicorn-builders]].
 
-When the question is "how do we build this strategically", the founder-operator pole leads. When the question is "how do we plan the engineering work", the engineer-planner pole leads.
+**Pole assignment by question type:**
+- "How do we build this strategically?" → founder-operator pole leads
+- "How do we plan the engineering work?" → engineer-planner pole leads
+- "Have we found PMF? Is this defensible? Should we start this?" → unicorn-builder pole leads
 
-Default synthesis: long-horizon over local maxima, customer obsession, written-memo discipline, first principles, regret minimization for irreversible decisions, two-way doors for the rest, and **plan/spec before code** (new decision frame this session).
+Default synthesis: long-horizon over local maxima, customer obsession, written-memo discipline, first principles, regret minimization for irreversible decisions, two-way doors for the rest, plan/spec before code, and (new this session) PMF as measurable, Aggregation Theory for defensibility, growth-rate as compass.
 
 ## Last Updated
 
-2026-05-26 (Engineer-Planner session, Phase 6 of 7): Engineer-planner pole synthesized into [[Persona]] (added 2 mentors, 1 decision frame) and 2 new concept pages ([[Planning Before Code]], [[Formal Specification Discipline]]). Phase 7 lint pending.
+2026-05-26 (Unicorn-Builder session, Phase 6 of 7 complete): Three synthesis concept pages written ([[Product-Market Fit]], [[Aggregation Theory]], [[Early-Stage Discipline]]). [[Persona]] expanded to three-pole archetype with 10 decision frames (was 7). All 3 unicorn-builder mentors mature. Phase 7 lint pending.
 
-2026-05-26 (Engineer-Planner session, Phases 4-5): [[Leslie Lamport]] matured. 4 sources ingested: [[Lamport Thinking for Programmers]] (writing-is-thinking thesis), [[Lamport TLA+ Course Intro]] (mechanical checking as feedback loop), [[Lamport Specifying Systems Ch1-3]] (the chapters where the methodology lives, before the syntax), [[Lamport Paxos Made Simple]] (rewrite-as-engineering-discipline). 7 principles added to [[Operating Principles]]: specification-is-separate, writing-is-medium-of-thinking, model-checker-as-feedback-loop, small-specs-surface-deep-questions, not-thinking-guarantees-mistakes, clarity-is-engineering-work, rewrite-when-it-fails.
+2026-05-26 (Unicorn-Builder Phases 1-5): Scaffolded unicorn-builder pole. Matured [[Lenny Rachitsky]] (4 sources: PMF Guide, Retention Benchmarks, North Star Metric, Chesky Founder Mode). Matured [[Ben Thompson]] (4 sources: Aggregation Theory, Defining Aggregators, Bill Gates Line, End of the Beginning). Matured [[Paul Graham]] (4 essays: How to Start a Startup, Do Things That Don't Scale, Startup = Growth, How to Get Startup Ideas). Operating Principles gained two new sections (Product Discipline + Strategic Durability + Early-Stage Epistemics) with 20+ new cited principles.
 
-2026-05-26 (Engineer-Planner session, Phases 2-3): [[John Carmack]] matured. 4 sources ingested: [[Carmack Inlined Code]] (state-mutation-visibility thesis), [[Carmack QuakeCon 2013]] (optimization-as-architecture, static-analysis-as-infrastructure), [[Carmack Lex Fridman 309]] (protected-focus-as-substrate), [[Carmack Plan Archive 1998]] (engineering-decisions-written-publicly). 10 principles added to [[Operating Principles]] in Engineering Disposition section.
+2026-05-26 (Engineer-Planner session, prior): Engineer-planner pole shipped. 8 sources, 2 mentors matured (Carmack, Lamport), 17 new principles, Persona expanded to two-pole archetype. Session summary at `wiki/meta/2026-05-26-engineer-planner-training-session.md`.
 
-2026-05-26 (Engineer-Planner session, Phase 1): Scaffolded engineer-planner pole. Created [[seed-corpus-engineer-planners]] (8-source roadmap, Carmack + Lamport, 4 sources each). Stub mentor pages for Carmack and Lamport. DragonScale addresses c-000002 through c-000004 allocated. Plan file at `/Users/simon/.claude/plans/secondbrain-velvet-crown.md` (approved).
-
-2026-05-24 (Phase 8, prior session): Founder-operator persona training closed. 25 sources, 6 of 6 mentors mature, Operating Principles fully cited and mature. See `wiki/meta/2026-05-24-persona-training-session.md`.
+2026-05-24 (Phase 8, founder-operator session): 25 sources, 6 of 6 mentors mature, Operating Principles fully cited. See `wiki/meta/2026-05-24-persona-training-session.md`.
 
 ## Plugin State
 
 - **Version**: 1.6.0 (no changes this session, vault-content work only)
 - **Skills**: 11 (wiki, wiki-ingest, wiki-query, wiki-lint, wiki-fold, save, autoresearch, canvas, defuddle, obsidian-bases, obsidian-markdown)
-- **Scripts**: `scripts/allocate-address.sh`, `scripts/tiling-check.py`, `scripts/boundary-score.py`
-- **flock note**: macOS lacks `/usr/bin/flock`. This session used `/tmp/alloc_addr.py` (Python fcntl shim) as single-writer substitute. Counter file at `.vault-meta/address-counter.txt` rebuilt from existing addresses at session start.
+- **Scripts**: `scripts/allocate-address.sh` (requires flock, unavailable on macOS), `/tmp/alloc_addr.py` (Python fcntl shim used this session), `scripts/tiling-check.py`, `scripts/boundary-score.py`
 - **Hooks**: 4 (SessionStart, PostCompact, PostToolUse stages wiki/, .raw/, .vault-meta/, Stop)
 
 ## DragonScale Mechanisms
 
 1. **Fold operator** (Mechanism 1): unchanged this session; 1 fold exists at `wiki/folds/fold-k3-from-2026-04-23-to-2026-04-24-n8.md`.
-2. **Deterministic addresses** (Mechanism 2): vault counter advanced this session. Pre-session: counter at 3, c-000001 only on DragonScale Memory.md. Post-session: counter at 15, addresses c-000002 through c-000014 assigned (seed corpus, 2 entities, 8 sources, 2 concepts). All new pages have addresses.
+2. **Deterministic addresses** (Mechanism 2): vault counter at 35. Addresses c-000001 through c-000034 assigned. All new pages have addresses. Counter advanced 19 this session (c-000016 through c-000034 = 19 pages: 1 seed corpus + 3 entities + 12 sources + 3 concept pages).
 3. **Semantic tiling lint** (Mechanism 3): unchanged this session; last tiling report at `wiki/meta/tiling-report-2026-04-24.md`.
-4. **Boundary-first autoresearch** (Mechanism 4): unchanged this session; sources for engineer-planner pole were hand-picked, not autoresearch-discovered.
+4. **Boundary-first autoresearch** (Mechanism 4): unchanged; sources hand-picked, not autoresearch-discovered.
 
 ## Session Statistics
 
-- **Sources ingested this session**: 8 (4 Carmack + 4 Lamport)
-- **Mentor entities matured**: 2 ([[John Carmack]], [[Leslie Lamport]])
-- **New concept pages**: 2 ([[Planning Before Code]], [[Formal Specification Discipline]])
-- **New principles in Operating Principles**: 17 (Engineering Disposition expanded by 12, Communication expanded by 5)
-- **Persona changes**: bench grew from 6 to 8 mentors; 1 new decision frame ("Plan/spec before code"); archetype description expanded to acknowledge engineer-planner pole
-- **Addresses allocated**: c-000002 through c-000014 (13 addresses)
+- **Sources ingested this session**: 12 (4 Lenny + 4 Thompson + 4 Graham)
+- **Mentor entities matured**: 3 ([[Lenny Rachitsky]], [[Ben Thompson]], [[Paul Graham]])
+- **New concept pages**: 3 ([[Product-Market Fit]], [[Aggregation Theory]], [[Early-Stage Discipline]])
+- **New principles in Operating Principles**: ~22 (Product Discipline section ~11, Strategic Durability ~10, Early-Stage Epistemics ~10)
+- **Persona changes**: bench grew from 8 to 11 mentors; 3 new decision frames (PMF check, defensibility check, growth-rate check); archetype expanded to three poles
+- **Addresses allocated**: c-000016 through c-000034 (19 addresses)
 
 ## Style Preferences
 
@@ -75,9 +76,9 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Active Threads
 
-- Phase 7 lint + close pending (orphan check, dead-link check, frontmatter validation, address validation, session summary at `wiki/meta/2026-05-26-engineer-planner-training-session.md`).
-- Deferred to next corpus iteration: Carmack VR/Oculus-era talks, Carmack Keen AGI material, Lamport Time/Clocks paper, Lamport Byzantine Generals, Lamport Turing Award lecture.
-- Deferred mentors (next engineer-planner expansion): John Allspaw (resilience engineering), Butler Lampson (Hints for Computer System Design), Will Larson (engineering management).
+- Phase 7 lint + close pending (em-dash scan on session author prose, address validation, orphan check, index updates, session summary at `wiki/meta/2026-05-26-unicorn-builder-training-session.md`).
+- Deferred to next session: Hamilton Helmer (7 Powers, complementary moat framework), Andrew Chen (growth loops), Reid Hoffman (Blitzscaling), Sam Altman (AI company building), Marc Andreessen (PMF, Strong vs Weak Hands).
+- Deferred to Plan 3+: design pole (Tony Fadell, Jony Ive), founder psychology pole (Ben Horowitz Hard Things, Naval), AI-vertical specialization (Demis Hassabis, Dario Amodei).
 
 ## Repo Locations
 
