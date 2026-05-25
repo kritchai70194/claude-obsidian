@@ -49,6 +49,9 @@ related:
   - '[[Lamport TLA+ Course Intro]]'
   - '[[Lamport Specifying Systems Ch1-3]]'
   - '[[Lamport Paxos Made Simple]]'
+  - '[[Lenny Rachitsky]]'
+  - '[[Lenny PMF Guide]]'
+  - '[[Lenny Retention Benchmarks]]'
 ---
 
 # Operating Principles
