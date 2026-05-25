@@ -43,6 +43,14 @@ related:
   - '[[Founder Resilience]]'
   - '[[Founder Mode]]'
   - '[[seed-corpus-founder-resilience]]'
+  - '[[Charlie Munger]]'
+  - '[[Daniel Kahneman]]'
+  - '[[Nassim Taleb]]'
+  - '[[Clayton Christensen]]'
+  - '[[Mental Models Toolkit]]'
+  - '[[Disruption vs Aggregation]]'
+  - '[[Antifragility for Startups]]'
+  - '[[seed-corpus-mental-models]]'
 ---
 
 # Persona, Operating Identity
