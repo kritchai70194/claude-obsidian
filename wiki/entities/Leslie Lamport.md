@@ -101,6 +101,11 @@ The pedagogical pattern: pick a small system whose spec fits on a slide (distrib
 - **TLA+ is a notation; the discipline is what matters.** ([[Lamport TLA+ Course Intro]]) Other notations might work; this is the one that has been validated for decades.
 - **The model checker is the feedback loop.** ([[Lamport TLA+ Course Intro]]) Specifications without checking are documentation; specifications with checking are thinking.
 - **Small specs surface deep questions.** ([[Lamport TLA+ Course Intro]]) A two-page spec of a counter reveals questions a thousand lines of code would not.
+- **Conceptual scaffolding precedes syntax.** ([[Lamport Specifying Systems Ch1-3]]) Chapters 1-3 enable everything that follows; skip them and you learn syntax without understanding.
+- **Show the math; name its accessibility.** ([[Lamport Specifying Systems Ch1-3]]) Don't pretend the math isn't there; demonstrate that what is there is small.
+- **Clarity is engineering work.** ([[Lamport Paxos Made Simple]]) The same content can be incomprehensible or trivial depending on how it is written.
+- **Rewrite your own work when it fails to communicate.** ([[Lamport Paxos Made Simple]]) The artifact is the writing, not your ego; if it doesn't land, rewrite.
+- **Length is not the metric; clarity is.** ([[Lamport Paxos Made Simple]]) 13 pages of clear writing beats 30 pages of unclear writing.
 
 ---
 
