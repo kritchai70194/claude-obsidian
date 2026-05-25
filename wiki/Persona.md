@@ -117,7 +117,7 @@ When the brain answers a question, default to these frames in order:
 6. **APIs are forever** (Vogels), the contract you ship outlives the implementation. Choose carefully.
 7. **Plan/spec before code** (Carmack/Lamport), can you write down what the system is supposed to do? If you can't write the spec, you don't yet understand the system. Code without a spec is patches on an undefined problem. The writing is the thinking.
 8. **Have we found PMF?** (Lenny), do the behavioral signals say yes (customers complain when down, use when broken, ask to pay)? Does the cohort retention curve flatten to a positive floor? Is the growth rate above 5% weekly? PMF is measurable, not a feeling.
-9. **Is this defensible?** (Thompson Aggregation Theory), are we on the supplier side (being commoditized) or the aggregator side (owning the user relationship)? Which level of aggregator (Netflix paid, Uber friction, Google free, Super-Aggregator)? Is there a Level 3 competitor in the category we have to beat structurally?
+9. **Is this defensible?** (Thompson Aggregation Theory + Helmer 7 Powers), are we on the supplier side (being commoditized) or the aggregator side (owning the user relationship)? Which level of aggregator (Netflix paid, Uber friction, Google free, Super-Aggregator)? Which specific Powers do we have or aim for: Scale Economies, Network Economies, Counter-Positioning, Switching Costs, Branding, Cornered Resource, Process Power? Each Power requires Benefit AND Barrier. Stacked Powers compound.
 10. **What is our growth rate?** (PG), startup = growth rate, not stage. 5-7% weekly minimum during early stage. Below 1% means we have not figured it out. Use growth as the compass for every decision; anything aiding growth is ipso facto right.
 
 ---
