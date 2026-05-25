@@ -130,6 +130,36 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Chesky Snow White Design]]: 2012 Pixar storyboarding project; design is how the company thinks
 - [[Chesky 11-Star Experience]]: Reid Hoffman Masters of Scale, "Handcrafted" (2017)
 
+## Mental Models (Munger + Kahneman + Taleb + Christensen)
+
+### Munger (latticework + inversion)
+
+- [[Munger Poor Charlies Almanack]]: the canonical compilation; 11 talks + lattice essays + reading list (4th ed. 2023, free at poorcharliesalmanack.com)
+- [[Munger Psychology of Misjudgment]]: the 1995 Harvard speech; 25 standard causes of human misjudgment; Lollapalooza effect
+- [[Munger USC Misery]]: 2007 USC Law School commencement; inversion masterclass on guaranteeing life misery
+- [[Munger Berkshire Q&A]]: compiled annual meeting Q&A; incentives, circle of competence, asymmetry of avoiding stupidity
+
+### Kahneman (dual-process cognition + bias inventory)
+
+- [[Kahneman Thinking Fast and Slow]]: canonical book on System 1/2, prospect theory, biases, the two selves (2011)
+- [[Kahneman Prospect Theory]]: foundational 1979 paper with Tversky; S-shaped value function, reflection effect, loss aversion
+- [[Kahneman Noise Book]]: 2021 with Sibony+Sunstein; noise as the unrecognized cousin of bias; decision hygiene
+- [[Kahneman Lex Fridman]]: career-spanning interview; experiencing vs remembering self; pessimism about overcoming biases
+
+### Taleb (uncertainty + antifragility + optionality)
+
+- [[Taleb Antifragile]]: thesis book on fragile/robust/antifragile triad, via negativa, barbell, optionality (2012)
+- [[Taleb Skin in the Game]]: asymmetric incentives, IYI, minority rule, surgeons should not look like surgeons (2018)
+- [[Taleb Black Swan]]: outlier events, Mediocristan vs Extremistan, narrative fallacy, the turkey problem (2007)
+- [[Taleb Bed of Procrustes]]: aphorism collection summarizing Incerto themes (2010)
+
+### Christensen (disruption + JTBD)
+
+- [[Christensen Innovators Dilemma]]: foundational text on why incumbents lose; sustaining vs disruptive (1997)
+- [[Christensen JTBD]]: HBR essay + Christensen Institute; Milkshake Marketing case (2016)
+- [[Christensen Innovators Solution]]: how to act on the dilemma; autonomous unit, modular vs interdependent (2003)
+- [[Christensen How Will You Measure Your Life]]: HBR essay + book; applying business frameworks to personal life (2010)
+
 ## Engineering References
 
 - [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (Dean/Boner, 2012)
