@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Unicorn-Builder Phase 6 - Graham + Synthesis
+
+- Phase: 6 of 7 (Graham ingest + 3 synthesis concept pages + Persona update)
+- Sources ingested: [[PG How to Start a Startup]] (2005), [[PG Do Things That Dont Scale]] (2013), [[PG Startup = Growth]] (2012), [[PG How to Get Startup Ideas]] (2012)
+- Pages created: [[PG How to Start a Startup]], [[PG Do Things That Dont Scale]], [[PG Startup = Growth]], [[PG How to Get Startup Ideas]], [[Product-Market Fit]], [[Aggregation Theory]], [[Early-Stage Discipline]]
+- Pages updated: [[Paul Graham]] (seed -> mature, 12 cited core frames), [[Operating Principles]] (new Early-Stage Epistemics section with 10 cited principles), [[Persona]] (three-pole archetype, 11 mentors in bench, 10 decision frames, growth plan rewritten), [[hot.md]] (full session refresh)
+- Key insight: The four PG essays compress into a coherent shape: notice problems you live -> build to remove suck -> recruit users manually -> measure growth ruthlessly. Combined with Lenny's PMF measurability and Thompson's Aggregation Theory, the brain now has three complementary stances for the full lifecycle of building a unicorn: getting to PMF (PG + Lenny), measuring PMF (Lenny), and securing durability after PMF (Thompson).
+
 ## [2026-05-26] persona-training | Unicorn-Builder Phase 5 - Thompson pass 2
 
 - Phase: 5 of 7 (Thompson ingest pass 2 of 2)
