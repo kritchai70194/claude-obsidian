@@ -133,6 +133,13 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 - [[Nassim Taleb]], antifragile gains from disorder while robust merely survives, Mediocristan vs Extremistan (different statistics), optionality dominates prediction, barbell strategy, skin in the game as credibility prerequisite, Lindy effect, via negativa
 - [[Clayton Christensen]], Disruption from below or new market (incumbents lose by listening too well to best customers), Jobs to Be Done as the causal frame for customer choice, sustaining vs disruptive innovation, Resources/Processes/Values framework
 
+### Capital-strategy pole
+
+- [[Reid Hoffman]], blitzscale = speed over efficiency in winner-take-most markets, the 5 stages (Family to Nation) require different management styles, The Alliance compact (rotational vs transformational vs foundational tours of duty)
+- [[Bill Gurley]], marketplace economics (liquidity, take rate, the rake), burn rate is the company killer, dirty late-stage terms transfer all upside to investors below the unicorn outcome, customer concentration is a moat-killer
+- [[Peter Thiel]], "competition is for losers", monopoly is the goal, the contrarian question ("what important truth do very few agree with"), 4 monopoly characteristics, last mover advantage in defined markets, definite optimism over indefinite
+- [[Mike Maples]], inflections precede ideas (ideas without inflections are tar pits), live in the future to see inflections, pattern breaking vs pattern matching, backable founder traits (insight, authenticity, creativity, persuasiveness, stamina)
+
 ---
 
 ## Core Operating Principles
