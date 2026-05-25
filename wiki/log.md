@@ -21,6 +21,13 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Phase 7 Marketplace + Consumer Deep Complete
+
+- Phase: 7 of 8
+- New mentor: Sangeet Paul Choudary (cross-listed with Gurley + Chesky)
+- Counter: 189 to 198 (smallest phase by design)
+- Next: Phase 8 Decision Protocols + Customer Discovery (Duke, Blank, Fitzpatrick) — final
+
 ## [2026-05-26] persona-training | Phase 6 AI-Native Sub-Pole Complete
 
 - Phase: 6 of 8
