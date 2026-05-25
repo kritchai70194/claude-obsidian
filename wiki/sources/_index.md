@@ -190,6 +190,36 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Maples Inflections vs Ideas]]: ideas without inflections are tar pits
 - [[Maples Backable Founders]]: 5 traits filter (insight, authenticity, creativity, persuasiveness, stamina)
 
+## GTM / Sales (Roberge + Ross + Dunford + Raskin)
+
+### Roberge (data-driven sales)
+
+- [[Roberge Sales Acceleration Formula]]: the canonical book (Wiley, 2015), 4-step formula
+- [[Roberge HubSpot Playbook]]: scaling 0 to $100M ARR, inbound engine
+- [[Roberge Math of B2B Sales]]: CAC payback, LTV/CAC, NRR honesty
+- [[Roberge Interviews Synthesis]]: Lenny + First Round Review + SaaStr themes
+
+### Ross (outbound prospecting)
+
+- [[Ross Predictable Revenue]]: canonical book (2011), SDR/AE split origin
+- [[Ross Cold Calling 2.0]]: researched outbound methodology
+- [[Ross Podcast Synthesis]]: SaaStr + Founders Journey themes
+- [[Ross From Impossible to Inevitable]]: 7 ingredients, $1M to $100M (with Lemkin, 2016)
+
+### Dunford (positioning)
+
+- [[Dunford Obviously Awesome]]: the canonical positioning book (2019)
+- [[Dunford Sales Pitch Book]]: positioning to pitch translation (2023)
+- [[Dunford Lenny Podcast]]: when to reposition signals, pricing tied to positioning
+- [[Dunford Positioning Not Messaging]]: the strategic-vs-tactical distinction
+
+### Raskin (strategic narrative)
+
+- [[Raskin Zuora Pitch]]: the canonical reframe analysis (Medium 2016)
+- [[Raskin Strategic Narrative]]: the 5-part arc systematized
+- [[Raskin Case Studies]]: Drift, Salesforce, Mulesoft, Yammer
+- [[Raskin Consulting Writeups]]: discovery process, common failure modes
+
 ## Engineering References
 
 - [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (Dean/Boner, 2012)
