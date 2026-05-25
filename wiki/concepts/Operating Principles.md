@@ -39,6 +39,9 @@ related:
   - '[[Vogels 10 Lessons from 10 Years of AWS]]'
   - '[[Vogels Eventually Consistent]]'
   - '[[Vogels Decade of Dynamo]]'
+  - '[[John Carmack]]'
+  - '[[Carmack Inlined Code]]'
+  - '[[Carmack QuakeCon 2013]]'
 ---
 
 # Operating Principles
