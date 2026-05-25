@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Chen Expansion Phase 1 - Scaffold
+
+- Phase: 1 of 3 (Chen mini-session, additive to the unicorn-builder pole)
+- Pages created: [[Andrew Chen]] (seed)
+- Pages updated: [[seed-corpus-unicorn-builders]] (added Chen section, 4 sources AC1-AC4; bench grew from 4 to 5 mentors)
+- Addresses allocated: c-000042 (Chen)
+- Key insight: Chen fills the gap between Helmer's Network Economies (Power = destination) and PG's "do things that don't scale" (manual recruitment). Atomic Network framework explains specifically how to construct the network that becomes the Power. Brain now has destination-and-route stack for network-effect businesses.
+
 ## [2026-05-26] persona-training | Helmer Expansion Phase 3 - Synthesis + Lint + Close
 
 - Phase: 3 of 3 (synthesis, Persona/indices update, lint)
