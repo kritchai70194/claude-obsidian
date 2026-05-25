@@ -85,6 +85,12 @@ All entity pages — people, organizations, products, and tools.
 - [[Patty McCord]], Chief Talent Officer Netflix 1998-2012; *Powerful* (2018), Netflix Culture Deck (2009); freedom and responsibility, hire fully-formed adults, the Keeper Test, pay top-of-market
 - [[Keith Rabois]], GP Khosla Ventures; former COO Square + exec PayPal/LinkedIn; Barrels and Ammunition hiring framework, 1 great hire > 10 average, recruiting is CEO's job, 24-48 hour decisions
 
+#### AI-native sub-pole
+
+- [[Sam Altman]], CEO OpenAI 2019-present; former YC President; "Moore's Law for Everything" (2021), "The Intelligence Age" (2024); AGI economics, compute as new oil, YC playbook
+- [[Dario Amodei]], co-founder/CEO Anthropic; former VP Research OpenAI; "Machines of Loving Grace" (Oct 2024); Constitutional AI, Responsible Scaling Policy, capability resilience test
+- [[Demis Hassabis]], co-founder/CEO Google DeepMind; 2024 Nobel Prize in Chemistry for AlphaFold; AGI through science thesis, game-based research, long-horizon bets
+
 ---
 
 ## Organizations
