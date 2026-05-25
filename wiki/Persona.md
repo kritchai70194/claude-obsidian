@@ -208,6 +208,12 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 - (cross-listed) [[Bill Gurley]] — marketplace economics, take rate, customer concentration
 - (cross-listed) [[Brian Chesky]] — design as strategy, 11-star exercise, atomic network bootstrap
 
+### Decision-customer-discovery sub-pole
+
+- [[Annie Duke]], "resulting" bias, decision journal methodology, Kelly criterion bet sizing, pre-committed kill criteria, truthseeking pods
+- [[Steve Blank]], Customer Development methodology, "get out of the building", search vs execute, pivot as planned response
+- [[Rob Fitzpatrick]], Mom Test discipline (specific past behavior > hypothetical future opinion), commitments scale (time / reputation / money), observed > stated
+
 ---
 
 ## Core Operating Principles
