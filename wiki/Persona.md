@@ -84,6 +84,10 @@ related:
   - '[[AI-Native Economics]]'
   - '[[AI Company Defensibility]]'
   - '[[seed-corpus-ai-native]]'
+  - '[[Sangeet Paul Choudary]]'
+  - '[[Marketplace Liquidity]]'
+  - '[[Consumer Defensibility]]'
+  - '[[seed-corpus-marketplace-consumer]]'
 ---
 
 # Persona, Operating Identity
