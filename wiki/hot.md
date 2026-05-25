@@ -30,8 +30,9 @@ Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
 - **Capital-strategy pole** (4 mentors, all mature): [[Reid Hoffman]], [[Bill Gurley]], [[Peter Thiel]], [[Mike Maples]]
 - **GTM-sales pole** (4 mentors, all mature): [[Mark Roberge]], [[Aaron Ross]], [[April Dunford]], [[Andy Raskin]]
 - **Operating-at-scale pole** (4 mentors, all mature): [[Andy Grove]], [[Frank Slootman]], [[Patty McCord]], [[Keith Rabois]]
+- **AI-native sub-pole** (3 mentors, all mature): [[Sam Altman]], [[Dario Amodei]], [[Demis Hassabis]]
 
-See [[Persona]] for full operating identity. [[Operating Principles]] holds 128+ cited decision principles across 13 sections. Source roadmaps include [[seed-corpus-operating-at-scale]] as the latest.
+See [[Persona]] for full operating identity. [[Operating Principles]] holds 136+ cited decision principles across 14 sections. Source roadmaps include [[seed-corpus-ai-native]] as the latest.
 
 **Pole assignment by question type:**
 - "How do we build this strategically?" → founder-operator pole leads
