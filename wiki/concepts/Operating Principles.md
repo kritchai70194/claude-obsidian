@@ -267,6 +267,48 @@ The abstraction earns its existence when the same shape repeats across many prob
 
 The MapReduce story is told in the talk as: Dean and Ghemawat noticed many parallel jobs had the same shape, so they extracted the shape into a runtime. Worth borrowing as a general abstraction discipline.
 
+### Programmer judgment beats mechanical style rules
+
+Rules about function size, decomposition, or "best practice" are usually wrong in the specific. Context decides.
+
+> "I now specifically disagree" (with rules limiting function size to a page or two). ([[Carmack Inlined Code]])
+
+> "If everything is just run out in a 2000 line function, it is obvious which part happens first, and you can be quite sure that the later section will get executed before the frame is rendered." ([[Carmack Inlined Code]])
+
+The applicable test is not "does this follow the rule" but "does this make the bugs visible when they happen".
+
+### The real enemy is unexpected state mutation
+
+The deep goal of inlining (or pure functions, or any other discipline) is to make state changes legible.
+
+> "The real enemy addressed by inlining is unexpected dependency and mutation of state, which functional programming solves more directly." ([[Carmack Inlined Code]])
+
+> "Most bugs are a result of the execution state not being exactly what you think it is." ([[Carmack Inlined Code]])
+
+### Optimization is upstream of coding
+
+Optimization is a planning exercise, not a coding exercise. It lives in architectural decisions made early, not in micro-optimizations late. Many "optimizations" make the code less optimizable later by obscuring the hot path.
+
+> Carmack at QuakeCon 2013: the bottleneck is rarely where you think; profile first; architectural decisions early constrain optimization possibilities late. ([[Carmack QuakeCon 2013]])
+
+The engineer-planner thesis stated directly: planning is what determines whether optimization is even possible.
+
+### Static analysis as non-negotiable infrastructure
+
+Compiler warnings are errors. Run multiple static analyzers; they catch different bug classes. A bug a tool can catch should never reach production.
+
+> Carmack at QuakeCon 2013: treat warnings as errors; run multiple analyzers; eliminate any bug a tool can find. ([[Carmack QuakeCon 2013]])
+
+Same mental model as the Inlined Code essay applied at a different level: make problems visible before they manifest as runtime failures.
+
+### Local-information incremental progress
+
+Small reversible steps using local information beat big-bang rewrites with global master plans. The shape applies in both ML (gradient descent works for this reason) and engineering (refactor incrementally, not in big bangs).
+
+> "Little tiny steps using local information winds up leading to all the best answers." ([[Carmack QuakeCon 2013]])
+
+This is the operational form of "build first, then talk": local information accumulates into better answers than top-down central planning produces.
+
 ---
 
 ## Communication
