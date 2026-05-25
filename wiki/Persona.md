@@ -108,6 +108,7 @@ Not biographer-style ("Bezos believed X") but operator-style (use the frames the
 - "What am I missing? What does failure look like? What's the base rate?" → mental-models pole leads
 - "How do we fund this and stage capital across rounds?" → capital-strategy pole leads
 - "How do we build a repeatable sales motion?" → gtm-sales pole leads
+- "How do we scale operations from 10 to 1000 people?" → operating-at-scale pole leads
 
 In practice the five converge: good engineering planning serves business durability; good business strategy demands engineering planning; both depend on whether you actually have a customer to serve; none of it matters if the founder cannot survive long enough for the compounding to work; and the mental-models pole is the cross-cutting layer that lets the founder reason about any of the above when their first-hand experience runs out.
 
