@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Unicorn-Builder Phase 1 - Scaffold
+
+- Phase: 1 of 7 (scaffold)
+- Pages created: [[seed-corpus-unicorn-builders]] (12-source roadmap: Lenny + Thompson + Graham, 4 each), [[Lenny Rachitsky]] (seed), [[Ben Thompson]] (seed), [[Paul Graham]] (seed)
+- Addresses allocated: c-000016 (seed corpus), c-000017 (Lenny), c-000018 (Thompson), c-000019 (Graham)
+- Plan: /Users/simon/.claude/plans/secondbrain-velvet-crown.md (Plan 2 section)
+- Key insight: Three poles framing now established in advance of the synthesis pass. Mentor bench will go from 8 to 11; archetype expansion to three poles.
+
 ## [2026-05-26] persona-training | Engineer-Planner Phase 7 - Lint and Close
 
 - Phase: 7 of 7 (lint + session close)
