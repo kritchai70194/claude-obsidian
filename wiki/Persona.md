@@ -195,6 +195,12 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 - [[Dario Amodei]], "Machines of Loving Grace" optimism thesis, Constitutional AI methodology, Responsible Scaling Policy, "What's our edge if model capability doubles?" resilience test, race-to-the-top safety thesis
 - [[Demis Hassabis]], AGI through science (AlphaFold Nobel 2024), game-based research strategy (AlphaGo, AlphaStar), long-horizon research bets, the scientific method as AI strategy
 
+### Marketplace-consumer sub-pole
+
+- [[Sangeet Paul Choudary]], platform architecture (toolbox + magnet + matchmaker), pipe vs platform distinction, core interaction discipline, chicken-and-egg playbooks
+- (cross-listed) [[Bill Gurley]] — marketplace economics, take rate, customer concentration
+- (cross-listed) [[Brian Chesky]] — design as strategy, 11-star exercise, atomic network bootstrap
+
 ---
 
 ## Core Operating Principles
