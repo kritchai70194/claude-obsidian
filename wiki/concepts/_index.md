@@ -62,4 +62,11 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Founder Resilience Discipline
+
+- [[Founder Resilience]], the discipline of surviving the multi-year emotional gauntlet of building a company; synthesizes Horowitz + Naval + Feld on wartime/peacetime, The Struggle, leverage compounding, founder depression, board management
+- [[Founder Mode]], the named operating posture for founder-led companies at scale; Chesky synthesis with Horowitz cross-reference; skip-level engagement, design the company like a product, 11-star ladder
+
+---
+
 ## Add new concepts here as they are extracted from sources.
