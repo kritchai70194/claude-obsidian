@@ -151,6 +151,13 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 - [[Peter Thiel]], "competition is for losers", monopoly is the goal, the contrarian question ("what important truth do very few agree with"), 4 monopoly characteristics, last mover advantage in defined markets, definite optimism over indefinite
 - [[Mike Maples]], inflections precede ideas (ideas without inflections are tar pits), live in the future to see inflections, pattern breaking vs pattern matching, backable founder traits (insight, authenticity, creativity, persuasiveness, stamina)
 
+### GTM-sales pole
+
+- [[Mark Roberge]], data-driven Sales Acceleration Formula (hire on rubric, train uniformly, manage by metric, generate predictable demand), SDR/AE specialization, the unit economics discipline (CAC payback < 12mo, LTV/CAC > 3:1)
+- [[Aaron Ross]], Predictable Revenue methodology, Cold Calling 2.0 (research-based outbound), three sales engines (Seeds, Nets, Spears), the niche discipline (dominate one customer profile before broadening)
+- [[April Dunford]], positioning as strategy (5 components: competitive alternatives, unique attributes, value, target customers, market category), positioning ≠ messaging, negative positioning ("who is this NOT for") is more powerful than positive
+- [[Andy Raskin]], Strategic Narrative 5-part arc (named change → stakes → promised land → obstacles → evidence), lead with the world change not the product, the same narrative serves pitching, recruiting, sales, PR
+
 ---
 
 ## Core Operating Principles
