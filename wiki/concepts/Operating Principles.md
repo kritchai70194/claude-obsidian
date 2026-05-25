@@ -135,6 +135,17 @@ related:
   - '[[Dunford Positioning Not Messaging]]'
   - '[[Raskin Strategic Narrative]]'
   - '[[Raskin Zuora Pitch]]'
+  - '[[Andy Grove]]'
+  - '[[Frank Slootman]]'
+  - '[[Patty McCord]]'
+  - '[[Keith Rabois]]'
+  - '[[Grove High Output Management]]'
+  - '[[Grove OKR Origin]]'
+  - '[[Grove Only the Paranoid Survive]]'
+  - '[[Slootman Amp It Up]]'
+  - '[[McCord Powerful]]'
+  - '[[Rabois Barrel and Ammunition]]'
+  - '[[Rabois Stanford CS183]]'
 ---
 
 # Operating Principles
