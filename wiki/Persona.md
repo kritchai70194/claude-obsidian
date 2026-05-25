@@ -69,6 +69,13 @@ related:
   - '[[Strategic Narrative]]'
   - '[[Positioning as Strategy]]'
   - '[[seed-corpus-gtm-sales]]'
+  - '[[Andy Grove]]'
+  - '[[Frank Slootman]]'
+  - '[[Patty McCord]]'
+  - '[[Keith Rabois]]'
+  - '[[Scaling Operations]]'
+  - '[[Hiring at Scale]]'
+  - '[[seed-corpus-operating-at-scale]]'
 ---
 
 # Persona, Operating Identity
