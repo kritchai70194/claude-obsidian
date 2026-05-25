@@ -52,6 +52,8 @@ related:
   - '[[Lenny Rachitsky]]'
   - '[[Lenny PMF Guide]]'
   - '[[Lenny Retention Benchmarks]]'
+  - '[[Lenny North Star Metric]]'
+  - '[[Lenny Chesky Founder Mode]]'
 ---
 
 # Operating Principles
