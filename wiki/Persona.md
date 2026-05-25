@@ -220,6 +220,8 @@ When the brain answers a question, default to these frames in order:
 20. **What named change in the world makes our category necessary now?** (Raskin), the strategic narrative test. Sales pitches that lead with the product fail because the customer doesn't yet know why they should care. The named world change establishes the context the product fits.
 21. **Who is this NOT for?** (Dunford), the negative positioning test. If you cannot answer it specifically, you do not have positioning. Narrowing the target sharpens the message; broad positioning is weak positioning.
 22. **What is our CAC and LTV at scale, not today?** (Roberge), unit economics under projected steady-state assumptions, not current early-stage anecdotes. Founders systematically fudge: missing founder time in CAC, assuming no churn in LTV, conflating marginal and fully-loaded CAC.
+23. **Are we raising the bar this quarter or holding the line?** (Slootman), the amp-it-up vs steady-state choice. Standards drift down by default; the CEO must actively raise them. Wrong-mode behavior (amping a steady-state team or coasting in a turnaround) breaks the org.
+24. **Is this an adult-treatment problem or a system problem?** (McCord), the Netflix culture frame. If you're writing a policy to control behavior, ask first: should we have hired this person? Don't write policies for the worst case; hire fully-formed adults and trust them.
 
 ---
 
