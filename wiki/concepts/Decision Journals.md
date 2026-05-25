@@ -143,7 +143,7 @@ Most founders go all-in on low-edge bets. The journal captures the edge + uncert
 
 ## Quit Criteria (Duke 2022)
 
-> The optimal time to quit is "when you start to think about quitting"—because most people quit too late. ([[Duke Quit]])
+> The optimal time to quit is "when you start to think about quitting", because most people quit too late. ([[Duke Quit]])
 
 Pre-commit to quit criteria in the journal:
 
