@@ -47,6 +47,7 @@ All entity pages — people, organizations, products, and tools.
 - [[Lenny Rachitsky]], author of Lenny's Newsletter (largest paid Substack on product/growth); PMF is measurable, retention is the signal, NSM as strategy, founder mode = presence
 - [[Ben Thompson]], author of Stratechery; originator of Aggregation Theory; distribution is the moat, aggregators commoditize suppliers, cloud+mobile is the substrate endpoint
 - [[Hamilton Helmer]], founder Strategy Capital; author of "7 Powers" (2016); seven specific Powers each with Benefit + Barrier, Counter-Positioning is the most underrated, strategy = the route to Power
+- [[Andrew Chen]], General Partner at a16z; author "The Cold Start Problem" (2021); former Uber Rider Growth lead; 5-stage Cold Start framework, atomic network bootstrap, growth loops compound while funnels do not
 - [[Paul Graham]], co-founder Y Combinator; 180+ essays since 2001; startup = growth rate, ideas are noticed, do things that don't scale, schlep blindness is competitive advantage
 
 ---
