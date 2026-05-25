@@ -35,6 +35,13 @@ related:
   - '[[Paul Graham]]'
   - '[[Hamilton Helmer]]'
   - '[[Andrew Chen]]'
+  - '[[Ben Horowitz]]'
+  - '[[Naval Ravikant]]'
+  - '[[Brad Feld]]'
+  - '[[Brian Chesky]]'
+  - '[[Founder Resilience]]'
+  - '[[Founder Mode]]'
+  - '[[seed-corpus-founder-resilience]]'
 ---
 
 # Persona, Operating Identity
