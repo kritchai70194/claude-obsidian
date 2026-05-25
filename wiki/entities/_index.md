@@ -95,6 +95,12 @@ All entity pages — people, organizations, products, and tools.
 
 - [[Sangeet Paul Choudary]], platform strategist (Singapore); *Platform Revolution* (2016) and *Platform Scale* (2015); platform architecture (toolbox + magnet + matchmaker), pipe vs platform distinction, core interaction discipline, chicken-and-egg playbooks
 
+#### Decision-customer-discovery sub-pole
+
+- [[Annie Duke]], former poker pro; *Thinking in Bets* (2018), *Quit* (2022); resulting bias, decision journal methodology, Kelly criterion, pre-committed kill criteria
+- [[Steve Blank]], serial entrepreneur (8 startups, 4 IPOs); *Four Steps to the Epiphany* (2005), *Startup Owner's Manual* (2012); Customer Development methodology, "get out of the building", search vs execute
+- [[Rob Fitzpatrick]], YC alum, Foundercentric founder; *The Mom Test* (2013); specific past behavior > hypothetical opinion, commitments scale (time/reputation/money), observed > stated signal hierarchy
+
 ---
 
 ## Organizations
