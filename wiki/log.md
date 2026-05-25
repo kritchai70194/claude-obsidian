@@ -21,6 +21,22 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Engineer-Planner Phase 2 - Carmack pass 1
+
+- Phase: 2 of 7 (Carmack ingest pass 1 of 2)
+- Sources ingested: [[Carmack Inlined Code]] (2007 essay), [[Carmack QuakeCon 2013]] (keynote)
+- Pages created: [[Carmack Inlined Code]], [[Carmack QuakeCon 2013]]
+- Pages updated: [[John Carmack]] (seed -> developing, primary-source citations added), [[Operating Principles]] (6 new principles in Engineering Disposition section, all cited to Carmack sources)
+- Key insight: Carmack's two complementary frames - state mutation visibility (Inlined Code) and optimization-as-architecture (QuakeCon 2013) - extend the brain's engineering disposition beyond the founder-CEO frames it already held.
+
+## [2026-05-26] persona-training | Engineer-Planner Phase 1 - Scaffold
+
+- Phase: 1 of 7 (scaffold)
+- Pages created: [[seed-corpus-engineer-planners]] (8-source roadmap), [[John Carmack]] (seed), [[Leslie Lamport]] (seed)
+- Addresses allocated: c-000002 (seed corpus), c-000003 (Carmack), c-000004 (Lamport)
+- Plan: /Users/simon/.claude/plans/secondbrain-velvet-crown.md
+- Key insight: Mentor template scales cleanly to 7+ entries; no Persona refactoring required to add the engineer-planner pole.
+
 Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
