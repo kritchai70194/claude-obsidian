@@ -1438,6 +1438,110 @@ The defense is multiple customers from the start, even at lower aggregate revenu
 
 ---
 
+## Operating at Scale
+
+The disciplines of going from 10 → 100 → 1000 people. Combines Grove (foundation: managerial leverage + OKRs + 1:1), Slootman (tempo: amp it up), McCord (culture: freedom and responsibility), Rabois (hiring: barrels vs ammunition).
+
+### Manager's Output = output of org + neighboring orgs
+
+> The Manager's Output is the output of his organization plus the output of neighboring organizations he influences. ([[Grove High Output Management]])
+
+Reframes management away from individual contribution. The manager's job is leverage on others' work; the question to ask is "what activity multiplies others' output most?".
+
+### High-leverage activities
+
+> Training, removing bottlenecks, building decision frameworks, the 1:1, hiring. ([[Grove High Output Management]])
+
+Low-leverage: status reports without decisions, meetings about meetings, approval chains that delegation would solve. Discipline: spend time on the leverage activities; refuse the rest.
+
+### Training is the boss's job
+
+> Outsourcing training to HR loses the leverage point. ([[Grove High Output Management]])
+
+The manager's training of subordinates compounds output across the team for years.
+
+### 1:1 is the manager's single highest-leverage tool
+
+> Subordinate-led, weekly, 90 minutes. The manager prepares to listen; the subordinate prepares the agenda. ([[Grove High Output Management]])
+
+Companies that skip 1:1s hit organizational dysfunction by 100-person scale. Cadence and quality of 1:1s predict org health.
+
+### OKRs as Grove designed them
+
+> Quarterly cadence. 3-5 Os and KRs each. 70% scoring as healthy stretch. Public OKRs for transparency. Bottom-up draft, top-down alignment. ([[Grove OKR Origin]])
+
+Most "OKR implementations" violate one or more of these rules and produce bureaucratic exercises instead of alignment tools.
+
+### Strategic inflection points
+
+> Moments when fundamental industry dynamics change. The 10x change. ([[Grove Only the Paranoid Survive]])
+
+Most CEOs notice too late. The discipline: build middle-management feedback loops that flag SIPs early (middle managers are closer to customers than the CEO).
+
+### Tempo is a choice
+
+> Most companies operate at the tempo of the slowest function. The CEO's job is to amp the tempo to match the urgency. ([[Slootman Amp It Up]])
+
+"We're in a hurry around here." CEO tone sets tempo. Slack tone produces slack work.
+
+### Raise standards in hiring
+
+> Every new hire must be better than the median of the function they join. Standards drift down by default; CEO must actively raise them. ([[Slootman Amp It Up]])
+
+The mechanism that compounds team quality over years.
+
+### Sharpen focus
+
+> Refuse to expand into adjacent products until the core is dominant. Most CEOs hedge; concentrate instead. ([[Slootman Amp It Up]])
+
+Snowflake refused data engineering products until cloud data warehouse was dominant. The discipline is uncomfortable; the alternative (product portfolio sprawl) is worse.
+
+### Freedom and responsibility: high context, low control
+
+> The exec layer communicates strategy and outcomes; the team chooses how to deliver. Trust over policy. ([[McCord Powerful]])
+
+Works because the precondition is rigorous hiring. Without high hiring bar, freedom-and-responsibility creates chaos.
+
+### Hire fully formed adults
+
+> Don't write policies for the worst case. ([[McCord Powerful]])
+
+No vacation policy. No expense policy. "Use good judgment in the interest of the company." Trust the people you hired.
+
+### The Keeper Test
+
+> Would I fight to keep this person if they told me they were leaving? If no, transition with generous severance. ([[McCord Powerful]])
+
+Reframes "should I fire this person?" into "would I fight to keep them?" The framing surfaces the answer because most managers can't honestly say "fight to keep" about marginal performers.
+
+### Barrels and Ammunition
+
+> Every company has Barrels (can take a problem from idea to shipped, recruit, manage budget, own outcome) and Ammunition (execute tasks well but cannot own outcomes). Most companies over-hire Ammunition. ([[Rabois Barrel and Ammunition]])
+
+Both needed at different ratios by stage. Pre-PMF: 80% Barrels. Scaled: 10-20% Barrels.
+
+### 1 great hire > 10 average hires
+
+> The compounding: great hires recruit other great hires; average hires lower the bar. ([[Keith Rabois]])
+
+Total compensation may be similar; total output is 5-10x.
+
+### Recruiting is the CEO's job at early stage
+
+> Outsourcing early hires to recruiters is a sign the CEO doesn't yet understand the job. Recruiters become valuable after the CEO has hired 10-20 directly. ([[Rabois Stanford CS183]])
+
+### 24-48 hour hiring decisions
+
+> Slow decisions signal weak leadership and lose top candidates. Take 24-48 hours to decide, not 6 weeks. ([[Rabois Stanford CS183]])
+
+### Hire for strength, design around weakness (cross-pole)
+
+> When hiring executives, select for the strength required for the role. Weaknesses are only relevant if they will torpedo the strength. ([[Horowitz Hard Things Book]])
+
+Outstanding people are outstanding in 1-2 dimensions; balanced rubrics select for mediocrity.
+
+---
+
 ## Things This Brain is Explicitly Skeptical Of
 
 - Productivity advice that's archetype-neutral (5am club, etc.)
