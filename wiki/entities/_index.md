@@ -50,6 +50,13 @@ All entity pages — people, organizations, products, and tools.
 - [[Andrew Chen]], General Partner at a16z; author "The Cold Start Problem" (2021); former Uber Rider Growth lead; 5-stage Cold Start framework, atomic network bootstrap, growth loops compound while funnels do not
 - [[Paul Graham]], co-founder Y Combinator; 180+ essays since 2001; startup = growth rate, ideas are noticed, do things that don't scale, schlep blindness is competitive advantage
 
+#### Founder-resilience pole
+
+- [[Ben Horowitz]], co-founder/GP a16z; former CEO Loudcloud/Opsware; author *The Hard Thing About Hard Things* (2014); wartime vs peacetime CEO, The Struggle is the default, take care of people then products then profits
+- [[Naval Ravikant]], founder/former CEO AngelList; angel investor in 200+ startups; author of "How to Get Rich Without Getting Lucky" tweetstorm and *The Almanack of Naval Ravikant* (2020); seek wealth not money or status, specific knowledge + leverage + accountability, play long-term games
+- [[Brad Feld]], co-founder Foundry Group + Techstars; author of *Venture Deals*, *Startup Boards*, *Startup Life*; 25+ years blogging at feld.com; founder depression is treatable, work-life integration not balance, curate the board
+- [[Brian Chesky]], co-founder/CEO Airbnb; architect of "Founder Mode" as named operating posture (Sept 2024); design the company like a product, skip-level engagement is normal, 11-star experience exercise
+
 ---
 
 ## Organizations
