@@ -48,7 +48,7 @@ Chen's value is the missing mechanics. The brain has [[Helmer 7 Powers Book]] fo
 
 The Cold Start Problem framework (5 stages: Cold Start → Tipping Point → Escape Velocity → Hitting the Ceiling → The Moat) is the most-cited modern map of how network products grow. Built from direct experience operating Uber's growth team (one of the largest two-sided marketplace expansions ever) plus a16z's deal-flow pattern recognition across hundreds of network startups.
 
-Chen's signature claim: **the Atomic Network** — the smallest possible self-sustaining network — is where every successful network business actually starts. Not "build the platform, users will come"; not "growth hack to virality"; but find the smallest possible network that creates value, get it working, then replicate.
+Chen's signature claim: **the Atomic Network**, the smallest possible self-sustaining network, is where every successful network business actually starts. Not "build the platform, users will come"; not "growth hack to virality"; but find the smallest possible network that creates value, get it working, then replicate.
 
 Frames here: growth loops compound, funnels do not; cold start is solved by atomic networks not by big launches; escape velocity comes from stacking multiple loops; the 5 stages each require different teams and tactics.
 
@@ -59,17 +59,17 @@ Frames here: growth loops compound, funnels do not; cold start is solved by atom
 *Stub list, each will graduate to a primary-source citation as ingestion completes.*
 
 **The 5 stages:**
-1. **Cold Start** — getting the first atomic network to work
-2. **Tipping Point** — additional atomic networks compound
-3. **Escape Velocity** — multiple loops stack and accelerate
-4. **Hitting the Ceiling** — growth slows; defensive moves required
-5. **The Moat** — network effects become structural durability
+1. **Cold Start**, getting the first atomic network to work
+2. **Tipping Point**, additional atomic networks compound
+3. **Escape Velocity**, multiple loops stack and accelerate
+4. **Hitting the Ceiling**, growth slows; defensive moves required
+5. **The Moat**, network effects become structural durability
 
 **Key concepts:**
-- **Atomic Network** — smallest possible self-sustaining network
-- **Hard side vs Easy side** — the harder-to-acquire side of a two-sided market needs disproportionate attention
-- **Growth Loops vs Funnels** — loops compound; funnels do not
-- **Saturation curves** — every channel saturates; need new loops
+- **Atomic Network**, smallest possible self-sustaining network
+- **Hard side vs Easy side**, the harder-to-acquire side of a two-sided market needs disproportionate attention
+- **Growth Loops vs Funnels**, loops compound; funnels do not
+- **Saturation curves**, every channel saturates; need new loops
 
 ---
 
@@ -140,7 +140,7 @@ Uber stacked four growth loops at peak: word of mouth + referral program + paid 
 ## Queued for Future Ingest
 
 Phase 2 ingest plan (4 sources):
-- *The Cold Start Problem* book — Chapters 1-4 (the 5-stage framework + Atomic Network)
+- *The Cold Start Problem* book, Chapters 1-4 (the 5-stage framework + Atomic Network)
 - "Growth Loops vs Funnels" essay (andrewchen.com canonical piece)
 - "Atomic Network" deep-dive (from the book or related essay)
 - Applied case study (Uber growth or another a16z portfolio company)

@@ -21,6 +21,15 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Chen Expansion Phase 3 - Synthesis + Lint + Close
+
+- Phase: 3 of 3 (synthesis, Persona/indices update, lint)
+- Pages created: [[Growth Loops]] (c-000047, synthesis concept page integrating Chen's framework)
+- Pages updated: [[Operating Principles]] (7 new principles in Product Discipline: atomic network, hard side, loops compound, four loop types, channel saturation, hyperlocal play, 5-stage tactics mismatch), [[Persona]] (mentor bench 12 -> 13, new decision frame 11 "What stage of Cold Start framework?"), [[hot.md]], all 3 indices
+- Lint results: 11 em-dashes in Andrew Chen.md cleaned to 0; all addresses c-000042 through c-000047 valid; counter at 48; orphan check passed
+- Session arc: 3 phases, 6 new vault pages, 4 sources ingested, 1 mentor matured, 1 synthesis concept page, Persona expanded to 13 mentors / 11 decision frames, Operating Principles Product Discipline section grew by 7 principles
+- Key insight: Chen fills the missing layer between Helmer's destination (Network Economies Power) and PG's foundation (manual recruitment). Brain now has complete network-effect stack: PMF check (Lenny) → manual seeding (PG) → atomic network construction (Chen) → loop stacking (Chen) → Network Economies Power (Helmer) → Aggregation Theory durability (Thompson).
+
 ## [2026-05-26] persona-training | Chen Expansion Phase 2 - Ingest
 
 - Phase: 2 of 3 (Chen ingest)
