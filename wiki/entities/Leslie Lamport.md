@@ -119,7 +119,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Seed. Two ingest passes planned in the current session to reach mature.
+Developing. Two sources ingested (Thinking for Programmers talk, TLA+ Course Intro). Phase 5 will ingest Specifying Systems chapters 1-3 and Paxos Made Simple to reach mature.
 
 ---
 
