@@ -101,6 +101,35 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[PG Startup = Growth]]: a startup is defined by growth rate; 5-7% weekly = good (2012)
 - [[PG How to Get Startup Ideas]]: ideas are noticed, not invented; schlep blindness; tar pit ideas (2012)
 
+## Founder Resilience (Horowitz + Naval + Feld + Chesky)
+
+### Horowitz (wartime CEO + The Struggle)
+
+- [[Horowitz Hard Things Book]]: the canonical text on operating under near-death (Harper Business, 2014)
+- [[Horowitz Peacetime Wartime CEO]]: the operating-mode distinction; a16z blog post + Hard Things chapter
+- [[Horowitz The Struggle]]: the most-quoted Horowitz passage; The Struggle is the default state
+- [[Horowitz Take Care of People]]: people then products then profits; the Loudcloud lesson
+
+### Naval (leverage + specific knowledge + long-term games)
+
+- [[Naval How to Get Rich]]: the canonical 40-tweet thread (2018), reproduced widely
+- [[Naval Almanack]]: Eric Jorgenson's compilation (2020), free at navalmanack.com
+- [[Naval Joe Rogan JRE 1309]]: 2-hour interview on happiness, leverage, angel investing (2019)
+- [[Naval Specific Knowledge]]: the single most operationally useful Naval concept, synthesized
+
+### Feld (founder mental health + board management)
+
+- [[Feld Startup Life]]: work-life integration, qualitative time vs quantitative (with Amy Batchelor, 2013)
+- [[Feld On Depression]]: the public-breaking essay on founder depression (2013-present)
+- [[Feld Startup Boards]]: board as tool, not body to appease (2013, revised 2022)
+
+### Chesky (Founder Mode + design as strategy)
+
+- [[Chesky Founder Mode Essay]]: YC AI Startup School talk (Sept 2024) + PG's amplifying essay
+- [[Chesky Altman Conversation]]: 2024 public exchanges on COVID redesign and Steve-Jobs-as-model
+- [[Chesky Snow White Design]]: 2012 Pixar storyboarding project; design is how the company thinks
+- [[Chesky 11-Star Experience]]: Reid Hoffman Masters of Scale, "Handcrafted" (2017)
+
 ## Engineering References
 
 - [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (Dean/Boner, 2012)
