@@ -51,6 +51,8 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Last Updated
 
+2026-05-26 (Phase 8 Decision Protocols + Customer Discovery, COMPLETE; ROADMAP DONE): Final phase. Added 3 mentors ([[Annie Duke]], [[Steve Blank]], [[Rob Fitzpatrick]]) + 12 sources + 2 concept pages ([[Decision Journals]], [[Customer Discovery Protocol]]) + 1 seed corpus + 1 session meta. Bench 37 to 40. Counter 198 to 217. **8-phase unicorn-expansion roadmap complete.** Final brain state: 40 mentors / 9 poles / 26 decision frames / ~24 concept pages / ~150 cited principles / ~190 source pages.
+
 2026-05-26 (Phase 7 Marketplace + Consumer Deep, complete): Added 1 new mentor ([[Sangeet Paul Choudary]]) cross-listed with [[Bill Gurley]] + [[Brian Chesky]] for a Marketplace + Consumer sub-pole + 4 sources + 2 concept pages ([[Marketplace Liquidity]], [[Consumer Defensibility]]). Bench 36 to 37. Counter 189 to 198. Smallest phase by design (Gurley + Chesky already in brain).
 
 2026-05-26 (Phase 6 AI-Native sub-pole, complete): Added 9th pole + 3 mentors ([[Sam Altman]], [[Dario Amodei]], [[Demis Hassabis]]) + 12 sources + 2 concept pages ([[AI-Native Economics]], [[AI Company Defensibility]]) + 1 seed corpus + 1 session meta. Bench 33 to 36. Frames 24 to 26 (Amodei capability resilience, model-wrapper-workflow trichotomy). Operating Principles gained ~8 cited principles. Counter 170 to 189.
