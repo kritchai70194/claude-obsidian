@@ -99,4 +99,11 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## AI-Native Discipline
+
+- [[AI-Native Economics]], what makes AI companies economically different; training cost curves, inference variable cost, scaling laws as moat, model-product-wrapper-workflow trichotomy, compute as new oil, AGI timeline trichotomy
+- [[AI Company Defensibility]], the three defensibility layers (foundation, workflow, distribution); why most AI wrappers fail; AI Aggregators as new dominant player class; the "if OpenAI launched your product tomorrow" test
+
+---
+
 ## Add new concepts here as they are extracted from sources.
