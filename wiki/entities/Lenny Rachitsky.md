@@ -110,6 +110,17 @@ The deep diagnostic is the curve shape: declining to zero (no PMF), asymptoting 
 - **Retention is the PMF signal, LTV driver, and acquisition enabler.** ([[Lenny Retention Benchmarks]]) Three claims, one mechanism. If retention is broken, no growth channel produces durable economics.
 - **Net revenue retention >100% defines healthy SaaS.** ([[Lenny Retention Benchmarks]]) Bottom-up and enterprise should reach negative churn; if not, the model is broken.
 - **Marketplaces are two-sided retention systems.** ([[Lenny Retention Benchmarks]]) Demand retention depends on supply economics; cannot be optimized in isolation.
+- **The NSM is the strategy compressed into one number.** ([[Lenny North Star Metric]]) If you cannot point to one metric that defines your strategy, you do not yet have a strategy.
+- **Revenue is the most common NSM and usually wrong.** ([[Lenny North Star Metric]]) Revenue is an output; the NSM should be the leading input that drives revenue. Spiky, hard to operationalize, uninspiring.
+- **Jobs-to-be-Done keeps the NSM customer-centered.** ([[Lenny North Star Metric]]) "Rides completed" beats "monthly active users" because the customer's job is to get from A to B.
+- **Founder mode: presence not absence.** ([[Lenny Chesky Founder Mode]]) The CEO stays in the details until taste has spread. Letting go too early lets the company drift.
+- **Functional org with minimum layers beats matrix.** ([[Lenny Chesky Founder Mode]]) Every management layer is a translation layer that loses information.
+
+---
+
+## Status
+
+Mature. Four sources ingested: [[Lenny PMF Guide]], [[Lenny Retention Benchmarks]], [[Lenny North Star Metric]], [[Lenny Chesky Founder Mode]]. Operating frame stable. Further ingest would deepen specific topics (B2B PMF specifics, AI product strategy, pricing/packaging) rather than the core frame.
 
 ---
 
