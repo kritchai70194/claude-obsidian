@@ -55,22 +55,76 @@ Frames here: startup = growth rate (definitional, not a stage); do things that d
 
 ## Primary-Source Citations
 
-*(Pending, sources queued in [[seed-corpus-unicorn-builders]], see G1-G4.)*
+### From [[PG How to Start a Startup]] (2005)
 
-Will be populated through Phase 6 ingest pass.
+The compressed answer to "what should I focus on when starting?"
+
+> "You need three things to create a successful startup: to start with good people, to make something customers actually want, and to spend as little money as possible."
+
+On cofounders:
+> "Ideally you want between two and four founders... Could you describe the person as an animal?" (the animal test for technical cofounders)
+
+On the product:
+> "There is no magically difficult step that requires brilliance to solve. Look at something people are trying to do, and figure out how to do it in a way that doesn't suck."
+
+On frugality:
+> "The slower you burn through your funding, the more time you have to learn."
+
+### From [[PG Do Things That Dont Scale]] (2013)
+
+PG's most-cited essay. Inverts "build for scale" with "the early-stage work IS the unscalable work".
+
+Examples of unscalable user recruitment:
+- Airbnb founders went door-to-door in NYC taking professional photos of host apartments
+- Wufoo sent handwritten thank-you notes to every user
+- Stripe founders did the "Collison installation": sat down with new users and installed Stripe live, instead of sending a link
+
+The compound math: starting at 100 users, 10% weekly growth yields 14,000 users annually, 2 million after two years.
+
+> "If you're worried that the things you're doing are unscalable, then you're probably doing the right thing."
+
+### From [[PG Startup = Growth]] (2012)
+
+The clean operational definition of "startup".
+
+> "A startup is a company designed to grow fast. Being newly founded does not in itself make a company a startup."
+
+The numerical compass:
+> "A good growth rate during YC is 5-7% a week. If you can hit 10% a week you're doing exceptionally well. If you can only manage 1%, it's a sign you haven't yet figured out what you're doing."
+
+Growth as discipline:
+> "You can use that target growth rate to make all your decisions for you; anything that gets you the growth you need is ipso facto right."
+
+### From [[PG How to Get Startup Ideas]] (2012)
+
+The inversion of the most common founder mistake.
+
+> "The way to get startup ideas is not to try to think of startup ideas. It's to look for problems, preferably problems you have yourself."
+
+> "The verb you want to be using with respect to startup ideas is not 'think up' but 'notice.'"
+
+Schlep blindness:
+> The psychological barrier where founders avoid ideas involving tedious, messy work. Stripe succeeded partly because most programmers shrank from handling payment complexities.
+
+Tar pit warning:
+> If you have to argue for the existence of the problem, it is not really a problem.
 
 ---
 
-## Core Frames (Pending Citation)
+## Core Frames (now backed by citations)
 
-*Stub list, each will graduate to a primary-source citation as ingestion completes.*
-
-- **Startup = growth.** The definition of startup is "company designed to grow fast". Not stage, not industry. If you are not growing, you are not a startup.
-- **Do things that don't scale.** Early stage is when manual work that does not scale is the work. Recruit users by hand. Do their setup for them. Read every support email.
-- **Ideas are noticed, not brainstormed.** Brainstormed ideas are bad. Good ideas come from noticing problems you (or someone you observe) actually has.
-- **Talk to users.** Not "do customer research". Talk to them. Often. In person. Watch them use the thing.
-- **Pick cofounders carefully.** The cofounders matter more than the idea. Bad cofounders are the most common cause of startup death.
-- **Tar pit ideas.** Some ideas are seductive but kill you slowly. The classic example: "social network for X". Easy to start, hard to find PMF, eats years.
+- **Three things matter early: people, product, frugality.** ([[PG How to Start a Startup]]) Failure modes mirror requirements; spend slowly to buy learning time.
+- **Make something people want, by removing the suck.** ([[PG How to Start a Startup]]) Not "find a breakthrough"; find something people already try to do badly, and fix it.
+- **2-4 cofounders; the animal test.** ([[PG How to Start a Startup]]) Pick cofounders obsessively excellent at their craft.
+- **The early-stage work is the unscalable work.** ([[PG Do Things That Dont Scale]]) Manual recruitment, hand-holding, door-to-door.
+- **Start narrow; the contained fire creates critical mass.** ([[PG Do Things That Dont Scale]]) Facebook started at Harvard; then expanded.
+- **Disproportionate care on early users; they ARE the company.** ([[PG Do Things That Dont Scale]]) The early users' experience is the only data the company has.
+- **A startup is defined by growth rate, not stage or industry.** ([[PG Startup = Growth]]) Barbershops are not startups; SaaS can be.
+- **5-7% weekly growth is good; 10% exceptional; 1% means you have not figured it out.** ([[PG Startup = Growth]]) The numerical compass.
+- **Growth as compass: any decision aiding growth is ipso facto right.** ([[PG Startup = Growth]]) Collapses the multifarious problem into one.
+- **Ideas are noticed, not invented.** ([[PG How to Get Startup Ideas]]) The verb is "notice", not "think up". Best ideas come from problems the founder personally lives.
+- **Schlep blindness is competitive advantage.** ([[PG How to Get Startup Ideas]]) Obvious ideas no one is doing well are often the best ideas, because no one wants to do the work.
+- **Tar pit ideas sound plausible but never produce demand.** ([[PG How to Get Startup Ideas]]) If you have to argue for the problem, the problem is not there.
 
 ---
 
