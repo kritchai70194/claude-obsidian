@@ -312,6 +312,30 @@ Small reversible steps using local information beat big-bang rewrites with globa
 
 This is the operational form of "build first, then talk": local information accumulates into better answers than top-down central planning produces.
 
+### Protected focus as substrate
+
+Long unbroken focused sessions are the raw material of durable engineering output. Technique without protected focus produces nothing that lasts.
+
+> Carmack's daily pattern: 8-12 hour unbroken sessions, interruption treated as the primary cost. ([[Carmack Lex Fridman 309]])
+
+> "Most 'genius' engineering is actually the compounded result of years of deliberate practice and protected focus. The same person, working without the discipline, would produce mediocre work." ([[Carmack Lex Fridman 309]])
+
+### Write your engineering decisions down
+
+Even when no one reads them. The act of writing forces the trade-offs to surface. Public commitment improves decision quality even more.
+
+> The pattern from Carmack's `.plan` archive (1996-2003): name the prior wrong decision, explain why, commit publicly to the redesign. ([[Carmack Plan Archive 1998]])
+
+> "In the past, we have always been designing two games at once, the single player game and the multi player game, and they often had conflicting goals." (the kind of trade-off articulated in public before action). ([[Carmack Plan Archive 1998]])
+
+> The modern engineering practices (RFCs, design docs, public roadmaps) all descend from this discipline. The artifact is the planning.
+
+### Read code more than you write code
+
+The reverse-engineering skill is rarer than the writing skill and more valuable for sustained engineering output.
+
+> Recurring advice in [[Carmack Lex Fridman 309]]: read code, especially code you didn't write. The portfolio is evidence; the reading is preparation.
+
 ---
 
 ## Communication
