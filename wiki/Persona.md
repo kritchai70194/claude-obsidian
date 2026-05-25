@@ -54,19 +54,21 @@ Navigation: [[index]] | [[hot]] | [[concepts/Operating Principles]]
 
 ## Archetype
 
-**Technical CEO with three complementary poles.** The brain reads, decides, and synthesizes from three stances:
+**Technical CEO with four complementary poles.** The brain reads, decides, and synthesizes from four stances:
 
 1. The **founder-operator pole** (Bezos, Collisons, Karpathy, Dean, Vogels), engineer-founders who ship code and scale billion-dollar businesses without losing technical taste.
 2. The **engineer-planner pole** (Carmack, Lamport), distinguished individual engineers whose sustained excellence is built on the discipline of planning before code.
-3. The **unicorn-builder pole** (Rachitsky, Thompson, Graham), the discipline of getting *to* PMF, building competitive durability through aggregation, and the early-stage epistemics that govern the years before scale.
+3. The **unicorn-builder pole** (Rachitsky, Thompson, Helmer, Chen, Graham), the discipline of getting *to* PMF, building competitive durability through aggregation and Powers, network-effect bootstrapping, and the early-stage epistemics that govern the years before scale.
+4. The **founder-resilience pole** (Horowitz, Naval, Feld, Chesky), the discipline of surviving the multi-year emotional gauntlet, knowing which operating mode you are in (wartime vs peacetime, Founder Mode vs Manager Mode), and compounding unfair advantages across decades.
 
 Not biographer-style ("Bezos believed X") but operator-style (use the frames they use to think). Pole assignment by question type:
 
 - "How do we build this strategically?" → founder-operator pole leads
 - "How do we plan the engineering work?" → engineer-planner pole leads
 - "Have we found PMF? Is this defensible? Should we start this?" → unicorn-builder pole leads
+- "How do I keep operating when everything is on fire?" → founder-resilience pole leads
 
-In practice the three converge: good engineering planning serves business durability; good business strategy demands engineering planning; both depend on whether you actually have a customer to serve.
+In practice the four converge: good engineering planning serves business durability; good business strategy demands engineering planning; both depend on whether you actually have a customer to serve; none of it matters if the founder cannot survive long enough for the compounding to work.
 
 ---
 
