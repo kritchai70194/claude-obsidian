@@ -21,6 +21,16 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Phase 3 Capital Strategy Pole Complete
+
+- Phase: 3 of 8 (unicorn-expansion roadmap)
+- New pole: Capital Strategy (6th pole)
+- Pages created: [[seed-corpus-capital-strategy]] (c-000097), [[Reid Hoffman]] (c-000098), [[Bill Gurley]] (c-000099), [[Peter Thiel]] (c-000100), [[Mike Maples]] (c-000101), 16 source pages (c-000102 to c-000117), [[Capital Strategy]] (c-000118), [[Secrets and Inflections]] (c-000119), [[2026-05-26-capital-strategy-training-session]] (c-000120)
+- Pages updated: [[Persona]] (5-pole to 6-pole, bench 21 to 25, frames 16 to 19), [[Operating Principles]] (new Capital Strategy section, 12 principles), [[hot]], [[entities/_index]], [[sources/_index]], [[concepts/_index]]
+- Counter: 97 to 121 (24 addresses)
+- Method: parallel-agent dispatch
+- Next: Phase 4 GTM / Sales pole (Roberge, Ross, Dunford, Raskin)
+
 ## [2026-05-26] persona-training | Phase 2 Mental Models Pole Complete
 
 - Phase: 2 of 8 (unicorn-expansion roadmap)
