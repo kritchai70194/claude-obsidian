@@ -49,21 +49,63 @@ Frames here: PMF is measurable; retention is the PMF signal; define your North S
 
 ## Primary-Source Citations
 
-*(Pending, sources queued in [[seed-corpus-unicorn-builders]], see L1-L4.)*
+### From [[Lenny PMF Guide]] (2020)
 
-Will be populated through Phase 2-3 ingest passes.
+Lenny's most-cited PMF essay, synthesizing definitions and signals from Marc Andreessen, Steve Blank, Sean Ellis, Michael Seibel, Elad Gil and others into a workable diagnostic.
+
+His working definition:
+
+> "[PMF is when] you've made a product people want, can find and keep people sustainably, and makes a profit delivering to people at scale."
+
+Three patterns of how PMF actually shows up:
+1. **Sudden and significant pull** (rare; Airbnb 2010, Dropbox 2008)
+2. **Gradual but compounding pull** (most common; Stripe, Notion)
+3. **Milestone that proves the model** (typical for B2B)
+
+The strongest signals (ranked):
+- Customers complain loudly when your site goes down
+- People keep using when broken
+- Customers ask to pay before you ask them to
+- Inflection in organic growth and word of mouth
+
+The Sean Ellis survey:
+> "How would you feel if you could no longer use [product]?" 40%+ "very disappointed" = PMF.
+
+On cohort retention as PMF diagnostic:
+> "Cohort retention is the most reliable quantitative measure of PMF. A retention curve that flattens (instead of declining to zero) proves that some group of users keeps coming back."
+
+### From [[Lenny Retention Benchmarks]] (2020, with Casey Winters)
+
+The canonical retention benchmark study. 20 growth experts surveyed plus public company data.
+
+User retention at 6 months, by business model:
+
+| Business Model | GOOD | GREAT |
+|---|---|---|
+| Consumer Social | ~25% | ~45% |
+| Consumer Transactional | ~30% | ~50% |
+| Consumer SaaS | ~40% | ~70% |
+| SMB/Mid-Market SaaS | ~60% | ~80% |
+| Enterprise SaaS | ~70% | ~90% |
+
+Net revenue retention at 12 months crosses 100% (negative churn) in bottom-up and enterprise SaaS at the GOOD threshold; this is what defines durable SaaS.
+
+Core thesis (Casey Winters):
+> "Great retention is the scalable way to grow a product. It's the best indicator of product-market fit, it is the most important factor in a user's lifetime value, and high retention drives all of the best acquisition strategies."
+
+The deep diagnostic is the curve shape: declining to zero (no PMF), asymptoting to a positive floor (PMF for that segment), flat or rising (PMF + compounding effect).
 
 ---
 
-## Core Frames (Pending Citation)
+## Core Frames (now backed by citations)
 
-*Stub list, each will graduate to a primary-source citation as ingestion completes.*
-
-- **PMF is measurable.** Not a vibe, not a feeling, not an inflection on a chart. Specific signals (retention curves flattening, sustained organic growth, qualitative survey signal).
-- **Retention is the PMF signal.** If retention is flat over 8+ weeks, you have it. If retention decays to zero, you do not. Other metrics can lie; retention does not.
-- **Define your North Star Metric.** A single metric the whole company optimizes against. If you cannot name it in one sentence, you do not have one.
-- **Growth loops compound; funnels do not.** A funnel converts visitors once. A loop turns each new user into the source of the next user.
-- **Learn from operators, not advisors.** The patterns that work were built by people who shipped them. Distill from interviews, not frameworks.
+- **PMF is measurable, not a feeling.** ([[Lenny PMF Guide]]) Three concrete dimensions: desirability, sustainability, profitability.
+- **Three patterns of PMF: sudden, gradual, milestone.** ([[Lenny PMF Guide]]) Most unicorns are gradual or milestone, not sudden. Calibrate expectations.
+- **The strongest PMF signals: complain when down, use when broken, ask to pay.** ([[Lenny PMF Guide]]) The "ask to pay before asked" signal is the cleanest binary.
+- **Cohort retention curve shape is the most reliable single metric.** ([[Lenny PMF Guide]], [[Lenny Retention Benchmarks]]) Flat asymptote = PMF for that segment. Slope of early decline is noise.
+- **Retention is the PMF signal, LTV driver, and acquisition enabler.** ([[Lenny Retention Benchmarks]]) Three claims, one mechanism. If retention is broken, no growth channel produces durable economics.
+- **Net revenue retention >100% defines healthy SaaS.** ([[Lenny Retention Benchmarks]]) Bottom-up and enterprise should reach negative churn; if not, the model is broken.
+- **Marketplaces are two-sided retention systems.** ([[Lenny Retention Benchmarks]]) Demand retention depends on supply economics; cannot be optimized in isolation.
 
 ---
 
