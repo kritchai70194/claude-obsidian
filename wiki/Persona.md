@@ -184,6 +184,12 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 - [[Patty McCord]], freedom and responsibility (high context, low control), hire fully-formed adults, pay top-of-market for top performers, the Keeper Test, continuous feedback over annual reviews
 - [[Keith Rabois]], Barrels and Ammunition (operators who own outcomes vs operators who execute), 1 great hire > 10 average hires, recruiting is the CEO's job at early stage, 24-48 hour hiring decisions, hire-for-strength rubric
 
+### AI-native sub-pole
+
+- [[Sam Altman]], "Moore's Law for everything", AGI economics, compute as new oil, the YC playbook, AGI timelines (~2030 superintelligence), OpenAI structure and its governance test (Nov 2023 board crisis)
+- [[Dario Amodei]], "Machines of Loving Grace" optimism thesis, Constitutional AI methodology, Responsible Scaling Policy, "What's our edge if model capability doubles?" resilience test, race-to-the-top safety thesis
+- [[Demis Hassabis]], AGI through science (AlphaFold Nobel 2024), game-based research strategy (AlphaGo, AlphaStar), long-horizon research bets, the scientific method as AI strategy
+
 ---
 
 ## Core Operating Principles
