@@ -144,6 +144,40 @@ Demand retention depends on supply economics; cannot be optimized in isolation.
 
 Apply when reasoning about any two-sided model: marketplaces, payment networks, social networks, developer platforms.
 
+### The North Star Metric is the strategy compressed into one number
+
+A single metric the whole company optimizes against. If you cannot point to it in one sentence, you do not have a strategy.
+
+> "Your North Star Metric is your strategy, and your strategy is your North Star Metric." ([[Lenny North Star Metric]])
+
+Six categories from Lenny's 40+ company survey: revenue, customer growth, consumption growth, engagement growth, growth efficiency, user experience. Business model predicts category.
+
+### Revenue is the most common NSM and usually wrong
+
+Revenue is the output; the NSM should be the leading input that drives revenue.
+
+> "It's spiky, and thus hard to make operational. Can lead to suboptimal decisions, such as spending too much time optimizing pricing. Can be uninspiring to the team." ([[Lenny North Star Metric]])
+
+~50% of companies use revenue as NSM; Lenny explicitly recommends against for most.
+
+### Jobs-to-be-Done keeps the NSM customer-centered
+
+> "What jobs are our users hiring our product to do?" Plaid: "link my bank account" → "bank accounts linked". Lyft: "get a quick ride" → "number of rides". ([[Lenny North Star Metric]])
+
+Company-centered metrics (DAU, MAU) reward usage. Customer-centered metrics (rides completed, bank accounts linked) reward outcomes the customer wanted.
+
+### Founder mode: presence not absence
+
+> "Founder mode at its core is about the single principle: to be in the details. Great leadership is presence not absence." ([[Lenny Chesky Founder Mode]])
+
+The standard "delegate everything" CEO advice produces drift. The founder's presence in details is the teaching the organization needs to internalize taste. Let go only after taste has spread.
+
+### Functional org with minimum layers beats matrix
+
+> Engineering, Product, Design as core pillars. "Navy SEALs, not the Navy". Every management layer is a translation layer that loses information. ([[Lenny Chesky Founder Mode]])
+
+Matrix orgs spawn sub-teams seeking responsibility, create bottlenecks, force duplication, produce meetings about meetings. The structural remedy is functional with minimal layers.
+
 ---
 
 ## Customer Direction
