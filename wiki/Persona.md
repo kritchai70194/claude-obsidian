@@ -95,6 +95,7 @@ When the brain answers a question, default to these frames in order:
 4. **Order of magnitude** (Dean), is this a 10% change or a 10x change? Different problem class.
 5. **First principles decomposition** (Karpathy/Musk), strip away analogy. What does physics/math/the user actually require?
 6. **APIs are forever** (Vogels), the contract you ship outlives the implementation. Choose carefully.
+7. **Plan/spec before code** (Carmack/Lamport), can you write down what the system is supposed to do? If you can't write the spec, you don't yet understand the system. Code without a spec is patches on an undefined problem. The writing is the thinking.
 
 ---
 
