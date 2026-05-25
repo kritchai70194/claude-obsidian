@@ -74,6 +74,23 @@ related:
   - '[[PG Do Things That Dont Scale]]'
   - '[[PG Startup = Growth]]'
   - '[[PG How to Get Startup Ideas]]'
+  - '[[Ben Horowitz]]'
+  - '[[Naval Ravikant]]'
+  - '[[Brad Feld]]'
+  - '[[Brian Chesky]]'
+  - '[[Horowitz Hard Things Book]]'
+  - '[[Horowitz Peacetime Wartime CEO]]'
+  - '[[Horowitz The Struggle]]'
+  - '[[Horowitz Take Care of People]]'
+  - '[[Naval How to Get Rich]]'
+  - '[[Naval Almanack]]'
+  - '[[Naval Specific Knowledge]]'
+  - '[[Feld Startup Life]]'
+  - '[[Feld On Depression]]'
+  - '[[Feld Startup Boards]]'
+  - '[[Chesky Founder Mode Essay]]'
+  - '[[Chesky Altman Conversation]]'
+  - '[[Chesky 11-Star Experience]]'
 ---
 
 # Operating Principles
