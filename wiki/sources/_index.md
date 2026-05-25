@@ -220,6 +220,36 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Raskin Case Studies]]: Drift, Salesforce, Mulesoft, Yammer
 - [[Raskin Consulting Writeups]]: discovery process, common failure modes
 
+## Operating at Scale (Grove + Slootman + McCord + Rabois)
+
+### Grove (managerial leverage + OKRs)
+
+- [[Grove High Output Management]]: canonical text (1983, revised 1995), the manager's output equation, 1:1 discipline
+- [[Grove Only the Paranoid Survive]]: strategic inflection points, Intel 1985 pivot (1996)
+- [[Grove OKR Origin]]: Intel Tactical OKR system origin, Doerr's later popularization
+- [[Grove Stanford Talks]]: GSB and Wharton talks, the leadership lessons
+
+### Slootman (amp it up)
+
+- [[Slootman Amp It Up]]: canonical operating book (Wiley, 2022)
+- [[Slootman Snowflake Earnings]]: 2020-2024 calls, NRR discipline, pricing
+- [[Slootman Tape Sucks]]: Data Domain operating lessons (2011)
+- [[Slootman Acquired Interview]]: Snowflake story, Speiser/Muglia/Slootman/Ramaswamy succession
+
+### McCord (Netflix culture)
+
+- [[McCord Powerful]]: canonical book on Netflix culture (2018)
+- [[McCord Netflix Culture Deck]]: 125-slide deck (2009 SlideShare), 20M+ views
+- [[McCord HBR Essays]]: "How Netflix Reinvented HR" (HBR 2014) + follow-ups
+- [[McCord Conference Talks]]: Stanford + TED + Lenny Podcast themes
+
+### Rabois (barrels and ammunition)
+
+- [[Rabois Stanford CS183]]: 2014 lectures on hiring + operations
+- [[Rabois Barrel and Ammunition]]: the framework synthesized from essays + threads
+- [[Rabois 20VC Interview]]: 20VC + Founder's Field Guide themes
+- [[Rabois PayPal Mafia Hiring]]: cross-Mafia hiring template (PayPal → YouTube → Stripe etc.)
+
 ## Engineering References
 
 - [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (Dean/Boner, 2012)
