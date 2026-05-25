@@ -128,7 +128,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Developing. Two sources ingested (Thinking for Programmers talk, TLA+ Course Intro). Phase 5 will ingest Specifying Systems chapters 1-3 and Paxos Made Simple to reach mature.
+Mature. Four sources ingested: [[Lamport Thinking for Programmers]], [[Lamport TLA+ Course Intro]], [[Lamport Specifying Systems Ch1-3]], [[Lamport Paxos Made Simple]]. Operating frame stable. Further ingest would deepen specific topics (Byzantine Generals, Time/Clocks paper, Turing Award lecture) rather than the core frame.
 
 ---
 
