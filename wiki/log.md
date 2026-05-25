@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Engineer-Planner Phase 3 - Carmack pass 2
+
+- Phase: 3 of 7 (Carmack ingest pass 2 of 2)
+- Sources ingested: [[Carmack Lex Fridman 309]] (5h interview, themes verified), [[Carmack Plan Archive 1998]] (representative .plan entries from ESWAT GitHub archive)
+- Pages created: [[Carmack Lex Fridman 309]], [[Carmack Plan Archive 1998]]
+- Pages updated: [[John Carmack]] (developing -> mature, 12 cited core frames), [[Operating Principles]] (4 more principles added in Engineering Disposition: protected focus, write decisions down, read code, all cited)
+- Key insight: The .plan archive shows engineer-planning as a sustained public practice 25 years before "build in public" was a term. Pairs naturally with Bezos written memos: same shape, different audience.
+
 ## [2026-05-26] persona-training | Engineer-Planner Phase 2 - Carmack pass 1
 
 - Phase: 2 of 7 (Carmack ingest pass 1 of 2)
