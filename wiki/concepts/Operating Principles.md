@@ -108,6 +108,21 @@ related:
   - '[[Christensen Innovators Dilemma]]'
   - '[[Christensen JTBD]]'
   - '[[Christensen Innovators Solution]]'
+  - '[[Reid Hoffman]]'
+  - '[[Bill Gurley]]'
+  - '[[Peter Thiel]]'
+  - '[[Mike Maples]]'
+  - '[[Hoffman Blitzscaling Book]]'
+  - '[[Hoffman The Alliance]]'
+  - '[[Gurley All Markets Not Equal]]'
+  - '[[Gurley J-curve and Recap]]'
+  - '[[Thiel Zero to One]]'
+  - '[[Thiel CS183 Notes]]'
+  - '[[Thiel Last Mover Advantage]]'
+  - '[[Maples Pattern Breakers]]'
+  - '[[Maples Live in the Future]]'
+  - '[[Maples Inflections vs Ideas]]'
+  - '[[Maples Backable Founders]]'
 ---
 
 # Operating Principles
