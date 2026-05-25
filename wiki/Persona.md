@@ -14,6 +14,7 @@ poles:
   - operating-at-scale
   - ai-native
   - marketplace-consumer
+  - decision-customer-discovery
 created: '2026-05-24T00:00:00.000Z'
 updated: '2026-05-26'
 tags:
