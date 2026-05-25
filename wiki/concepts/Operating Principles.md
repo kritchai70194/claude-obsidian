@@ -1041,6 +1041,96 @@ The same principles run multiple businesses. The principles compound; the produc
 
 ---
 
+## Founder Resilience
+
+The discipline of surviving the multi-year emotional gauntlet of building a company. Stage-independent, domain-independent. The other sections assume the founder can keep operating; this section is how.
+
+### Mode awareness, peacetime vs wartime
+
+> "Peacetime CEO works to expand the market. Wartime CEO works to win the market." ([[Horowitz Peacetime Wartime CEO]])
+
+Same founder, two operating modes. Wartime: existential threat, tight control, intolerance of distraction. Peacetime: expand the market, optimize culture, hire for diversity of strengths. Wrong-mode behavior kills companies. The most common failure is running peacetime norms during wartime; the second is running wartime norms during peacetime.
+
+### The Struggle is the default state, not the exception
+
+> "The Struggle is when you wonder why you started the company in the first place. The Struggle is when people ask you why you don't quit and you don't know the answer." ([[Horowitz The Struggle]])
+
+Most founders feel like they are failing most of the time. Knowing this is normal is half the battle. Do not over-index on the feeling of failure; it is information about the difficulty of the work, not about the work's correctness.
+
+### Take care of the people, then the products, then the profits, in that order
+
+> "Take care of the people, the products, and the profits, in that order." ([[Horowitz Take Care of People]])
+
+Reversing this order kills the culture. Wall Street pressure to put profits first is how cultures die. The Loudcloud/Opsware case: Horowitz laid off 80 of 140 people but kept the company alive because he honored this order.
+
+### Hire for strength, not lack of weakness
+
+> "When hiring executives, your selection methodology must focus on the strength required for the role. Weaknesses are only relevant if they will torpedo the executive's ability to deliver the strength." ([[Horowitz Hard Things Book]])
+
+Senior executives are too strong-attribute-skewed for "balanced" rubrics. The job is to find someone outstandingly strong on the required dimension and to manage around the predictable weaknesses.
+
+### Lead bullets, not silver bullets
+
+> "There are no silver bullets, only lead bullets." ([[Horowitz Hard Things Book]])
+
+Hard problems require sustained hard work, not clever solutions. The search for the silver bullet (the pivot, the new VP, the new framework) is usually procrastination on the lead bullets (the slow grind of building product, customer, team).
+
+### Seek wealth, not money or status
+
+> "Seek wealth, not money or status. Wealth is assets that earn while you sleep." ([[Naval How to Get Rich]])
+
+Different incentive structures produce different decisions. Founders optimizing for status (visibility, conference talks, awards) make different decisions than founders optimizing for wealth (compounding ownership in productive assets). The frame determines the path.
+
+### Specific knowledge plus leverage plus accountability is the unfair advantage
+
+> "Specific knowledge is found by pursuing your genuine curiosity. It cannot be taught, but it can be learned. The internet has massively broadened the possible space of careers." ([[Naval Specific Knowledge]])
+
+Specific knowledge cannot be trained, only attracted by following genuine curiosity. Leverage (code, media, capital, labor) multiplies it. Accountability (taking risks under your own name) compounds the upside. None of the three alone is durable.
+
+### Play long-term games with long-term people
+
+> "All the returns in life, whether in wealth, relationships, or knowledge, come from compound interest." ([[Naval Almanack]])
+
+Compounding requires patience and reputation. A founder who treats one failed company as a definitive verdict has confused a single cycle for the long-run distribution. The founder who treats it as one cycle in a multi-decade game keeps building.
+
+### Founder depression is common and treatable
+
+> "If you're depressed, get help. Talk to people. There's no shame in it." ([[Feld On Depression]])
+
+Founder depression is a real medical condition, common in this population, with treatable forms. Founders are at elevated risk because of isolation, identity fusion with the company, financial precarity, and all-in commitment. The failure mode is not seeking treatment.
+
+### Work-life integration, not balance
+
+> "The reality is that we're not balancing anything. We're integrating." ([[Feld Startup Life]])
+
+The "balance" frame treats work and life as oppositional, requiring a zero-sum allocation. The integration frame asks: are the parts of life that need to happen together compatible? Better: qualitative time vs quantitative time, not equal hours.
+
+### Curate the board actively
+
+> "A bad board is worse than no board. Build your board like you build your team." ([[Feld Startup Boards]])
+
+The board is a tool, not a body to be appeased. The CEO's job is to keep the board useful and remove members who are not. Strategy is the CEO's responsibility; the board provides oversight, network, and capital.
+
+### Founder Mode is the default for founder-led companies at scale
+
+> "The bigger and older a company gets, the more it tends toward manager mode. Founder mode is the way to keep founders effective at scale." ([[Chesky Founder Mode Essay]])
+
+The professional-management orthodoxy fails for founder-CEOs because the founder's specific knowledge cannot be delegated. Founder Mode stays in the details that matter. Skip-level meetings are normal, not abnormal. Presence, not absence, is the default.
+
+### Design the company like a product
+
+> "A company is the largest product a founder ever designs." ([[Chesky Altman Conversation]])
+
+The org chart is not a permanent structure to defend; it is a product to be redesigned when it stops serving the customer. After Airbnb lost 80% of revenue during COVID, Chesky redesigned the entire org from divisional to function-led structure within months.
+
+### Push to 11 stars, then work backwards
+
+> "The only way to design a 5-star experience is to know what 11 stars looks like, then work back." ([[Chesky 11-Star Experience]])
+
+Imagine the most extreme version of the experience you offer (greeted at the airport by Elon Musk, offered a trip to space). Then work backwards to what 10, 9, 8 stars look like. Most companies stop at 5 and ship the same experience as everyone else. Distinctive product work begins at the absurd extreme.
+
+---
+
 ## Things This Brain is Explicitly Skeptical Of
 
 - Productivity advice that's archetype-neutral (5am club, etc.)
