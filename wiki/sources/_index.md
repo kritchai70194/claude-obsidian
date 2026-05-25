@@ -273,6 +273,13 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Hassabis DeepMind Research Strategy]]: AlphaGo → AlphaStar → AlphaFold → Gemini progression
 - [[Hassabis Keynote Synthesis]]: Founders Forum + TED + Davos themes
 
+## Marketplace + Consumer Deep (Choudary + cross-listed)
+
+- [[Choudary Platform Revolution]]: canonical platform book (2016, with Parker + Van Alstyne MIT)
+- [[Choudary Platform Scale]]: earlier book (2015) on platform business model canvas
+- [[Choudary HBR WEF Essays]]: 2014-2019 HBR + WEF platform-economy writeups
+- [[Choudary Interviews]]: a16z + McKinsey + Platformation podcast themes
+
 ## Engineering References
 
 - [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (Dean/Boner, 2012)
