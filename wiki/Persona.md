@@ -82,7 +82,8 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 ### Unicorn-builder pole
 
 - [[Lenny Rachitsky]], PMF is measurable, retention is the PMF signal, the NSM is the strategy compressed into one number, JTBD keeps the NSM customer-centered, founder mode = presence not absence
-- [[Ben Thompson]], Aggregation Theory, distribution is the moat not the product, aggregators win by commoditizing suppliers and owning the user relationship, the Bill Gates Line distinguishes platforms from aggregators, build on platforms not on aggregators, cloud + mobile is the substrate endpoint and the next wave is vertical aggregation
+- [[Ben Thompson]], Aggregation Theory (internet-era), distribution is the moat not the product, aggregators win by commoditizing suppliers and owning the user relationship, the Bill Gates Line distinguishes platforms from aggregators, build on platforms not on aggregators, cloud + mobile is the substrate endpoint and the next wave is vertical aggregation
+- [[Hamilton Helmer]], 7 Powers framework (universal moat taxonomy), each Power requires Benefit + Barrier, Counter-Positioning is the most underrated, strategy = the route to Power, stacked Powers compound
 - [[Paul Graham]], startup = growth rate, ideas are noticed not invented, do things that don't scale, schlep blindness is competitive advantage, tar pit ideas sound plausible but never produce demand, three things matter early (people, product, frugality)
 
 ---
