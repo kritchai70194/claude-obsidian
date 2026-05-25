@@ -49,6 +49,8 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Last Updated
 
+2026-05-26 (Phase 6 AI-Native sub-pole, complete): Added 9th pole + 3 mentors ([[Sam Altman]], [[Dario Amodei]], [[Demis Hassabis]]) + 12 sources + 2 concept pages ([[AI-Native Economics]], [[AI Company Defensibility]]) + 1 seed corpus + 1 session meta. Bench 33 to 36. Frames 24 to 26 (Amodei capability resilience, model-wrapper-workflow trichotomy). Operating Principles gained ~8 cited principles. Counter 170 to 189.
+
 2026-05-26 (Phase 5 Operating at Scale pole, complete): Added 8th pole + 4 mentors ([[Andy Grove]], [[Frank Slootman]], [[Patty McCord]], [[Keith Rabois]]) + 16 sources + 2 concept pages ([[Scaling Operations]], [[Hiring at Scale]]) + 1 seed corpus + 1 session meta. Bench 29 to 33. Frames 22 to 24. Operating Principles gained ~14 cited principles in new Operating at Scale section. Counter 146 to 170.
 
 2026-05-26 (Phase 4 GTM / Sales pole, complete): Added 7th pole + 4 mentors ([[Mark Roberge]], [[Aaron Ross]], [[April Dunford]], [[Andy Raskin]]) + 16 sources + 3 concept pages ([[Repeatable GTM]], [[Strategic Narrative]], [[Positioning as Strategy]]) + 1 seed corpus + 1 session meta. Bench 25 to 29. Frames 19 to 22 (Raskin world change, Dunford negative positioning, Roberge unit economics at scale). Operating Principles gained ~10 cited principles in new GTM/Sales section. Counter 121 to 146 (25 addresses).
