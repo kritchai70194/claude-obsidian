@@ -50,6 +50,8 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Last Updated
 
+2026-05-26 (Phase 7 Marketplace + Consumer Deep, complete): Added 1 new mentor ([[Sangeet Paul Choudary]]) cross-listed with [[Bill Gurley]] + [[Brian Chesky]] for a Marketplace + Consumer sub-pole + 4 sources + 2 concept pages ([[Marketplace Liquidity]], [[Consumer Defensibility]]). Bench 36 to 37. Counter 189 to 198. Smallest phase by design (Gurley + Chesky already in brain).
+
 2026-05-26 (Phase 6 AI-Native sub-pole, complete): Added 9th pole + 3 mentors ([[Sam Altman]], [[Dario Amodei]], [[Demis Hassabis]]) + 12 sources + 2 concept pages ([[AI-Native Economics]], [[AI Company Defensibility]]) + 1 seed corpus + 1 session meta. Bench 33 to 36. Frames 24 to 26 (Amodei capability resilience, model-wrapper-workflow trichotomy). Operating Principles gained ~8 cited principles. Counter 170 to 189.
 
 2026-05-26 (Phase 5 Operating at Scale pole, complete): Added 8th pole + 4 mentors ([[Andy Grove]], [[Frank Slootman]], [[Patty McCord]], [[Keith Rabois]]) + 16 sources + 2 concept pages ([[Scaling Operations]], [[Hiring at Scale]]) + 1 seed corpus + 1 session meta. Bench 29 to 33. Frames 22 to 24. Operating Principles gained ~14 cited principles in new Operating at Scale section. Counter 146 to 170.
