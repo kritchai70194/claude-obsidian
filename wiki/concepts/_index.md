@@ -69,4 +69,12 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Mental Models Discipline
+
+- [[Mental Models Toolkit]], the multidisciplinary cross-domain pattern-matching toolkit; synthesizes Munger latticework + Kahneman bias inventory + Taleb uncertainty + Christensen causal frame; inversion, base rates, fat tails, JTBD
+- [[Disruption vs Aggregation]], cross-references Christensen Disruption Theory against Thompson Aggregation Theory; when each applies, why incumbents lose in each, updates the defensibility frame
+- [[Antifragility for Startups]], compresses Taleb antifragility applied to startup operations, capital, product bets, founder posture; Mediocristan vs Extremistan, barbell strategy, the turkey problem
+
+---
+
 ## Add new concepts here as they are extracted from sources.
