@@ -44,9 +44,9 @@ Complement to [[Aggregation Theory]]: Thompson's framework is internet-era-speci
 > Power is "a set of conditions creating the potential for persistent differential returns." ([[Helmer 7 Powers Book]])
 
 Three required elements:
-1. **Persistent** — sustainable over time, not a temporary advantage
-2. **Differential** — produces returns above cost of capital
-3. **Returns** — generates substantial free cash flow
+1. **Persistent**, sustainable over time, not a temporary advantage
+2. **Differential**, produces returns above cost of capital
+3. **Returns**, generates substantial free cash flow
 
 Power manifests as persistently high returns on capital, durable above-market growth, substantial free cash flow over extended periods.
 
@@ -249,4 +249,4 @@ When evaluating a business (existing or proposed):
 - [[Innovators Dilemma]] (Christensen) predecessor; Counter-Positioning extends disruption theory
 - [[Werner Vogels]] AWS as the canonical stacked-Powers example
 - [[Operating Principles]] Strategic Durability section
-- Adjacent: [[Product-Market Fit]] — PMF gets you to a viable business; 7 Powers tells you whether the business is durable
+- Adjacent: [[Product-Market Fit]], PMF gets you to a viable business; 7 Powers tells you whether the business is durable

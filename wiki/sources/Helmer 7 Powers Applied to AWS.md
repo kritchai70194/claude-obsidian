@@ -64,7 +64,7 @@ The "API-first" discipline ([[Bezos 2002 API Mandate]]) is what created the lock
 
 ## Power 3: Process Power (STRONG)
 
-**Benefit:** AWS's operational machinery — deployment automation, security incident response, capacity planning, customer support — is decades of accumulated practice.
+**Benefit:** AWS's operational machinery, deployment automation, security incident response, capacity planning, customer support, is decades of accumulated practice.
 
 **Barrier:** "Everything fails all the time" ([[Vogels 10 Lessons from 10 Years of AWS]] lesson 2) is not a slogan; it is an operating discipline embedded in tens of thousands of engineers and processes. Google Cloud and Azure have observed AWS's outages for 18 years; both have suffered comparable outages because the lessons are tacit, not transferable.
 
@@ -74,7 +74,7 @@ The [[Vogels Decade of Dynamo]] story (single-engine Cessna → 747s, refueling 
 
 **Benefit:** AWS has accumulated some hard-to-replicate assets:
 - Custom silicon (Graviton, Trainium) - approaches Cornered Resource in inference chips
-- Regulatory accreditations (FedRAMP High, IL5/IL6 DoD) — accumulated decade of compliance
+- Regulatory accreditations (FedRAMP High, IL5/IL6 DoD), accumulated decade of compliance
 - Specific high-demand availability zones (US-East-1 in Northern Virginia)
 
 **Barrier:** Each individual asset is accessible to competitors with sufficient time and capital. But the *combination* (custom silicon + global zones + regulatory accreditations + 18 years of customer trust) is genuinely difficult to assemble.
@@ -134,4 +134,4 @@ The combination is why AWS has held ~35% market share for over a decade despite 
 - [[Bezos 2002 API Mandate]] Switching Costs construction discipline
 - [[Operating Principles]] Strategic Durability section
 - [[seed-corpus-unicorn-builders]] source H4
-- [[Thompson Aggregation Theory]] adjacent — AWS is a platform (not aggregator) in Thompson's framework; the 7 Powers analysis specifies which Powers make the platform durable
+- [[Thompson Aggregation Theory]] adjacent, AWS is a platform (not aggregator) in Thompson's framework; the 7 Powers analysis specifies which Powers make the platform durable

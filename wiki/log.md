@@ -21,6 +21,15 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Helmer Expansion Phase 3 - Synthesis + Lint + Close
+
+- Phase: 3 of 3 (synthesis, Persona/indices update, lint)
+- Pages created: [[7 Powers]] (c-000041, synthesis concept page bridging Helmer + Thompson)
+- Pages updated: [[Operating Principles]] (10 new principles in Strategic Durability section, all cited to Helmer sources), [[Persona]] (mentor bench 11 -> 12, decision frame 9 updated to include both Aggregation Theory + 7 Powers lenses), [[Aggregation Theory]] concept page (cross-references 7 Powers), [[hot.md]] (Helmer + 7 Powers session), entities/_index.md and sources/_index.md and concepts/_index.md (Helmer additions)
+- Lint results: 30 em-dashes in session-author files cleaned to 0; all addresses c-000036 through c-000041 valid; counter at 42; orphan check shows all 6 new pages with 3+ inbound links each.
+- Session summary: brain bench grew from 11 to 12 mentors; unicorn-builder pole gained Helmer as complementary moat-framework mentor to Thompson; Operating Principles Strategic Durability section now has both Thompson Aggregation Theory + Helmer 7 Powers principles.
+- Key insight: The 7 Powers Applied to AWS analysis demonstrated the brain's new emergent capability: take existing Vogels/Bezos content and re-evaluate through Helmer's framework. "Everything fails all the time" = Process Power. "APIs are forever" = Switching Costs. The two mentors converge.
+
 ## [2026-05-26] persona-training | Helmer Expansion Phase 2 - Ingest
 
 - Phase: 2 of 3 (Helmer ingest)

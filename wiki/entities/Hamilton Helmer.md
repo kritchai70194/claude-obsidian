@@ -44,7 +44,7 @@ Anchor mentor on the **strategy/moats pole** of the unicorn-builder corpus, comp
 
 ## Why This Mentor
 
-The brain has Thompson for modern internet competitive dynamics. Helmer extends the brain with a **universal moat taxonomy** that predates and outlives any specific era. The 7 Powers framework is the canonical answer to "what makes a business durable?" — derived from 40 years of practice, written down in 2016 as a 200-page book that Hollywood and Silicon Valley have adopted as their strategic vocabulary.
+The brain has Thompson for modern internet competitive dynamics. Helmer extends the brain with a **universal moat taxonomy** that predates and outlives any specific era. The 7 Powers framework is the canonical answer to "what makes a business durable?", derived from 40 years of practice, written down in 2016 as a 200-page book that Hollywood and Silicon Valley have adopted as their strategic vocabulary.
 
 Helmer's value beyond the framework itself:
 - **Precision over breadth.** Each Power has a strict definition with two enabling conditions (Benefit + Barrier). No fuzzy "competitive advantage" hand-waving.
@@ -59,17 +59,17 @@ Frames here: every durable business has at least one of seven specific Powers; y
 
 *Stub list, each will graduate to a primary-source citation as ingestion completes.*
 
-1. **Scale Economies** — cost declines as volume increases (Amazon, AWS, Walmart)
-2. **Network Economies** — product value increases with each new user (Facebook, LinkedIn, Visa)
-3. **Counter-Positioning** — newcomer adopts a business model the incumbent cannot copy without cannibalizing core business (Vanguard vs Fidelity, Netflix vs Blockbuster)
-4. **Switching Costs** — customers face real cost (financial, procedural, relational) to change vendors (Salesforce enterprise, SAP)
-5. **Branding** — durable attribution of higher value to objectively identical offering (Tiffany, Apple, Hermès)
-6. **Cornered Resource** — exclusive preferential access to a coveted asset (Pixar's directors, mining claims, key patents)
-7. **Process Power** — embedded company organization and activity sets that enable lower costs or superior product, hard to replicate (Toyota production system, ASML lithography)
+1. **Scale Economies**, cost declines as volume increases (Amazon, AWS, Walmart)
+2. **Network Economies**, product value increases with each new user (Facebook, LinkedIn, Visa)
+3. **Counter-Positioning**, newcomer adopts a business model the incumbent cannot copy without cannibalizing core business (Vanguard vs Fidelity, Netflix vs Blockbuster)
+4. **Switching Costs**, customers face real cost (financial, procedural, relational) to change vendors (Salesforce enterprise, SAP)
+5. **Branding**, durable attribution of higher value to objectively identical offering (Tiffany, Apple, Hermès)
+6. **Cornered Resource**, exclusive preferential access to a coveted asset (Pixar's directors, mining claims, key patents)
+7. **Process Power**, embedded company organization and activity sets that enable lower costs or superior product, hard to replicate (Toyota production system, ASML lithography)
 
 Each Power has two enabling conditions:
-- **Benefit** — creates value (lower cost or higher willingness-to-pay)
-- **Barrier** — prevents competitive imitation
+- **Benefit**, creates value (lower cost or higher willingness-to-pay)
+- **Barrier**, prevents competitive imitation
 
 If you do not have both, you do not have the Power. This precision is what distinguishes Helmer from generic "moat" discourse.
 
@@ -113,7 +113,7 @@ Two psychological barriers reinforce the economic one:
 > "History's Slave": Management believes "this is how the world works"
 > "Job Security": CEO won't sacrifice incentive structure for unknowable upside
 
-Counter-Positioning is a transition Power — typically lasts a few years; need other Powers to sustain beyond the window.
+Counter-Positioning is a transition Power, typically lasts a few years; need other Powers to sustain beyond the window.
 
 ### From [[Helmer 7 Powers Applied to AWS]]
 
@@ -153,7 +153,7 @@ The two mentors converge through Helmer's framework.
 ## Queued for Future Ingest
 
 Phase 2 ingest plan (4 sources):
-- "7 Powers" book — Chapter 1 (Scale Economies, the foundation) + Chapter 3 (Counter-Positioning, Helmer's most original)
+- "7 Powers" book, Chapter 1 (Scale Economies, the foundation) + Chapter 3 (Counter-Positioning, Helmer's most original)
 - Helmer on Acquired podcast (long-form interview, 2019)
 - "Counter-Positioning" deep-dive essay or talk
 - Applied case study (e.g. Helmer on Spotify, Netflix, or Adobe)
@@ -174,7 +174,7 @@ Mature. Four sources ingested: [[Helmer 7 Powers Book]], [[Helmer Acquired Podca
 ## Connections
 
 - [[Persona]] anchors this brain's operating identity
-- [[Ben Thompson]] complementary mentor — Aggregation Theory + 7 Powers cover the modern internet-specific and the universal moat frameworks
+- [[Ben Thompson]] complementary mentor, Aggregation Theory + 7 Powers cover the modern internet-specific and the universal moat frameworks
 - [[Lenny Rachitsky]], [[Paul Graham]] other unicorn-builder pole mentors
 - [[Innovators Dilemma]] (Christensen) historical predecessor to both Thompson and Helmer
 - [[Operating Principles]] Strategic Durability section will gain 7 Powers principles

@@ -77,7 +77,7 @@ Multiple Powers stacked over time:
 
 ### Pixar
 
-- **Cornered Resource (Human)**: the specific creative directors (John Lasseter, Brad Bird, Pete Docter, Andrew Stanton) — Helmer's textbook example of human cornered resource
+- **Cornered Resource (Human)**: the specific creative directors (John Lasseter, Brad Bird, Pete Docter, Andrew Stanton), Helmer's textbook example of human cornered resource
 - The directors create the films; the films create the brand; both reinforce each other
 
 ## Counter-Positioning Discussion
@@ -126,5 +126,5 @@ For founders, this means the discipline: name the Power you are building toward.
 - [[Operating Principles]]
 - [[seed-corpus-unicorn-builders]] source H2
 - [[Helmer 7 Powers Book]] paired source; this episode is the book's applied companion
-- [[Andrej Karpathy]] adjacent — Karpathy's "first principles over analogies" parallels Helmer's "precise Powers over fuzzy moats"
-- [[Innovators Dilemma]] adjacent — Christensen's disruption framework historically precedes Counter-Positioning
+- [[Andrej Karpathy]] adjacent, Karpathy's "first principles over analogies" parallels Helmer's "precise Powers over fuzzy moats"
+- [[Innovators Dilemma]] adjacent, Christensen's disruption framework historically precedes Counter-Positioning

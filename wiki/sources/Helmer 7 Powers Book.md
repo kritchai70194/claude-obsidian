@@ -32,9 +32,9 @@ Hamilton Helmer's 2016 book, the canonical text of his 7 Powers framework. 200 p
 > Power is "a set of conditions creating the potential for persistent differential returns."
 
 Three required elements:
-1. **Persistent** — sustainable over time, not a temporary advantage
-2. **Differential** — produces returns above the cost of capital
-3. **Returns** — generates substantial free cash flow
+1. **Persistent**, sustainable over time, not a temporary advantage
+2. **Differential**, produces returns above the cost of capital
+3. **Returns**, generates substantial free cash flow
 
 Power manifests as: persistently high returns on capital, durable above-market growth, substantial free cash flow over extended periods.
 
@@ -171,6 +171,6 @@ A firm in a great industry with no Power still does poorly. A firm with strong P
 - [[Hamilton Helmer]] mentor anchor
 - [[Operating Principles]]
 - [[seed-corpus-unicorn-builders]] source H1
-- [[Thompson Aggregation Theory]] adjacent — Aggregation Theory is largely a Network Economies + Switching Costs combination applied to internet markets
+- [[Thompson Aggregation Theory]] adjacent, Aggregation Theory is largely a Network Economies + Switching Costs combination applied to internet markets
 - [[Innovators Dilemma]] (Christensen) predecessor; Counter-Positioning extends Christensen's disruption to a broader pattern
-- [[Werner Vogels]] adjacent — AWS exemplifies Scale Economies + Switching Costs + Process Power (see [[Helmer 7 Powers Applied to AWS]])
+- [[Werner Vogels]] adjacent, AWS exemplifies Scale Economies + Switching Costs + Process Power (see [[Helmer 7 Powers Applied to AWS]])
