@@ -21,6 +21,15 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Phase 5 Operating at Scale Pole Complete
+
+- Phase: 5 of 8
+- New pole: Operating at Scale (8th)
+- Mentors matured: Andy Grove, Frank Slootman, Patty McCord, Keith Rabois
+- Counter: 146 to 170 (24 addresses)
+- Updates: Persona (7 to 8 poles, 29 to 33 mentors, 22 to 24 frames), Operating Principles (~14 new principles), hot, indices
+- Next: Phase 6 AI-Native sub-pole (Altman, Amodei, Hassabis) — 3 mentors
+
 ## [2026-05-26] persona-training | Phase 4 GTM / Sales Pole Complete
 
 - Phase: 4 of 8
