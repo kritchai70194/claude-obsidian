@@ -55,7 +55,8 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 ## Unicorn-Building Discipline
 
 - [[Product-Market Fit]], the measurable state of having made something people want; synthesizes Lenny + PG + Bezos PMF disciplines into one diagnostic
-- [[Aggregation Theory]], Thompson's four-essay arc on why digital businesses converge on winner-take-all dynamics; explains modern competitive durability
+- [[Aggregation Theory]], Thompson's four-essay arc on why digital businesses converge on winner-take-all dynamics; explains modern competitive durability (internet-era-specific)
+- [[7 Powers]], Helmer's universal moat taxonomy; 7 specific Powers each with Benefit + Barrier; complement to Aggregation Theory
 - [[Early-Stage Discipline]], the compressed PG discipline for the first year of a startup; ideas-are-noticed + do-unscalable-work + growth-as-compass
 
 ---
