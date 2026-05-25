@@ -87,6 +87,13 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Helmer Counter-Positioning Deep Dive]]: the most underrated Power; Vanguard vs Fidelity canonical example; transition Power, plan what follows
 - [[Helmer 7 Powers Applied to AWS]]: applied analysis cross-referencing Vogels; AWS exhibits 4 stacked Powers (Scale Economies + Switching Costs + Process Power + partial Cornered Resource)
 
+## Growth + Network Effects (Chen)
+
+- [[Chen Cold Start Problem Book]]: the canonical text; 5-stage framework (Cold Start, Tipping Point, Escape Velocity, Hitting the Ceiling, The Moat); atomic networks bootstrap from zero (2021)
+- [[Chen Growth Loops]]: loops vs funnels distinction; four loop types (viral, content/SEO, paid, sales); compound math
+- [[Chen Atomic Network]]: deep dive on the smallest viable network; Tinder USC, Uber one-city, Slack one-team examples
+- [[Chen Uber Rider Growth]]: applied case from Chen's 70+ market expansions at Uber; hyperlocal marketplaces; 4 loops stacked at peak
+
 ## Early-Stage Epistemics (PG)
 
 - [[PG How to Start a Startup]]: three things matter (people, product, frugality); make something people want (2005)
