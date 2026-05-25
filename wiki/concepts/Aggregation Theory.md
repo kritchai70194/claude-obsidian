@@ -160,10 +160,23 @@ When evaluating a business opportunity or competing strategy:
 
 ---
 
+## Relationship to 7 Powers
+
+[[7 Powers]] (Helmer) is the universal moat taxonomy. Aggregation Theory is internet-era-specific. Most aggregators have one or more of Helmer's Powers:
+
+- **Network Economies** (Facebook, LinkedIn) — direct mapping; aggregation winners often have Network Economies
+- **Switching Costs** (Google, Amazon) — accumulated through deep service integration
+- **Scale Economies** (Amazon, AWS) — content/infrastructure costs spread across base
+- Increasingly **Process Power** (Amazon, Google operational machinery)
+
+Use Thompson to identify "is this market structurally winner-take-all in the internet era?". Use Helmer to specify "which exact Power(s) make this business durable?". Stacked Powers compound — most durable aggregators have multiple.
+
 ## Connections
 
 - [[Ben Thompson]] mentor anchor
 - [[Thompson Aggregation Theory]], [[Thompson Defining Aggregators]], [[Thompson Bill Gates Line]], [[Thompson End of the Beginning]] primary sources
+- [[7 Powers]] complementary universal framework
+- [[Hamilton Helmer]] paired strategy mentor
 - [[Innovators Dilemma]] predecessor framework Aggregation Theory extends
 - [[Werner Vogels]] AWS as the canonical platform; the aggregators run on top
 - [[Patrick Collison]] Stripe as a vertical aggregator + platform hybrid for payments
