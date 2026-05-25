@@ -41,7 +41,14 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ## Decision-Making & Leadership
 
-- [[Operating Principles]] — decision-making heuristics distilled from the [[Persona]] mentor bench (developing)
+- [[Operating Principles]], decision-making heuristics distilled from the [[Persona]] mentor bench (mature, 50+ cited principles across 6 sections)
+
+---
+
+## Engineering Discipline
+
+- [[Planning Before Code]], the writing-as-thinking discipline across rigor levels (Carmack `.plan` prose, Lamport TLA+ formal, Bezos memo organizational); synthesis page bridging the engineer-planner pole with the founder-operator pole
+- [[Formal Specification Discipline]], the deeper pole focused on Lamport TLA+; when the cost of error justifies the cost of rigor
 
 ---
 
