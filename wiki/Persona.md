@@ -12,6 +12,7 @@ poles:
   - capital-strategy
   - gtm-sales
   - operating-at-scale
+  - ai-native
 created: '2026-05-24T00:00:00.000Z'
 updated: '2026-05-26'
 tags:
