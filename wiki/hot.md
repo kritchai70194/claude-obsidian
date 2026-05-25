@@ -70,14 +70,15 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 4. **Boundary-first autoresearch** (Mechanism 4): unchanged; sources hand-picked, not autoresearch-discovered.
 5. **Parallel-agent dispatch** (new pattern): Phase 1 ran 4 implementer subagents concurrently, one per mentor. Each agent owned disjoint output paths (entity + sources for one mentor). Wall-clock ~5 min vs estimated ~25 min sequential. Works when format pattern is established and content briefs are self-contained.
 
-## Session Statistics
+## Session Statistics (Phase 1, 2026-05-26 most recent)
 
-- **Sources ingested this session**: 12 (4 Lenny + 4 Thompson + 4 Graham)
-- **Mentor entities matured**: 3 ([[Lenny Rachitsky]], [[Ben Thompson]], [[Paul Graham]])
-- **New concept pages**: 3 ([[Product-Market Fit]], [[Aggregation Theory]], [[Early-Stage Discipline]])
-- **New principles in Operating Principles**: ~22 (Product Discipline section ~11, Strategic Durability ~10, Early-Stage Epistemics ~10)
-- **Persona changes**: bench grew from 8 to 11 mentors; 3 new decision frames (PMF check, defensibility check, growth-rate check); archetype expanded to three poles
-- **Addresses allocated**: c-000016 through c-000034 (19 addresses)
+- **Sources ingested this session**: 15 (4 Horowitz + 4 Naval + 3 Feld + 4 Chesky)
+- **Mentor entities matured**: 4 ([[Ben Horowitz]], [[Naval Ravikant]], [[Brad Feld]], [[Brian Chesky]])
+- **New concept pages**: 2 ([[Founder Resilience]], [[Founder Mode]])
+- **New seed corpus**: 1 ([[seed-corpus-founder-resilience]])
+- **New principles in Operating Principles**: 13 (new Founder Resilience section)
+- **Persona changes**: bench grew from 13 to 17 mentors; 2 new decision frames (wartime/peacetime mode, leverage compounding); archetype expanded to four poles
+- **Addresses allocated**: c-000049 through c-000071 (23 addresses)
 
 ## Style Preferences
 
