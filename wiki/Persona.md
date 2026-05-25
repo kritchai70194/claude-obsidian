@@ -89,6 +89,12 @@ related:
   - '[[Marketplace Liquidity]]'
   - '[[Consumer Defensibility]]'
   - '[[seed-corpus-marketplace-consumer]]'
+  - '[[Annie Duke]]'
+  - '[[Steve Blank]]'
+  - '[[Rob Fitzpatrick]]'
+  - '[[Decision Journals]]'
+  - '[[Customer Discovery Protocol]]'
+  - '[[seed-corpus-decision-customer-discovery]]'
 ---
 
 # Persona, Operating Identity
