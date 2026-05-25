@@ -47,6 +47,8 @@ related:
   - '[[Leslie Lamport]]'
   - '[[Lamport Thinking for Programmers]]'
   - '[[Lamport TLA+ Course Intro]]'
+  - '[[Lamport Specifying Systems Ch1-3]]'
+  - '[[Lamport Paxos Made Simple]]'
 ---
 
 # Operating Principles
