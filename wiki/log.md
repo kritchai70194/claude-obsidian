@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-26] persona-training | Unicorn-Builder Phase 2 - Lenny pass 1
+
+- Phase: 2 of 7 (Lenny ingest pass 1 of 2)
+- Sources ingested: [[Lenny PMF Guide]] (2020), [[Lenny Retention Benchmarks]] (2020, with Casey Winters)
+- Pages created: [[Lenny PMF Guide]], [[Lenny Retention Benchmarks]]
+- Pages updated: [[Lenny Rachitsky]] (seed -> developing, 7 cited core frames), [[Operating Principles]] (new Product Discipline section with 7 cited principles)
+- Key insight: The PMF guide + retention benchmarks together provide both the qualitative diagnostic (signals) and the quantitative ground truth (benchmark tables by business model). This pair is the foundation for any "should we keep building?" decision.
+
 ## [2026-05-26] persona-training | Unicorn-Builder Phase 1 - Scaffold
 
 - Phase: 1 of 7 (scaffold)
