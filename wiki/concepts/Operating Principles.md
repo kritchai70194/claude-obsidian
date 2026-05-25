@@ -182,6 +182,61 @@ Matrix orgs spawn sub-teams seeking responsibility, create bottlenecks, force du
 
 ---
 
+## Strategic Durability
+
+### The internet inverted two pillars of incumbent advantage
+
+Distribution scarcity and transaction cost. Pre-internet moats stopped working not because incumbents did anything wrong, but because the structural ground shifted.
+
+> "The Internet has made distribution (of digital goods) free, neutralizing the advantage that pre-Internet distributors leveraged to integrate with suppliers." ([[Thompson Aggregation Theory]])
+
+> "The Internet has made transaction costs zero, making it viable for a distributor to integrate forward with end users/consumers at scale." ([[Thompson Aggregation Theory]])
+
+The strategic implication: any business reasoning from pre-internet moat theory is reasoning from a broken model.
+
+### Aggregators win by commoditizing suppliers and owning the consumer relationship
+
+> "Aggregators integrate forward with consumers instead, commoditizing suppliers in the process." ([[Thompson Aggregation Theory]])
+
+The reversal: where distributors used to integrate backward to suppliers, aggregators integrate forward to consumers. Suppliers become the commodity layer.
+
+The strategic question for any digital business: am I on the supplier side or the aggregator side? Different moats apply to each.
+
+### The moat is the user relationship, not the product features
+
+> "The best distributors/aggregators/market-makers win by providing the best experience, which earns them the most consumers/users, which attracts the most suppliers, which enhances the user experience in a virtuous cycle." ([[Thompson Aggregation Theory]])
+
+The virtuous cycle self-reinforces. Never let a third party intermediate the user relationship.
+
+### Within a category, aggregation is winner-take-all
+
+> "Since the value of an aggregator to end users is continually increasing it is exceedingly difficult for competitors to take away users or win new ones." ([[Thompson Defining Aggregators]])
+
+Two viable competitors at the Super-Aggregator level is unstable; one wins. Competitors face the inverse flywheel: fewer users -> less value -> harder to acquire -> fewer users.
+
+### Three defining attributes of aggregators
+
+All three required; if any is missing, you are not an aggregator:
+
+1. Direct user relationship (no intermediation)
+2. Zero marginal costs (digital goods, free distribution)
+3. Demand-driven multi-sided network (acquisition cost decreases over time)
+
+> "Aggregators have a direct relationship with users. This may be a payment-based relationship, an account-based one, or simply one based on regular usage." ([[Thompson Defining Aggregators]])
+
+### Four levels by supply cost
+
+The taxonomy predicts durability:
+
+- **Level 1** (Netflix): paid supply acquisition; ongoing cost pressure
+- **Level 2** (Uber): supply onboarding friction; moat is operational machinery
+- **Level 3** (Google, social networks): suppliers come for free; "actively make themselves more easily searchable and discoverable" ([[Thompson Defining Aggregators]])
+- **Super-Aggregator** (Facebook, Google only): three-sided market at zero marginal cost on all sides; structurally unkillable
+
+Climb the levels when possible. A Level 3 competitor in your category is the existential threat; everything else is noise.
+
+---
+
 ## Customer Direction
 
 ### Customer obsession beats competitor obsession
