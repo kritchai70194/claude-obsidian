@@ -99,6 +99,6 @@ Am I on the supplier side or the aggregator side?
 - [[Ben Thompson]] mentor anchor
 - [[Operating Principles]]
 - [[seed-corpus-unicorn-builders]] source T1
-- [[Innovators Dilemma]] (Christensen) — predecessor framework Aggregation Theory extends
+- [[Innovators Dilemma]] (Christensen), predecessor framework Aggregation Theory extends
 - [[Bezos 2002 API Mandate]] adjacent; Amazon's API discipline is what made it an aggregator-platform hybrid
 - [[Vogels Decade of Dynamo]] adjacent; AWS as a platform serves the aggregators

@@ -43,12 +43,12 @@ Reciprocal claim. The NSM is not a measurement tool; it IS the strategy. If you 
 
 ## Six Types (from 40+ company survey)
 
-1. **Revenue** — money generated. ~50% of companies use this. Lenny cautions against (see Common Mistakes).
-2. **Customer Growth** — paying users. ~35%.
-3. **Consumption Growth** — intensity of usage beyond visits.
-4. **Engagement Growth** — active users. ~30%.
-5. **Growth Efficiency** — spend vs make money. ~10%.
-6. **User Experience** — enjoyability and ease of use.
+1. **Revenue**, money generated. ~50% of companies use this. Lenny cautions against (see Common Mistakes).
+2. **Customer Growth**, paying users. ~35%.
+3. **Consumption Growth**, intensity of usage beyond visits.
+4. **Engagement Growth**, active users. ~30%.
+5. **Growth Efficiency**, spend vs make money. ~10%.
+6. **User Experience**, enjoyability and ease of use.
 
 ## Examples by Business Model
 

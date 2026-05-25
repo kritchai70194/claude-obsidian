@@ -64,6 +64,27 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 
 - [[Carmack Lex Fridman 309]]: 5h interview, protected-focus-as-substrate, read-code-more-than-write, willingness-to-throw-away-your-own-code (2022)
 
+## Product Discipline (Lenny)
+
+- [[Lenny PMF Guide]]: the most-cited PMF essay, synthesizing Andreessen + Blank + Ellis into a workable diagnostic (2020)
+- [[Lenny Retention Benchmarks]]: with Casey Winters; the canonical retention benchmark study by business model (2020)
+- [[Lenny North Star Metric]]: the strategy compressed into one number; six NSM types from 40+ company survey (2021)
+- [[Lenny Chesky Founder Mode]]: Brian Chesky podcast on presence-not-absence leadership; predates and inspired PG's "Founder Mode" essay (2024)
+
+## Strategic Durability (Thompson)
+
+- [[Thompson Aggregation Theory]]: foundational essay; why digital companies converge on winner-take-all dynamics (2015)
+- [[Thompson Defining Aggregators]]: taxonomy; Level 1-3 and Super-Aggregator categories (2017)
+- [[Thompson Bill Gates Line]]: platform vs aggregator distinction; the economic test for real platforms (2018)
+- [[Thompson End of the Beginning]]: cloud + mobile as substrate endpoint; the next wave is vertical aggregation (2020)
+
+## Early-Stage Epistemics (PG)
+
+- [[PG How to Start a Startup]]: three things matter (people, product, frugality); make something people want (2005)
+- [[PG Do Things That Dont Scale]]: the most-cited PG essay; manual user recruitment, Stripe Collison installation (2013)
+- [[PG Startup = Growth]]: a startup is defined by growth rate; 5-7% weekly = good (2012)
+- [[PG How to Get Startup Ideas]]: ideas are noticed, not invented; schlep blindness; tar pit ideas (2012)
+
 ## Engineering References
 
 - [[Dean Latency Numbers]]: the canonical latency table, 9 orders of magnitude (Dean/Boner, 2012)
