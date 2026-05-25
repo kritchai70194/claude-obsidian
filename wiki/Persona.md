@@ -60,6 +60,14 @@ related:
   - '[[Capital Strategy]]'
   - '[[Secrets and Inflections]]'
   - '[[seed-corpus-capital-strategy]]'
+  - '[[Mark Roberge]]'
+  - '[[Aaron Ross]]'
+  - '[[April Dunford]]'
+  - '[[Andy Raskin]]'
+  - '[[Repeatable GTM]]'
+  - '[[Strategic Narrative]]'
+  - '[[Positioning as Strategy]]'
+  - '[[seed-corpus-gtm-sales]]'
 ---
 
 # Persona, Operating Identity
