@@ -54,6 +54,9 @@ related:
   - '[[Lenny Retention Benchmarks]]'
   - '[[Lenny North Star Metric]]'
   - '[[Lenny Chesky Founder Mode]]'
+  - '[[Ben Thompson]]'
+  - '[[Thompson Aggregation Theory]]'
+  - '[[Thompson Defining Aggregators]]'
 ---
 
 # Operating Principles
