@@ -78,6 +78,13 @@ All entity pages — people, organizations, products, and tools.
 - [[April Dunford]], Ambient Strategy founder; *Obviously Awesome* (2019), *Sales Pitch* (2023); positioning as strategy distinct from messaging, 5 components, negative positioning, 4 positioning styles
 - [[Andy Raskin]], strategic narrative consultant (Salesforce, Zuora, Drift); the 5-part arc (world change → stakes → promised land → obstacles → evidence), lead with the world change not the product
 
+#### Operating-at-scale pole
+
+- [[Andy Grove]], CEO Intel 1987-1998; *High Output Management* (1983), *Only the Paranoid Survive* (1996); managerial leverage, OKRs origin, 1:1 cadence, strategic inflection points
+- [[Frank Slootman]], CEO Snowflake 2019-2024 (IPO $33B); *Amp It Up* (2022); raise standards + tempo + focus + pace, narrow product portfolio, pricing discipline
+- [[Patty McCord]], Chief Talent Officer Netflix 1998-2012; *Powerful* (2018), Netflix Culture Deck (2009); freedom and responsibility, hire fully-formed adults, the Keeper Test, pay top-of-market
+- [[Keith Rabois]], GP Khosla Ventures; former COO Square + exec PayPal/LinkedIn; Barrels and Ammunition hiring framework, 1 great hire > 10 average, recruiting is CEO's job, 24-48 hour decisions
+
 ---
 
 ## Organizations
