@@ -11,13 +11,91 @@
             "id": "a31de1b302cdc5cf",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WIKI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WIKI"
+            }
+          },
+          {
+            "id": "c6c27d6da32d9442",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
+          },
+          {
+            "id": "f0e3486bf9ee3f44",
+            "type": "leaf",
+            "state": {
+              "type": "thino-changelog-view",
+              "state": {},
+              "icon": "info",
+              "title": "Thino update info"
+            }
+          },
+          {
+            "id": "251fb3bcf1653195",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "eb1f916db738ad96",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "ececa39d3102e473",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled 2.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled 2"
+            }
+          },
+          {
+            "id": "629981155864a702",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -183,9 +261,60 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-memos:Thino": false,
+      "obsidian-memos:Thino Super": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a31de1b302cdc5cf",
-  "lastOpenFiles": []
+  "active": "629981155864a702",
+  "lastOpenFiles": [
+    "wiki/concepts/_index.md.tmp.5497.58869fe3bc70",
+    "wiki/meta/2026-05-26-decision-customer-discovery-training-session.md",
+    "wiki/concepts/Customer Discovery Protocol.md",
+    "wiki/concepts/Decision Journals.md",
+    "wiki/sources/Fitzpatrick Conference Talks.md",
+    "wiki/sources/Blank Lean Launchpad.md",
+    "wiki/sources/Fitzpatrick Foundercentric.md",
+    "wiki/sources/Duke Podcast Synthesis.md",
+    "wiki/sources/Blank Customer Development Blog.md",
+    "wiki/sources/Fitzpatrick Question Patterns.md",
+    "wiki/sources/Duke Decision Journal.md",
+    "wiki/sources/Blank Startup Owners Manual.md",
+    "wiki/sources/Fitzpatrick Mom Test.md",
+    "wiki/sources/Blank Four Steps to Epiphany.md",
+    "wiki/sources/Duke Quit.md",
+    "wiki/entities/Rob Fitzpatrick.md",
+    "wiki/entities/Steve Blank.md",
+    "wiki/sources/Duke Thinking in Bets.md",
+    "wiki/entities/Annie Duke.md",
+    "wiki/meta/seed-corpus-decision-customer-discovery.md",
+    "wiki/meta/2026-05-26-marketplace-consumer-training-session.md",
+    "wiki/meta/2026-05-26-marketplace-consumer-training-session.md.tmp.5497.472ad16a7062",
+    "wiki/concepts/Consumer Defensibility.md",
+    "wiki/concepts/Marketplace Liquidity.md",
+    "wiki/sources/Choudary Interviews.md",
+    "wiki/sources/Choudary HBR WEF Essays.md",
+    "wiki/sources/Choudary Platform Scale.md",
+    "wiki/meta/2026-05-26-ai-native-training-session.md.tmp.5497.5f1bd3a47564",
+    "wiki/entities/Demis Hassabis.md.tmp.5497.7b3bff90661a",
+    "wiki/sources/Amodei Machines of Loving Grace.md.tmp.5497.174e595c3f40",
+    "wiki/sources/_index.md.tmp.5497.5db6533e92ba",
+    "wiki/sources/Roberge Sales Acceleration Formula.md.tmp.5497.ab3aee4ca792",
+    "wiki/sources/Hoffman Masters of Scale.md.tmp.5497.75e1e7a7eb09",
+    "wiki/sources/Gurley All-In Podcast.md.tmp.5497.e2ac7fe44cc1",
+    "wiki/sources/Gurley J-curve and Recap.md.tmp.5497.cfa526f70398",
+    "wiki/sources/Hoffman Stanford CS183C.md.tmp.5497.a1ee257a01f2",
+    "ui-ux-pro-max-skill/screenshots/website.png",
+    "Untitled 2.canvas",
+    "wiki/canvases/youtube-explainer.canvas",
+    "wiki/canvases/welcome.canvas",
+    "wiki/canvases/main.canvas",
+    "wiki/canvases/claude-obsidian-presentation.canvas",
+    "wiki/Wiki Map.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
 }
