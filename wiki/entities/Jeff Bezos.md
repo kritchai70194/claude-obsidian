@@ -1,13 +1,14 @@
 ---
 type: entity
 title: Jeff Bezos
+address: c-000246
 entity_type: person
 role: >-
   Founder of Amazon and Blue Origin; CEO 1994-2021, Executive Chairman
   2021-present
 first_mentioned: '[[Persona]]'
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - entity
   - person
