@@ -1,12 +1,13 @@
 ---
 type: source
 title: Collison Fast
+address: c-000227
 author: Patrick Collison
 publication_year: 2020
 url: 'https://patrickcollison.com/fast'
 raw_file: .raw/source-collison-fast.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - speed
