@@ -1,12 +1,13 @@
 ---
 type: source
 title: Collison Questions
+address: c-000233
 author: Patrick Collison
 publication_year: 2020
 url: 'https://patrickcollison.com/questions'
 raw_file: .raw/source-collison-questions.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - questions
