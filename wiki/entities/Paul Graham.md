@@ -163,7 +163,7 @@ After this batch, deferred to a future corpus iteration:
 
 ## Status
 
-Mature. Four canonical PG essays ingested: [[PG How to Start a Startup]] (2005), [[PG Do Things That Dont Scale]] (2013), [[PG Startup = Growth]] (2012), [[PG How to Get Startup Ideas]] (2012). Operating frame stable. The PG Mt-Rushmore covering people-product-money, growth definition, manual recruitment, and idea discovery.
+Mature. Four canonical PG essays ingested: [[PG How to Start a Startup]] (2005), [[PG Do Things That Dont Scale]] (2013, full-text upgrade 2026-05-27), [[PG Startup = Growth]] (2012), [[PG How to Get Startup Ideas]] (2012). Operating frame stable. The PG Mt-Rushmore covering people-product-money, growth definition, manual recruitment, and idea discovery.
 
 ---
 
