@@ -153,7 +153,10 @@ When both components work together, they shape company DNA:
 - Disproportionate care on early users; they are the company at this stage.
 - B2B: pick one customer, perfect for them, generalize.
 - Start narrow; expand outward from a contained fire.
-- Big launches do not work; manual recruitment does.
+- Big launches and partnerships do not work; manual recruitment does.
+- Hardware: hand-assemble before factory runs (Meraki / Pebble).
+- Manual mode: do the work by hand until you know exactly what to automate (Stripe).
+- Treat startup ideas as vectors: product + the unscalable thing you will do to get going.
 
 ## Principles Cited From This Source
 
@@ -163,12 +166,20 @@ When both components work together, they shape company DNA:
 - **Start narrow; the contained fire creates critical mass.** Then expand outward.
 - **10% weekly growth is the target.** Manual recruitment of 10 users from a base of 100 hits it.
 - **Disproportionate care on early users; they ARE the company.**
+- **Big launches and partnerships fail; gradual recruitment compounds.** Solipsism and laziness explain the founder pull toward them.
+- **Hardware founders should manufacture the first units themselves.** "Pulling a Meraki" gives factory-level product knowledge before factory-level volume.
+- **Manual mode beats premature automation.** Be your software until you know what to automate.
+- **A startup idea is a vector, not a scalar.** Product + the unscalable first move. An empty second slot is a red flag.
 
 ## Connections
 
 - [[Paul Graham]] mentor anchor
 - [[Operating Principles]]
 - [[seed-corpus-unicorn-builders]] source G2
+- [[Patrick Collison]] / [[John Collison]] origin of the "Collison installation" pattern; Stripe is the manual-mode and aggressive-recruitment exemplar
+- [[Brian Chesky]] Airbnb door-to-door, professional-photos pattern; precursor to [[Chesky Founder Mode Essay]]
+- [[Sam Altman]] mentioned in PG's footnote 2 (sales is non-delegable for founders); aligns with [[Altman YC Essays]]
 - [[Lenny PMF Guide]] adjacent; the "10 users who love it beats 1000 who tolerate it" frame
 - [[Carmack Lex Fridman 309]] adjacent; the protected-focus discipline maps to the manual-recruitment discipline (both reject the easy-but-shallow path)
 - [[Working Backwards Book]] adjacent; Amazon's early operational mechanics share the "do whatever it takes for early users" DNA
+- Raw text: `.raw/articles/pg-ds-2026-05-27.md`
