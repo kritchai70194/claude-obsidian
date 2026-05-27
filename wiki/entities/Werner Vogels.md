@@ -147,6 +147,16 @@ Plus the canonical custom-silicon position (citing Alan Kay):
 - **Order of magnitude thinking applied to scale regimes.** ([[Vogels Eventually Consistent]]) "In larger distributed-scale systems, network partitions are a given" is an order-of-magnitude argument.
 - **Measure before you redesign.** ([[Vogels Decade of Dynamo]]) The 70%/20% workload measurement is what justified the move away from relational. Without that measurement, the move would have been speculation.
 - **Distinguish systems from papers from services.** ([[Vogels Decade of Dynamo]]) The Dynamo internal system, the Dynamo paper, and DynamoDB are three different things. Precise naming is engineering discipline.
+- **Working Backwards is a four-document process.** ([[Vogels Working Backwards]]) Press release → FAQ → customer experience → user manual. The press release as forcing function for clarity.
+- **Services = org structure.** ([[Vogels Working Backwards]], [[Vogels Distributed Computing Manifesto]]) The service decomposition is the team decomposition. "Small startups within the walls" is the operative phrase.
+- **Inventing themselves out of trouble.** ([[Vogels Distributed Computing Manifesto]]) When the existing architecture is the bottleneck, the response is a structural rewrite, not incremental optimization.
+- **Refuse the false trade-off.** ([[Vogels S3 Strong Consistency]]) Strong consistency with no opt-in, no cost, no latency cost, no regional dependency. The engineering posture against compromise.
+- **Cache coherence as a system protocol.** ([[Vogels S3 Strong Consistency]]) Borrow the CPU-cache-coherence analog to solve distributed-system consistency. Cross-domain pattern matching.
+- **90% of roadmap from customers.** ([[Vogels S3 Strong Consistency]]) Statistical version of customer obsession.
+- **One-way door at infrastructure scale.** ([[Vogels Reinventing Virtualization Nitro]]) Nitro as the canonical irreversible architectural commitment, validated incrementally over 5 years.
+- **Acquire suppliers who impress you.** ([[Vogels Reinventing Virtualization Nitro]]) Annapurna Labs case: collaboration before acquisition.
+- **Every facet of life becomes a data stream.** ([[Vogels 2023 Predictions]]) Master frame for the 2020s.
+- **Serious software demands serious hardware.** ([[Vogels 2023 Predictions]], citing Alan Kay) Custom silicon is going mainstream; Trainium / Inferentia / Graviton case.
 
 ---
 
