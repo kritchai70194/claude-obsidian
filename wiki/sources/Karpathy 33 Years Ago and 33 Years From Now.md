@@ -1,12 +1,13 @@
 ---
 type: source
 title: Karpathy 33 Years Ago and 33 Years From Now
+address: c-000238
 author: Andrej Karpathy
 publication_year: 2022
 url: 'https://karpathy.github.io/2022/03/14/lecun1989/'
 raw_file: .raw/source-karpathy-33-years.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - ml
