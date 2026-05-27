@@ -12,6 +12,7 @@ related:
   - "[[Andrej Karpathy]]"
   - "[[John Carmack]]"
   - "[[Leslie Lamport]]"
+  - "[[John Allspaw]]"
   - "[[hot]]"
   - "[[LLM Wiki Pattern]]"
 ---
