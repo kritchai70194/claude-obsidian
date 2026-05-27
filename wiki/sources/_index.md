@@ -50,6 +50,11 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Vogels 10 Lessons from 10 Years of AWS]]: 10 engineering principles from a decade of AWS (2016)
 - [[Vogels Eventually Consistent]]: the consistency-model taxonomy and CAP framing (2008)
 - [[Vogels Decade of Dynamo]]: workload measurement that started NoSQL, three-system distinction (2017)
+- [[Vogels Working Backwards]]: the 2006 primary source for the 4-document Working Backwards process (press release → FAQ → experience → user manual); services as "small startups within the walls"
+- [[Vogels Distributed Computing Manifesto]]: 1998 internal architecture document, released 2022; SOA thesis 4 years before [[Bezos 2002 API Mandate]]; three-tier architecture + workflow + data domains
+- [[Vogels S3 Strong Consistency]]: 2021 engineering retrospective on moving S3 to strong consistency without raising prices, requiring opt-in, or sacrificing latency; cache coherence at petabyte scale
+- [[Vogels Reinventing Virtualization Nitro]]: 2020 engineering retrospective on the 5-year Xen → Nitro migration; canonical one-way-door discipline at infrastructure scale
+- [[Vogels 2023 Predictions]]: annual predictions December 2022; thesis "every facet of life becomes a data stream"; custom-silicon mainstream prediction
 
 ## Engineering Talks
 
