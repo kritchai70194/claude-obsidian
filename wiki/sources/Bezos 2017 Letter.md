@@ -1,12 +1,13 @@
 ---
 type: source
 title: Bezos 2017 Letter
+address: c-000235
 author: Jeff Bezos
 publication_year: 2017
 url: 'https://www.aboutamazon.com/news/company-news/2017-letter-to-shareholders'
 raw_file: .raw/source-bezos-2017-letter.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - shareholder-letter
