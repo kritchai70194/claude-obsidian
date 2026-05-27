@@ -1,0 +1,843 @@
+{
+  "nodes": [
+    {
+      "id": "persona",
+      "type": "file",
+      "file": "wiki/Persona.md",
+      "x": -260,
+      "y": -900,
+      "width": 520,
+      "height": 220,
+      "color": "6"
+    },
+    {
+      "id": "p-founder-op",
+      "type": "text",
+      "text": "## Founder-Operator\n6 mentors",
+      "x": -1530,
+      "y": 200,
+      "width": 360,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "m-p-founder-op-0",
+      "type": "file",
+      "file": "wiki/entities/Jeff Bezos.md",
+      "x": -1585,
+      "y": 320,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-founder-op-1",
+      "type": "file",
+      "file": "wiki/entities/Patrick Collison.md",
+      "x": -1335,
+      "y": 320,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-founder-op-2",
+      "type": "file",
+      "file": "wiki/entities/John Collison.md",
+      "x": -1585,
+      "y": 408,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-founder-op-3",
+      "type": "file",
+      "file": "wiki/entities/Andrej Karpathy.md",
+      "x": -1335,
+      "y": 408,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-founder-op-4",
+      "type": "file",
+      "file": "wiki/entities/Jeff Dean.md",
+      "x": -1585,
+      "y": 496,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-founder-op-5",
+      "type": "file",
+      "file": "wiki/entities/Werner Vogels.md",
+      "x": -1335,
+      "y": 496,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "p-engineer-planner",
+      "type": "text",
+      "text": "## Engineer-Planner\n2 mentors",
+      "x": -630,
+      "y": 200,
+      "width": 360,
+      "height": 90,
+      "color": "5"
+    },
+    {
+      "id": "m-p-engineer-planner-0",
+      "type": "file",
+      "file": "wiki/entities/John Carmack.md",
+      "x": -685,
+      "y": 320,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-engineer-planner-1",
+      "type": "file",
+      "file": "wiki/entities/Leslie Lamport.md",
+      "x": -435,
+      "y": 320,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "p-unicorn-builder",
+      "type": "text",
+      "text": "## Unicorn-Builder\n5 mentors",
+      "x": 270,
+      "y": 200,
+      "width": 360,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "m-p-unicorn-builder-0",
+      "type": "file",
+      "file": "wiki/entities/Lenny Rachitsky.md",
+      "x": 215,
+      "y": 320,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-unicorn-builder-1",
+      "type": "file",
+      "file": "wiki/entities/Ben Thompson.md",
+      "x": 465,
+      "y": 320,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-unicorn-builder-2",
+      "type": "file",
+      "file": "wiki/entities/Hamilton Helmer.md",
+      "x": 215,
+      "y": 408,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-unicorn-builder-3",
+      "type": "file",
+      "file": "wiki/entities/Andrew Chen.md",
+      "x": 465,
+      "y": 408,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-unicorn-builder-4",
+      "type": "file",
+      "file": "wiki/entities/Paul Graham.md",
+      "x": 215,
+      "y": 496,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "p-founder-resilience",
+      "type": "text",
+      "text": "## Founder-Resilience\n4 mentors",
+      "x": 1170,
+      "y": 200,
+      "width": 360,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "m-p-founder-resilience-0",
+      "type": "file",
+      "file": "wiki/entities/Ben Horowitz.md",
+      "x": 1115,
+      "y": 320,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-founder-resilience-1",
+      "type": "file",
+      "file": "wiki/entities/Naval Ravikant.md",
+      "x": 1365,
+      "y": 320,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-founder-resilience-2",
+      "type": "file",
+      "file": "wiki/entities/Brad Feld.md",
+      "x": 1115,
+      "y": 408,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-founder-resilience-3",
+      "type": "file",
+      "file": "wiki/entities/Brian Chesky.md",
+      "x": 1365,
+      "y": 408,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "p-mental-models",
+      "type": "text",
+      "text": "## Mental-Models\n4 mentors",
+      "x": -1530,
+      "y": 1100,
+      "width": 360,
+      "height": 90,
+      "color": "6"
+    },
+    {
+      "id": "m-p-mental-models-0",
+      "type": "file",
+      "file": "wiki/entities/Charlie Munger.md",
+      "x": -1585,
+      "y": 1220,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-mental-models-1",
+      "type": "file",
+      "file": "wiki/entities/Daniel Kahneman.md",
+      "x": -1335,
+      "y": 1220,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-mental-models-2",
+      "type": "file",
+      "file": "wiki/entities/Nassim Taleb.md",
+      "x": -1585,
+      "y": 1308,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-mental-models-3",
+      "type": "file",
+      "file": "wiki/entities/Clayton Christensen.md",
+      "x": -1335,
+      "y": 1308,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "p-capital-strategy",
+      "type": "text",
+      "text": "## Capital-Strategy\n4 mentors",
+      "x": -630,
+      "y": 1100,
+      "width": 360,
+      "height": 90,
+      "color": "3"
+    },
+    {
+      "id": "m-p-capital-strategy-0",
+      "type": "file",
+      "file": "wiki/entities/Reid Hoffman.md",
+      "x": -685,
+      "y": 1220,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-capital-strategy-1",
+      "type": "file",
+      "file": "wiki/entities/Bill Gurley.md",
+      "x": -435,
+      "y": 1220,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-capital-strategy-2",
+      "type": "file",
+      "file": "wiki/entities/Peter Thiel.md",
+      "x": -685,
+      "y": 1308,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-capital-strategy-3",
+      "type": "file",
+      "file": "wiki/entities/Mike Maples.md",
+      "x": -435,
+      "y": 1308,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "p-gtm-sales",
+      "type": "text",
+      "text": "## GTM / Sales\n4 mentors",
+      "x": 270,
+      "y": 1100,
+      "width": 360,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "m-p-gtm-sales-0",
+      "type": "file",
+      "file": "wiki/entities/Mark Roberge.md",
+      "x": 215,
+      "y": 1220,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-gtm-sales-1",
+      "type": "file",
+      "file": "wiki/entities/Aaron Ross.md",
+      "x": 465,
+      "y": 1220,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-gtm-sales-2",
+      "type": "file",
+      "file": "wiki/entities/April Dunford.md",
+      "x": 215,
+      "y": 1308,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-gtm-sales-3",
+      "type": "file",
+      "file": "wiki/entities/Andy Raskin.md",
+      "x": 465,
+      "y": 1308,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "p-operating-scale",
+      "type": "text",
+      "text": "## Operating-at-Scale\n4 mentors",
+      "x": 1170,
+      "y": 1100,
+      "width": 360,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "m-p-operating-scale-0",
+      "type": "file",
+      "file": "wiki/entities/Andy Grove.md",
+      "x": 1115,
+      "y": 1220,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-operating-scale-1",
+      "type": "file",
+      "file": "wiki/entities/Frank Slootman.md",
+      "x": 1365,
+      "y": 1220,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-operating-scale-2",
+      "type": "file",
+      "file": "wiki/entities/Patty McCord.md",
+      "x": 1115,
+      "y": 1308,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-operating-scale-3",
+      "type": "file",
+      "file": "wiki/entities/Keith Rabois.md",
+      "x": 1365,
+      "y": 1308,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "p-ai-native",
+      "type": "text",
+      "text": "## AI-Native\n3 mentors",
+      "x": -1530,
+      "y": 2000,
+      "width": 360,
+      "height": 90,
+      "color": "5"
+    },
+    {
+      "id": "m-p-ai-native-0",
+      "type": "file",
+      "file": "wiki/entities/Sam Altman.md",
+      "x": -1585,
+      "y": 2120,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-ai-native-1",
+      "type": "file",
+      "file": "wiki/entities/Dario Amodei.md",
+      "x": -1335,
+      "y": 2120,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-ai-native-2",
+      "type": "file",
+      "file": "wiki/entities/Demis Hassabis.md",
+      "x": -1585,
+      "y": 2208,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "p-marketplace",
+      "type": "text",
+      "text": "## Marketplace + Consumer\n1 mentor",
+      "x": -630,
+      "y": 2000,
+      "width": 360,
+      "height": 90,
+      "color": "6"
+    },
+    {
+      "id": "m-p-marketplace-0",
+      "type": "file",
+      "file": "wiki/entities/Sangeet Paul Choudary.md",
+      "x": -685,
+      "y": 2120,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "p-decision",
+      "type": "text",
+      "text": "## Decision + Customer Discovery\n3 mentors",
+      "x": 270,
+      "y": 2000,
+      "width": 360,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "m-p-decision-0",
+      "type": "file",
+      "file": "wiki/entities/Annie Duke.md",
+      "x": 215,
+      "y": 2120,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-decision-1",
+      "type": "file",
+      "file": "wiki/entities/Steve Blank.md",
+      "x": 465,
+      "y": 2120,
+      "width": 220,
+      "height": 70
+    },
+    {
+      "id": "m-p-decision-2",
+      "type": "file",
+      "file": "wiki/entities/Rob Fitzpatrick.md",
+      "x": 215,
+      "y": 2208,
+      "width": 220,
+      "height": 70
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-persona-p-founder-op",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-founder-op",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-founder-op-m-p-founder-op-0",
+      "fromNode": "p-founder-op",
+      "fromSide": "bottom",
+      "toNode": "m-p-founder-op-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-founder-op-m-p-founder-op-1",
+      "fromNode": "p-founder-op",
+      "fromSide": "bottom",
+      "toNode": "m-p-founder-op-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-founder-op-m-p-founder-op-2",
+      "fromNode": "p-founder-op",
+      "fromSide": "bottom",
+      "toNode": "m-p-founder-op-2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-founder-op-m-p-founder-op-3",
+      "fromNode": "p-founder-op",
+      "fromSide": "bottom",
+      "toNode": "m-p-founder-op-3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-founder-op-m-p-founder-op-4",
+      "fromNode": "p-founder-op",
+      "fromSide": "bottom",
+      "toNode": "m-p-founder-op-4",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-founder-op-m-p-founder-op-5",
+      "fromNode": "p-founder-op",
+      "fromSide": "bottom",
+      "toNode": "m-p-founder-op-5",
+      "toSide": "top"
+    },
+    {
+      "id": "e-persona-p-engineer-planner",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-engineer-planner",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-engineer-planner-m-p-engineer-planner-0",
+      "fromNode": "p-engineer-planner",
+      "fromSide": "bottom",
+      "toNode": "m-p-engineer-planner-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-engineer-planner-m-p-engineer-planner-1",
+      "fromNode": "p-engineer-planner",
+      "fromSide": "bottom",
+      "toNode": "m-p-engineer-planner-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-persona-p-unicorn-builder",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-unicorn-builder",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-unicorn-builder-m-p-unicorn-builder-0",
+      "fromNode": "p-unicorn-builder",
+      "fromSide": "bottom",
+      "toNode": "m-p-unicorn-builder-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-unicorn-builder-m-p-unicorn-builder-1",
+      "fromNode": "p-unicorn-builder",
+      "fromSide": "bottom",
+      "toNode": "m-p-unicorn-builder-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-unicorn-builder-m-p-unicorn-builder-2",
+      "fromNode": "p-unicorn-builder",
+      "fromSide": "bottom",
+      "toNode": "m-p-unicorn-builder-2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-unicorn-builder-m-p-unicorn-builder-3",
+      "fromNode": "p-unicorn-builder",
+      "fromSide": "bottom",
+      "toNode": "m-p-unicorn-builder-3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-unicorn-builder-m-p-unicorn-builder-4",
+      "fromNode": "p-unicorn-builder",
+      "fromSide": "bottom",
+      "toNode": "m-p-unicorn-builder-4",
+      "toSide": "top"
+    },
+    {
+      "id": "e-persona-p-founder-resilience",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-founder-resilience",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-founder-resilience-m-p-founder-resilience-0",
+      "fromNode": "p-founder-resilience",
+      "fromSide": "bottom",
+      "toNode": "m-p-founder-resilience-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-founder-resilience-m-p-founder-resilience-1",
+      "fromNode": "p-founder-resilience",
+      "fromSide": "bottom",
+      "toNode": "m-p-founder-resilience-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-founder-resilience-m-p-founder-resilience-2",
+      "fromNode": "p-founder-resilience",
+      "fromSide": "bottom",
+      "toNode": "m-p-founder-resilience-2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-founder-resilience-m-p-founder-resilience-3",
+      "fromNode": "p-founder-resilience",
+      "fromSide": "bottom",
+      "toNode": "m-p-founder-resilience-3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-persona-p-mental-models",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-mental-models",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-mental-models-m-p-mental-models-0",
+      "fromNode": "p-mental-models",
+      "fromSide": "bottom",
+      "toNode": "m-p-mental-models-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-mental-models-m-p-mental-models-1",
+      "fromNode": "p-mental-models",
+      "fromSide": "bottom",
+      "toNode": "m-p-mental-models-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-mental-models-m-p-mental-models-2",
+      "fromNode": "p-mental-models",
+      "fromSide": "bottom",
+      "toNode": "m-p-mental-models-2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-mental-models-m-p-mental-models-3",
+      "fromNode": "p-mental-models",
+      "fromSide": "bottom",
+      "toNode": "m-p-mental-models-3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-persona-p-capital-strategy",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-capital-strategy",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-capital-strategy-m-p-capital-strategy-0",
+      "fromNode": "p-capital-strategy",
+      "fromSide": "bottom",
+      "toNode": "m-p-capital-strategy-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-capital-strategy-m-p-capital-strategy-1",
+      "fromNode": "p-capital-strategy",
+      "fromSide": "bottom",
+      "toNode": "m-p-capital-strategy-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-capital-strategy-m-p-capital-strategy-2",
+      "fromNode": "p-capital-strategy",
+      "fromSide": "bottom",
+      "toNode": "m-p-capital-strategy-2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-capital-strategy-m-p-capital-strategy-3",
+      "fromNode": "p-capital-strategy",
+      "fromSide": "bottom",
+      "toNode": "m-p-capital-strategy-3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-persona-p-gtm-sales",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-gtm-sales",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-gtm-sales-m-p-gtm-sales-0",
+      "fromNode": "p-gtm-sales",
+      "fromSide": "bottom",
+      "toNode": "m-p-gtm-sales-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-gtm-sales-m-p-gtm-sales-1",
+      "fromNode": "p-gtm-sales",
+      "fromSide": "bottom",
+      "toNode": "m-p-gtm-sales-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-gtm-sales-m-p-gtm-sales-2",
+      "fromNode": "p-gtm-sales",
+      "fromSide": "bottom",
+      "toNode": "m-p-gtm-sales-2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-gtm-sales-m-p-gtm-sales-3",
+      "fromNode": "p-gtm-sales",
+      "fromSide": "bottom",
+      "toNode": "m-p-gtm-sales-3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-persona-p-operating-scale",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-operating-scale",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-operating-scale-m-p-operating-scale-0",
+      "fromNode": "p-operating-scale",
+      "fromSide": "bottom",
+      "toNode": "m-p-operating-scale-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-operating-scale-m-p-operating-scale-1",
+      "fromNode": "p-operating-scale",
+      "fromSide": "bottom",
+      "toNode": "m-p-operating-scale-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-operating-scale-m-p-operating-scale-2",
+      "fromNode": "p-operating-scale",
+      "fromSide": "bottom",
+      "toNode": "m-p-operating-scale-2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-operating-scale-m-p-operating-scale-3",
+      "fromNode": "p-operating-scale",
+      "fromSide": "bottom",
+      "toNode": "m-p-operating-scale-3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-persona-p-ai-native",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-ai-native",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-ai-native-m-p-ai-native-0",
+      "fromNode": "p-ai-native",
+      "fromSide": "bottom",
+      "toNode": "m-p-ai-native-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-ai-native-m-p-ai-native-1",
+      "fromNode": "p-ai-native",
+      "fromSide": "bottom",
+      "toNode": "m-p-ai-native-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-ai-native-m-p-ai-native-2",
+      "fromNode": "p-ai-native",
+      "fromSide": "bottom",
+      "toNode": "m-p-ai-native-2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-persona-p-marketplace",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-marketplace",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-marketplace-m-p-marketplace-0",
+      "fromNode": "p-marketplace",
+      "fromSide": "bottom",
+      "toNode": "m-p-marketplace-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-persona-p-decision",
+      "fromNode": "persona",
+      "fromSide": "bottom",
+      "toNode": "p-decision",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-decision-m-p-decision-0",
+      "fromNode": "p-decision",
+      "fromSide": "bottom",
+      "toNode": "m-p-decision-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-decision-m-p-decision-1",
+      "fromNode": "p-decision",
+      "fromSide": "bottom",
+      "toNode": "m-p-decision-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-p-decision-m-p-decision-2",
+      "fromNode": "p-decision",
+      "fromSide": "bottom",
+      "toNode": "m-p-decision-2",
+      "toSide": "top"
+    }
+  ]
+}
