@@ -1,12 +1,13 @@
 ---
 type: source
 title: Vogels Decade of Dynamo
+address: c-000221
 author: Werner Vogels
 publication_year: 2017
 url: 'https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html'
 raw_file: .raw/source-vogels-decade-of-dynamo.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - aws
