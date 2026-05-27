@@ -85,6 +85,66 @@ The mistake: trying to build for everyone at once produces a product that deligh
 
 The "big launch" is theater. Press attention does not convert to retention. The work of recruiting users one at a time is what builds the foundation.
 
+PG's diagnosis of why founders are still seduced by it:
+
+> A combination of solipsism and laziness. They think what they're building is so great that everyone who hears about it will immediately sign up.
+
+And the inverse correlation he half-jokingly notes in footnote [10]: the only launches he remembers are famous flops (Segway, Google Wave). Wave was a great idea that he believes was killed partly by its overdone launch.
+
+Partnerships fall into the same category: "Six months later they're all saying the same thing: that was way more work than we expected, and we ended up getting practically nothing out of it."
+
+## Pulling a Meraki (Hardware Manual Mode)
+
+For hardware startups, the variant PG names "pulling a Meraki" — after a YC-adjacent company whose founders (Robert Morris's grad students) assembled their own routers when starting:
+
+> Hardware startups face an obstacle that software startups don't. The minimum order for a factory production run is usually several hundred thousand dollars... without a product you can't generate the growth you need to raise the money to manufacture your product.
+
+The fix: manufacture the first units yourself. Pebble assembled the first several hundred watches by hand before their Kickstarter; PG argues this is why they sold $10M of watches when they finally launched. Eric Migicovsky's quoted lesson: "how valuable it was to source good screws." The byproduct of self-manufacture is factory-level product knowledge.
+
+## Consult Mode (B2B Single-Customer)
+
+For B2B specifically, PG's pattern is to act like a consultancy without taking consulting money:
+
+> Pick a single user and act as if they were consultants building something just for that one user. The initial user serves as the form for your mold; keep tweaking till you fit their needs perfectly, and you'll usually find you've made something other users want too.
+
+The hard rule: the moment they pay you by the hour for attentiveness, you have crossed into consulting and are no longer a product company. Free attentiveness compounds into product. Paid attentiveness traps you in services.
+
+A related pattern from Viaweb (PG's own company): when merchants would not adopt their software, they would build the stores for the merchants themselves, using their own software. Painful and embarrassing in the moment; gave them the only useful feedback loop they had.
+
+## Manual Mode (Be Your Software)
+
+The most extreme version: do by hand the thing you plan to automate.
+
+> When you only have a small number of users, you can sometimes get away with doing by hand things that you plan to automate later. This lets you launch faster, and when you do finally automate yourself out of the loop, you'll know exactly what to build because you'll have muscle memory from doing it yourself.
+
+The canonical instance:
+
+> The way Stripe delivered "instant" merchant accounts to its first users was that the founders manually signed them up for traditional merchant accounts behind the scenes.
+
+The user sees software. Behind the screen is a founder doing the work. Once the operator knows the shape of the work cold, automation is a translation, not a discovery.
+
+## Startups as Vectors
+
+The synthesizing frame PG offers at the end. Stop thinking of a startup idea as one thing (the product). Start thinking of it as a **pair**:
+
+> Pairs of what you're going to build, plus the unscalable thing(s) you're going to do initially to get the company going.
+
+For most startups the second component is the same: manual recruitment + obsessive user delight. But framing the idea as a vector forces founders to be deliberate about the second component instead of leaving it implicit.
+
+The hidden filter: an idea where the second component is empty (no way to find users manually) is probably a bad idea, at least for those founders. The vector framing exposes the gap before founders run out of runway.
+
+When both components work together, they shape company DNA:
+
+> The unscalable things you have to do to get started are not merely a necessary evil, but change the company permanently for the better.
+
+## Named Patterns Introduced
+
+- **Collison installation** — sit down with the user, install the product live, do not send a link. Origin: Patrick and John Collison at Stripe.
+- **Pulling a Meraki** — hand-assemble hardware units before scaling to a factory run. Origin: Meraki founders (Robert Morris's grad students). Adopted by Pebble.
+- **Contained fire** — start in a narrow market deliberately to build heat before adding logs. Origin: Facebook at Harvard.
+- **Insanely great experience (not insanely great product)** — Jobs's phrase recast for the larval startup. The buggy product is acceptable if you compensate with founder-level attentiveness.
+- **Startup as vector** — explicit pairing of product + unscalable initial work.
+
 ## What This Source Teaches
 
 - The work in early stage IS the unscalable work.
