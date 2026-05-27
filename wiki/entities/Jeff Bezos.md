@@ -155,6 +155,58 @@ The five-point internal directive, ~2002, that produced the service-oriented arc
 
 > "Anyone who doesn't do this will be fired."
 
+### From [[Bezos 1998 Letter]] (the three hiring questions + "be afraid of your customers")
+
+The hiring-as-load-bearing-strategy letter. Three explicit questions every Amazon hiring loop is supposed to answer:
+
+> "Will you admire this person? ... Will this person raise the average level of effectiveness of the group they're entering? ... Along what dimension might this person be a superstar?"
+
+And the operating definition of customer obsession as fear:
+
+> "I constantly remind our employees to be afraid, to wake up every morning terrified. Not of our competition, but of our customers."
+
+> "We consider them to be loyal to us — right up until the second that someone else offers them a better service."
+
+### From [[Bezos 1999 Letter]] (the platform reframe)
+
+The first primary-source naming of Amazon as a platform. In answer to a Stanford student's "What do I own?":
+
+> "You own a piece of the leading e-commerce platform. The Amazon.com platform is comprised of brand, customers, technology, distribution capability, deep e-commerce expertise, and a great team with a passion for innovation and a passion for serving customers well."
+
+Plus the doubly-blessed frame:
+
+> "We have a market-size unconstrained opportunity in an area where the underlying foundational technology we employ improves every day. That is not normal."
+
+### From [[Bezos 2003 Letter]] (long-term thinking is true ownership)
+
+The tenant/owner analogy. Long-term thinking is what ownership *means*. Three concrete examples where short-term and long-term metrics diverged and Amazon took the customer side:
+
+> "Long-term thinking is both a requirement and an outcome of true ownership. Owners are different from tenants..."
+
+> "When we launched Instant Order Update, we were able to measure with statistical significance that the feature slightly reduced sales. Good for customers? Definitely. Good for shareowners? Yes, in the long run."
+
+### From [[Bezos 2009 Letter]] (controllable inputs)
+
+The 452-goals letter. Of 452 detailed goals for 2010: 360 directly impact customer experience; "net income," "gross profit," and "operating profit" appear zero times.
+
+> "Senior leaders that are new to Amazon are often surprised by how little time we spend discussing actual financial results or debating projected financial outputs ... focusing our energy on the controllable inputs to our business is the most effective way to maximize financial outputs over time."
+
+> "Start with customers, and work backwards. Listen to customers, but don't *just* listen to customers — also invent on their behalf."
+
+### From [[Bezos 2014 Letter]] (the dreamy business + flywheel)
+
+The four-criteria definition for a strategic business line:
+
+> "A dreamy business offering has at least four characteristics. Customers love it, it can grow to very large size, it has strong returns on capital, and it's durable in time — with the potential to endure for decades."
+
+The Amazon flywheel in primary-source prose:
+
+> "FBA completes the circle: Marketplace pumps energy into Prime, and Prime pumps energy into Marketplace."
+
+The AWS switching-cost frame (rational preference, not lock-in):
+
+> "Once you've become proficient at building complex systems with AWS, you do not want to have to learn a new set of tools and APIs ... they will have a rational preference to stick with us."
+
 ---
 
 ## Core Frames (now backed by citations)
