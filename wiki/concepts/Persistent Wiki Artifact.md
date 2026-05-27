@@ -1,13 +1,14 @@
 ---
 type: concept
 title: "Persistent Wiki Artifact"
+address: c-000218
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-27
 tags:
   - llm-wiki
   - knowledge-management
   - agent-memory
-status: developing
+status: mature
 related:
   - "[[How does the LLM Wiki pattern work?]]"
   - "[[LLM Wiki Pattern]]"
