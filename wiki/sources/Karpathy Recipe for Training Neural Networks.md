@@ -1,12 +1,13 @@
 ---
 type: source
 title: Karpathy Recipe for Training Neural Networks
+address: c-000236
 author: Andrej Karpathy
 publication_year: 2019
 url: 'https://karpathy.github.io/2019/04/25/recipe/'
 raw_file: .raw/source-karpathy-recipe-training.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - ml
