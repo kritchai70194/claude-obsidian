@@ -1,12 +1,13 @@
 ---
 type: source
 title: High Output Management
+address: c-000244
 author: Andrew S. Grove
 publication_year: 1983
 url: 'https://www.themarketingstudent.com/high-output-management/'
 raw_file: .raw/source-high-output-management.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - book
