@@ -29,6 +29,11 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 ## Shareholder Letters & Corporate Memos
 
 - [[Bezos 1997 Letter]]: Amazon founding compact, nine decision criteria; the original "It's All About the Long Term"
+- [[Bezos 1998 Letter]]: "be afraid of your customers" customer obsession framing; the three hiring questions (admire, raise the bar, superstar dimension)
+- [[Bezos 1999 Letter]]: "What Do You Own?" — first primary-source platform definition (brand + customers + technology + distribution + expertise + team); virtuous-cycle verbatim; doubly-blessed market frame
+- [[Bezos 2003 Letter]]: long-term thinking is true ownership (tenant/owner analogy); three concrete revenue-hurting customer-experience decisions (negative reviews, Instant Order Update, price-cost loop)
+- [[Bezos 2009 Letter]]: the 452 detailed goals letter; 360 customer-experience goals, zero mentions of net-income/gross-profit/operating-profit; controllable inputs over financial outputs
+- [[Bezos 2014 Letter]]: dreamy-business 4 characteristics (customer-love + large size + ROIC + durability); Marketplace + Prime + AWS flywheel in Bezos's own voice; AWS switching-cost = learning curve
 - [[Bezos 2015 Letter]]: ORIGIN of two-way doors framework, long-tailed bets thesis, failure as invention's twin (full-text PDF extraction)
 - [[Bezos 2016 Day 1 Letter]]: Day 1, customer obsession, resist proxies, high-velocity decision-making (restates 2015 doors)
 - [[Bezos 2017 Letter]]: the High Standards letter (teachable, domain-specific, scope is part of standard, six-pager in Bezos voice)
