@@ -171,7 +171,7 @@ Plus the canonical custom-silicon position (citing Alan Kay):
 
 ## Status
 
-Mature. Three cited primary sources spanning 2008 to 2017; operating frame is stable.
+Mature. Eight cited primary sources spanning 1998 to 2022; operating frame is stable across consistency, architecture, product process, infrastructure-scale decisions, and forecasting. The 2026-05-27 Tier 1 ingest added 5 new sources (Working Backwards 2006, Distributed Computing Manifesto 1998/2022, S3 Strong Consistency 2021, Nitro 2020, 2023 Predictions), surfacing the working-backwards process, the 1998 SOA thesis predating Bezos's 2002 mandate by 4 years, the refuse-the-trade-off engineering posture, the one-way-door discipline at infrastructure scale, and the everything-becomes-a-data-stream thesis.
 
 ---
 
