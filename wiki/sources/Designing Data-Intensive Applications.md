@@ -1,13 +1,14 @@
 ---
 type: source
 title: Designing Data-Intensive Applications
+address: c-000242
 author: Martin Kleppmann
 publication_year: 2017
 url: >-
   https://www.shortform.com/summary/designing-data-intensive-applications-summary-martin-kleppman
 raw_file: .raw/source-ddia.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - book
