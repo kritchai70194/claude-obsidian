@@ -153,6 +153,7 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 
 - [[John Carmack]], deep architectural planning, protected focus as substrate, writing decisions down publicly (.plan files), willingness to rewrite, local-information incremental progress, static analysis as non-negotiable infrastructure
 - [[Leslie Lamport]], specify before you implement, writing is the medium of thinking, code without spec is patches, clarity is engineering work, rewrite your own work when it fails to communicate, the model checker as feedback loop
+- [[John Allspaw]], the resilience-engineering and cognitive-systems-engineering lineage applied to web operations: no root cause in complex sociotechnical systems, ask How not Why, local rationality is the investigator's frame, blameless postmortems as the substrate of organizational learning, human error is a starting point not a conclusion
 
 ### Unicorn-builder pole
 
