@@ -1,13 +1,14 @@
 ---
 type: source
 title: Bezos Regret Minimization
+address: c-000239
 author: 'Jeff Bezos (originator, story re-told across many interviews)'
 publication_year: 1994
 url: >-
   https://awealthofcommonsense.com/2016/10/the-jeff-bezos-regret-minimization-framework/
 raw_file: .raw/source-bezos-regret-minimization.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - bezos
