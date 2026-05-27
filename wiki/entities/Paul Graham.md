@@ -6,7 +6,7 @@ role: Co-founder of Y Combinator. Essayist (180+ essays since 2001). Lisp hacker
 address: c-000019
 first_mentioned: "[[seed-corpus-unicorn-builders]]"
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 tags:
   - entity
   - person
