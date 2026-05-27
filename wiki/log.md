@@ -21,6 +21,16 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-27] ingest | PG "Do Things That Don't Scale" full-text upgrade
+
+- Source: `.raw/articles/pg-ds-2026-05-27.md` (URL: https://paulgraham.com/ds.html, md5 `af895ead`)
+- Summary: [[PG Do Things That Dont Scale]] upgraded from `fidelity: extracts` → `full-text-summary`
+- Pages created: (none — only updates this round)
+- Pages updated: [[PG Do Things That Dont Scale]], [[Paul Graham]], `.raw/.manifest.json`, [[hot]]
+- Named patterns now anchored: Collison installation, Pulling a Meraki, Contained fire, Manual mode, Consult mode, Startup-as-vector
+- Key insight: ingesting from the FULL essay text revealed five named patterns the extracts page had collapsed into one ("manual recruitment"). The vector framing — pair `(product, unscalable first move)` — is the essay's synthesizing move and was missing entirely.
+- Routing test: this ingest was the first end-to-end exercise of the new "Skill Routing" section in CLAUDE.md. `defuddle` was unavailable; fall-through to curl+WebFetch worked. DragonScale `allocate-address.sh` failed (no `flock` on macOS) — sidestepped by only updating pages with pre-existing addresses.
+
 ## [2026-05-27] tooling | JARVIS voice UI app built at jarvis-claude branch
 
 - Location: jarvis-claude/ on feat/jarvis-claude-voice-ui (separate Electron app, out of scope for wiki vault)
