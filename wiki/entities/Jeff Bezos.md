@@ -223,12 +223,23 @@ The AWS switching-cost frame (rational preference, not lock-in):
 - **Owner mindset.** ([[Bezos 1997 Letter]]) Compensation weighted to stock so employees actually are owners.
 - **APIs are forever / mechanism over goodwill.** ([[Bezos 2002 API Mandate]]) Architecture doesn't depend on culture; culture is downstream of architecture.
 - **Unified operating culture across business lines.** ([[Bezos 2015 Letter]]) Same principles run AWS and retail. The principles compound; the products are downstream.
+- **Customer loyalty has a half-life of one click.** ([[Bezos 1998 Letter]]) Be afraid of your customers; they're loyal until someone else offers better service.
+- **Three hiring questions.** ([[Bezos 1998 Letter]]) Admire / raise-the-bar / superstar-dimension. The ancestor of the bar-raiser tradition.
+- **Platform thinking, 1999.** ([[Bezos 1999 Letter]]) Amazon is a platform (brand+customers+tech+distribution+expertise+team) that can launch multiple businesses; the 1999 framing predicts the next 20 years.
+- **Doubly-blessed market structure.** ([[Bezos 1999 Letter]]) Market-size unconstrained + continuously-improving substrate = not normal.
+- **Tenant vs owner.** ([[Bezos 2003 Letter]]) Long-term thinking is what ownership means; short-term tenants nail Christmas trees to the floor.
+- **Honest tradeoff.** ([[Bezos 2003 Letter]]) Measured-with-statistical-significance examples of customer features that hurt revenue and shipped anyway. The proof-of-concept that customer obsession is falsifiable.
+- **Controllable inputs over financial outputs.** ([[Bezos 2009 Letter]]) 452 goals with owners and dates; zero mentions of net income / gross profit / operating profit in the goal text.
+- **The dreamy business test.** ([[Bezos 2014 Letter]]) Customers love it + large size + strong ROIC + decade durability. The strategic-business-line filter.
+- **Flywheel in Bezos's own voice.** ([[Bezos 2014 Letter]]) Marketplace + FBA + Prime pump energy into each other.
+- **Better-and-faster is the steak, cost savings is the gravy.** ([[Bezos 2014 Letter]]) B2B sales discipline: "almost as good, cheaper" never carries the deal.
+- **Switching cost as learning curve.** ([[Bezos 2014 Letter]]) AWS proficiency creates a rational preference to stick, not adversarial lock-in.
 
 ---
 
 ## Queued for Future Ingest
 
-- Remaining shareholder letters (1998-2001, 2003-2014, 2017-2020). Each adds nuance.
+- Remaining shareholder letters (2000-2002, 2004-2008, 2010-2013, 2018-2019). Each adds nuance.
 - *Working Backwards* (Bryar and Carr) for operational mechanisms in detail.
 - Long-form interviews (2018 Wired, Lex Fridman).
 
