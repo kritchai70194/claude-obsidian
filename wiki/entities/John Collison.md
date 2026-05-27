@@ -1,11 +1,12 @@
 ---
 type: entity
 title: John Collison
+address: c-000248
 entity_type: person
 role: 'Co-founder and President, Stripe'
 first_mentioned: '[[Persona]]'
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - entity
   - person
