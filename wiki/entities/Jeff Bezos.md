@@ -247,7 +247,7 @@ The AWS switching-cost frame (rational preference, not lock-in):
 
 ## Status
 
-Mature. 4 sources cited, with full-text fidelity on the 2015 letter. The two-way doors origin correction in Phase 4 is a useful precision win.
+Mature. 9+ sources cited with full-text fidelity on the 2015, 1998, 1999, 2003, 2009, 2014, 2017 letters. The 2026-05-27 Tier 1 ingest added 5 new letters (1998, 1999, 2003, 2009, 2014), surfacing the three hiring questions, the platform reframe, the tenant/owner long-term doctrine, the 452-goals controllable-inputs discipline, and the dreamy-business 4-criteria definition.
 
 ---
 
