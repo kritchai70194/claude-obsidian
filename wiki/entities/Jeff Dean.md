@@ -1,11 +1,12 @@
 ---
 type: entity
 title: Jeff Dean
+address: c-000247
 entity_type: person
 role: 'Chief Scientist, Google DeepMind and Google Research'
 first_mentioned: '[[Persona]]'
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - entity
   - person
