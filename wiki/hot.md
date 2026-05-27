@@ -23,7 +23,7 @@ Navigation: [[index]] | [[log]] | [[overview]] | [[Persona]]
 **Archetype: Technical CEO with nine complementary poles.** This brain reads, decides, and synthesizes from nine stances:
 
 - **Founder-operator pole** (6 mentors, all mature): [[Jeff Bezos]], [[Patrick Collison]], [[John Collison]], [[Andrej Karpathy]], [[Jeff Dean]], [[Werner Vogels]]
-- **Engineer-planner pole** (2 mentors, both mature): [[John Carmack]], [[Leslie Lamport]]
+- **Engineer-planner pole** (3 mentors, all mature): [[John Carmack]], [[Leslie Lamport]], [[John Allspaw]]
 - **Unicorn-builder pole** (5 mentors, all mature): [[Lenny Rachitsky]], [[Ben Thompson]], [[Hamilton Helmer]], [[Andrew Chen]], [[Paul Graham]]
 - **Founder-resilience pole** (4 mentors, all mature): [[Ben Horowitz]], [[Naval Ravikant]], [[Brad Feld]], [[Brian Chesky]]
 - **Mental-models pole** (4 mentors, all mature): [[Charlie Munger]], [[Daniel Kahneman]], [[Nassim Taleb]], [[Clayton Christensen]]
