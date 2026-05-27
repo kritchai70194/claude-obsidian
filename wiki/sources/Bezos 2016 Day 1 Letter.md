@@ -1,12 +1,13 @@
 ---
 type: source
 title: Bezos 2016 Day 1 Letter
+address: c-000230
 author: Jeff Bezos
 publication_year: 2016
 url: 'https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders'
 raw_file: .raw/source-bezos-2016-day1-letter.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - shareholder-letter
