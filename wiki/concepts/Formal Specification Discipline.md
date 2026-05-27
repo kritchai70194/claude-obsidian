@@ -9,13 +9,13 @@ aliases:
   - Specifying Systems
   - Spec-First Engineering
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 tags:
   - concept
   - engineering
   - formal-methods
   - distributed-systems
-status: developing
+status: mature
 related:
   - "[[Persona]]"
   - "[[Operating Principles]]"
