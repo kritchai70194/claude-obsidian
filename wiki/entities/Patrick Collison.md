@@ -1,11 +1,12 @@
 ---
 type: entity
 title: Patrick Collison
+address: c-000245
 entity_type: person
 role: 'Co-founder and CEO, Stripe; co-founder, Arc Institute'
 first_mentioned: '[[Persona]]'
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - entity
   - person
