@@ -41,6 +41,7 @@ All entity pages — people, organizations, products, and tools.
 
 - [[John Carmack]], founder Keen Technologies (AGI), prior id Software/Oculus; deep architectural planning, protected focus, .plan files, willingness to rewrite
 - [[Leslie Lamport]], Distinguished Scientist Microsoft Research; Turing Award 2013; specify-before-implement, writing-is-the-medium-of-thinking, TLA+ as discipline
+- [[John Allspaw]], co-founder Adaptive Capacity Labs, former CTO Etsy; resilience engineering, blameless postmortems, "no root cause," ask How not Why, local rationality, second stories
 
 #### Unicorn-builder pole
 
