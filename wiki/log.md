@@ -21,6 +21,17 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-27] ingest | Tier 1 content starter batch: Allspaw + 5 Bezos letters + 5 Vogels posts
+
+- Sources ingested: 12 (2 Allspaw essays, 5 Bezos shareholder letters, 5 Vogels blog posts)
+- Pages created (13): [[John Allspaw]] (entity), [[Allspaw Each Necessary]], [[Allspaw Infinite Hows]], [[Bezos 1998 Letter]], [[Bezos 1999 Letter]], [[Bezos 2003 Letter]], [[Bezos 2009 Letter]], [[Bezos 2014 Letter]], [[Vogels Working Backwards]], [[Vogels Distributed Computing Manifesto]], [[Vogels 2023 Predictions]], [[Vogels S3 Strong Consistency]], [[Vogels Reinventing Virtualization Nitro]]
+- Pages updated: [[Persona]] (engineer-planner pole 2 → 3 mentors, mentor bench 40 → 41), [[hot]] (Last Updated), [[entities/_index]], [[sources/_index]], [[Jeff Bezos]] entity, [[Werner Vogels]] entity, `.raw/.manifest.json`
+- Addresses allocated: c-000250 through c-000262 (13 addresses)
+- Pole count change: engineer-planner pole gained [[John Allspaw]] as third anchor, adding resilience-engineering / cognitive-systems-engineering lineage (Sidney Dekker, Richard Cook, Nancy Leveson, Todd Conklin) to the Carmack pragmatic-individual frame and the Lamport formal-spec frame
+- Key insight: **"Human error is a starting point, not a conclusion"** ([[Allspaw Infinite Hows]]). Upgrades the brain's incident-handling discipline from passive "everything fails, design for it" to active "everything fails, and the second-story discipline is the substrate of organizational learning." Combined with Lamport's "code without spec is patches" and Carmack's "write decisions down with reasoning," the engineer-planner pole now has a coherent three-anchor frame: plan before code (Carmack) + specify before implement (Lamport) + learn after incidents (Allspaw).
+- Fetch fidelity: Allspaw essays = extracts (kitchensoap.com via WebFetch); Etsy Code as Craft blog blocked WebFetch (403). All 5 Bezos letters = full-text PDFs (via q4cdn.com IR mirror + Amazon corporate-ir.net mirror via Wayback). All 5 Vogels posts = full text (via Wayback's archived snapshots; live allthingsdistributed.com behind a Cloudflare wall).
+- Tooling notes: `defuddle` at `/Users/simon/.local/node/bin/defuddle` worked when invoked with full path. `./scripts/allocate-address.sh` mkdir-lock patch works on macOS (no flock needed). Counter at c-000262 at end (peek = 263).
+
 ## [2026-05-27] fold | batch-exponent-k4 rollup of 16 entries
 
 - Location: wiki/folds/fold-k4-from-2026-05-26-to-2026-05-27-n16.md
