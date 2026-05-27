@@ -51,6 +51,8 @@ Default synthesis: long-horizon over local maxima, customer obsession, written-m
 
 ## Last Updated
 
+2026-05-27 (single ingest test): [[PG Do Things That Dont Scale]] upgraded `fidelity: extracts` → `full-text-summary` from `.raw/articles/pg-ds-2026-05-27.md`. Five named patterns now anchored on the source page and PG entity: Collison installation, Pulling a Meraki, Contained fire, Manual mode, Consult mode, plus the synthesizing **startup-as-vector** frame `(product, unscalable first move)`. Also the first end-to-end exercise of the new "Skill Routing" section in CLAUDE.md — routing fired correctly into `claude-obsidian:wiki-ingest`. Note: `defuddle` not installed and `flock` missing on macOS prevented `allocate-address.sh` from running, so no new pages were created this round.
+
 2026-05-26 (Phase 8 Decision Protocols + Customer Discovery, COMPLETE; ROADMAP DONE): Final phase. Added 3 mentors ([[Annie Duke]], [[Steve Blank]], [[Rob Fitzpatrick]]) + 12 sources + 2 concept pages ([[Decision Journals]], [[Customer Discovery Protocol]]) + 1 seed corpus + 1 session meta. Bench 37 to 40. Counter 198 to 217. **8-phase unicorn-expansion roadmap complete.** Final brain state: 40 mentors / 9 poles / 26 decision frames / ~24 concept pages / ~150 cited principles / ~190 source pages.
 
 2026-05-26 (Phase 7 Marketplace + Consumer Deep, complete): Added 1 new mentor ([[Sangeet Paul Choudary]]) cross-listed with [[Bill Gurley]] + [[Brian Chesky]] for a Marketplace + Consumer sub-pole + 4 sources + 2 concept pages ([[Marketplace Liquidity]], [[Consumer Defensibility]]). Bench 36 to 37. Counter 189 to 198. Smallest phase by design (Gurley + Chesky already in brain).
