@@ -69,6 +69,8 @@ All source pages, summaries of ingested documents, transcripts, articles, and da
 - [[Carmack Plan Archive 1998]]: a year of public engineering decisions made visible via .plan files, the original "build in public"
 - [[Lamport Specifying Systems Ch1-3]]: book chapters on math-objection-is-solvable, smallest-specs-discover-vagueness, asynchronous-interface-as-threshold-concept (2002 book)
 - [[Lamport Paxos Made Simple]]: 2001 rewrite of his own 1998 paper, clarity-is-engineering-work, rewrite-your-own-work-when-it-fails
+- [[Allspaw Each Necessary]]: 2012 myth-bust against root-cause thinking; "accidents emerge from a confluence of conditions...each necessary but only jointly sufficient" (Hollnagel framing imported into Web Operations)
+- [[Allspaw Infinite Hows]]: 2014 critique of the Five Whys; ask How not Why; local rationality; first stories vs second stories; "human error is a starting point, not a conclusion"
 
 ## Engineer-Planner Interviews
 
