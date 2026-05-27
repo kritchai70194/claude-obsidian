@@ -1,12 +1,13 @@
 ---
 type: source
 title: Collison Cowen Interview
+address: c-000243
 author: Patrick Collison (interviewer); Tyler Cowen
 publication_year: 2017
 url: 'https://conversationswithtyler.com/episodes/patrick-collison/'
 raw_file: .raw/source-collison-cowen-interview.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - interview
