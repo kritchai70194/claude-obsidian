@@ -14,6 +14,83 @@
         "wiki/log.md",
         "wiki/hot.md"
       ]
+    },
+    ".raw/articles/allspaw-each-necessary-2026-05-27.md": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://www.kitchensoap.com/2012/02/10/each-necessary-but-only-jointly-sufficient/",
+      "pages_created": [
+        "wiki/entities/John Allspaw.md",
+        "wiki/sources/Allspaw Each Necessary.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/articles/allspaw-infinite-hows-2026-05-27.md": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/",
+      "pages_created": [
+        "wiki/sources/Allspaw Infinite Hows.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/source-bezos-1998-letter.pdf": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://media.corporate-ir.net/media_files/IROL/97/97664/reports/Shareholderletter98.pdf",
+      "pages_created": ["wiki/sources/Bezos 1998 Letter.md"],
+      "pages_updated": []
+    },
+    ".raw/source-bezos-1999-letter.pdf": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://media.corporate-ir.net/media_files/IROL/97/97664/reports/Shareholderletter99.pdf",
+      "pages_created": ["wiki/sources/Bezos 1999 Letter.md"],
+      "pages_updated": []
+    },
+    ".raw/source-bezos-2003-letter.pdf": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/2003_-Shareholder_-Letter041304.pdf",
+      "pages_created": ["wiki/sources/Bezos 2003 Letter.md"],
+      "pages_updated": []
+    },
+    ".raw/source-bezos-2009-letter.pdf": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/AMZN_Shareholder-Letter-2009-(final).pdf",
+      "pages_created": ["wiki/sources/Bezos 2009 Letter.md"],
+      "pages_updated": []
+    },
+    ".raw/source-bezos-2014-letter.pdf": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/AMAZON-2014-Shareholder-Letter.pdf",
+      "pages_created": ["wiki/sources/Bezos 2014 Letter.md"],
+      "pages_updated": []
+    },
+    ".raw/articles/vogels-working-backwards-2026-05-27.html": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://www.allthingsdistributed.com/2006/11/working_backwards.html",
+      "pages_created": ["wiki/sources/Vogels Working Backwards.md"],
+      "pages_updated": []
+    },
+    ".raw/articles/vogels-distributed-computing-manifesto-2026-05-27.html": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://www.allthingsdistributed.com/2022/11/amazon-1998-distributed-computing-manifesto.html",
+      "pages_created": ["wiki/sources/Vogels Distributed Computing Manifesto.md"],
+      "pages_updated": []
+    },
+    ".raw/articles/vogels-2023-predictions-2026-05-27.html": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://www.allthingsdistributed.com/2022/12/tech-predictions-for-2023-and-beyond.html",
+      "pages_created": ["wiki/sources/Vogels 2023 Predictions.md"],
+      "pages_updated": []
+    },
+    ".raw/articles/vogels-s3-strong-consistency-2026-05-27.html": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://www.allthingsdistributed.com/2021/04/s3-strong-consistency.html",
+      "pages_created": ["wiki/sources/Vogels S3 Strong Consistency.md"],
+      "pages_updated": []
+    },
+    ".raw/articles/vogels-nitro-virtualization-2026-05-27.html": {
+      "ingested_at": "2026-05-27",
+      "source_url": "https://www.allthingsdistributed.com/2020/09/reinventing-virtualization-with-nitro.html",
+      "pages_created": ["wiki/sources/Vogels Reinventing Virtualization Nitro.md"],
+      "pages_updated": []
     }
   },
   "address_map": {
