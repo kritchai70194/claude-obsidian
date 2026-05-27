@@ -132,6 +132,15 @@ Phase 4 (PDF full-text + depth):
 
 ---
 
+## Folds
+
+Extractive rollups of log batches. Each fold links to its constituent log entries.
+
+- [[fold-k3-from-2026-04-23-to-2026-04-24-n8]] - DragonScale staged implementation (8 entries, 2026-04-23 to 2026-04-24)
+- [[fold-k4-from-2026-05-26-to-2026-05-27-n16]] - Unicorn-expansion roadmap completion + Chen/Helmer expansions + PG full-text upgrade (16 entries, 2026-05-26 to 2026-05-27)
+
+---
+
 ## Domains
 
 <!-- Add domain entries here after scaffold -->
