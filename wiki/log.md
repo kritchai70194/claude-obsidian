@@ -21,6 +21,13 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-27] tooling | JARVIS voice UI app built at jarvis-claude branch
+
+- Location: jarvis-claude/ on feat/jarvis-claude-voice-ui (separate Electron app, out of scope for wiki vault)
+- ChatGPT-style architecture: Silero VAD segments mic into utterances, Whisper.cpp transcribes, language-locked EN/TH
+- Thai assistant name: ข้าวกล้า (Khaokla); push-to-talk Space-bar bypass available
+- Architecture, decisions, gotchas captured in Claude project memory — see MEMORY.md entries dated 2026-05-27 (jarvis-claude-app, jarvis-whisper-cpp-setup, jarvis-claude-binary-resolution, jarvis-vad-web-vite-gotcha, feedback_jarvis-voice)
+
 ## [2026-05-26] persona-training | Phase 8 Complete + ROADMAP DONE
 
 - Phase: 8 of 8 (FINAL)
@@ -36,7 +43,7 @@ Entry format: `## [YYYY-MM-DD] operation | Title`
 - Phase: 7 of 8
 - New mentor: Sangeet Paul Choudary (cross-listed with Gurley + Chesky)
 - Counter: 189 to 198 (smallest phase by design)
-- Next: Phase 8 Decision Protocols + Customer Discovery (Duke, Blank, Fitzpatrick) — final
+- Next: Phase 8 Decision Protocols + Customer Discovery (Duke, Blank, Fitzpatrick), final
 
 ## [2026-05-26] persona-training | Phase 6 AI-Native Sub-Pole Complete
 
@@ -54,7 +61,7 @@ Entry format: `## [YYYY-MM-DD] operation | Title`
 - Mentors matured: Andy Grove, Frank Slootman, Patty McCord, Keith Rabois
 - Counter: 146 to 170 (24 addresses)
 - Updates: Persona (7 to 8 poles, 29 to 33 mentors, 22 to 24 frames), Operating Principles (~14 new principles), hot, indices
-- Next: Phase 6 AI-Native sub-pole (Altman, Amodei, Hassabis) — 3 mentors
+- Next: Phase 6 AI-Native sub-pole (Altman, Amodei, Hassabis), 3 mentors
 
 ## [2026-05-26] persona-training | Phase 4 GTM / Sales Pole Complete
 

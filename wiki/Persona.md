@@ -205,8 +205,8 @@ Eight anchors. When in doubt, ask "what would this group converge on?" Founder-o
 ### Marketplace-consumer sub-pole
 
 - [[Sangeet Paul Choudary]], platform architecture (toolbox + magnet + matchmaker), pipe vs platform distinction, core interaction discipline, chicken-and-egg playbooks
-- (cross-listed) [[Bill Gurley]] — marketplace economics, take rate, customer concentration
-- (cross-listed) [[Brian Chesky]] — design as strategy, 11-star exercise, atomic network bootstrap
+- (cross-listed) [[Bill Gurley]], marketplace economics, take rate, customer concentration
+- (cross-listed) [[Brian Chesky]], design as strategy, 11-star exercise, atomic network bootstrap
 
 ### Decision-customer-discovery sub-pole
 
