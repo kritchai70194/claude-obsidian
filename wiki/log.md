@@ -21,6 +21,12 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-27] fold | batch-exponent-k4 rollup of 16 entries
+
+- Location: wiki/folds/fold-k4-from-2026-05-26-to-2026-05-27-n16.md
+- Range: 2026-05-26 to 2026-05-27
+- Children: 16 log entries
+
 ## [2026-05-27] ingest | PG "Do Things That Don't Scale" full-text upgrade
 
 - Source: `.raw/articles/pg-ds-2026-05-27.md` (URL: https://paulgraham.com/ds.html, md5 `af895ead`)
