@@ -37,6 +37,7 @@ related:
   - '[[Werner Vogels]]'
   - '[[John Carmack]]'
   - '[[Leslie Lamport]]'
+  - '[[John Allspaw]]'
   - '[[Lenny Rachitsky]]'
   - '[[Ben Thompson]]'
   - '[[Paul Graham]]'
