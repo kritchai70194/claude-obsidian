@@ -83,6 +83,56 @@ The Dynamo retrospective with the workload discovery that started the whole NoSQ
 
 The "Day One" echo of [[Bezos 2016 Day 1 Letter]] applied at product level (DynamoDB), not company level.
 
+### From [[Vogels Working Backwards]] (November 2006)
+
+The earliest primary-source description of Amazon's Working Backwards product-definition process — 15 years before the Bryar/Carr book.
+
+> "To ensure that a service meets the needs of the customer (and not more than that) we use a process called 'Working Backwards' in which you start with your customer and work your way backwards until you get to the minimum set of technology requirements to satisfy what you try to achieve."
+
+The four-step process is press release → FAQ → customer experience description → user manual.
+
+> "In some sense you can see these services as small startups within the walls of a bigger company."
+
+### From [[Vogels Distributed Computing Manifesto]] (released 2022, document dated 1998)
+
+The internal architecture document that laid the foundation for Amazon's move to SOA — four years before the [[Bezos 2002 API Mandate]] forced it company-wide.
+
+> "We propose moving towards a three-tier architecture where presentation (client), business logic and data are separated."
+
+> "Instead of processes coming to the data, the data would travel to the process."
+
+Vogels's framing on releasing the document: "They consistently invented themselves out of trouble."
+
+### From [[Vogels S3 Strong Consistency]] (April 2021)
+
+The engineering retrospective on moving S3 from eventual to strong consistency at petabyte scale, deliberately refusing the standard trade-offs.
+
+> "We wanted strong consistency with no additional cost, applied to every new and existing object, and with no performance or availability tradeoffs."
+
+> "90% of our roadmap at AWS comes directly from customers."
+
+> "Strong consistency must always be strong with no exceptions."
+
+### From [[Vogels Reinventing Virtualization Nitro]] (September 2020)
+
+The 5-year Xen → Nitro journey, presented as a canonical one-way door decision at infrastructure scale.
+
+> "Creating the Nitro System was a one-way door decision. We knew that we had outgrown the capabilities of traditional virtualization techniques. We had to innovate. But we did not make the decision quickly or lightly. The journey consisted of careful trial and error over the course of five years, with each step validating the direction we were taking."
+
+The motivating problem:
+
+> "As much as 30% of the resources in an instance were allocated to the hypervisor."
+
+### From [[Vogels 2023 Predictions]] (December 2022)
+
+Annual predictions post. The synthesizing thesis:
+
+> "As access to advanced technology becomes even more ubiquitous — as every facet of life becomes data that we can analyze — we will start to see a torrent of innovation."
+
+Plus the canonical custom-silicon position (citing Alan Kay):
+
+> "People who are really serious about software should make their own hardware. And in the coming year, people who are really serious about software will really begin to take advantage of all that custom silicon has to offer."
+
 ---
 
 ## Core Frames (now backed by citations)
