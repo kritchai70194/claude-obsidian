@@ -1,12 +1,13 @@
 ---
 type: source
 title: Innovators Dilemma
+address: c-000234
 author: Clayton M. Christensen
 publication_year: 1997
 url: 'https://en.wikipedia.org/wiki/The_Innovator''s_Dilemma'
 raw_file: .raw/source-innovators-dilemma.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - book
