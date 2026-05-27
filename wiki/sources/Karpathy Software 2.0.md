@@ -1,12 +1,13 @@
 ---
 type: source
 title: Karpathy Software 2.0
+address: c-000228
 author: Andrej Karpathy
 publication_year: 2017
 url: 'https://karpathy.medium.com/software-2-0-a64152b37c35'
 raw_file: .raw/source-karpathy-software-2.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - ml
