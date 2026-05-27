@@ -1,12 +1,13 @@
 ---
 type: source
 title: Dean Stanford Talk
+address: c-000232
 author: Jeff Dean
 publication_year: 2010
 url: 'https://web.stanford.edu/class/ee380/Abstracts/101110.html'
 raw_file: .raw/source-dean-stanford-2010.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - google
