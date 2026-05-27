@@ -72,16 +72,27 @@ On frugality:
 
 ### From [[PG Do Things That Dont Scale]] (2013)
 
-PG's most-cited essay. Inverts "build for scale" with "the early-stage work IS the unscalable work".
+PG's most-cited essay. Inverts "build for scale" with "the early-stage work IS the unscalable work". Re-ingested 2026-05-27 from the full text; source page now at `fidelity: full-text-summary`.
 
 Examples of unscalable user recruitment:
 - Airbnb founders went door-to-door in NYC taking professional photos of host apartments
 - Wufoo sent handwritten thank-you notes to every user
 - Stripe founders did the "Collison installation": sat down with new users and installed Stripe live, instead of sending a link
+- Pinterest's Ben Silbermann went to a design-blogger conference once he noticed designers were the enthusiastic subset
 
 The compound math: starting at 100 users, 10% weekly growth yields 14,000 users annually, 2 million after two years.
 
 > "If you're worried that the things you're doing are unscalable, then you're probably doing the right thing."
+
+Named patterns introduced (now anchored in the source page):
+- **Collison installation** (Stripe) — install for the user live, don't send a link.
+- **Pulling a Meraki** — hand-assemble hardware before factory runs (Pebble adopted it).
+- **Contained fire** — start in a narrow market deliberately (Facebook at Harvard).
+- **Manual mode / "be your software"** — Stripe manually signing merchants up for traditional accounts behind the "instant" screen.
+- **Consult mode** — B2B founders act as if they were consulting for one user, without taking consulting money.
+- **Startup as vector** — pair (product, unscalable first move). An empty second slot is a red flag.
+
+Footnote PG attributes to [[Sam Altman]]: founders cannot delegate sales early on; you must do sales yourself before hiring a salesperson.
 
 ### From [[PG Startup = Growth]] (2012)
 
