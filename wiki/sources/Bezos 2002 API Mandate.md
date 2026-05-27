@@ -1,12 +1,13 @@
 ---
 type: source
 title: Bezos 2002 API Mandate
+address: c-000241
 author: Jeff Bezos (memo); Steve Yegge (public account)
 publication_year: 2002
 url: 'https://gist.github.com/chitchcock/1281611'
 raw_file: .raw/source-bezos-2002-api-mandate.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - api-design
