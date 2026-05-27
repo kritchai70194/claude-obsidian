@@ -139,7 +139,7 @@ If the answers to 3, 4, and 5 are weak, the company is fragile. If they are stro
 
 The implication: capability convergence at the foundation layer is likely. Defensibility shifts upward toward workflow and distribution layers. The model itself becomes a commodity (like compute or electricity).
 
-This rhymes with [[Christensen]] Disruption (the commoditized layer attracts new entrants who compete on cost) and [[Thompson]] Aggregation (the aggregator owns the user relationship, not the supplier).
+This rhymes with [[Clayton Christensen]] Disruption (the commoditized layer attracts new entrants who compete on cost) and [[Ben Thompson]] Aggregation (the aggregator owns the user relationship, not the supplier).
 
 For founders building today: assume model capability convergence by 2027. Build defensibility at the workflow or distribution layer where it can persist. Don't bet the company on "we'll always have the best model".
 
