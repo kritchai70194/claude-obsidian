@@ -5,20 +5,26 @@ address: c-000029
 source_type: essay
 author: "[[Paul Graham]]"
 publication_date: 2013-07
-url: http://www.paulgraham.com/ds.html
-fidelity: extracts
+url: https://paulgraham.com/ds.html
+raw_source: ".raw/articles/pg-ds-2026-05-27.md"
+fidelity: full-text-summary
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 tags:
   - source
   - essay
   - early-stage
   - growth
-status: developing
+  - unscalable
+status: mature
 related:
   - "[[Paul Graham]]"
   - "[[Operating Principles]]"
   - "[[seed-corpus-unicorn-builders]]"
+  - "[[Patrick Collison]]"
+  - "[[John Collison]]"
+  - "[[Brian Chesky]]"
+  - "[[Sam Altman]]"
 ---
 
 # PG Do Things That Dont Scale
