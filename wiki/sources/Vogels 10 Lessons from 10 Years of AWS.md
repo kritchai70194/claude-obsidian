@@ -1,13 +1,14 @@
 ---
 type: source
 title: Vogels 10 Lessons from 10 Years of AWS
+address: c-000229
 author: Werner Vogels
 publication_year: 2016
 url: >-
   https://www.allthingsdistributed.com/2016/03/10-lessons-from-10-years-of-aws.html
 raw_file: .raw/source-vogels-10-lessons.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - aws
