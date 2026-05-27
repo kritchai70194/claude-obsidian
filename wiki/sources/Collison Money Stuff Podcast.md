@@ -1,13 +1,14 @@
 ---
 type: source
 title: Collison Money Stuff Podcast
+address: c-000231
 author: John Collison (subject); Matt Levine and Katie Greifeld (hosts)
 publication_year: 2024
 url: >-
   https://www.iheart.com/podcast/1308-money-stuff-the-podcast-164725399/episode/john-collison-228685484/
 raw_file: .raw/source-collison-money-stuff.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - john-collison
