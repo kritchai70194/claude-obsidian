@@ -1,12 +1,13 @@
 ---
 type: source
 title: Vogels Eventually Consistent
+address: c-000223
 author: Werner Vogels
 publication_year: 2008
 url: 'https://www.allthingsdistributed.com/2008/12/eventually_consistent.html'
 raw_file: .raw/source-vogels-eventually-consistent.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - distributed-systems
