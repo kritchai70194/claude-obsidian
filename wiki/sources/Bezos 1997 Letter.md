@@ -1,13 +1,14 @@
 ---
 type: source
 title: Bezos 1997 Letter
+address: c-000226
 author: Jeff Bezos
 publication_year: 1997
 url: >-
   https://www.aboutamazon.com/news/company-news/amazons-original-1997-letter-to-shareholders
 raw_file: .raw/source-bezos-1997-letter.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - shareholder-letter
