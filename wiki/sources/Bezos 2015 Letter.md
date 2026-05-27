@@ -1,13 +1,14 @@
 ---
 type: source
 title: Bezos 2015 Letter
+address: c-000225
 author: Jeff Bezos
 publication_year: 2015
 url: >-
   https://s2.q4cdn.com/299287126/files/doc_financials/annual/2015-Letter-to-Shareholders.PDF
 raw_file: .raw/source-bezos-2015-letter.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - shareholder-letter
