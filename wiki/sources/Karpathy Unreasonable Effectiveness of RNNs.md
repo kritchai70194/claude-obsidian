@@ -1,12 +1,13 @@
 ---
 type: source
 title: Karpathy Unreasonable Effectiveness of RNNs
+address: c-000222
 author: Andrej Karpathy
 publication_year: 2015
 url: 'https://karpathy.github.io/2015/05/21/rnn-effectiveness/'
 raw_file: .raw/source-karpathy-rnn.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - ml
