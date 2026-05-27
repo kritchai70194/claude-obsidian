@@ -1,12 +1,13 @@
 ---
 type: source
 title: Stripe Annual Letter 2024
+address: c-000220
 author: Patrick Collison and John Collison
 publication_year: 2025
 url: 'https://stripe.com/annual-updates/2024'
 raw_file: .raw/source-stripe-2024-letter.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - stripe
