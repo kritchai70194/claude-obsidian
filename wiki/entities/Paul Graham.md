@@ -130,6 +130,10 @@ Tar pit warning:
 - **The early-stage work is the unscalable work.** ([[PG Do Things That Dont Scale]]) Manual recruitment, hand-holding, door-to-door.
 - **Start narrow; the contained fire creates critical mass.** ([[PG Do Things That Dont Scale]]) Facebook started at Harvard; then expanded.
 - **Disproportionate care on early users; they ARE the company.** ([[PG Do Things That Dont Scale]]) The early users' experience is the only data the company has.
+- **Hardware founders should manufacture the first units themselves.** ([[PG Do Things That Dont Scale]]) Pulling a Meraki buys factory-level product knowledge before factory-level volume.
+- **Manual mode beats premature automation.** ([[PG Do Things That Dont Scale]]) Be your software until you know exactly what to automate.
+- **Big launches and partnerships are theater.** ([[PG Do Things That Dont Scale]]) Solipsism and laziness; gradual recruitment compounds.
+- **A startup idea is a vector, not a scalar.** ([[PG Do Things That Dont Scale]]) Product + unscalable first move; an empty second slot is a red flag.
 - **A startup is defined by growth rate, not stage or industry.** ([[PG Startup = Growth]]) Barbershops are not startups; SaaS can be.
 - **5-7% weekly growth is good; 10% exceptional; 1% means you have not figured it out.** ([[PG Startup = Growth]]) The numerical compass.
 - **Growth as compass: any decision aiding growth is ipso facto right.** ([[PG Startup = Growth]]) Collapses the multifarious problem into one.
