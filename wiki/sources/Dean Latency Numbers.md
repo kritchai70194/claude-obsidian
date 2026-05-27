@@ -1,12 +1,13 @@
 ---
 type: source
 title: Dean Latency Numbers
+address: c-000237
 author: Jeff Dean (numbers); Jonas Boner (compilation)
 publication_year: 2012
 url: 'https://gist.github.com/jboner/2841832'
 raw_file: .raw/source-dean-latency-numbers.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - distributed-systems
