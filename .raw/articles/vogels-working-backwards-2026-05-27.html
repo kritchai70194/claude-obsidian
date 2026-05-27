@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=oZ57VlYl" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.allthingsdistributed.com/2006/11/working_backwards.html","20110520044053","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1305866453");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="generator" content="Movable Type Pro 4.35-en"/>
+    <link rel="shortcut icon" href="https://web.archive.org/web/20110520044053im_/http://www.allthingsdistributed.com/favicon.ico">
+    
+    <link rel="stylesheet" href="https://web.archive.org/web/20110520044053cs_/http://www.allthingsdistributed.com/styles.css" type="text/css"/>
+
+
+    <title>
+
+    Working Backwards - All Things Distributed
+
+    </title>
+
+
+
+
+    <link rel="prev" href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/2006/11/new_in_november.html" title="New in November"/>
+    <link rel="next" href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/2006/12/_there_will_be_lots.html" title="The King of Disk Drives"/>
+
+
+    
+    <script type="text/javascript" src="https://web.archive.org/web/20110520044053js_/http://www.allthingsdistributed.com/mt.js"></script>
+
+
+</head>
+<body class="mt-archive-listing mt-entry-archive layout-wt" onload="individualArchivesOnLoad(commenter_name)">
+    <div id="container">
+        <div id="container-inner">
+            <div id="header">
+                <div id="header-inner">
+                    <div id="header-content">
+
+                        <div id="header-name"><a href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/" accesskey="1">All Things Distributed</a></div>
+                        <div id="header-description">Werner Vogels' weblog on building scalable and robust distributed systems.</div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="content-inner">
+                    <div id="alpha">
+                        <div id="alpha-inner">
+
+
+<div id="entry-60" class="entry-asset asset">
+    <div class="asset-header">
+        <h1 class="asset-name">Working Backwards</h1>
+        <div class="asset-meta">
+    <span class="byline">
+
+        By Werner Vogels on November  1, 2006  1:42 PM
+
+    </span>
+    <span class="separator">|</span> <a class="permalink" href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/2006/11/working_backwards.html">Permalink</a>
+    | <a href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/2006/11/working_backwards.html#comments">Comments (<script type="text/javascript" src="https://web.archive.org/web/20110520044053js_/http://disqus.com/forums/allthingsdistributed/get_num_replies_for_entry.js?url=http://www.allthingsdistributed.com/2006/11/working_backwards.html"></script><noscript>View</noscript>)</a>
+    | <a href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/2006/11/working_backwards.html#trackback">TrackBacks (1)</a>
+</div>
+
+    </div>
+    <div class="asset-content">
+
+        <div class="asset-body">
+            <p>In the fine grained services approach that we use at Amazon, services do not only represent a software structure but also the organizational structure. The services have a strong ownership model, which combined with the small team size is intended to make it very easy to innovate. In some sense you can see these services as small startups within the walls of a bigger company. Each of these services require a strong focus on who their customers are, regardless whether they are externally or internally. To ensure that a service meets the needs of the customer (and not more than that) we use a process called “<em>Working Backwards</em>” in which you start with your customer and work your way backwards until you get to the minimum set of technology requirements to satisfy what you try to achieve. The goal is to drive simplicity through a continuous, explicit customer focus.
+</p><p>
+The product definition process works backwards in the following way: we start by writing the documents we'll need at launch (the press release and the faq) and then work towards documents that are closer to the implementation.
+</p><p>
+The Working Backwards product definition process is all about is fleshing out the concept and achieving clarity of thought about what we will ultimately go off and build. It typically has four steps: 
+</p>
+<ol type="I">
+<li><strong>Start by writing the Press Release</strong>. Nail it. The press release describes in a simple way what the product does and why it exists - what are the features and benefits. It needs to be very clear and to the point. Writing a press release up front clarifies how the world will see the product - not just how we think about it internally. 
+<li><strong>Write a Frequently Asked Questions document</strong>. Here's where we add meat to the skeleton provided by the press release. It includes questions that came up when we wrote the press release. You would include questions that other folks asked when you shared the press release and you include questions that define what the product is good for. You put yourself in the shoes of someone using the product and consider all the questions you would have. 
+<li><strong>Define the customer experience</strong>. Describe in precise detail the customer experience for the different things a customer might do with the product. For products with a user interface, we would build mock ups of each screen that the customer uses. For web services, we write use cases, including code snippets, which describe ways you can imagine people using the product. The goal here is to tell stories of how a customer is solving their problems using the product. 
+<li><strong>Write the User Manual</strong>. The user manual is what a customer will use to really find out about what the product is and how they will use it. The user manual typically has three sections, concepts, how-to, and reference, which between them tell the customer everything they need to know to use the product. For products with more than one kind of user, we write more than one user manual. 
+</ol>
+<p>
+Once we have gone through the process of creating the press release, faq, mockups, and user manuals, it is amazing how much clearer it is what you are planning to build. We'll have a suite of documents that we can use to explain the new product to other teams within Amazon. We know at that point that the whole team has a shared vision on what product we are going the build.
+</p>
+        </div>
+
+
+    </div>
+    <div class="asset-footer">
+        
+                <div class="entry-categories">
+    <h4 class="entry-categories-header">Categories<span class="delimiter">:</span></h4>
+    <ul class="entry-categories-list">
+        <li class="entry-category">Engineering</li>
+    </ul>
+</div>
+
+
+        
+                
+    </div>
+</div>
+
+
+<div id="trackbacks" class="trackbacks">
+    <h2 class="trackbacks-header">1 TrackBacks</h2>
+    <div class="trackbacks-info">
+        <p>Listed below are links to blogs that reference this entry: <a href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/2006/11/working_backwards.html">Working Backwards</a>.</p>
+        <p>TrackBack URL for this entry: <span id="trackbacks-link">http://mt.vogels.net/mt-tb.cgi/60</span></p>
+    </div>
+    
+        
+    <div class="trackbacks-content">
+        
+        <div class="trackback" id="ping-2140">
+            <div class="inner">
+                <div class="trackback-header">
+                    &raquo; <a href="https://web.archive.org/web/20110520044053/http://h20325.www2.hp.com/blogs/vambenepe/archive/2006/11/02/1861.html" rel="nofollow">Working backwards</a> from William Vambenepe's blog
+                </div>
+                <div class="trackback-content">
+                    <p>
+                        Werner Vogels describes  <a href="https://web.archive.org/web/20110520044053/http://h20325.www2.hp.com/blogs/vambenepe/archive/2006/11/02/1861.html" rel="nofollow">Read More</a>
+                    </p>
+                </div>
+                <div class="trackback-footer">
+                    Tracked on <a href="#ping-2140" rel="nofollow">November  2, 2006 10:30 AM</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+        
+    
+</div>
+
+
+
+<h2 class="comments-header"> Comments</h2>
+    <div class="comments-content">
+                    <div id="comments"></div><div id="disqus_thread"></div>
+            <div style="display:none;" id="disqus_post_title">Working Backwards</div>
+            <div style="display:none;" id="disqus_post_message"><p>In the fine grained services approach that we use at Amazon, services do not only represent a software structure but also the organizational structure. The services have a strong ownership model, which combined with the small team size is intended to make it very easy to innovate. In some sense you can see these services as small startups within the walls of a bigger company. Each of these services require a strong focus on who their customers are, regardless whether they are externally or internally. To ensure that a service meets the needs of the customer (and not more than that) we use a process called “<em>Working Backwards</em>” in which you start with your customer and work your way backwards until you get to the minimum set of technology requirements to satisfy what you try to achieve. The goal is to drive simplicity through a continuous, explicit customer focus.\n</p><p>\nThe product definition process works backwards in the following way: we start by writing the documents we'll need at launch (the press release and the faq) and then work towards documents that are closer to the implementation.\n</p><p>\nThe Working Backwards product definition process is all about is fleshing out the concept and achieving clarity of thought about what we will ultimately go off and build. It typically has four steps: \n</p>\n<ol type="\&quot;I\&quot;">\n<li><strong>Start by writing the Press Release</strong>. Nail it. The press release describes in a simple way what the product does and why it exists - what are the features and benefits. It needs to be very clear and to the point. Writing a press release up front clarifies how the world will see the product - not just how we think about it internally. \n<li><strong>Write a Frequently Asked Questions document</strong>. Here's where we add meat to the skeleton provided by the press release. It includes questions that came up when we wrote the press release. You would include questions that other folks asked when you shared the press release and you include questions that define what the product is good for. You put yourself in the shoes of someone using the product and consider all the questions you would have. \n<li><strong>Define the customer experience</strong>. Describe in precise detail the customer experience for the different things a customer might do with the product. For products with a user interface, we would build mock ups of each screen that the customer uses. For web services, we write use cases, including code snippets, which describe ways you can imagine people using the product. The goal here is to tell stories of how a customer is solving their problems using the product. \n<li><strong>Write the User Manual</strong>. The user manual is what a customer will use to really find out about what the product is and how they will use it. The user manual typically has three sections, concepts, how-to, and reference, which between them tell the customer everything they need to know to use the product. For products with more than one kind of user, we write more than one user manual. \n</ol>\n<p>\nOnce we have gone through the process of creating the press release, faq, mockups, and user manuals, it is amazing how much clearer it is what you are planning to build. We'll have a suite of documents that we can use to explain the new product to other teams within Amazon. We know at that point that the whole team has a shared vision on what product we are going the build.\n</p></div>
+            <script type="text/javascript">
+                var disqus_domain = 'disqus.com';
+                var disqus_shortname = 'allthingsdistributed';
+                var disqus_url = 'https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/2006/11/working_backwards.html';
+                var disqus_title = document.getElementById('disqus_post_title').innerHTML;
+                var disqus_message = document.getElementById('disqus_post_message').innerHTML;
+            </script>
+            <script type="text/javascript" src="https://web.archive.org/web/20110520044053js_/http://allthingsdistributed.disqus.com/embed.js"></script>
+            <noscript>Please enable JavaScript to view the <a href="https://web.archive.org/web/20110520044053/http://disqus.com/?ref_noscript=allthingsdistributed">comments powered by Disqus.</a></noscript>
+
+    </div>
+        
+
+
+</div>
+                    </div>
+
+    
+            
+                    <div id="beta">
+    <div id="beta-inner">
+ 	<div class="widget-search widget">
+		<div class="widget-content">
+		<img src="https://web.archive.org/web/20110520044053im_/http://www.allthingsdistributed.com/images/wvlogo.jpg">
+		</div>
+	</div>
+	<div class="widget-search widget"> 
+		<h3 class="widget-header">Contact Info</h3> 
+		<div class="widget-content">
+		<b>Werner Vogels</b><br>
+		<i>CTO - Amazon.com</i><br><br>
+		<img src="https://web.archive.org/web/20110520044053im_/http://www.allthingsdistributed.com/images/email.jpg"><br>
+		</div>
+	</div>
+	<div class="widget-search widget"> 
+		<h3 class="widget-header">Other places</h3> 
+		<div class="widget-content">
+                Follow werner on <a href="https://web.archive.org/web/20110520044053/http://www.twitter.com/werner">twitter</a> if you want to know what he is current reading or thinking about.<br>
+                At <a href="https://web.archive.org/web/20110520044053/http://werner.ly/">werner.ly</a> he posts material that doesn't belong on this blog or on twitter.<br>
+		</div>
+	</div>
+	<div class="widget-search widget">
+		<h3 class="widget-header">Syndication</h3>
+		<div class="widget-content">
+			<img src="https://web.archive.org/web/20110520044053im_/http://www.allthingsdistributed.com/images/feed.gif" width="9" height="9"/>
+			 Subscribe to this weblog's<br/>
+			<a href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/atom.xml">atom feed</a>
+			 or <a href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/index.xml">rss feed</a><br/>
+		</div>
+	</div>
+        <div class="widget-search widget">
+            <h3 class="widget-header">Search</h3>
+            <div class="widget-content">
+<!-- Bing -->
+<meta name="Search.WLSearchBox" content="1.1, en-US"/>
+<div id="WLSearchBoxDiv">
+<table cellpadding="0" cellspacing="0" style="width:200px; height:32px;"><tr id="WLSearchBoxPlaceholder"><td style="width:100%; border:solid 1px #cccccc; border-right-style:none; padding-left:10px; padding-right:10px; vertical-align:middle;"><input id="WLSearchBoxInput" type="text" value="Loading..." disabled="disabled" style="background-image:url(https://web.archive.org/web/20110520044053im_/http://www.bing.com/siteowner/s/siteowner/searchbox_background_k.png); background-position:right; background-repeat:no-repeat; font-family:Arial; font-size:14px; color:#000000; width:100%; border:none 0 transparent;"/></td><td style="border:solid 1px #cccccc; border-left-style:none; padding-left:0px; padding-right:3px;"><input id="WLSearchBoxButton" type="image" src="https://web.archive.org/web/20110520044053im_/http://www.bing.com/siteowner/s/siteowner/searchbutton_normal_k.gif" style="border:none 0 transparent; height:24px; width:24px; vertical-align:top;"/></td></tr></table>
+	<script type="text/javascript" charset="utf-8">
+	var WLSearchBoxConfiguration=
+	{
+		"global":{
+			"serverDNS":"www.bing.com",
+			"market":"en-US"
+		},
+		"appearance":{
+			"autoHideTopControl":false,
+			"width":800,
+			"height":550,
+			"theme":"Blue"
+		},
+		"scopes":[
+			{
+				"type":"web",
+				"caption":"&#x41;&#x6c;&#x6c;&#x54;&#x68;&#x69;&#x6e;&#x67;&#x73;&#x44;&#x69;&#x73;&#x74;&#x72;&#x69;&#x62;&#x75;&#x74;&#x65;&#x64;",
+				"searchParam":"site:www.allthingsdistributed.com"
+			}
+			,
+			{
+				"type":"web",
+				"caption":"&#x57;&#x65;&#x62;",
+				"searchParam":""
+			}
+		]
+	}
+	</script>
+	<script type="text/javascript" charset="utf-8" src="https://web.archive.org/web/20110520044053js_/http://www.bing.com/bootstrap.js?market=en-US&amp;ServId=SearchBox&amp;ServId=SearchBoxWeb&amp;Callback=WLSearchBoxScriptReady"></script>
+</div>
+<!-- Bing -->
+            </div>
+        </div>
+
+
+        <div class="widget-welcome widget">
+            <h3 class="widget-header">
+    
+                About this Entry
+    
+    
+            </h3>
+            <div class="widget-content">
+    
+    
+                <p class="first">This page contains a single entry by Werner Vogels published on <em>November  1, 2006  1:42 PM</em>.</p>
+        
+                <p><a href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/2006/11/new_in_november.html">New in November</a> was the previous entry in this blog.</p>
+        
+        
+                <p><a href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/2006/12/_there_will_be_lots.html">The King of Disk Drives</a> is the next entry in this blog.</p>
+        
+    
+    
+    
+    
+    
+                <p>Find recent content on the <a href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/">main index</a> or look in the <a href="https://web.archive.org/web/20110520044053/http://www.allthingsdistributed.com/archives.html">archives</a> to find all content.</p>
+    
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+            
+        
+
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footer-inner">
+                    <div id="footer-content">
+                        <div class="widget-powered widget">
+                            <div class="widget-content">
+                                Powered by <a href="https://web.archive.org/web/20110520044053/http://www.movabletype.com/">Movable Type Pro</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="https://web.archive.org/web/20110520044053js_/http://track2.mybloglog.com/js/jsserv.php?mblID=2006111814485315"></script>
+<script src="https://web.archive.org/web/20110520044053js_/http://www.google-analytics.com/urchin.js" type="text/javascript"></script><script type="text/javascript">_uacct = "UA-967083-1";urchinTracker
+();</script>
+</body>
+</html>
+
+
+
+
+<!--
+     FILE ARCHIVED ON 04:40:53 May 20, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:04:36 May 27, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.559
+  exclusion.robots: 0.074
+  exclusion.robots.policy: 0.062
+  esindex: 0.009
+  cdx.remote: 22.706
+  LoadShardBlock: 164.398 (6)
+  PetaboxLoader3.datanode: 169.743 (7)
+  load_resource: 152.145
+  PetaboxLoader3.resolve: 113.62
+-->

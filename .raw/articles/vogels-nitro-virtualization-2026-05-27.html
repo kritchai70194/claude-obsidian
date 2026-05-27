@@ -1,0 +1,179 @@
+<!doctype html><html lang="en"><head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=oZ57VlYl" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://www.allthingsdistributed.com/2020/09/reinventing-virtualization-with-nitro.html","20221217200033","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1671307233");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+<meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="author" content="Dr Werner Vogels - https://www.allthingsdistributed.com/"><title>Reinventing virtualization with the AWS Nitro System | All Things Distributed</title><meta name="description" content="Scaling the JHSPH model to save lives."><meta name="generator" content="Hugo 0.101.0"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://web.archive.org/web/20221217200033im_/https://www.allthingsdistributed.com/images/covid1.png"><meta name="twitter:title" content="Reinventing virtualization with the AWS Nitro System"><meta name="twitter:description" content="Scaling the JHSPH model to save lives."><meta property="og:title" content="Reinventing virtualization with the AWS Nitro System"><meta property="og:description" content="Scaling the JHSPH model to save lives."><meta property="og:type" content="article"><meta property="og:url" content="https://web.archive.org/web/20221217200033/https://www.allthingsdistributed.com/2020/09/reinventing-virtualization-with-nitro.html"><meta property="og:image" content="https://web.archive.org/web/20221217200033im_/https://www.allthingsdistributed.com/images/covid1.png"><meta property="article:section" content="posts"><meta property="article:published_time" content="2020-09-14T09:00:00+00:00"><meta property="article:modified_time" content="2020-09-14T09:00:00+00:00"><meta itemprop="name" content="Reinventing virtualization with the AWS Nitro System"><meta itemprop="description" content="Scaling the JHSPH model to save lives."><meta itemprop="datePublished" content="2020-09-14T09:00:00+00:00"><meta itemprop="dateModified" content="2020-09-14T09:00:00+00:00"><meta itemprop="wordCount" content="1816"><meta itemprop="image" content="https://web.archive.org/web/20221217200033im_/https://www.allthingsdistributed.com/images/covid1.png"><meta itemprop="keywords" content><link rel="canonical" href="https://web.archive.org/web/20221217200033/https://www.allthingsdistributed.com/2020/09/reinventing-virtualization-with-nitro.html"><link rel="alternate" type="application/atom+xml" title="All Things Distributed" href="https://web.archive.org/web/20221217200033/https://www.allthingsdistributed.com/atom.xml"><link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII="><link rel="shortcut icon" href="https://web.archive.org/web/20221217200033im_/https://www.allthingsdistributed.com/favicon.ico" type="image/x-icon"><link rel="icon" href="https://web.archive.org/web/20221217200033im_/https://www.allthingsdistributed.com/favicon.ico" type="image/x-icon"><style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeSpeed}.posts hr{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:none;border-bottom:1px #353535;flex:1 0 1rem}main{max-width:70ch;padding:2ch;margin:auto}a,body{color:#353535}::selection,a:focus,a:hover{background-color:#353535;color:#fff}.meta{margin:0 0 2.5rem}.tags::before{content:"\2022";margin-left:1rem}code,pre{color:#353535;font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;border:1px solid #353535;font-size:small}code{padding:.1rem;border:none}pre{padding:.5rem;overflow-x:auto}pre code{border:none}img{max-width:100%;border:0 solid #353535;display:block;margin-left:auto;margin-right:auto}hr{background:#353535;height:1px;border:0}ul{list-style-type:square}ul,ol{padding-left:1.2rem}header li,footer li{display:inline;text-transform:uppercase;padding:5px}header a,footer a{text-decoration:none}header ul,footer ul{justify-content:space-between;display:flex}header{padding:0}section,footer{padding:1rem 0}blockquote{border-left:5px solid #353535;padding-left:1rem}.posts ul,header ul,footer ul{list-style:none}.posts,header ul,footer ul{padding:0}.posts li{align-items:center;display:flex;justify-content:space-between;margin-bottom:.7rem}.posts li a,.posts li div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.posts li time{padding-left:1rem;white-space:nowrap;font-variant-numeric:tabular-nums}.hash{opacity:.25;text-decoration:none}table{border-collapse:collapse;text-align:left;width:100%}table tr{background:#fff;border-bottom:1px solid}table th,table td{padding:10px 20px}.titlecenter{padding-top:1rem;text-align:center;font-size:32px;font-weight:600}.subtitlecenter{padding-bottom:1rem;text-align:center;font-style:italic;font-size:18px;font-weight:400}.quote{background-color:#f0f0f0;display:flex;padding:20px}.quote svg{font-size:24px;color:#ce8460;margin-right:20px}.quote p{font-style:italic}.quote-by{color:#ce8460}.embed-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%}.embed-container iframe,.embed-container object,.embed-container embed{position:absolute;top:0;left:0;width:100%;height:100%}</style><script src="//web.archive.org/web/20221217200033js_/https://rum-static.pingdom.net/pa-6214eea09034fb0011000850.js" async></script>
+<script src="https://web.archive.org/web/20221217200033js_/https://cdn.usefathom.com/script.js" data-site="LVXGFGWH" defer></script>
+<script type="application/ld+json">{"@context":"https://web.archive.org/web/20221217200033/http://schema.org","@type":"BlogPosting","articleSection":"posts","name":"Reinventing virtualization with the AWS Nitro System","headline":"Reinventing virtualization with the AWS Nitro System","alternativeHeadline":"","description":"Scaling the JHSPH model to save lives.","inLanguage":"en-us","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/web.archive.org\/web\/20221217200033\/https:\/\/www.allthingsdistributed.com\/2020\/09\/reinventing-virtualization-with-nitro.html"},"author":{"@type":"Person","name":"Werner Vogels"},"creator":{"@type":"Person","name":"Werner Vogels"},"accountablePerson":{"@type":"Person","name":"Werner Vogels"},"copyrightHolder":"All Things Distributed","copyrightYear":"2020","dateCreated":"2020-09-14T09:00:00.00Z","datePublished":"2020-09-14T09:00:00.00Z","dateModified":"2020-09-14T09:00:00.00Z","publisher":{"@type":"Organization","name":"All Things Distributed","url":"https://web.archive.org/web/20221217200033/https://www.allthingsdistributed.com/","logo":{"@type":"ImageObject","url":"https:\/\/web.archive.org\/web\/20221217200033\/https:\/\/www.allthingsdistributed.com\/images\/wvlogo.jpg","width":"32","height":"32"}},"image":["https://web.archive.org/web/20221217200033/https://www.allthingsdistributed.com/images/covid1.png"],"url":"https:\/\/web.archive.org\/web\/20221217200033\/https:\/\/www.allthingsdistributed.com\/2020\/09\/reinventing-virtualization-with-nitro.html","wordCount":"1816","genre":[],"keywords":[]}</script><script src="https://web.archive.org/web/20221217200033js_/https://kit.fontawesome.com/3dc06e990d.js" crossorigin="anonymous"></script></head><body><main><header><nav><ul><li><a href="/web/20221217200033/https://www.allthingsdistributed.com/">All Things Distributed</a></li><li><a href="/web/20221217200033/https://www.allthingsdistributed.com/articles.html">Articles</a></li><li><a href="/web/20221217200033/https://www.allthingsdistributed.com/about.html">@werner</a></li><li><a href="https://web.archive.org/web/20221217200033/https://twitter.com/werner"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;
+<a href="https://web.archive.org/web/20221217200033/https://www.youtube.com/playlist?list=PLhr1KZpdzukdIpgzSSCkNsnRAwDz6Xx5B"><i class="fab fa-youtube"></i></a></li></ul></nav></header><hr><section><h2 itemprop="name headline">Reinventing virtualization with the AWS Nitro System</h2><p class="meta"><time itemprop="datePublished" datetime="2020-09-14">September 14, 2020</time> &bull; 1816 words</p><span itemprop="articleBody"><img src="/web/20221217200033im_/https://www.allthingsdistributed.com/images/nitrohero.png"><p>Running a business at the scale of Amazon, we often have to solve
+problems that no other company has faced before. The disadvantage of
+this is that there is no &ldquo;how to&rdquo; guide for us&mdash;a lot is unknown.
+However, the advantage is that when we solve a new problem, it&rsquo;s an
+opportunity to reinvent our services and create new benefits for our
+customers. Indeed, we have created some of our most innovative and
+successful ideas when we have entered unchartered territory.</p><p>When you&rsquo;re a customer-centric company, you often find yourself in the
+great unknown because customers will always want more and better. You
+will need to invent on their behalf. A great example of this approach to
+innovation and problem solving is the creation of the <a href="https://web.archive.org/web/20221217200033/https://aws.amazon.com/ec2/nitro/">AWS Nitro
+System</a> (Nitro System), the
+underlying platform for our EC2 instances.</p><p>After years of optimizing traditional virtualization systems to the
+limit, we knew we had to make a dramatic change in the architecture if
+we were going to continue to increase performance and security for our
+customers. This realization forced us to rethink everything and became
+the spark for our creating the Nitro System, the first infrastructure
+platform to offload virtualization functions to dedicated hardware and
+software. Now, with the Nitro System, we can offer the best price
+performance in the cloud, the most secure environment, and a faster pace
+of innovation.</p><p>Let&rsquo;s look at the journey our team has been on in creating the Nitro
+System and what the result has meant for our customers.</p><p><strong>In the beginning</strong></p><p>A hypervisor is a piece of system software that provides virtual
+machines (VMs), on which users can run their OS and applications. The
+hypervisor provides isolation between VMs, which run independent of each
+other, and allows different VMs to run their own OS. An off-the-shelf
+hypervisor was never intended to be used in a multitenant cloud
+environment. But with deep tuning and customization, hypervisors can be
+adapted for true multitenancy, which simplifies machine provisioning and
+administration while increasing utilization and lowering costs for
+customers.</p><p>In the early days of EC2, we used the Xen hypervisor, which is purely
+software-based, to protect the physical hardware and system firmware;
+virtualize the CPU, storage, and networking; and provide a rich set of
+management capabilities. But with this architecture, as much as 30% of
+the resources in an instance were allocated to the hypervisor and
+operational management for network, storage, and monitoring.</p><p><img src="/web/20221217200033im_/https://www.allthingsdistributed.com/images/nitro1.png" alt loading="lazy"></p><p>Figure 1: EC2 &ldquo;Instance&rdquo; host architecture for the Xen Hypervisor</p><p>Thirty percent is significant, and this waste wasn't providing direct
+value to our customers. It became clear to us that if we wanted to
+significantly improve performance, security, and agility for our
+customers, we had to migrate most of our hypervisor functionalities to
+dedicated hardware. That&rsquo;s when we began our journey of designing the
+Nitro System in 2012.</p><p><strong>The one-way door</strong></p><p>At Amazon, we often talk about one-way and two-way door decisions. A
+two-way door decision is easily reversible, like testing out a new web
+page format. With this type of decision, you can move fast because, even
+if it takes a little time, you can reverse the decision. A one-way door
+decision is almost impossible to reverse, so you have to make it
+methodically, carefully, slowly, and with great deliberation and
+consultation.</p><p>Creating the Nitro System was a one-way door decision. We knew that we
+had outgrown the capabilities of traditional virtualization techniques.
+We had to innovate. But we did not make the decision quickly or lightly.
+The journey consisted of careful trial and error over the course of five
+years, with each step validating the direction we were taking.</p><p>The Nitro System is comprised of three main parts: the Nitro Cards, the
+Nitro Security Chip, and the Nitro Hypervisor. The Nitro Cards are a
+family of cards that offloads and accelerates IO for functions,
+including Virtual Private Cloud (VPC), Elastic Block Store (EBS), and
+Instance Storage, thereby increasing overall system performance.</p><p>We launched our first Nitro offload card in the C3 instance type in
+2013, offloading our network processes into hardware. Next came the C4
+instance type in 2014, offloading EBS storage into hardware. For the C4
+instance type, we worked for the first time with a company called
+Annapurna Labs. We were so impressed by the technology and the team
+there that we acquired Annapurna Labs in early 2015. By 2017, we had
+offloaded the last of the components, including the control plane and
+the remaining I/O, and we introduced a new hypervisor, the full Nitro
+System with the C5 instance type.</p><p>This was an incredible moment for us. Building hardware is challenging.
+Not only was it a major investment financially, but it was also a huge
+time commitment for so many employees. The hard work was worth it when
+the Nitro System launched.</p><p><img src="/web/20221217200033im_/https://www.allthingsdistributed.com/images/nitro2.png" alt loading="lazy"></p><p>Figure 2: 2017 Nitro System architecture</p><p>The Nitro architecture also enabled us to make the hypervisor layer
+optional and offer bare metal instances. Bare metal instances provide
+applications with direct access to the processor and memory resources of
+the underlying server.</p><p>This is important for workloads that require access to the hardware
+feature set, such as Intel® VT-x, and for applications that need to run
+in non-virtualized environments for licensing or support requirements.
+For example, I3 bare metal instances enable VMware to run their full
+Software-Defined Data Center (SDDC) stack, including the ESXi
+hypervisor, directly on AWS managed infrastructure.</p><p>So what does this all mean for our customers? Better performance and
+price, enhanced security, and a faster pace of innovation.</p><p><strong>The customer impact</strong></p><p><strong>Better performance and price</strong></p><p>With the Nitro System, EC2 performs better across CPU, networking, and
+storage because we moved those functions into dedicated Nitro cards. Not
+having to hold back resources for management software means more savings
+that can be passed on to the customer.</p><p>The Nitro System also impacts hypervisor jitter. In the cloud, the
+ability to deliver a reduction of jitter down to microseconds enables
+scenarios that otherwise couldn&rsquo;t exist. For example, we have a customer
+that manages satellites, and it needed a real-time compute environment
+to support communication to its fleet. Specifically, response to a
+network packet had to be within 150 µs for the workload to function.
+Traditional hypervisors simply cannot support this type of workload.</p><p>Figure 3 below shows the jitter comparison for this customer when it
+used different instance types: C4 (pre-Nitro), C5, and I3.metal. As you
+can see, there is significantly lower jitter with C5 and I3.metal. You
+can also see that the performance impact from the hypervisor in a
+non-bare metal instance is light.</p><p><img src="/web/20221217200033im_/https://www.allthingsdistributed.com/images/nitro3.png" alt loading="lazy"></p><p>Figure 3: Nitro System hypervisor jitter improvements</p><p>In addition, the Nitro System improves storage latency. In Figure 4, you
+can see the storage latency improvement achieved by offloading the
+overhead from local disk storage. In fact, our network optimized
+instances have seen performance increase by up to 4X. Even the R5d
+instance, which is not a storage optimized instance, offers better
+latency compared to fourth-generation instances.</p><p><img src="/web/20221217200033im_/https://www.allthingsdistributed.com/2020/09/nitro4.png" alt loading="lazy"></p><p>Figure 4: Nitro System instance storage improvements</p><p>Finally, the Nitro System also provides enhanced networking performance.
+AWS is the first and only cloud to offer 100 Gbps enhanced ethernet
+networking. This is beneficial for workloads that require higher
+throughput or are network bound, like HPC applications. This is only
+possible through the Nitro System.</p><p><strong>Enhanced security</strong></p><p>One of the biggest benefits of the Nitro System is enhanced security.
+First, we designed the Nitro System to operate in the most hostile of
+networks we could imagine. This means not only encrypting all
+communication channels but also providing secure booting capabilities.
+Although our data center networks are highly secure, this design has
+enabled us to launch new products. For example, last year, we introduced
+AWS Outposts, which brings the AWS experience to an on-premises data
+center with the Nitro System.</p><p>Second, we have engineered the system with a hardware-based root of
+trust using the Nitro Security Chip, allowing us to cryptographically
+measure and validate the system continuously. This provides a
+significantly higher level of trust in what is running than can be
+achieved with traditional hardware. By offloading and simplifying the
+overall stack, we also minimize the Trusted Computing Base (TCB),
+increasing confidence in the overall system.</p><p>Third, we have designed the Nitro System to have very limited operator
+accessibility. In a typical off-the-shelf hypervisor, an administrator
+has full access to the system and can modify any component. In contrast,
+with the Nitro System, the only interface for operators is a restricted
+API, making it impossible to access customer data or mutate the system
+in unapproved ways. There is no equivalent of a &ldquo;root&rdquo; user or SSH, and
+as a result, the Nitro System provides a level of confidence that can&rsquo;t
+be obtained by simply locking down a traditional hypervisor.</p><p>Fourth, traditional virtualization and that of other cloud providers use
+general purpose servers. By their very nature, these include extra and
+unnecessary components and capabilities. This increases the surface area
+for security vulnerabilities. By contrast, the Nitro System is a huge
+step forward in using purpose-built hardware and servers designed
+specifically to run a hypervisor&mdash;nothing more. Not only does this
+reduce the risk of security vulnerabilities, but it also gives us the
+ability to offload specific functions to dedicated hardware and
+software, which further minimizes the attack surface of the hypervisor.</p><p>Finally, with the Nitro System, we can apply formal verification that
+proves the Nitro System has no bugs and works the way it is intended to.</p><p><strong>Faster pace of innovation</strong></p><p>With the Nitro System, we were able to break the architecture of EC2
+into smaller blocks by offloading the virtualization functions onto
+dedicated hardware. These blocks can be assembled in many different
+ways, giving us the flexibility to design and rapidly deliver EC2
+instances with an ever-broadening selection of compute, storage, memory,
+and networking options. As you can see from the &ldquo;Nitro enabled
+innovation&rdquo; chart below, we have launched nearly 4x the number of
+instances since launching the Nitro System in 2017. As a result, our
+customers have a broader tool set to choose from as they optimize price
+and performance. The faster we innovate, the faster our customers can
+innovate.</p><p><img src="/web/20221217200033im_/https://www.allthingsdistributed.com/images/nitro5.png" alt loading="lazy"></p><p>Figure 5: Nitro System enabled innovation</p><p><strong>Continuous innovation</strong></p><p>Whether you chose to look at something as a problem or an opportunity
+can have large effect on how you deal with it. We have chosen to look at
+the limitations of the traditional hypervisor as an opportunity to
+create a completely new architecture.</p><p>Now, with the Nitro System, our customers enjoy better performance,
+enhanced security, and a broader set of instance types to choose from.
+And we&rsquo;re not done yet. When you&rsquo;re a customer-focused company, your
+products will never be finished because customers always want more, and
+they always want better. And I look forward to giving this to them every
+time.</p><p>You can learn more about the <a href="https://web.archive.org/web/20221217200033/https://aws.amazon.com/ec2/nitro/">AWS Nitro
+System</a> on our web site.</p></span></section><hr><footer><nav><ul><li>© 2022 All Things Distributed</li><li><a href="https://web.archive.org/web/20221217200033/https://twitter.com/werner"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;
+<a href="https://web.archive.org/web/20221217200033/https://www.youtube.com/playlist?list=PLhr1KZpdzukdIpgzSSCkNsnRAwDz6Xx5B"><i class="fab fa-youtube"></i></a>&nbsp;&nbsp;
+<a href="https://web.archive.org/web/20221217200033/https://instagram.com/djwerner"><i class="fab fa-instagram"></i></a></li></ul></nav></footer></main></body></html><!--
+     FILE ARCHIVED ON 20:00:33 Dec 17, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:06:13 May 27, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.368
+  exclusion.robots: 0.052
+  exclusion.robots.policy: 0.045
+  esindex: 0.005
+  cdx.remote: 8.896
+  LoadShardBlock: 120.649 (3)
+  PetaboxLoader3.datanode: 62.785 (4)
+  PetaboxLoader3.resolve: 1076.794 (2)
+  load_resource: 1137.381
+-->
