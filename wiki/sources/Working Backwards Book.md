@@ -1,6 +1,7 @@
 ---
 type: source
 title: Working Backwards Book
+address: c-000240
 authors:
   - Colin Bryar
   - Bill Carr
@@ -9,7 +10,7 @@ url: >-
   https://lanredahunsi.com/book-summary-working-backwards-by-colin-bryar-and-bill-carr/
 raw_file: .raw/source-working-backwards-summary.md
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-24T00:00:00.000Z'
+updated: '2026-05-27'
 tags:
   - source
   - amazon
