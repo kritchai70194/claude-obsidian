@@ -1,13 +1,14 @@
 ---
 type: concept
 title: "Query-Time Retrieval"
+address: c-000219
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-27
 tags:
   - rag
   - retrieval
   - llm-wiki
-status: developing
+status: mature
 related:
   - "[[How does the LLM Wiki pattern work?]]"
   - "[[Wiki vs RAG]]"
