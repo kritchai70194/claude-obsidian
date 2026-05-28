@@ -21,6 +21,66 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-28] Tier C close-out | restructure 2 oversized OP sections + new Marketplace section
+
+Final Tier in the brain-lint sequence. 3 parallel restructure agents + main-thread integration via Python surgical-replace.
+
+### Stream A: Engineering Disposition restructured (48 → 5 themes)
+
+Sub-sections added (all principle bodies preserved byte-for-byte; `### Principle` → `#### Principle` demotion):
+- **System Design Hints** (7 principles: Lampson interfaces, hints not promises, common-case-fast/worst-case-progress, don't hide power, end-to-end recovery, shed load, "just hints")
+- **Distributed Systems Foundations** (5 principles: causality as intrinsic order, state-machine replication, Byzantine n ≥ 3m+1, formal reasoning mandatory, mutex physics cost)
+- **Pragmatic Engineering** (21 principles, default bucket)
+- **Written-decision Discipline** (9 principles: Carmack .plan, Lamport spec, model checker as feedback, clarity as engineering work)
+- **Carmack VR/AGI-era frames** (6 principles: ship imperfect, 20ms latency, friction-not-capacity, kill-authority, small-program AGI, investor money as discipline)
+
+48 principles preserved; verified byte-for-byte via Python diff in the agent's report.
+
+### Stream B: Operational Discipline restructured (35 → 5 themes)
+
+Sub-sections added:
+- **Operating Cadence** (8 principles: boring fundamentals, mechanism over goodwill, owner mindset, two-pizza, high-agency curiosity, single-threaded leadership, input metrics, get-close-to-work)
+- **Bezos + Vogels Operational Patterns** (6 principles: price-cost loop, self-service platforms, developers want a service, evolvability over religion, 10x architecture review, 5-pillar checklist)
+- **Customer-Service Operational Discipline** (8 principles: Bar Raiser, distinguish object from category, product is the prospectus, managers as multipliers, training, 1:1s, fault vs failure, latency percentiles)
+- **Disruption Operational Patterns** (4 principles: Christensen customer-obsession-has-limits, listen to non-customers, separate the disruption, sustaining vs disruptive binary)
+- **Standards + Distinctiveness** (9 principles: OKRs as Grove, high standards teachable, scope as standard, distinctiveness, create more than consume, macro stability, quantify the trend, unified culture, culture as discovered)
+
+35 principles preserved.
+
+### Stream C: New Marketplace + Consumer section (8 principles)
+
+Inserted after AI-Native, before Skeptical-Of. Consolidates Choudary platform triad + Gurley marketplace economics + Chesky consumer defensibility. Principles:
+1. Pipes optimize production; platforms optimize interactions (Choudary)
+2. Toolbox + magnet + matchmaker (Choudary)
+3. Name your core interaction precisely or it will drift (Choudary)
+4. Atomic network bootstrap; do not try to build globally (Chen+Chesky)
+5. Subsidize the hard side; charging the wrong side kills the platform (Gurley)
+6. Sustainable take rate sits in the low double digits (Gurley)
+7. Frequency compounds; low-frequency marketplaces stall (Gurley)
+8. Consumer defensibility = brand + network density + design (Chesky)
+
+### Integration
+
+Python surgical-replace script via Bash. 3 boundary-detected replacements: replaced Engineering Disposition (lines 712-1089), replaced Operational Discipline (1150-1407), inserted Marketplace + Consumer before "## Things This Brain is Skeptical Of" (line 2035 in pre-edit file). Status section rewritten to reflect 19 sections + ~260 principles + Tier sequence summary.
+
+### Verification
+
+```
+grep -c "^## " Operating Principles.md   # 19 (was 18)
+grep -c "^### "                          # 186 (themes + section principles)
+grep -c "^#### "                         # 83 (= 48 + 35 demoted)
+```
+
+### Totals
+
+- Operating Principles: 18 → 19 sections, ~251 → ~260 principles, 2066 → 2172 lines
+- No new wiki pages; counter c-000322 unchanged
+- Files modified: wiki/concepts/Operating Principles.md, wiki/Persona.md, wiki/hot.md, wiki/concepts/_index.md
+
+### Method validation (5th wave this session)
+
+Tier 1 (37 pages via 6 agents) → Tier 2 (6 pages via 2 agents + diagnostic) → Tier A (22 principles via 1 research agent) → Tier B (11 pages via 4 agents) → Tier C (3 OP section transforms via 3 agents). Each wave used the same disjoint-output pattern. Method is now a robust idiom.
+
 ## [2026-05-28] Tier B execute | 4 parallel streams, 11 new pages, under-sourced mentors raised
 
 Tier B from brain-lint-report-2026-05-28 executed via 4-agent parallel dispatch.
