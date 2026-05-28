@@ -41,7 +41,7 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ## Decision-Making & Leadership
 
-- [[Operating Principles]], decision-making heuristics distilled from the [[Persona]] mentor bench (mature, ~251 cited principles across 18 sections)
+- [[Operating Principles]], decision-making heuristics distilled from the [[Persona]] mentor bench (mature, ~260 cited principles across 19 sections; Engineering Disposition + Operational Discipline restructured into themed sub-sections 2026-05-28)
 - [[Customer Obsession]], Bezos-canonical: 90-95% of what we build is customer-driven; beautifully dissatisfied customers; invent on their behalf
 - [[Long-Term Thinking]], Bezos-canonical: voting machine vs weighing machine; durable profitability funds R&D; wandering as counter-balance to efficiency
 - [[Two-Pizza Team]], Bezos + Vogels canonical: Conway's law as deliberate lever; services as startups within the walls; single-threaded leadership
