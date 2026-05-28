@@ -855,6 +855,150 @@ Lamport's 13-page 2001 rewrite of his own 1998 Paxos paper is a canonical exampl
 
 The corresponding [[Carmack Lex Fridman 309]] frame is "willingness to throw away your own code". Same shape: the artifact serves the goal, not your ego.
 
+### Interfaces are the most important design artifact
+
+The interface is what other code commits to. The implementation can change; the interface is the durable contract. Most bad systems are bad at the interface, not the implementation.
+
+> "Defining interfaces is the most important part of system design. Usually it is also the most difficult, since the interface design must satisfy three conflicting requirements: an interface should be simple, it should be complete, and it should admit a sufficiently small and fast implementation." ([[Lampson Hints for Computer System Design]])
+
+The Lampson formulation forces the explicit tradeoff: simple, complete, fast-implementation. Pick two without breaking the third. Most interface failures pick "complete" plus "fast" and abandon simplicity, which produces compounding consumer-side complexity.
+
+### Hints, not promises
+
+A hint is a saved result of computation that may be wrong, with a cheap correctness check before any unrecoverable action. A promise is a contract the system stakes correctness on. Conflating them produces fragile systems.
+
+> "A hint, like a cache entry, is the saved result of some computation. It is different in two ways: it may be wrong, and it is not necessarily reached by an associative lookup. Because a hint may be wrong, there must be a way to check its correctness before taking any unrecoverable action." ([[Lampson Hints for Computer System Design]])
+
+Engineering implication: when in doubt, prefer hints with cheap checks over promises with hidden assumptions. ARP cache, route caches, Smalltalk dispatch caches, modern speculative execution. All are hint patterns with correctness checks.
+
+### Handle common case fast, worst case make progress
+
+Two execution paths with different requirements: the common path is optimized for speed; the worst-case path is optimized for guaranteed progress. Conflating them produces a slow common path or an unbounded worst case.
+
+> "Handle normal and worst case separately as a rule, because the requirements for the two are quite different: the normal case must be fast; the worst case must make some progress." ([[Lampson Hints for Computer System Design]])
+
+Engineering examples: reference-counting GC with periodic trace-and-sweep; piece-table editing with periodic cleanup; speculative execution with rollback on misprediction.
+
+### Don't hide power
+
+Abstractions exist to conceal undesirable properties. They should never conceal desirable ones. If the abstraction makes the underlying capability inaccessible without good reason, the abstraction is wrong.
+
+> "The purpose of abstractions is to conceal undesirable properties; desirable ones should not be hidden." ([[Lampson Hints for Computer System Design]])
+
+Practical test: when a user has to bypass your abstraction to do something legitimate, the abstraction has hidden power it should expose.
+
+### End-to-end recovery is necessary; intermediate recovery is for performance
+
+The end-to-end argument applied to error handling: the only error detection and recovery that is logically required is end-to-end. Any intermediate-layer recovery is a performance optimization, not a correctness requirement.
+
+> "End-to-end error recovery is absolutely necessary for a reliable system, and any other error detection or recovery is not logically necessary, but is strictly for performance." ([[Lampson Hints for Computer System Design]])
+
+Engineering implication: do not stake correctness on link-layer retransmits, TCP retries, or RAID. Stake correctness on the application-layer reconciliation. Intermediate retries are throughput, not safety.
+
+### Shed load before failure
+
+Refuse new work before the system saturates. Graceful degradation requires capacity discipline; never run at 100% utilization, because variance in arrival rate will cascade into failure.
+
+> "Shed load to control demand, rather than allowing the system to become overloaded." ([[Lampson Hints for Computer System Design]])
+
+Operating discipline: target ~2/3 capacity for stable steady-state; instrument backpressure; expose load-shedding as a first-class operation.
+
+### "They are just hints"
+
+The meta-principle: none of the rules above is universal. They are guidelines; judgment is the work. The catalog is useful only to the engineer who has learned which hint applies when.
+
+> "These are not novel... or guaranteed to work; they are just hints." ([[Lampson Hints for Computer System Design]])
+
+Implication for synthesis: this brain reads system-design principles as hints, not promises. The check is whether the principle applies to the specific case, not whether it was stated by Lampson.
+
+### Causality is the only intrinsic order in a distributed system
+
+There is no "real time" in a distributed system. The only intrinsic ordering is the partial order of messages causally related to each other. Any system claim that depends on "simultaneous" or "real time" is a convention layered on top of message causality.
+
+> "The relation 'happened before' is therefore only a partial ordering of the events in the system." ([[Lamport Time Clocks Distributed System]])
+
+Engineering implication: when designing a distributed protocol, ask first what the causality structure is. Total order requires extra mechanism (Lamport timestamps, vector clocks, consensus). Partial order is what physics gives you.
+
+### State machine replication
+
+If every replica executes the same totally-ordered sequence of commands on the same deterministic state machine, all replicas converge. This is the blueprint for every reliable distributed service.
+
+> "Each process independently simulates the execution of the State Machine, using the commands issued by all the processes." ([[Lamport Time Clocks Distributed System]])
+
+The 1978 paper is the canonical reference. Every consensus protocol (Paxos, Raft, Viewstamped Replication), every replicated state machine, every leader-replica system descends from this construction.
+
+### Byzantine fault budget is a physics-like bound
+
+You cannot tolerate Byzantine failures of more than (n-1)/3 participants without cryptographic signatures. The bound is not engineering judgment; it is provable inequality.
+
+> "No solution will work unless more than two-thirds of the generals are loyal." ([[Lamport Byzantine Generals Problem]])
+
+Engineering implication: when budgeting fault tolerance for an adversarial environment (consensus, validators, replicated databases), n ≥ 3m + 1 is the budget. Signatures change the inequality (n ≥ m + 2) but do not eliminate the bound. Plan participant counts accordingly.
+
+### Formal reasoning is mandatory for concurrent algorithms
+
+Plausible reasoning fails systematically on concurrent systems. Specs, model checkers, and proofs are not optional discipline; they are the minimum to avoid systematically wrong intuition.
+
+> "We know of no area in computer science or mathematics in which informal reasoning is more likely to lead to errors than in the study of this type of algorithm." ([[Lamport Byzantine Generals Problem]])
+
+Engineering implication: write specs in TLA+ or PlusCal for any concurrent algorithm that matters; the spec is the thinking and the model checker is the falsifier.
+
+### Mutual exclusion has a physics cost
+
+Race resolution requires an arbiter, and arbiters can take arbitrarily long. Producer-consumer synchronization does not have this property. Prefer producer-consumer designs where the structure admits.
+
+> "Resolving a race requires an arbiter ... An arbiter can take arbitrarily long to make its decision. ... This is not an artifact of any model. It appears to be a law of nature." ([[Lamport Turing Lecture Concurrency Early Years]])
+
+Engineering implication: lock-free queues, async pipelines, and event-loop designs avoid the arbiter cost; mutex-heavy designs pay it.
+
+### Ship the imperfect intermediate
+
+Pragmatic over purist. An intermediate step that ships, with known imperfections, beats a perfect target that ships later. The discipline is in choosing which imperfections are acceptable now.
+
+> "Is there value in taking intermediate steps and accepting something that we know isn't right?" ([[Carmack Oculus Connect 2014]])
+
+Counterweight to the "do it right or don't do it" purist instinct. Carmack's formalization of the pragmatic-individual frame.
+
+### Latency is the master constraint for interactive systems
+
+In any system where a human is in the loop, latency is the hardest constraint. Not throughput, not correctness in edge cases. The latency budget defines what the system can do.
+
+> "We've got this 20 ms bogey that we want to be under. We want to be under 20 ms on motions-to-photons." ([[Carmack Oculus Connect 2014]])
+
+The 20ms motion-to-photons threshold is the established discipline for VR. The general principle: name the latency budget explicitly; the entire architecture follows from it.
+
+### Large orgs lose to friction, not capacity
+
+When a well-resourced org fails to ship, the cause is rarely missing capacity. It is friction: stupid things that should be killed, directions that should be set and held, work that should be coordinated but is not.
+
+> "We have a ridiculous amount of people and resources, but we constantly self-sabotage and squander effort... operating at half the effectiveness that would make me happy." ([[Carmack Farewell Meta 2022]])
+
+Engineering implication: when an org seems slow, diagnose friction before adding people. More people add coordination cost and rarely add throughput.
+
+### Technical leadership without kill-authority is decorative
+
+A CTO/principal/staff title without the authority to kill bad projects and hold a direction is performance, not leadership. The structural test: can you stop a thing?
+
+> "I have never been able to kill stupid things before they cause damage, or set a direction and have a team actually stick to it." ([[Carmack Farewell Meta 2022]])
+
+Hiring/role-design implication: if a senior engineering role does not include kill-authority, it does not include leadership. Name the authority explicitly when designing the role.
+
+### AGI is a small-program problem
+
+Counter-thesis to scale-monopoly AGI: the architecture is bounded by what biology demonstrates (a ~40MB genomic specification produces the brain). Tens of thousands of lines, less than a handful of key insights, plausibly on a single workstation.
+
+> "The code for artificial general intelligence is going to be tens of thousands of lines of code, not millions of lines of code... my bet is there's less than six key insights that need to be made." ([[Carmack on AGI Keen Technologies]])
+
+Implication for AI strategy: do not assume scaling is the only path. Bet on insight + small-team + individual research as the alternative. Keen Technologies is the operating instance of this thesis.
+
+### Investor money as self-imposed discipline
+
+External capital, even when not strictly needed, imposes a commitment device. Voluntarily accepting it forces the scope, timeline, and accountability that the self-funded path lacks.
+
+> "I could have written a check for $20 million myself, but accepting investor money forces me to be more disciplined and determined." ([[Carmack on AGI Keen Technologies]])
+
+Generalizable to commitment-device design: external accountability beats internal accountability for sustained focus.
+
 ---
 
 ## Communication
