@@ -51,6 +51,8 @@ related:
   - '[[Working Backwards]]'
   - '[[Carmack on AGI]]'
   - '[[Andy Jassy]]'
+  - '[[Leverage as Compounding]]'
+  - '[[Inflection Recognition]]'
   - '[[Lenny Rachitsky]]'
   - '[[Ben Thompson]]'
   - '[[Paul Graham]]'
