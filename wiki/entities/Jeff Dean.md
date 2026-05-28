@@ -80,6 +80,52 @@ On hardware realities at scale:
 
 > "Sort 1 TB of data without parity: ends up 'mostly sorted'. Sort it again: 'mostly sorted' another way."
 
+### From [[Dean MapReduce]] (2004)
+
+The OSDI 2004 paper. Map and reduce as a two-function abstraction; the runtime hides parallelization, fault-tolerance, locality, load balancing. The contribution is not the math: it is the abstraction. The Google indexing rewrite collapsed one phase from 3800 to 700 lines of C++.
+
+> "As a reaction to this complexity, we designed a new abstraction that allows us to express the simple computations we were trying to perform but hides the messy details of parallelization, fault-tolerance, data distribution and load balancing in a library."
+
+The straggler / backup-task mechanism (canonical origin of tail-latency thinking):
+
+> "One of the common causes that lengthens the total time taken for a MapReduce operation is a straggler: a machine that takes an unusually long time to complete one of the last few map or reduce tasks in the computation."
+
+> "When a MapReduce operation is close to completion, the master schedules backup executions of the remaining in-progress tasks. The task is marked as completed whenever either the primary or the backup execution completes."
+
+Three-line conclusion (paper's own framing): "First, restricting the programming model makes it easy to parallelize. Second, network bandwidth is a scarce resource. Third, redundant execution can be used to reduce the impact of slow machines."
+
+### From [[Dean Bigtable]] (2006)
+
+The OSDI 2006 paper. A sparse, distributed, persistent multi-dimensional sorted map. Built on GFS plus Chubby plus SSTable. The Lessons section (Section 9) is among the most-cited engineering retrospectives in the field.
+
+> "The most important lesson we learned is the value of simple designs. Given both the size of our system (about 100,000 lines of non-test code), as well as the fact that code evolves over time in unexpected ways, we have found that code and design clarity are of immense help in code maintenance and debugging."
+
+YAGNI at infrastructure scale (transactions case study):
+
+> "Another lesson we learned is that it is important to delay adding new features until it is clear how the new features will be used. For example, we initially planned to support general-purpose transactions in our API. Because we did not have an immediate use for them, however, we did not implement them."
+
+The widened failure surface:
+
+> "Large distributed systems are vulnerable to many types of failures, not just the standard network partitions and fail-stop failures assumed in many distributed protocols. For example, we have seen problems due to all of the following causes: memory and network corruption, large clock skew, hung machines, extended and asymmetric network partitions, bugs in other systems that we are using (Chubby for example), overflow of GFS quotas, and planned and unplanned hardware maintenance."
+
+### From [[Dean Tail at Scale]] (2013)
+
+CACM Feb 2013, with Luiz André Barroso. The paper that named tail latency as a first-class concern.
+
+> "Just as fault-tolerant computing aims to create a reliable whole out of less-reliable parts, large online services need to create a predictably responsive whole out of less-predictable parts; we refer to such systems as 'latency tail-tolerant,' or simply 'tail-tolerant.'"
+
+The fan-out math:
+
+> "Consider a system where each server typically responds in 10ms but with a 99th-percentile latency of one second. If a user request is handled on just one such server, one user request in 100 will be slow (one second). If a user request must collect responses from 100 such servers in parallel, then 63% of user requests will take more than one second."
+
+Hedged requests, the canonical "small ask huge win" result:
+
+> "In a Google benchmark that reads the values for 1,000 keys stored in a BigTable table distributed across 100 different servers, sending a hedging request after a 10ms delay reduces the 99.9th-percentile latency for retrieving all 1,000 values from 1,800ms to 74ms while sending just 2% more requests."
+
+The deepest line of the paper, on engineering stance:
+
+> "These tail-tolerant techniques allow designers to continue to optimize for the common case while providing resilience against uncommon cases."
+
 ---
 
 ## Core Frames (now backed by citations)
