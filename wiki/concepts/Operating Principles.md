@@ -1757,6 +1757,62 @@ Total compensation may be similar; total output is 5-10x.
 
 Outstanding people are outstanding in 1-2 dimensions; balanced rubrics select for mediocrity.
 
+### Managers should support 6 to 8 engineers
+
+The headline manager-span ratio. Deviations produce named failure modes: 1-3 reports produces a Tech-Lead-Manager (TLM, an engineer's IC time is sacrificed); 9+ reports produces a Coach (the manager loses time for direction-setting). Both are recoverable but should be intentional, not accidental.
+
+> "Managers should support 6-8 engineers." ([[Larson Sizing Engineering Teams]])
+
+Org-design implication: when team sizes drift outside the 6-8 band, name the deviation explicitly and either fix it or accept the named failure mode.
+
+### Small teams (under 4) are not teams
+
+A 1-2 person "team" is one or two ICs with a label. Larson reports regretting every sponsored 1-2-person team. The 4-engineer floor is the practical minimum for a team to absorb on-call, vacation, and turnover.
+
+> "Small teams (less than 4) are not teams. I regretted it every single time I sponsored a 1-2 person team." ([[Larson Sizing Engineering Teams]])
+
+Implication: when carving out a new initiative, either staff it to 4+ or assign it to an existing team. Do not create 2-person teams.
+
+### Migrations are usually the only path to material tech-debt progress
+
+Most "tech debt sprints" do not move the needle. Migrations do. A migration recasts tech-debt as an org-scale workflow with three named phases: derisk (worst cases first), enable (90% automated, reversible, self-serve), finish (long tail eaten by the migration team).
+
+> "Migrations are usually the only available avenue to make meaningful progress on technical debt." ([[Larson Migrations]])
+
+Operational implication: when proposing a tech-debt initiative, frame it as a migration with named phases or expect it to fail.
+
+### Reversibility is the load-bearing constraint on any migration
+
+Tools, processes, and rollouts must support immediate return to previous behavior. Without reversibility, the migration is a one-way commitment that producers and consumers will resist.
+
+> "Folks should be able to immediately return to previous behavior." ([[Larson Migrations]])
+
+Org-level analogue of Bezos two-way-doors. Apply at every layer of a migration: per-feature, per-team, per-service, per-deploy.
+
+### On hiring, fix one team at a time
+
+Concentrate hires on one struggling team until it stabilizes, then move to the next. Smearing hires across multiple struggling teams produces sub-critical mass everywhere.
+
+> "On hiring, fix one team at a time, not a bit on each." ([[Larson Elegant Puzzle]])
+
+Implication: when you have N open headcount and M struggling teams, do not divide N evenly. Pick the team with the highest leverage and load it.
+
+### Move work, not people
+
+When rebalancing capability across teams, move the work assignments rather than reorganizing the humans. Reorgs impose months of context-rebuilding cost; work moves are reversible in days.
+
+> "Move work, not people." ([[Larson Elegant Puzzle]])
+
+Engineering management implication: prefer scope adjustments over reorganizations when the goal is rebalancing.
+
+### Most poor working relationships are information gaps
+
+The default diagnosis for interpersonal friction at an organizational scale is information flow, not personality. Most "they don't get it" complaints are "they don't have the same context I have" complaints.
+
+> "Most poor working relationships are the by-product of information gaps." ([[Larson Elegant Puzzle]])
+
+Operational implication: when a working relationship is failing, audit information flow first (write-ups, agendas, decision records). The personality diagnosis comes last, not first.
+
 ---
 
 ## Things This Brain is Explicitly Skeptical Of
