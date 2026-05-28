@@ -115,26 +115,66 @@ The pedagogical pattern: pick a small system whose spec fits on a slide (distrib
 
 ---
 
-## Queued for Future Ingest
+## Foundational Papers (canonical trio)
 
-See [[seed-corpus-engineer-planners]] Lamport sources L1-L4:
-- "Thinking for Programmers" talk
-- TLA+ video course, intro lectures
-- Specifying Systems, chapters 1-3
-- Paxos Made Simple (2001)
+Three papers that founded the field of distributed computing as a discipline. Each is short, dense, and load-bearing.
 
-After this batch, deferred to a future corpus iteration:
-- Time, Clocks, and the Ordering of Events in a Distributed System (1978)
-- The Byzantine Generals Problem (1982)
-- The Part-Time Parliament (original Paxos, 1998)
-- Turing Award lecture (2014)
-- "The Future of Computing: Logic or Biology?" essay
+### From [[Lamport Time Clocks Distributed System]] (1978 CACM)
+
+The most-cited paper in computer science. Defines the "happens-before" partial order on events in a distributed system; gives the logical clock construction (counters plus IR1/IR2 rules) that extends it to a total order; uses the total order to build a fully distributed mutual exclusion algorithm; specializes to physical clocks with a tight skew bound.
+
+> "Definition. The relation '->' on the set of events of a system is the smallest relation satisfying the following three conditions: (1) If a and b are events in the same process, and a comes before b, then a -> b. (2) If a is the sending of a message by one process and b is the receipt of the same message by another process, then a -> b. (3) If a -> b and b -> c then a -> c."
+
+> "Clock Condition. For any events a, b: if a -> b then C(a) < C(b)."
+
+> "This is a distributed algorithm. Each process independently follows these rules, and there is no central synchronizing process or central storage."
+
+### From [[Lamport Byzantine Generals Problem]] (1982 ACM TOPLAS, with Shostak and Pease)
+
+Names and formalizes arbitrary-fault tolerance. Establishes the **n >= 3m + 1** lower bound for oral-message Byzantine agreement; gives algorithms OM(m) and SM(m); shows signed messages collapse the bound to n >= m + 2.
+
+> "IC1. All loyal lieutenants obey the same order. IC2. If the commanding general is loyal, then every loyal lieutenant obeys the order he sends. Conditions IC1 and IC2 are called the interactive consistency conditions."
+
+> "if the generals can send only oral messages, then no solution will work unless more than two-thirds of the generals are loyal. In particular, with only three generals, no solution can work in the presence of a single traitor."
+
+> "We know of no area in computer science or mathematics in which informal reasoning is more likely to lead to errors than in the study of this type of algorithm."
+
+### From [[Lamport Turing Lecture Concurrency Early Years]] (2015, Turing Award retrospective)
+
+Retrospective on the first dozen years of concurrency. Defends the **standard model** (executions as sequences of states), introduces the **two-arrow formalism** for non-atomic operations, separates mutual exclusion (race conditions, arbiters, unbounded delay) from producer-consumer synchronization (deterministic, arbiter-free, bounded). Closes with the methodological claim that distributed systems are best reasoned about via global invariants.
+
+> "Mutual exclusion is an example of what is now called a safety property, and livelock freedom is called a liveness property. Intuitively, a safety property asserts that something bad never happens; a liveness property asserts that something good must eventually happen."
+
+> "Resolving a race requires an arbiter, a device that decides which of two events happens first. An arbiter can take arbitrarily long to make its decision. ... This is not an artifact of any model. It appears to be a law of nature."
+
+> "the best way to reason about these systems is usually in terms of global invariants. The standard model provides the most practical way to reason about invariance."
+
+---
+
+## Core Frames (continued, from foundational papers)
+
+- **Causality is the only intrinsic order.** ([[Lamport Time Clocks Distributed System]]) Time is derived; the happens-before partial order is what is "really there" in a distributed system.
+- **Logical clocks are sufficient for ordering.** ([[Lamport Time Clocks Distributed System]]) Counters plus discipline give a total order on all events with no shared physical time.
+- **State machine replication is the way to build reliable distributed services.** ([[Lamport Time Clocks Distributed System]]) Every process simulates the same state machine using the same totally-ordered command sequence.
+- **Byzantine faults are not edge cases.** ([[Lamport Byzantine Generals Problem]]) Components can lie. The cost of tolerating m liars is at least 3m + 1 participants under oral messaging.
+- **Signatures shatter the lower bound.** ([[Lamport Byzantine Generals Problem]]) Cryptographic non-repudiation collapses Byzantine agreement to n >= m + 2. Cryptography is constitutive, not optional.
+- **Formal reasoning is mandatory for concurrent algorithms.** ([[Lamport Byzantine Generals Problem]]) No area is more error-prone under informal proof. Use the model checker.
+- **Safety and liveness are different.** ([[Lamport Turing Lecture Concurrency Early Years]]) Bad-never-happens vs. good-eventually-happens. Different proof techniques apply.
+- **Mutual exclusion and producer-consumer are different problems.** ([[Lamport Turing Lecture Concurrency Early Years]]) ME has races and requires arbiters; PC is deterministic and bounded-time. Conflating them is a category error.
+- **Global invariants are the practical tool, even for distributed systems.** ([[Lamport Turing Lecture Concurrency Early Years]]) Event histories aid intuition; invariants do the proof work.
+- **Use the model checker.** ([[Lamport Turing Lecture Concurrency Early Years]]) Tools exist; using them is a separate discipline from knowing they exist.
 
 ---
 
 ## Status
 
-Mature. Four sources ingested: [[Lamport Thinking for Programmers]], [[Lamport TLA+ Course Intro]], [[Lamport Specifying Systems Ch1-3]], [[Lamport Paxos Made Simple]]. Operating frame stable. Further ingest would deepen specific topics (Byzantine Generals, Time/Clocks paper, Turing Award lecture) rather than the core frame.
+Mature. Seven sources ingested across two batches: the four pedagogical/methodological sources ([[Lamport Thinking for Programmers]], [[Lamport TLA+ Course Intro]], [[Lamport Specifying Systems Ch1-3]], [[Lamport Paxos Made Simple]]) and the three canonical foundational papers ([[Lamport Time Clocks Distributed System]], [[Lamport Byzantine Generals Problem]], [[Lamport Turing Lecture Concurrency Early Years]]).
+
+Lamport's contribution is now anchored on both poles: the methodological insistence on specification-before-coding and the load-bearing theoretical results (happens-before, n >= 3m + 1, state machine replication) that the entire field of distributed computing rests on.
+
+Further deferred:
+- The Part-Time Parliament (original 1998 Paxos, dense and famously hard to read).
+- "The Future of Computing: Logic or Biology?" essay.
 
 ---
 
