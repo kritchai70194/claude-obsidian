@@ -21,6 +21,14 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-28] tooling + save-addendum | Graph view colorization
+
+- Updated `.obsidian/graph.json` with 14 color groups (11 pole tags + 3 path-based type layers) and force-tuning for the 322-page vault (repel 15, link-distance 200, line 0.8, text-fade 0.5, no orphans).
+- Constraint learned: Obsidian rewrites `graph.json` from in-memory state on every Graph-panel interaction; must Cmd+Q to quit before file edit, then reopen. Cmd+W is not enough.
+- Appended addendum to [[2026-05-28-full-brain-tightening-session]] documenting the colorization + the Cmd+Q gotcha.
+- Commit: `043b237 obsidian: graph view color groups by mentor pole`
+- Brain is now coherent logically (Tier A+B+C) and visually (graph clusters by pole).
+
 ## [2026-05-28] save | Full brain-tightening session meta
 
 - Type: session
