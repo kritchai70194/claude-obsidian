@@ -122,7 +122,10 @@ The institutionalization moment. Feld writes the foreword for Mahendra Ramsingha
 - **Strategy is the CEO's job; oversight is the board's.** ([[Feld Startup Boards]]) Confusing the two breaks both roles.
 - **Pre-reads, no surprises, in-meeting strategy discussion.** ([[Feld Startup Boards]]) The operating discipline of a good board meeting.
 - **Independent directors matter more than founders think.** ([[Feld Startup Boards]]) Investor directors carry investor incentives; independents carry the company's.
-- **Pathological term sheets predict pathological investor relationships.** ([[Feld Startup Boards]]) Term sheets written for failure produce relationships that behave for failure.
+- **Pathological term sheets predict pathological investor relationships.** ([[Feld Startup Boards]], [[Feld VC Rights]]) Term sheets written for failure produce relationships that behave for failure.
+- **The three load-bearing VC rights: Up, Down, KWTFIGO.** ([[Feld VC Rights]]) Pro-rata, liquidation preference, board/info rights. Everything beyond is noise or pathology.
+- **Depression is recurrent in founders; plan for episodes, not one bad year.** ([[Feld Bringing Depression Out of the Shadows]]) Specific triggers, not vague stress.
+- **From confession to institution.** ([[Feld Founders Companion]]) Name the condition, then operationalize it, then formalize it as a field with multiple practitioners.
 - **Build the community where you are.** ([[Feld Startup Life]], adjacent to *Startup Communities*) Boulder thesis: long-horizon community-building beats geographic migration.
 - **Most things compound on horizons longer than founders plan for.** ([[Feld Startup Life]], [[Feld Startup Boards]]) The 5/10/20-year frame.
 
