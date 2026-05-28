@@ -555,6 +555,12 @@ Write the press release first, then the FAQ, then design the product. If the pre
 
 Press release: less than one page, in customer-facing language. FAQ: up to five pages, addresses the hard questions before any code is written.
 
+### Working backwards beats skills-forward
+
+The skills-forward approach asks "we are good at X, what else can we do with X?" Working-backwards asks "what does the customer need?" The skills will become outmoded; the customer remains.
+
+> "Working backwards from customer needs can be contrasted with a 'skills-forward' approach. ... The skills-forward approach says, 'We are really good at X. What else can we do with X?' ... Eventually the existing skills will become outmoded." ([[Bezos 2008 Letter]])
+
 ### Customer selection as strategy
 
 Optimize for customer growth-rate, not customer count.
