@@ -1831,7 +1831,7 @@ Operational implication: when a working relationship is failing, audit informati
 
 ## Status
 
-Mature. Phase 5 closed the last three paraphrased citations (working backwards, regret minimization, two-pizza teams) by ingesting [[Working Backwards Book]] and [[Bezos Regret Minimization]]. Added seven new principles (single-threaded leadership, input metrics, Bar Raiser hiring, get close to the work, distinguish object from category, the product is the prospectus, two-way doors applied to IPOs). Every principle on this page now has at least one primary-source citation. The brain has saturated for cited operator and engineering principles. Further ingest will deepen specific principles but not add new ones at the same rate.
+Mature. Tier 1 backlog drain (2026-05-28) added ~28 new cited principles across Time Horizon, Customer Direction, Engineering Disposition, Operational Discipline, and Operating at Scale. Highlights: Bezos wandering + failure scale + working-backwards-vs-skills-forward + price-cost loop + self-service platforms; Vogels evolvability + 10x review + developers-want-a-service + five-pillar checklist; Lampson interfaces + hints + don't-hide-power + end-to-end + shed-load + "just hints"; Lamport causality + state-machine replication + Byzantine bound + formal-reasoning mandate + mutex physics cost; Carmack ship-imperfect + 20ms latency + friction-over-capacity + kill-authority + small-program AGI + investor-money-as-discipline; Larson 6-8 manager span + 4-engineer team floor + migrations + reversibility + fix-one-team + move-work + information-gaps. Total ~180 cited principles across 15 sections. Engineer-planner pole at 5 mentors (Carmack, Lamport, Allspaw, Lampson, Larson).
 
 ---
 
