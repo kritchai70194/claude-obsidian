@@ -1583,6 +1583,26 @@ Three tour types: rotational (1-3 years, defined output), transformational (3-7 
 
 A customer that is 30%+ of revenue holds you hostage. They eventually leverage that concentration to extract terms (better pricing, exclusivity, custom features, free services). The defense is multiple customers from the start, even at lower aggregate revenue.
 
+### A secret is specific, testable, contrarian, and verified by real users
+
+The contrarian-question test is not "say something edgy". It is whether the founder has built a defensible thesis that the world does not yet share. Most candidates fail because their "contrarian" beliefs are too vague to be falsified, or too consensus to be contrarian. Real secrets sit in a narrow zone: provocative enough that the consensus disagrees, specific enough that the market can verify, recent enough that the verification has not propagated.
+
+> "What important truth do very few people agree with you on?" ([[Thiel Zero to One]])
+
+> "Every one of today's most famous and familiar ideas was once unknown and unsuspected." ([[Thiel Zero to One]])
+
+Implication for capital strategy: do not raise a round to compete in a contested market. Raise the round that lets you be the only one at a defensible niche on the basis of a specific secret, then expand. Backs decision frame 17.
+
+### Failed categories should be re-evaluated when the supporting inflection arrives
+
+Webvan and Pets.com did not fail because the ideas were wrong. They failed because the supporting inflections (smartphone, last-mile logistics, payment infrastructure, generational comfort with online ordering) had not yet arrived. Instacart, Chewy, and DoorDash later built the same categories successfully because the physics of the world supported them. An idea that has been tried before and failed is not automatically disqualified.
+
+> "Webvan and Pets.com were not bad ideas. They were ahead of their inflection." ([[Maples Inflections vs Ideas]])
+
+> "An idea is a proposed solution. An inflection is an empirical shift in the world that enables previously impossible solutions." ([[Maples Inflections vs Ideas]])
+
+Diagnostic: the founder should be able to name the supporting inflections by hand, with specific dates and empirical evidence (penetration numbers, cost curves, regulatory changes). A founder who cannot list the inflections is not riding them deliberately. Backs decision frame 19.
+
 ---
 
 ## GTM / Sales
