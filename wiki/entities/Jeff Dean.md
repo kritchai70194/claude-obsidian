@@ -138,13 +138,21 @@ The deepest line of the paper, on engineering stance:
 - **First principles over analogies.** ([[Dean Latency Numbers]]) The contribution wasn't methodology; it was numbers.
 - **Failures are the steady state at scale.** ([[Dean Stanford Talk]]) Specific failure modes (no parity, no ECC, no checksumming) at 10,000 machines.
 - **MapReduce as pattern-recognition.** ([[Dean Stanford Talk]]) The abstraction earns its existence when the same shape repeats across many problems.
+- **Restriction enables abstraction.** ([[Dean MapReduce]]) Map and reduce are limiting on purpose. Because the user code cannot do arbitrary things, the library can parallelize, recover, and optimize. A constraint is a feature.
+- **Re-execution is the primary fault-tolerance mechanism.** ([[Dean MapReduce]]) Don't try to handle every failure in place. Just re-run. The cluster is big enough.
+- **Simple designs survive their authors.** ([[Dean Bigtable]]) Stated as the most important lesson of seven person-years of Bigtable engineering. Complexity accreted to handle edge cases gets debugged into its grave.
+- **Delay features until usage is clear.** ([[Dean Bigtable]]) The transactions case study: imagined needs are not actual needs. YAGNI at infrastructure scale.
+- **Monitoring is half the design.** ([[Dean Bigtable]]) Per-RPC tracing, cluster registration, per-cluster latency tracking. The system is not built unless it is observable.
+- **The real failure surface is wider than the literature assumes.** ([[Dean Bigtable]]) Memory corruption, clock skew, asymmetric partitions, bugs in dependencies, quota overflow, scheduled maintenance.
+- **Variability is inevitable at scale, like failure.** ([[Dean Tail at Scale]]) Master frame: stop trying to eliminate variability; build tolerance for it.
+- **Optimize the common case; build tail-tolerance as a separate layer.** ([[Dean Tail at Scale]]) The two concerns decouple cleanly. Hedged and tied requests work regardless of the root cause of the slowdown.
+- **The tail dominates the mean at fan-out.** ([[Dean Tail at Scale]]) The 99th-percentile of one server becomes the median of a 100-fan-out request. Optimizing the median is mostly useless.
+- **Caches help throughput, not tails.** ([[Dean Tail at Scale]]) A subtle and frequently violated rule.
 
 ---
 
 ## Queued for Future Ingest
 
-- MapReduce paper (2004)
-- Bigtable paper (2006)
 - Spanner paper (2012)
 - "The Story of Sanjay and Jeff" (New Yorker, 2018)
 - Recent Lex Fridman / Turing-laureate panel material
