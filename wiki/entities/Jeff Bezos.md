@@ -15,6 +15,7 @@ tags:
   - founder
   - ceo
   - mentor
+updated: '2026-05-28'
 status: mature
 related:
   - '[[Persona]]'
