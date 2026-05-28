@@ -21,6 +21,60 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-28] Tier A close-out | 22 principles + AI-Native section, all 30 frames backed
+
+Executed all 3 Tier A actions from the brain-lint report.
+
+### Action 1: 5 unbacked decision frames now backed (was 7; frames 25-26 covered by Action 2)
+
+- Frame 13 (Naval leverage) → Founder Resilience: "Specific knowledge multiplied by leverage is the unfair advantage formula"
+- Frame 17 (Thiel secrets) → Capital Strategy: "A secret is specific, testable, contrarian, and verified by real users"
+- Frame 19 (Maples inflections) → Capital Strategy: "Failed categories should be re-evaluated when the supporting inflection arrives"
+- Frame 20 (Raskin narrative) → GTM/Sales: "The world change must be both provocative AND undeniable"
+- Frame 23 (Slootman) → Operating at Scale: "Mediocrity sneaks up; you do not decide to be mediocre"
+
+### Action 2: New AI-Native section (8 principles)
+
+Promoted from embedded entries to a dedicated section (after Operating at Scale, before Skeptical Of). Principles:
+
+1. Compute is the new oil
+2. Price intelligence as near-zero-marginal-cost on the 2030s plan
+3. What is your edge if foundation model capability doubles? (Amodei, backs frame 25)
+4. Workflow beats wrapper (Altman/Amodei trichotomy, backs frame 26)
+5. Self-critique against written principles (Constitutional AI, Amodei)
+6. Predefined thresholds + actions (Responsible Scaling Policy, Amodei)
+7. Pick problems that justify decade-long bets (Hassabis)
+8. AI's highest leverage is compressing scientific discovery (Hassabis)
+
+### Action 3: Decision Mechanics expanded 6 → 15 (+9)
+
+Added Duke/Blank/Fitzpatrick principles:
+1. Decision quality is separate from outcome quality (Duke resulting bias)
+2. Make beliefs explicit as bets; attach a probability (Duke)
+3. Define kill criteria in advance (Duke quit)
+4. Past behavior is data; future intentions are fiction (Fitzpatrick Mom Test)
+5. Behavioral commitments are signal; verbal interest is noise (Fitzpatrick)
+6. Get out of the building (Blank)
+7. A startup is a search for a business model, not a small company (Blank)
+8. Build a truthseeking pod (Duke)
+9. Write the reasoning before the outcome is known (Duke decision journals)
+
+### Persona fix
+
+Frame 26 attribution: added explicit (Altman/Amodei) tag (was generic "positioning trichotomy").
+
+### Totals
+
+- Operating Principles: ~180 → ~205 cited principles
+- Sections: 15 → 16 (added AI-Native)
+- All 30 decision frames now have explicit OP backing
+- Counter unchanged (no new pages; edits only)
+- Files modified: wiki/concepts/Operating Principles.md, wiki/Persona.md, wiki/hot.md, wiki/log.md
+
+### Method
+
+Single implementer subagent did research + drafting (15 source pages read, 22 principle entries drafted). Main thread did sequential edits to Operating Principles (one file, no race risk). Tooling pattern: parallel agents make sense for disjoint outputs; single-writer pattern wins when all edits land in one file.
+
 ## [2026-05-28] concept synthesis + embed-error fix | Tier 2 brain-tightening wave
 
 Autonomous parallel-dispatch wave. 2 subagents wrote 6 foundational concept pages in parallel; main thread fixed the tiling embed-error root cause. All resolved in single session.
