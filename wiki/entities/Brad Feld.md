@@ -6,7 +6,7 @@ role: Co-founder and Managing Director, Foundry Group (Boulder VC, founded 2007)
 address: c-000052
 first_mentioned: "[[seed-corpus-founder-resilience]]"
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-28
 tags:
   - entity
   - person
@@ -26,11 +26,17 @@ related:
   - "[[Feld Startup Life]]"
   - "[[Feld On Depression]]"
   - "[[Feld Startup Boards]]"
+  - "[[Feld VC Rights]]"
+  - "[[Feld Bringing Depression Out of the Shadows]]"
+  - "[[Feld Founders Companion]]"
   - "[[entities/_index]]"
 sources:
   - "[[Feld Startup Life]]"
   - "[[Feld On Depression]]"
   - "[[Feld Startup Boards]]"
+  - "[[Feld VC Rights]]"
+  - "[[Feld Bringing Depression Out of the Shadows]]"
+  - "[[Feld Founders Companion]]"
 ---
 
 # Brad Feld
