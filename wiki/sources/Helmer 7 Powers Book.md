@@ -172,5 +172,5 @@ A firm in a great industry with no Power still does poorly. A firm with strong P
 - [[Operating Principles]]
 - [[seed-corpus-unicorn-builders]] source H1
 - [[Thompson Aggregation Theory]] adjacent, Aggregation Theory is largely a Network Economies + Switching Costs combination applied to internet markets
-- [[Innovators Dilemma]] (Christensen) predecessor; Counter-Positioning extends Christensen's disruption to a broader pattern
+- [[Christensen Innovators Dilemma]] (Christensen) predecessor; Counter-Positioning extends Christensen's disruption to a broader pattern
 - [[Werner Vogels]] adjacent, AWS exemplifies Scale Economies + Switching Costs + Process Power (see [[Helmer 7 Powers Applied to AWS]])

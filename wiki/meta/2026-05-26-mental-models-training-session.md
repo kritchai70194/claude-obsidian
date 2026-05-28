@@ -147,7 +147,7 @@ This pole is the most cross-cutting of the five:
 - **Munger Daily Journal annual meetings** (multiple sessions; one combined Q&A page covers the canon)
 - **Taleb academic papers** (technical papers on fat-tailed distributions deferred; the books cover the principles)
 - **Christensen Theory of Jobs to Be Done book** (2016, *Competing Against Luck*; the HBR essay covers the core; book deferred)
-- **Updates to existing [[Innovators Dilemma]] source page** (left unchanged; new [[Christensen Innovators Dilemma]] is the canonical page going forward; merge deferred to lint pass)
+- **Updates to existing [[Christensen Innovators Dilemma]] source page** (left unchanged; new [[Christensen Innovators Dilemma]] is the canonical page going forward; merge deferred to lint pass)
 
 ---
 

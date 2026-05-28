@@ -1183,7 +1183,7 @@ Pair with [[Dean Latency Numbers]] for the order-of-magnitude ratios.
 
 Current-customer obsession can blind you to future-customer needs.
 
-> ([[Innovators Dilemma]]) Listening to existing customers is what makes incumbents miss disruptive innovations. The customers being listened to don't want what the disruptors are building.
+> ([[Christensen Innovators Dilemma]]) Listening to existing customers is what makes incumbents miss disruptive innovations. The customers being listened to don't want what the disruptors are building.
 
 Important nuance on [[Bezos 2015 Letter|Bezos's customer obsession]]: customer-first does not mean current-customer-first to the exclusion of non-customers and emerging segments.
 
@@ -1191,13 +1191,13 @@ Important nuance on [[Bezos 2015 Letter|Bezos's customer obsession]]: customer-f
 
 What do the people NOT using your product use instead? That's where disruption usually lives.
 
-> ([[Innovators Dilemma]]) The disruptive market is not yet legible by definition. Traditional market analysis cannot predict its trajectory. Pay attention to non-customers and emerging use cases.
+> ([[Christensen Innovators Dilemma]]) The disruptive market is not yet legible by definition. Traditional market analysis cannot predict its trajectory. Pay attention to non-customers and emerging use cases.
 
 ### Separate disruption from the core
 
 If the core business will starve the new effort, structurally separate them.
 
-> Christensen's recommended mechanism: create a separate organization with its own resources, metrics, and decision-making authority to pursue the disruptive technology. ([[Innovators Dilemma]])
+> Christensen's recommended mechanism: create a separate organization with its own resources, metrics, and decision-making authority to pursue the disruptive technology. ([[Christensen Innovators Dilemma]])
 
 Structurally similar to [[Working Backwards Book|single-threaded leadership]] applied to disruption: one team, one objective, separated from competing resource claims.
 
@@ -1205,7 +1205,7 @@ Structurally similar to [[Working Backwards Book|single-threaded leadership]] ap
 
 A 10% improvement is sustaining. A 10x improvement on a different metric is disruptive. Don't conflate.
 
-> Disruptive technology is "built around proven technologies put together into a novel product architecture that offers the customer a new set of attributes never before available." ([[Innovators Dilemma]])
+> Disruptive technology is "built around proven technologies put together into a novel product architecture that offers the customer a new set of attributes never before available." ([[Christensen Innovators Dilemma]])
 
 This connects to [[Dean Stanford Talk|order-of-magnitude thinking]]: sustaining and disruptive are different problem classes requiring different responses.
 

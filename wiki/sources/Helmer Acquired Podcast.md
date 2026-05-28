@@ -127,4 +127,4 @@ For founders, this means the discipline: name the Power you are building toward.
 - [[seed-corpus-unicorn-builders]] source H2
 - [[Helmer 7 Powers Book]] paired source; this episode is the book's applied companion
 - [[Andrej Karpathy]] adjacent, Karpathy's "first principles over analogies" parallels Helmer's "precise Powers over fuzzy moats"
-- [[Innovators Dilemma]] adjacent, Christensen's disruption framework historically precedes Counter-Positioning
+- [[Christensen Innovators Dilemma]] adjacent, Christensen's disruption framework historically precedes Counter-Positioning

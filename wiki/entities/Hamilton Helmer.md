@@ -176,6 +176,6 @@ Mature. Four sources ingested: [[Helmer 7 Powers Book]], [[Helmer Acquired Podca
 - [[Persona]] anchors this brain's operating identity
 - [[Ben Thompson]] complementary mentor, Aggregation Theory + 7 Powers cover the modern internet-specific and the universal moat frameworks
 - [[Lenny Rachitsky]], [[Paul Graham]] other unicorn-builder pole mentors
-- [[Innovators Dilemma]] (Christensen) historical predecessor to both Thompson and Helmer
+- [[Christensen Innovators Dilemma]] (Christensen) historical predecessor to both Thompson and Helmer
 - [[Operating Principles]] Strategic Durability section will gain 7 Powers principles
 - [[seed-corpus-unicorn-builders]]

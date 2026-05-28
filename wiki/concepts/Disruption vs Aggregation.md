@@ -156,6 +156,6 @@ Updated frame 9 reads: "Are we aggregator or supplier? Are we disruptor or susta
 - [[Ben Thompson]] anchor for Aggregation side
 - [[Aggregation Theory]] existing synthesis page on the Thompson side
 - [[7 Powers]] Helmer's universal taxonomy intersects with both
-- [[Innovators Dilemma]] existing source page now anchored to Christensen
+- [[Christensen Innovators Dilemma]] existing source page now anchored to Christensen
 - [[Mental Models Toolkit]] this page is one application of multi-model thinking
 - Cross-pole: [[Jeff Bezos]] used both frames simultaneously (AWS as low-end Disruption of IBM/Oracle; Prime as Aggregation play across retail+media)

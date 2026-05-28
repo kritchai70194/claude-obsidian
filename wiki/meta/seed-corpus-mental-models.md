@@ -151,4 +151,4 @@ The brain now has explicit cross-domain pattern-matching tools. The other four p
 - [[Operating Principles]] receives new Mental Models section
 - [[seed-corpus-technical-ceo]], [[seed-corpus-engineer-planners]], [[seed-corpus-unicorn-builders]], [[seed-corpus-founder-resilience]] sibling roadmaps
 - [[Mental Models Toolkit]], [[Disruption vs Aggregation]], [[Antifragility for Startups]] are the synthesis concepts planned
-- Cross-references: existing [[Aggregation Theory]] gets companion via [[Disruption vs Aggregation]], existing [[Innovators Dilemma]] source page becomes anchored to Clayton Christensen mentor
+- Cross-references: existing [[Aggregation Theory]] gets companion via [[Disruption vs Aggregation]], existing [[Christensen Innovators Dilemma]] source page becomes anchored to Clayton Christensen mentor

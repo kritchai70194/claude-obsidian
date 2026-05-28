@@ -144,6 +144,6 @@ Mature. Four sources ingested: [[Thompson Aggregation Theory]], [[Thompson Defin
 - [[Paul Graham]] complementary unicorn-builder mentor (early-stage pole)
 - [[Werner Vogels]] adjacent; AWS is a platform that Thompson analyzes
 - [[Patrick Collison]] adjacent; Stripe is an aggregator-platform hybrid Thompson has analyzed extensively
-- [[Innovators Dilemma]] (Christensen) is the predecessor framework Aggregation Theory extends
+- [[Christensen Innovators Dilemma]] (Christensen) is the predecessor framework Aggregation Theory extends
 - [[Operating Principles]], will gain Strategic Durability section
 - [[seed-corpus-unicorn-builders]]

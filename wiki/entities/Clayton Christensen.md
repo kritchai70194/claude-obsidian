@@ -23,7 +23,7 @@ related:
   - "[[Charlie Munger]]"
   - "[[Daniel Kahneman]]"
   - "[[Nassim Taleb]]"
-  - "[[Innovators Dilemma]]"
+  - "[[Christensen Innovators Dilemma]]"
   - "[[Ben Thompson]]"
   - "[[Disruption vs Aggregation]]"
   - "[[Christensen Innovators Dilemma]]"
@@ -149,7 +149,7 @@ Mature. Four sources ingested: [[Christensen Innovators Dilemma]], [[Christensen
 - [[Daniel Kahneman]] complementary; Kahneman names the System 1 errors, Christensen names the strategic blind spots those errors create at the firm level
 - [[Nassim Taleb]] complementary; Taleb names the fat tails, Christensen names one specific fat-tail mechanism (disruption from below)
 - [[Ben Thompson]] cross-pole reference; Aggregation Theory and Disruption Theory predict different competitive dynamics, separated in [[Disruption vs Aggregation]]
-- [[Innovators Dilemma]] existing source page; remains as the loose-coupling reference. [[Christensen Innovators Dilemma]] is the canonical anchor tied to this mentor
+- [[Christensen Innovators Dilemma]] existing source page; remains as the loose-coupling reference. [[Christensen Innovators Dilemma]] is the canonical anchor tied to this mentor
 - [[Disruption vs Aggregation]] planned concept page separating the two frames
 - [[Operating Principles]] Mental Models section gains 4+ principles cited to Christensen
 - [[seed-corpus-mental-models]]

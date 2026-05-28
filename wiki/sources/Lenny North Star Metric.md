@@ -105,4 +105,4 @@ The answer is your NSM candidate. Then identify the input metrics that drive it,
 - [[seed-corpus-unicorn-builders]] source L3
 - [[Lenny PMF Guide]] paired source; PMF defines whether to keep building, NSM defines what to optimize once you have PMF
 - [[Lenny Retention Benchmarks]] adjacent; many NSM types reduce to retention as the underlying driver
-- Adjacent: [[Innovators Dilemma]] (Christensen's Jobs-to-be-Done is the framework this essay references)
+- Adjacent: [[Christensen Innovators Dilemma]] (Christensen's Jobs-to-be-Done is the framework this essay references)

@@ -26,7 +26,7 @@ related:
   - "[[Helmer Acquired Podcast]]"
   - "[[Helmer Counter-Positioning Deep Dive]]"
   - "[[Helmer 7 Powers Applied to AWS]]"
-  - "[[Innovators Dilemma]]"
+  - "[[Christensen Innovators Dilemma]]"
 ---
 
 # 7 Powers
@@ -246,7 +246,7 @@ When evaluating a business (existing or proposed):
 - [[Helmer 7 Powers Book]], [[Helmer Acquired Podcast]], [[Helmer Counter-Positioning Deep Dive]], [[Helmer 7 Powers Applied to AWS]] foundational sources
 - [[Aggregation Theory]] complementary concept; internet-era-specific vs universal
 - [[Ben Thompson]] paired mentor
-- [[Innovators Dilemma]] (Christensen) predecessor; Counter-Positioning extends disruption theory
+- [[Christensen Innovators Dilemma]] (Christensen) predecessor; Counter-Positioning extends disruption theory
 - [[Werner Vogels]] AWS as the canonical stacked-Powers example
 - [[Operating Principles]] Strategic Durability section
 - Adjacent: [[Product-Market Fit]], PMF gets you to a viable business; 7 Powers tells you whether the business is durable

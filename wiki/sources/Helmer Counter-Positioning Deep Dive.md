@@ -155,5 +155,5 @@ The structural inversion. This is why Counter-Positioning is so often missed: it
 - [[Helmer Acquired Podcast]] applied companion
 - [[Operating Principles]] Strategic Durability section
 - [[seed-corpus-unicorn-builders]] source H3
-- [[Innovators Dilemma]] (Christensen) ancestor framework, disruption was the precursor to Counter-Positioning; Helmer's version is sharper
+- [[Christensen Innovators Dilemma]] (Christensen) ancestor framework, disruption was the precursor to Counter-Positioning; Helmer's version is sharper
 - [[Thompson Aggregation Theory]] adjacent, many internet aggregators won through Counter-Positioning before achieving Network Economies

@@ -21,6 +21,22 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-28] tiling + cleanup | DragonScale Mechanism 3 unblocked, duplicate merge
+
+- Installed ollama via no-admin path: Ollama-darwin.zip (160 MB) extracted to `~/Applications/`, CLI symlinked to `~/.local/bin/ollama`. Cleared Gatekeeper quarantine via `xattr -dr`. Started `ollama serve` (PID tracked in `/tmp/ollama-serve.log`), pulled `nomic-embed-text` (274 MB). DragonScale Mechanism 3 (`scripts/tiling-check.py`) now reports `ollama_reachable: true, model_present: true`.
+- Ran first semantic tiling report at `wiki/meta/tiling-report-2026-05-28.md` (105 KB). Pages scanned: 353. Embedded: 260. Skipped: 93 (45 embed errors worth investigating, 9 excluded filenames, 39 under wiki/folds/ + wiki/meta/). Cache populated at `.vault-meta/tiling-cache.json` (5.5 MB). Thresholds uncalibrated (using conservative seeds 0.9 / 0.8).
+- Error band (>=0.90): 11 pairs. 10 expected entity-canonical-source overlaps and same-author topical overlaps (Ross-PredictableRevenue, Decision Journals-Duke Decision Journal, Aggregation Theory-Thompson, Roberge-SalesAccelerationFormula, Blank-FourSteps, Hassabis-DeepMind, PG StartupIdeas-StartStartup, plus 2 entity-template-similarity false positives Horowitz-Feld and Amodei-Hassabis). One actionable duplicate identified and resolved this entry: see Merge below.
+- Review band (0.80-0.90): 1154 pairs. Heavy noise without calibration; see tiling-skill calibration procedure for ~50-pair labeling exercise to tune thresholds.
+
+### Merge: [[Innovators Dilemma]] (c-000234) into [[Christensen Innovators Dilemma]] (c-000089)
+
+- Two pages described the same Christensen 1997 book at 0.9047 similarity. Keeper: c-000089 (Christensen-prefixed, entity-bound wikilink to [[Clayton Christensen]], HBR publisher URL, disk-drive case study, value-networks section, principles-cited section). Loser: c-000234 (Wikipedia URL, author as string, less content, earlier ingest).
+- Augmented keeper with the loser's unique content: Patrick Collison endorsement note, [[Collison Cowen Interview]] cross-reference.
+- Rewrote inbound `[[Innovators Dilemma]]` wikilinks in 17 active files (concepts, sources, entities, meta) to `[[Christensen Innovators Dilemma]]`. Left this log file unmodified (historical record).
+- Deleted `wiki/sources/Innovators Dilemma.md`. Raw at `.raw/source-innovators-dilemma.md` preserved.
+- Inbound links now: 21 files pointing to keeper. Counter slot c-000234 retired (DragonScale addresses are append-only; retired slots remain in history).
+- Pages count: 353 → 352.
+
 ## [2026-05-28] ingest | Tier 1 backlog drain: 6 parallel agents, 37 pages
 
 - Method: 6 implementer subagents dispatched concurrently, one per mentor stream. Wall-clock ~23 minutes vs estimated ~120 minutes sequential. Each agent owned disjoint source/entity scope; orchestrator reconciled shared state (Persona, hot, Operating Principles, indexes, manifest, log, concept pages).
