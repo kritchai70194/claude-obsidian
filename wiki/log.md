@@ -21,7 +21,29 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
-## [2026-05-27] ingest | Tier 1 content starter batch: Allspaw + 5 Bezos letters + 5 Vogels posts
+## [2026-05-28] ingest | Tier 1 backlog drain: 6 parallel agents, 37 pages
+
+- Method: 6 implementer subagents dispatched concurrently, one per mentor stream. Wall-clock ~23 minutes vs estimated ~120 minutes sequential. Each agent owned disjoint source/entity scope; orchestrator reconciled shared state (Persona, hot, Operating Principles, indexes, manifest, log, concept pages).
+- Sources ingested: 37 (14 Bezos shareholder letters, 6 Vogels posts, 4 Lampson papers/talks, 4 Larson posts, 4 Carmack VR/AGI sources, 3 Lamport canonical papers, 2 new mentor entities)
+- Pages created (37):
+  - **Bezos (14)**: [[Bezos 2000 Letter]], [[Bezos 2001 Letter]], [[Bezos 2004 Letter]], [[Bezos 2005 Letter]], [[Bezos 2006 Letter]], [[Bezos 2007 Letter]], [[Bezos 2008 Letter]], [[Bezos 2010 Letter]], [[Bezos 2011 Letter]], [[Bezos 2012 Letter]], [[Bezos 2013 Letter]], [[Bezos 2018 Letter]], [[Bezos 2019 Letter]], [[Bezos 2021 Letter]] (Jassy-authored, flagged in body)
+  - **Vogels (6)**: [[Vogels DynamoDB Launch]], [[Vogels Lambda Launch]], [[Vogels Aurora Ascendant]], [[Vogels Modern Applications]], [[Vogels Purpose-Built Databases]], [[Vogels Monoliths Are Not Dinosaurs]]
+  - **Lampson (1 entity + 4 sources)**: [[Butler Lampson]], [[Lampson Hints for Computer System Design]], [[Lampson Hints and Principles 2020]], [[Lampson Turing Award Lecture 1992]], [[Lampson Authentication Distributed Systems]]
+  - **Larson (1 entity + 4 sources)**: [[Will Larson]], [[Larson Sizing Engineering Teams]], [[Larson Migrations]], [[Larson Staff Archetypes]], [[Larson Elegant Puzzle]]
+  - **Carmack VR/AGI (4)**: [[Carmack Oculus Connect 2014]], [[Carmack Meta Connect 2022 Unscripted]], [[Carmack Farewell Meta 2022]], [[Carmack on AGI Keen Technologies]]
+  - **Lamport canonical (3)**: [[Lamport Time Clocks Distributed System]], [[Lamport Byzantine Generals Problem]], [[Lamport Turing Lecture Concurrency Early Years]]
+- Pages updated: [[Persona]] (engineer-planner pole 3 → 5; bench 41 → 43; decision frames 26 → 30 with 4 new Lampson/Larson frames), [[hot]] (Last Updated), [[concepts/Operating Principles]] (~28 new cited principles across 5 sections; total ~180), [[Jeff Bezos]] (14 new letters in core-frames + Letters Covered section), [[Werner Vogels]] (6 new sources + 18 new bullets in Core Frames), [[John Carmack]] (VR/AGI era section + 13 new frames), [[Leslie Lamport]] (Foundational Papers section + 10 new frames). 2 concept pages written by orchestrator: [[Hints for System Design]], [[Staff Engineer Ladder]].
+- Addresses allocated: c-000263 through c-000299 (37 addresses; counter now at 300)
+- Pole count change: engineer-planner pole 3 → 5 with [[Butler Lampson]] (system-design hints lineage) and [[Will Larson]] (staff-engineering / org-design lineage). Pole now matches founder-resilience depth.
+- Key insights synthesized into Persona decision frames:
+  - **Frame 27** "Is this a hint or a promise?" (Lampson) — engineering discipline for distinguishing checkable guesses from staked contracts
+  - **Frame 28** "What's the interface, and what does it conceal?" (Lampson) — interfaces are the durable contract; don't hide power
+  - **Frame 29** "Are we migrating, or just talking about migrating?" (Larson) — the three-phase migration funnel as the only path to material tech-debt progress
+  - **Frame 30** "Is this an org-debt problem dressed as a tech-debt problem?" (Larson + Allspaw cousin) — information flow before personality, org boundaries before codebase
+- Fetch fidelity: full-text-summary for all 37 sources except [[Carmack on AGI Keen Technologies]] (extracts from composite primary sources). Notes: aboutamazon.com 404 for letters pre-2016 (used q4cdn / SEC EDGAR fallbacks via Wayback); ACM DL paywall on 1992 Lampson Turing lecture (filed at `status: developing` for future deepen); WebFetch refused PDF verbatim → fallback to pypdf extraction (Lampson + Lamport canonical) and Read-tool multimodal PDF extraction (Lamport).
+- Tooling notes: mkdir-lock allocator handled 6-way concurrent contention without collision. defuddle worked for most HTML sources; failed on 3 Vogels URLs (HTML structure variance) → manual content extraction. No orchestrator-time WebSearch overhead — pure parallel-agent dispatch.
+
+
 
 - Sources ingested: 12 (2 Allspaw essays, 5 Bezos shareholder letters, 5 Vogels blog posts)
 - Pages created (13): [[John Allspaw]] (entity), [[Allspaw Each Necessary]], [[Allspaw Infinite Hows]], [[Bezos 1998 Letter]], [[Bezos 1999 Letter]], [[Bezos 2003 Letter]], [[Bezos 2009 Letter]], [[Bezos 2014 Letter]], [[Vogels Working Backwards]], [[Vogels Distributed Computing Manifesto]], [[Vogels 2023 Predictions]], [[Vogels S3 Strong Consistency]], [[Vogels Reinventing Virtualization Nitro]]
