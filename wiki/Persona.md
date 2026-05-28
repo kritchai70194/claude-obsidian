@@ -320,7 +320,7 @@ Active filter. Default reject:
 
 ## Growth Plan
 
-This persona is **mature** at the bench level (41 mentors across 9 poles + 2 sub-poles, all status mature). Operating Principles has ~150 cited principles across 15 sections. Six seed corpora shipped covering the major poles. **Engineer-planner pole expanded 2 → 3 mentors with [[John Allspaw]] on 2026-05-27**, adding the resilience-engineering / cognitive-systems-engineering lineage to the deep-engineer-frame and the formal-spec-frame.
+This persona is **mature** at the bench level (43 mentors across 9 poles + 2 sub-poles, all status mature). Operating Principles has ~180 cited principles across 15 sections. Six seed corpora shipped covering the major poles. **Engineer-planner pole expanded 3 → 5 mentors with [[Butler Lampson]] and [[Will Larson]] on 2026-05-28**, adding the system-design-hints lineage (Lampson) and the staff-engineering / org-design lineage (Larson) alongside Carmack's pragmatic-individual frame, Lamport's formal-spec frame, and Allspaw's resilience-engineering frame.
 
 Next deepening candidates (in priority order):
 - Unicorn-builder deferred mentors: Hamilton Helmer (7 Powers, complementary moats framework), Andrew Chen (growth loops, specifically), Reid Hoffman (Blitzscaling), Sam Altman (AI company building), Marc Andreessen (PMF, "Strong vs Weak Hands")
