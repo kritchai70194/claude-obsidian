@@ -621,6 +621,92 @@ Outsized payoffs are rare but huge. The math says take the bets.
 
 > "I believe we are the best place in the world to fail (we have plenty of practice!), and failure and invention are inseparable twins. To invent you have to experiment, and if you know in advance that it's going to work, it's not an experiment." ([[Bezos 2015 Letter]])
 
+### Decision quality is separate from outcome quality
+
+Resulting, Duke's term, is the bias of judging a decision by its outcome rather than by the quality of the reasoning available when it was made. A good decision can produce a bad outcome, and a bad decision can produce a good outcome, because every decision under uncertainty has a luck component. Conflating them is the bias that does the most damage to operator learning.
+
+> "What makes a decision great is not that it has a great outcome. A great decision is the result of a good process." ([[Duke Thinking in Bets]])
+
+> "Resulting, our tendency to equate the quality of a decision with the quality of its outcome, is one of the most insidious habits of mind." ([[Duke Thinking in Bets]])
+
+Operational implication: score the process when the outcome arrives, not the result. A win from a sloppy decision should still be flagged; a loss from a sound decision should still be praised.
+
+### Make beliefs explicit as bets; attach a probability
+
+"I am 70% confident this hire works out" is operative. "I think this hire works out" is not. The percentage forces calibration that vague feelings hide. The 70% can be reviewed later when the outcome arrives; the vague statement cannot. The act of writing the number is most of the value, because it surfaces the gap between "I believe this" and "I have evidence for this".
+
+> "When we think probabilistically, we are less likely to use adverse results alone as proof that we made a decision error, because we recognize the possibility that the decision might have been good but luck and/or incomplete information (and a sample size of one) intervened." ([[Duke Thinking in Bets]])
+
+Mechanical move: ask yourself "wanna bet?" when stating a belief. If you would not actually bet at the odds your belief implies, your belief is weaker than your assertion.
+
+### Define kill criteria in advance; pre-commitment beats in-the-moment willpower
+
+Most operators quit losing positions years too late. Sunk cost bias plus identity attachment plus optimism plus fear-of-looking-like-a-quitter push toward staying long past the point where the math says walk away. The corrective is pre-committed kill criteria, written before the start, shared with the truthseeking pod. The pre-commitment converts the in-the-moment decision from "should I keep going" (which sunk cost answers yes) to "did the pre-committed condition trigger" (a fact, not a feeling).
+
+> "The optimal time to quit is when you start to think about quitting. By the time you start to think about it, the odds are very high that you should have already quit." ([[Duke Quit]])
+
+> "The expected value of an option is determined only by what is going to happen from this moment on. The past is a sunk cost." ([[Duke Quit]])
+
+Implementation: the criterion goes in the decision journal as field 6 (what would change your mind), and the truthseeking pod is responsible for calling the trigger when it arrives.
+
+### Past behavior is data; future intentions are fiction
+
+The Mom Test rule. Customer interviews collapse on two failure modes: asking for opinions ("do you think it's a good idea?") and asking about hypothetical future commitments ("would you buy this?"). Both produce false positives because polite people give polite answers. The fix is not finding more honest customers; it is redesigning the questions to probe specific past behavior and observed workflow.
+
+> "If you ask your mom whether your business is a good idea, she'll say yes. That's not because she's a liar. It's because she loves you and wants to be supportive. The questions we ask are the problem, not the people we ask them of." ([[Fitzpatrick Mom Test]])
+
+> "Talk about their life, not your idea. Ask about specifics in the past, not generics or opinions about the future. Talk less, listen more." ([[Fitzpatrick Mom Test]])
+
+Signal hierarchy: observed behavior > stated past behavior > stated hypothetical behavior > stated opinion. Most untrained interviews collect the bottom of the hierarchy and confuse it for the top.
+
+### Behavioral commitments are signal; verbal interest is noise
+
+Verbal interest from a prospect is worthless. The commitments that scale, each one stronger than the previous: time, reputation, money. Time (a follow-up call, sending you their workflow documentation) is free verbally and costly on the calendar. Reputation (introducing you to other prospects, vouching internally) is costly because they are putting their relationships at risk. Money (a pre-payment, a letter of intent, a deposit) is the strongest signal short of the full purchase.
+
+> "Any meeting that doesn't end with a clear next step you've both committed to is a waste of time disguised as progress." ([[Fitzpatrick Mom Test]])
+
+Implementation: at the end of every customer conversation, name the next commitment. If you cannot extract one, the interest was pleasantry, not signal.
+
+### Get out of the building; there are no facts inside it
+
+Blank's most-cited line. Startups die because founders execute on hypotheses they never tested with customers. The default failure mode is engineering-led death by feature: adding capabilities in the absence of customer signal, none resolving the underlying problem that the customer hypothesis was never validated. The fix is to leave the office and run Customer Discovery before adding the feature.
+
+> "The goal of Customer Discovery is to turn the founders' initial hypotheses about their market and customers into facts." ([[Blank Four Steps to Epiphany]])
+
+> "No business plan survives first contact with customers." ([[Blank Four Steps to Epiphany]])
+
+Cadence: 5-10 interviews per learning loop, then synthesize for 1-2 days, then update hypotheses, then either run another cohort with refined questions or build the smallest possible thing that tests the next hypothesis.
+
+### A startup is a search for a business model, not a small company
+
+Blank's conceptual contribution. Small companies execute a known business model. Startups are searching for one that does not yet exist in repeatable form. Applying the management tooling of execution (formal plans, waterfall product development, traditional sales hiring, detailed financial projections) to a search-phase organization is the dominant cause of startup failure.
+
+> "A startup is a search for a business model, not a small company." ([[Blank Four Steps to Epiphany]])
+
+> "A pivot is a substantive change to one component of the business model based on validated evidence. It is not a panic response to a bad quarter. It is not a marketing rebrand." ([[Blank Customer Development Blog]])
+
+Implication: the business plan is a list of hypotheses to test, not commitments to execute. A pivot is a planned response to a falsified hypothesis, not a confession of failure. Search-phase and execute-phase organizations require different management models; the founder's job is to know which mode the company is in.
+
+### Build a truthseeking pod; default-critique beats default-praise
+
+The social protocol that protects decision quality from in-the-moment rationalization. Find two or three people who will give honest feedback on the reasoning, not the result. The pod's job is to challenge the reasoning before commitment and to evaluate the reasoning (not the result) after the outcome arrives. The pod is also the enforcer of pre-committed kill criteria: the operator may not be able to call the trigger on themselves in the moment, and that is exactly what the pod is for.
+
+> "The only way to develop expertise is to get high-quality feedback. The path of least resistance is the path of low-quality feedback, where everyone tells you what you want to hear." ([[Duke Thinking in Bets]])
+
+> "Team journals surface disagreement before commitment, not after." ([[Duke Decision Journal]])
+
+Operational implication: most team disputes after bad outcomes are arguments about "you should have known". The journal plus the pod resolves these by recording what was knowable in the moment.
+
+### Write the reasoning before the outcome is known
+
+Human memory is unreliable about its own prior beliefs. After the outcome is known, we reconstruct what we used to think to match what actually happened. Hindsight bias and narrative reconstruction work in concert to make it nearly impossible to learn from decisions without an external record. The decision journal fixes the record. Six fields per entry: decision, reasoning, alternatives considered, expected outcomes (as a range), confidence percentage, what would change your mind.
+
+> "Write the reasoning before the outcome is known. Memory reconstructs after the fact. The journal does not." ([[Duke Decision Journal]])
+
+> "Score the decision, not the outcome. The journal is designed to defeat resulting." ([[Duke Decision Journal]])
+
+Cadence: weekly review for decisions whose outcomes have arrived, quarterly aggregation by decision type, annual review of the highest-stakes calls. The fifth journal entry feels useful; the fiftieth produces calibration data nothing else can.
+
 ---
 
 ## Engineering Disposition
