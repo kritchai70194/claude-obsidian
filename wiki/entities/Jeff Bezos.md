@@ -349,20 +349,65 @@ The AWS switching-cost frame (rational preference, not lock-in):
 - **Flywheel in Bezos's own voice.** ([[Bezos 2014 Letter]]) Marketplace + FBA + Prime pump energy into each other.
 - **Better-and-faster is the steak, cost savings is the gravy.** ([[Bezos 2014 Letter]]) B2B sales discipline: "almost as good, cheaper" never carries the deal.
 - **Switching cost as learning curve.** ([[Bezos 2014 Letter]]) AWS proficiency creates a rational preference to stick, not adversarial lock-in.
+- **Voting machine vs weighing machine.** ([[Bezos 2000 Letter]], [[Bezos 2012 Letter]]) Stock price is voting in the short term; weighing in the long term. Build a heavier company.
+- **The price-cost loop.** ([[Bezos 2001 Letter]]) Lower prices, grow volume, spread fixed costs, reduce per-unit cost, lower prices again. The Amazon retail operating engine.
+- **Free cash flow per share over earnings.** ([[Bezos 2004 Letter]]) Earnings can destroy value. EBITDA isn't cash flow. Capital efficiency and negative working capital are the structural advantage.
+- **Math-based vs judgment-based decisions.** ([[Bezos 2005 Letter]]) Pricing, free shipping, third-party detail page are judgment decisions. Institutional appetite for controversy is the strategic asset.
+- **Four-criteria new-business test.** ([[Bezos 2006 Letter]]) Returns + scale + underserved + differentiation. The ancestor of [[Bezos 2014 Letter]]'s dreamy-business test.
+- **The disappear-test for products.** ([[Bezos 2007 Letter]]) Find the load-bearing feature, then make it invisible. Kindle, 1-Click, AWS, Echo all follow this pattern.
+- **Missionaries build better products.** ([[Bezos 2007 Letter]]) Hire for missionary disposition, not pedigree. The 1998 three-hiring-questions doctrine restated.
+- **Working backwards vs skills-forward.** ([[Bezos 2008 Letter]]) Customer need first; if existing skills don't fit, acquire new ones. The PR/FAQ process is downstream.
+- **Three durable retail pillars.** ([[Bezos 2008 Letter]]) Low prices, vast selection, fast convenient delivery. The 10-year preference filter.
+- **SOA as fundamental building abstraction.** ([[Bezos 2010 Letter]]) 200-300 services per product detail page. Internal solutions become AWS products.
+- **Self-service platforms.** ([[Bezos 2011 Letter]]) AWS, FBA, KDP as a unified pattern. Gatekeepers as innovation tax.
+- **Internal motivation > external motivation.** ([[Bezos 2012 Letter]]) Proactive over reactive; customer-driven, not competitor-driven.
+- **Decentralized invention.** ([[Bezos 2013 Letter]]) Innovation is everyone's job, not the senior team's. Architecture, not slogan.
+- **Reinventing normal.** ([[Bezos 2013 Letter]]) Mayday's 9-second response is the worked example.
+- **Wandering as deliberate counterbalance to efficiency.** ([[Bezos 2018 Letter]]) AWS, Echo. "No one asked for AWS. No one."
+- **Failure needs to scale.** ([[Bezos 2018 Letter]]) Multibillion-dollar failures are an institutional output, not an embarrassment.
+- **Listening is necessary but insufficient.** ([[Bezos 2018 Letter]]) Customers can't ask for what they cannot imagine; invent on their behalf.
+- **Leadership-as-gauntlet.** ([[Bezos 2018 Letter]], [[Bezos 2019 Letter]]) $15 minimum wage; Climate Pledge net-zero 2040. Set a public bar; dare others to match.
+- **Same benefits for executives and entry-level.** ([[Bezos 2019 Letter]]) Alignment via parity.
+- **Iterative innovation as compound interest.** ([[Bezos 2021 Letter]], Jassy) Constant tinkering compounds; "time is your friend when you are compounding gains."
+- **Minimum Loveable Product (MLP).** ([[Bezos 2021 Letter]], Jassy) Not Minimum Viable; lovable from the get-go.
 
 ---
 
-## Queued for Future Ingest
+## Letters Covered
 
-- Remaining shareholder letters (2000-2002, 2004-2008, 2010-2013, 2018-2019). Each adds nuance.
-- *Working Backwards* (Bryar and Carr) for operational mechanisms in detail.
-- Long-form interviews (2018 Wired, Lex Fridman).
+Bezos wrote shareholder letters every year as CEO (1997-2020). Andy Jassy's 2021 letter continues the tradition with the 1997 letter appended. This brain has full-text-summary fidelity on every Bezos letter and on the Jassy 2021 transition letter.
+
+- [[Bezos 1997 Letter]] — the foundational compact (nine decision criteria; "It's All About the Long Term")
+- [[Bezos 1998 Letter]] — three hiring questions; "be afraid of your customers"
+- [[Bezos 1999 Letter]] — the platform reframe; doubly-blessed market structure
+- [[Bezos 2000 Letter]] — "Ouch"; voting machine vs weighing machine; Moore's-Law tailwind
+- [[Bezos 2001 Letter]] — the price-cost loop; cash flow per share named
+- [[Bezos 2002 API Mandate]] — internal architectural mandate that produced AWS
+- [[Bezos 2003 Letter]] — tenant vs owner; long-term thinking is what ownership means
+- [[Bezos 2004 Letter]] — free cash flow per share fully formalized; transportation-machine parable
+- [[Bezos 2005 Letter]] — math-based vs judgment-based decisions
+- [[Bezos 2006 Letter]] — planting seeds; AWS and FBA introduced; 4-criteria new-business test
+- [[Bezos 2007 Letter]] — Kindle launch; "missionaries build better products"; the disappear-test
+- [[Bezos 2008 Letter]] — working backwards vs skills-forward; durable retail pillars; muda
+- [[Bezos 2009 Letter]] — controllable inputs over financial outputs; 452 goals
+- [[Bezos 2010 Letter]] — SOA as the fundamental abstraction; CS-primitives opening
+- [[Bezos 2011 Letter]] — self-service platforms (AWS, FBA, KDP); gatekeepers as innovation tax
+- [[Bezos 2012 Letter]] — proactive over reactive; customer-driven, not competitor-driven
+- [[Bezos 2013 Letter]] — decentralized invention; reinventing normal; Joy Covey eulogy
+- [[Bezos 2014 Letter]] — dreamy business 4-criteria; flywheel in Bezos's own voice
+- [[Bezos 2015 Letter]] — two-way doors origin; long-tailed bets; failure as twin of invention
+- [[Bezos 2016 Day 1 Letter]] — Day 1 / Day 2; 70% information threshold; disagree and commit
+- [[Bezos 2017 Letter]] — high standards are teachable; six-page memos
+- [[Bezos 2018 Letter]] — wandering; failure at scale; no one asked for Echo
+- [[Bezos 2019 Letter]] — Climate Pledge; employee benefit parity; COVID response
+- [[Bezos 2020 Letter]] — Bezos's farewell; "create more than you consume"; differentness
+- [[Bezos 2021 Letter]] — Andy Jassy's first; seven-point doctrine; MLP not MVP; 1997 appended
 
 ---
 
 ## Status
 
-Mature. 9+ sources cited with full-text fidelity on the 2015, 1998, 1999, 2003, 2009, 2014, 2017 letters. The 2026-05-27 Tier 1 ingest added 5 new letters (1998, 1999, 2003, 2009, 2014), surfacing the three hiring questions, the platform reframe, the tenant/owner long-term doctrine, the 452-goals controllable-inputs discipline, and the dreamy-business 4-criteria definition.
+Mature. 25 primary-source letters cited with full-text-summary fidelity, plus the [[Bezos 2002 API Mandate]] and [[Bezos Regret Minimization]] decision frame. The 2026-05-28 ingest closed the gap on every previously-missing Bezos shareholder letter (2000, 2001, 2004-2008, 2010-2013, 2018, 2019) and added Jassy's transitional 2021 letter. The Bezos shareholder-letter corpus is now complete.
 
 ---
 
