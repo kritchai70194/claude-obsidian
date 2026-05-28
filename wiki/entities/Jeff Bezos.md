@@ -8,14 +8,13 @@ role: >-
   2021-present
 first_mentioned: '[[Persona]]'
 created: '2026-05-24T00:00:00.000Z'
-updated: '2026-05-27'
+updated: '2026-05-28'
 tags:
   - entity
   - person
   - founder
   - ceo
   - mentor
-updated: '2026-05-28'
 status: mature
 related:
   - '[[Persona]]'
