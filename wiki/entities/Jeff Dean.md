@@ -170,6 +170,6 @@ Mature. Two ingested sources is enough to graduate; the operating frame is stabl
 - [[Persona]] anchors this brain's operating identity
 - [[Werner Vogels]] peer-level systems-CTO thinker
 - [[Andrej Karpathy]] adjacent ML systems frame
-- [[Dean Latency Numbers]], [[Dean Stanford Talk]] primary sources
+- [[Dean Latency Numbers]], [[Dean Stanford Talk]], [[Dean MapReduce]], [[Dean Bigtable]], [[Dean Tail at Scale]] primary sources
 - [[Operating Principles]]
 - [[seed-corpus-technical-ceo]]
