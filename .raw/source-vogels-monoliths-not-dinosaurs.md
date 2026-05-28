@@ -1,0 +1,5 @@
+---
+
+![](/images/philosodino.png)
+
+---
