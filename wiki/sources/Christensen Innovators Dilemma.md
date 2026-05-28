@@ -23,9 +23,9 @@ related:
   - "[[seed-corpus-mental-models]]"
   - "[[Christensen Innovators Solution]]"
   - "[[Christensen JTBD]]"
-  - "[[Innovators Dilemma]]"
   - "[[Disruption vs Aggregation]]"
   - "[[Ben Thompson]]"
+  - "[[Collison Cowen Interview]]"
 ---
 
 # Christensen Innovators Dilemma
