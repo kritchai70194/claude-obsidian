@@ -121,19 +121,86 @@ Allspaw bridges the engineer-planner pole to several others:
 
 ---
 
+## Citations Added in 2026-05-28 Ingest
+
+Three new sources expand the Allspaw corpus from two blog posts to a coherent theory-method-data-synthesis arc.
+
+### From [[Allspaw Trade-Offs Under Pressure]] (2015, Lund master's thesis)
+
+The empirical study underneath the blog posts. Four heuristics resolvers actually reach for during outages:
+
+1. Initial correlation check (look at recent changes first)
+2. Widening search scope (when no recent change correlates, expand outward)
+3. Availability heuristic (most-recently-seen failure anchors the hypothesis)
+4. Coordinative heuristic (peer review beats automated testing as a trust mechanism)
+
+The thesis's load-bearing claim:
+
+> "The increasing complexity of software applications and architectures in Internet services challenge the reasoning of operators tasked with diagnosing and resolving outages and degradations as they arise."
+
+### From [[Cook Stella Report]] (2017, SNAFUcatchers consortium, co-authored with Cook and Woods)
+
+The community synthesis. Above-the-line / below-the-line framework: everything below the line is technical artifact accessed only through representations; everything above is human cognition trying to model the artifact.
+
+Woods' Theorem (load-bearing):
+
+> "As the complexity of a system increases, the accuracy of any single agent's own model of that system decreases rapidly."
+
+Anomalies-as-messages (load-bearing):
+
+> "Anomalies are unambiguous but highly encoded messages about how systems really work. Postmortems represent an attempt to decode the messages and share them."
+
+Collective resilience (load-bearing):
+
+> "Collectively, our skill isn't in having a good model of how the system works, our skill is in being able to update our model efficiently and appropriately."
+
+Dark debt: liabilities from organizational decisions that remain invisible until anomalies expose them. The dual of technical debt.
+
+Blame vs sanction distinction: many orgs that call themselves "blameless" are actually merely "sanctionless."
+
+### From [[Cook How Complex Systems Fail]] (1998, Richard Cook)
+
+Closely-cited adjacent source (Cook-authored, but the foundational essay of the lineage Allspaw imports). Eighteen propositions. The load-bearing ones:
+
+- (5) "Complex systems run as broken systems."
+- (7) "There is no isolated 'cause' of an accident. There are multiple contributors."
+- (10) "All practitioner actions are actually gambles."
+- (16) "Safety is an emergent property of systems; it does not reside in a person, device or department."
+- (17) "Failure free operations are the result of activities of people who work to keep the system within the boundaries of tolerable performance."
+
+These are the upstream of every Allspaw frame: no root cause (7), hindsight bias (8), local rationality (10, 11), human-as-adaptive-element (12), safety as continuously produced (17).
+
+---
+
+## Updated Core Frames (now backed by all five sources)
+
+- **No root cause in complex sociotechnical systems.** ([[Allspaw Each Necessary]], [[Cook How Complex Systems Fail]] prop. 7)
+- **Complex systems run in degraded mode.** ([[Cook How Complex Systems Fail]] prop. 5) The default state is broken-but-functioning, held together by human compensation.
+- **All practitioner actions are gambles.** ([[Cook How Complex Systems Fail]] prop. 10) Judging the gamble by outcome rather than information-at-the-time is the canonical incident-review mistake.
+- **Safety is continuously produced by humans.** ([[Cook How Complex Systems Fail]] props. 16, 17) It is not a property of components; it is the rate at which the team manufactures it under pressure.
+- **Woods' theorem.** ([[Cook Stella Report]]) No single agent's model of a complex system is accurate. Resilience is collective model-update rate, not individual model-accuracy.
+- **Anomalies are encoded messages.** ([[Cook Stella Report]]) The postmortem is the decoder. Skipping the postmortem discards the system's most expensive signal.
+- **Dark debt vs technical debt.** ([[Cook Stella Report]]) Technical debt is known and unpaid; dark debt is unknown until an incident reveals it.
+- **Blame vs sanction.** ([[Cook Stella Report]]) "Sanctionless" is the floor; "blameless" is the ceiling. Most orgs achieve only the floor.
+- **Coordination cost is a hidden tax.** ([[Cook Stella Report]]) Trivial in calm time, prohibitive during outage. Pre-stage the call ladders and channels.
+- **Correlation-to-recent-change is the load-bearing first heuristic.** ([[Allspaw Trade-Offs Under Pressure]]) The reason continuous deployment works at all.
+- **Peer review is a coordination primitive, not a testing primitive.** ([[Allspaw Trade-Offs Under Pressure]]) Trust scales differently than tests.
+
+---
+
 ## Queued for Future Ingest
 
-- "Blameless PostMortems and a Just Culture" (Etsy Code as Craft, 2012) — fetch failed (Etsy blog blocks WebFetch); the cited summary above is from memory of the canonical claims. Re-ingest via alt mirror.
-- "Web Operations" (O'Reilly book, 2010) — book-length engineering management text.
-- "The Art of Capacity Planning" (O'Reilly, 2008) — adjacent technical text.
-- SNAFU Catchers reports (2017-) — peer-reviewed industrial incident analyses.
-- "How Complex Systems Fail" (Richard Cook, 1998) — the Allspaw lineage's foundational essay, often cited by Allspaw.
+- "Blameless PostMortems and a Just Culture" (Etsy Code as Craft, 2012). Fetch failed previously (Etsy blog blocks WebFetch); re-ingest via alt mirror.
+- "Web Operations" (O'Reilly book, 2010). Book-length engineering management text.
+- "The Art of Capacity Planning" (O'Reilly, 2008). Adjacent technical text.
+- Full PDF of [[Allspaw Trade-Offs Under Pressure]] (exceeded WebFetch size cap; landing-page abstract captured, full body queued).
+- Dekker, Leveson, Conklin primary works (Allspaw's cited lineage).
 
 ---
 
 ## Status
 
-Mature for the surfaced frames. Two sources ingested ([[Allspaw Each Necessary]], [[Allspaw Infinite Hows]]). Operating frame is stable around the new view of human error, local rationality, second stories, and the rejection of root cause. Further ingest would deepen the just culture / blameless postmortem discipline (Etsy 2012 post) and the SNAFU Catchers material.
+Mature for the surfaced frames. Five sources now ingested ([[Allspaw Each Necessary]], [[Allspaw Infinite Hows]], [[Allspaw Trade-Offs Under Pressure]], [[Cook Stella Report]], and the closely-cited adjacent [[Cook How Complex Systems Fail]]). Operating frame is stable across theory (Cook 1998), method (Allspaw 2012, 2014), data (Allspaw 2015), and community synthesis (STELLA 2017).
 
 ---
 
