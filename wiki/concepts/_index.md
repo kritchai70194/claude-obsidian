@@ -49,6 +49,12 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 - [[Planning Before Code]], the writing-as-thinking discipline across rigor levels (Carmack `.plan` prose, Lamport TLA+ formal, Bezos memo organizational); synthesis page bridging the engineer-planner pole with the founder-operator pole
 - [[Formal Specification Discipline]], the deeper pole focused on Lamport TLA+; when the cost of error justifies the cost of rigor
+- [[Hints for System Design]], Lampson's taste-plus-engineering toolkit: interfaces as the most important artifact, hints with cheap checks, common-case-fast / worst-case-progress, don't hide power, end-to-end recovery, shed load, "they are just hints"
+- [[Staff Engineer Ladder]], Larson's org-design framework: four staff archetypes (tech-lead, architect, solver, right-hand), four team states (falling behind, treading water, repaying debt, innovating), three-phase migration funnel, sizing ratios
+- [[Distributed Systems]], synthesis across Lamport canonical trio + Vogels + Lampson: causality as the only intrinsic order, state-machine replication, the message-delay scale-free definition, data moves to the process
+- [[Logical Clocks]], Lamport 1978-derived: the Clock Condition, IR1+IR2 implementation rules, concurrent means causally independent (not simultaneous)
+- [[Byzantine Fault Tolerance]], Lamport 1982-derived: interactive consistency (IC1, IC2), the n ≥ 3m + 1 bound, formal-reasoning humility
+- [[Carmack on AGI]], the counter-thesis to scale-monopoly AGI: small-program problem, biology existence proof, single-workstation thesis, investor money as discipline
 
 ---
 
