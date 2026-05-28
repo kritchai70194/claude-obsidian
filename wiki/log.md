@@ -21,6 +21,15 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-28] save | Full brain-tightening session meta
+
+- Type: session
+- Location: `wiki/meta/2026-05-28-full-brain-tightening-session.md` (c-000322)
+- From: full conversation covering Tier 1 (37 pages) → Tier 2 (6 pages + Mechanism 3 fix) → Innovators Dilemma duplicate merge → Tier A (22 principles + AI-Native) → Tier B (11 pages, under-sourced mentors) → Tier C (restructure + Marketplace+Consumer)
+- 50 new pages this session (37 sources + 13 concepts + 1 session meta = 51 with this entry)
+- Method validated: parallel-agent dispatch compounded across 5 consecutive waves
+- Brain at maximum coherence at session end; all 30 frames OP-backed, all 43 mentors ≥ 4 sources, all major poles concept-anchored
+
 ## [2026-05-28] Tier C close-out | restructure 2 oversized OP sections + new Marketplace section
 
 Final Tier in the brain-lint sequence. 3 parallel restructure agents + main-thread integration via Python surgical-replace.
