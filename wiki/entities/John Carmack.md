@@ -23,12 +23,20 @@ related:
   - "[[Carmack QuakeCon 2013]]"
   - "[[Carmack Lex Fridman 309]]"
   - "[[Carmack Plan Archive 1998]]"
+  - "[[Carmack Oculus Connect 2014]]"
+  - "[[Carmack Meta Connect 2022 Unscripted]]"
+  - "[[Carmack Farewell Meta 2022]]"
+  - "[[Carmack on AGI Keen Technologies]]"
   - "[[entities/_index]]"
 sources:
   - "[[Carmack Inlined Code]]"
   - "[[Carmack QuakeCon 2013]]"
   - "[[Carmack Lex Fridman 309]]"
   - "[[Carmack Plan Archive 1998]]"
+  - "[[Carmack Oculus Connect 2014]]"
+  - "[[Carmack Meta Connect 2022 Unscripted]]"
+  - "[[Carmack Farewell Meta 2022]]"
+  - "[[Carmack on AGI Keen Technologies]]"
 ---
 
 # John Carmack
