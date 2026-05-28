@@ -120,6 +120,92 @@ The QuakeCon format itself is the artifact: showing what engineering thinking-ou
 
 ---
 
+## VR / AGI Era (2013-present)
+
+The four sources added in this batch cover Carmack's second and third careers: VR (Oculus/Meta, 2013-2022) and AGI (Keen Technologies, 2022-). Where the id-era sources are about programmer discipline in a small team, the later sources are about platform negotiation, organizational failure modes, and what an individual researcher can plausibly attempt.
+
+### From [[Carmack Oculus Connect 2014]] (first Oculus Connect keynote)
+
+One year into Oculus. Pure engineering content: latency budgets, async time warp, Android scheduler adversity, thermal envelopes, vendor negotiation.
+
+> "We've got this 20 ms bogey that we want to be under. We want to be under 20 ms on motions-to-photons."
+
+> "The better you optimize, the more they hamstring you for it."
+
+> "GPUs are all about throughput right now. They really are not optimized for latency."
+
+> "Is there value in taking intermediate steps and accepting something that we know isn't right?"
+
+Key contribution: the field's quantitative comfort threshold (20ms motion-to-photons) and the architectural commitment to graceful degradation (async time warp).
+
+### From [[Carmack Meta Connect 2022 Unscripted]] (last Meta-era public talk + Twitter Spaces)
+
+Candid, exasperated, forward-looking. Given inside VR.
+
+> "If we took the specifications of what Quest 2 does today, and we made clearer optics, better ergonomics, longer battery life and cheaper, that would be the killer product."
+
+> "I really fought to keep us from attempting to do the metaverse because I just expected it to be a disaster."
+
+> "We need to be something that somebody hard up for money decides I'm going to buy a VR headset instead of a Chromebook."
+
+> "By 2030, there's a 50/50 chance that someone in the industry, and maybe it's me, has line of sight at Artificial General Intelligence."
+
+> "I've left my larval phase where I'm kind of cocooned up learning about all the basic things."
+
+Bridge document. Diagnoses VR, teases AGI.
+
+### From [[Carmack Farewell Meta 2022]] (resignation memo, December 2022)
+
+The capstone organizational-failure diagnosis.
+
+> "This is the end of my decade in VR."
+
+> "We have a ridiculous amount of people and resources, but we constantly self-sabotage and squander effort."
+
+> "There is no way to sugar coat this; I think our organization is operating at half the effectiveness that would make me happy."
+
+> "I have never been able to kill stupid things before they cause damage, or set a direction and have a team actually stick to it."
+
+> "Everything necessary for spectacular success is right there, but it doesn't get put together effectively."
+
+This is Carmack's clearest statement on why large-org engineering loses, written by someone with the deepest plausible insight into a company that had spent tens of billions on the problem he had been hired to solve.
+
+### From [[Carmack on AGI Keen Technologies]] (2022-2023 synthesis)
+
+Affirmative AGI thesis.
+
+> "This is code that conceivably one individual could write, unlike writing a new web browser or operating system."
+
+> "The code for artificial general intelligence is going to be tens of thousands of lines of code, not millions of lines of code."
+
+> "My bet is there's less than six key insights that need to be made. Each one of them can probably be written on the back of an envelope."
+
+> "We have our existence proof of humanity. The brain is like 40 megabytes."
+
+> "I could have written a check for $20 million myself, but accepting investor money forces me to be more disciplined and determined."
+
+Forms the small-team-can-win counter-thesis to scale-monopoly AGI views.
+
+---
+
+## Core Frames (VR / AGI era)
+
+- **Latency is the master constraint for interactive systems.** ([[Carmack Oculus Connect 2014]]) 20ms motion-to-photons or no presence. Everything else is downstream.
+- **Architectural graceful degradation beats application-level perfection.** ([[Carmack Oculus Connect 2014]]) Async time warp commits the system to re-project to head pose regardless of whether the app delivered a fresh frame.
+- **Ship the imperfect intermediate.** ([[Carmack Oculus Connect 2014]]) "Is there value in taking intermediate steps and accepting something that we know isn't right?" The pragmatic-over-purist position, stated explicitly.
+- **The platform is a variable, not a substrate.** ([[Carmack Oculus Connect 2014]]) Vendor negotiation (Samsung locked clocks) is part of the engineering work.
+- **Cumulative friction is the actual product.** ([[Carmack Meta Connect 2022 Unscripted]]) Sum of small interaction costs determines product fate. Phone-analogy frame.
+- **System-level fixes beat per-app fixes.** ([[Carmack Meta Connect 2022 Unscripted]]) Motion sickness vignetting, hand tracking, browser integration belong in the OS.
+- **The killer product is iteration on the known-working, not new capability.** ([[Carmack Meta Connect 2022 Unscripted]]) Quest-2-but-better beats Quest-Pro-with-everything.
+- **Large orgs lose to friction, not capacity.** ([[Carmack Farewell Meta 2022]]) "Operating at half the effectiveness." The right people and resources are present; assembly is the failure mode.
+- **Technical leadership without kill-authority is decorative.** ([[Carmack Farewell Meta 2022]]) "I have never been able to kill stupid things before they cause damage." Naming the structural bug.
+- **AGI is a small-program problem.** ([[Carmack on AGI Keen Technologies]]) Tens of thousands of lines, not millions. Less than six key insights, each back-of-envelope.
+- **Existence proof from biology bounds the architecture.** ([[Carmack on AGI Keen Technologies]]) The brain's compressed genomic specification is ~40MB. Whatever AGI needs cannot exceed that in architectural complexity.
+- **Investor money as self-imposed discipline.** ([[Carmack on AGI Keen Technologies]]) External commitment as a debugger for scope drift. Same pattern as the public .plan files, applied to a research organization.
+- **The larval phase before substantive contribution.** ([[Carmack Meta Connect 2022 Unscripted]], [[Carmack on AGI Keen Technologies]]) Deliberate quiet learning period precedes serious technical pivot. Counter to move-fast default.
+
+---
+
 ## Queued for Future Ingest
 
 See [[seed-corpus-engineer-planners]] Carmack sources C1-C4:
