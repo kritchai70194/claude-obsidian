@@ -227,6 +227,23 @@ Plus the canonical custom-silicon position (citing Alan Kay):
 - **Acquire suppliers who impress you.** ([[Vogels Reinventing Virtualization Nitro]]) Annapurna Labs case: collaboration before acquisition.
 - **Every facet of life becomes a data stream.** ([[Vogels 2023 Predictions]]) Master frame for the 2020s.
 - **Serious software demands serious hardware.** ([[Vogels 2023 Predictions]], citing Alan Kay) Custom silicon is going mainstream; Trainium / Inferentia / Graviton case.
+- **Developers want a service, not software.** ([[Vogels DynamoDB Launch]]) Even when the self-hosted system is technically superior, engineers vote with their feet for the managed option. Defines the AWS product strategy.
+- **The 99.9th percentile is a design requirement, not a metric.** ([[Vogels DynamoDB Launch]]) Tail latency named as a first-class spec at launch, not an SLO bolt-on.
+- **Undifferentiated heavy lifting names what to offload.** ([[Vogels Lambda Launch]], [[Vogels Modern Applications]]) The dichotomy of "secret sauce" vs "undifferentiated heavy lifting" is the operational test for what to outsource to the cloud.
+- **Event-driven is the canonical cloud pattern.** ([[Vogels Lambda Launch]]) Lambda was named as event-driven first, serverless second. Event integration with S3, DynamoDB, Kinesis on day one made it a platform, not a feature.
+- **The log is the database.** ([[Vogels Aurora Ascendant]]) Write redo log records, derive page images on demand. The same insight as Kafka and event sourcing applied to relational storage.
+- **Gray failures are a named class.** ([[Vogels Aurora Ascendant]]) Slow components are worse than dead components if the system does not anticipate them. Design for the slow cog.
+- **AZ+1 durability with 4/6 quorum.** ([[Vogels Aurora Ascendant]]) The canonical posture for cloud-native databases. Worth memorizing as a baseline.
+- **One database per microservice.** ([[Vogels Modern Applications]], [[Vogels Purpose-Built Databases]]) Shared databases are explicitly the anti-pattern. Polyglot persistence is standard practice.
+- **The five pillars of modern applications.** ([[Vogels Modern Applications]]) Microservices, purpose-built databases, automated release pipelines, serverless operational model, automated continuous security. The named checklist.
+- **Two-pizza teams as Conway's-law lever.** ([[Vogels Modern Applications]], [[Vogels Working Backwards]]) Structure the org to match the architecture; the team decomposition IS the service decomposition.
+- **The 70% measurement justifies the polyglot move.** ([[Vogels Purpose-Built Databases]], [[Vogels Decade of Dynamo]]) Measure access patterns before choosing your store. Default-to-relational is the named anti-pattern.
+- **Six categories of database, each purpose-built.** ([[Vogels Purpose-Built Databases]]) Relational, key-value, document, graph, in-memory, search. Anyone designing for the cloud should be able to enumerate this list.
+- **Evolvable architecture is the strategy. Microservices is one tactic.** ([[Vogels Monoliths Are Not Dinosaurs]]) "Building evolvable software systems is a strategy, not a religion." The Prime Video monolith move legitimized at the CTO level.
+- **Every order of magnitude, revisit your architecture.** ([[Vogels Monoliths Are Not Dinosaurs]]) The named operational rule. 10x growth = mandatory architecture review.
+- **When to merge services: four-condition checklist.** ([[Vogels Monoliths Are Not Dinosaurs]]) Always co-contribute, identical scaling, identical security, single owning team. If all four match, merging is worth considering.
+- **"Trust the engineers."** ([[Vogels Monoliths Are Not Dinosaurs]]) "If you hire the best engineers, you should trust them to make the best decisions." Quoted as a maxim.
+- **Few one-way doors at the application layer.** ([[Vogels Monoliths Are Not Dinosaurs]]) Contrast with [[Vogels Reinventing Virtualization Nitro]] where Nitro is the one-way door at infrastructure scale. The distinction is critical.
 
 ---
 
