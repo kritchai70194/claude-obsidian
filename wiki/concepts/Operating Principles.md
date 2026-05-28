@@ -1681,6 +1681,16 @@ Companies without a narrative tell five different stories and confuse everyone. 
 
 The defense is multiple customers from the start, even at lower aggregate revenue.
 
+### The world change must be both provocative AND undeniable
+
+Most strategic narratives fail at Beat 1. The named change is either too obvious to provoke ("software is eating the world") or too provocative to land ("everything you know is wrong"). The narrow zone is the named shift where the buyer reacts with "yes, that is true, and I had not put it that way before". Naming the world correctly is the whole pitch; what follows is consequence.
+
+> "Name a big change in the world. Not a trend. Not a vibe. A specific, named shift the prospect can see when it is pointed at." ([[Raskin Strategic Narrative]])
+
+> "The world change must be both provocative AND undeniable. Too provocative and nobody believes it. Too undeniable and nobody cares." ([[Raskin Strategic Narrative]])
+
+Test it before the pitch: read the named change to a target buyer and watch their face. If they nod with mild interest, the naming is too soft. If they push back hard on the premise, the naming is too provocative. The right zone produces "huh, yes" with a pause. Backs decision frame 20.
+
 ---
 
 ## Operating at Scale
