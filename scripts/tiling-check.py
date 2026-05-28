@@ -39,6 +39,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
 
 DEFAULT_OLLAMA_URL = "http://127.0.0.1:11434"
 DEFAULT_MODEL = "nomic-embed-text"
@@ -255,7 +256,7 @@ def embed(text: str, model: str, url: str) -> list[float]:
 
 def run_check(
     rebuild: bool,
-    report_path: Path | None,
+    report_path: Optional[Path],
     ollama_url: str,
     model: str,
 ) -> int:

@@ -2,9 +2,14 @@
 # allocate-address.sh — atomic creation-order address allocation for the vault.
 #
 # Reserves the next address of the form c-NNNNNN and increments the counter
-# under an exclusive flock. On missing counter file, recovers by scanning the
-# vault for the highest existing c-NNNNNN in page frontmatter and resuming from
-# max+1. Never silently resets to 1 in a non-empty vault.
+# under an exclusive mkdir-based lock (portable: works on Linux and macOS
+# without flock). On missing counter file, recovers by scanning the vault for
+# the highest existing c-NNNNNN in page frontmatter and resuming from max+1.
+# Never silently resets to 1 in a non-empty vault.
+#
+# Stale-lock recovery: if the lock directory exists but its owner PID is no
+# longer alive, the lock is removed and acquisition retries. PIDs are written
+# into <lock>/pid the instant the mkdir succeeds.
 #
 # Usage:
 #   ./scripts/allocate-address.sh           # prints the reserved address (e.g. c-000042) to stdout
@@ -21,8 +26,9 @@ set -euo pipefail
 
 VAULT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 COUNTER_FILE="${VAULT_ROOT}/.vault-meta/address-counter.txt"
-LOCK_FILE="${VAULT_ROOT}/.vault-meta/.address.lock"
+LOCK_DIR="${VAULT_ROOT}/.vault-meta/.address.lock.d"
 WIKI_DIR="${VAULT_ROOT}/wiki"
+ACQUIRE_TIMEOUT=5
 
 MODE="${1:-allocate}"
 
@@ -31,12 +37,33 @@ mkdir -p "$(dirname "$COUNTER_FILE")" || {
   exit 2
 }
 
-# Acquire exclusive lock with 5-second timeout. Release automatically on scope exit.
-exec 9>"$LOCK_FILE"
-if ! flock -x -w 5 9; then
-  echo "ERR: could not acquire address allocator lock within 5s" >&2
-  exit 1
-fi
+# Acquire exclusive lock with timeout. mkdir is atomic on every POSIX
+# filesystem; the directory is the lock token. Release is handled by the EXIT
+# trap below, which runs on any exit path (normal, error, signal).
+acquire_lock() {
+  local deadline=$(( $(date +%s) + ACQUIRE_TIMEOUT ))
+  while ! mkdir "$LOCK_DIR" 2>/dev/null; do
+    # Stale-lock check: if the recorded PID is no longer alive, the lock is
+    # garbage from a crashed process — sweep it and try again immediately.
+    if [ -f "$LOCK_DIR/pid" ]; then
+      local owner_pid
+      owner_pid="$(cat "$LOCK_DIR/pid" 2>/dev/null || true)"
+      if [ -n "$owner_pid" ] && ! kill -0 "$owner_pid" 2>/dev/null; then
+        rm -rf "$LOCK_DIR" 2>/dev/null || true
+        continue
+      fi
+    fi
+    if [ "$(date +%s)" -ge "$deadline" ]; then
+      echo "ERR: could not acquire address allocator lock within ${ACQUIRE_TIMEOUT}s" >&2
+      exit 1
+    fi
+    sleep 0.1
+  done
+  echo "$$" > "$LOCK_DIR/pid"
+  trap 'rm -rf "$LOCK_DIR"' EXIT INT TERM
+}
+
+acquire_lock
 
 scan_max_c_address() {
   # Emit the largest NNNNNN from "address: c-NNNNNN" lines that appear inside
