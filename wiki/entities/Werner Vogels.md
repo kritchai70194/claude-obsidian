@@ -129,6 +129,70 @@ The motivating problem:
 
 > "As much as 30% of the resources in an instance were allocated to the hypervisor."
 
+### From [[Vogels DynamoDB Launch]] (January 2012)
+
+The launch post for Amazon DynamoDB. The moment internal Dynamo lessons became a managed service.
+
+> "Developers strongly preferred simplicity to fine-grained control as they voted 'with their feet' and adopted cloud-based AWS solutions, like Amazon S3 and Amazon SimpleDB, over Dynamo. Dynamo might have been the best technology in the world at the time but it was still software you had to run yourself. And nobody wanted to learn how to do that if they didn't have to. Ultimately, developers wanted a service."
+
+> "Each service encapsulates its own data and presents a hardened API for others to use. Most importantly, direct database access to the data from outside its respective service is not allowed."
+
+> "Another important requirement for Dynamo was predictability. This is not just predictability of median performance and latency, but also at the end of the distribution (the 99.9th percentile)."
+
+### From [[Vogels Lambda Launch]] (November 2014)
+
+The AWS Lambda launch post. Names "event-driven cloud computing" as the canonical pattern.
+
+> "Customers want to focus on their unique application logic and business needs, not on the undifferentiated heavy lifting of provisioning and scaling servers, keeping software stacks patched and up to date, handling fleet-wide deployments, or dealing with routine monitoring, logging, and web service front ends."
+
+> "Event-driven cloud computing makes it easy to create responsive applications, often without needing to write new APIs."
+
+> "AWS Lambda's 'stateless' programming model lets you quickly deploy and seamlessly scale to the incoming request rate, so the same code that works for one request a day also works for a thousand requests a second."
+
+### From [[Vogels Purpose-Built Databases]] (June 2018)
+
+The polyglot-persistence thesis as official AWS strategy.
+
+> "Seldom can one database fit the needs of multiple distinct use cases. The days of the one-size-fits-all monolithic database are behind us."
+
+> "The database was driving the data model for the application use case." (named anti-pattern)
+
+> "Developers now have the choice of relational, key-value, document, graph, in-memory, and search databases. Each of these databases solve a specific problem or a group of problems."
+
+### From [[Vogels Aurora Ascendant]] (March 2019)
+
+The Aurora architecture explainer. Names the cloud-native relational design principles.
+
+> "In Amazon Aurora, the log is the database. Database instances write redo log records to the distributed storage layer, and the storage takes care of constructing page images from log records on demand."
+
+> "There's the truly insidious problem of 'gray failures.' These occur when components do not fail completely, but become slow. If the system design does not anticipate the lag, the slow cog can degrade the performance of the overall system."
+
+> "Aurora provides the performance and availability of commercial grade databases at 1/10th the cost. Since Aurora's original release, it has been the fastest-growing service in the history of AWS."
+
+### From [[Vogels Modern Applications]] (August 2019)
+
+The five-pillar synthesis of modern application development.
+
+> "To succeed in using application development to increase agility and innovation speed, organizations must adopt five elements, in any order: microservices; purpose-built databases; automated software release pipelines; a serverless operational model; and automated, continuous security."
+
+> "Modern applications are built with decoupled data stores in which there is a one-to-one mapping of database and microservice, rather than a single database."
+
+> "Serverless isn't just Lambda, it's the entire application stack."
+
+> "We've gone from deploying dozens of feature deployments each year to millions."
+
+### From [[Vogels Monoliths Are Not Dinosaurs]] (May 2023)
+
+The pragmatic-architecture pronouncement. Written in response to the Prime Video monolith move.
+
+> "Building evolvable software systems is a strategy, not a religion. And revisiting your architectures with an open mind is a must."
+
+> "My rule of thumb has been that with every order of magnitude of growth you should revisit your architecture, and determine whether it can still support the next order level of growth."
+
+> "If you hire the best engineers, you should trust them to make the best decisions."
+
+> "There are few one-way doors. Evaluating your systems regularly is as important, if not more so, than building them in the first place."
+
 ### From [[Vogels 2023 Predictions]] (December 2022)
 
 Annual predictions post. The synthesizing thesis:
