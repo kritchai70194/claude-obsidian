@@ -182,6 +182,18 @@ Profit is not the goal. Profit is the mechanism that funds long-horizon investme
 
 > "Durable profitability allows us to plow back much of our operating earnings into research and development. In each of the last six years, Stripe has reinvested a much higher proportion of our earnings in R&D than any comparable company." ([[Stripe Annual Letter 2024]])
 
+### Wandering is an essential counter-balance to efficiency
+
+Pure efficiency operating models (OKR-driven, lean) cut the slack that produces non-obvious bets. Both are needed; the CEO has to defend the wandering.
+
+> "Wandering in business is not efficient ... but it's also not random. It's guided, by hunch, gut, intuition, curiosity. ... Wandering is an essential counter-balance to efficiency. You need to employ both." ([[Bezos 2018 Letter]])
+
+### Failure scale is the invention scale
+
+If the size of your failures is shrinking, you're not inventing at a size that moves the needle. Institutional tolerance for multibillion-dollar failures is the price of multibillion-dollar inventions.
+
+> "If the size of your failures isn't growing, you're not going to be inventing at a size that can actually move the needle. Amazon will be experimenting at the right scale for a company of our size if we occasionally have multibillion-dollar failures." ([[Bezos 2018 Letter]])
+
 ---
 
 ## Product Discipline
