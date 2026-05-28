@@ -13,6 +13,8 @@ related:
   - "[[John Carmack]]"
   - "[[Leslie Lamport]]"
   - "[[John Allspaw]]"
+  - "[[Butler Lampson]]"
+  - "[[Will Larson]]"
   - "[[hot]]"
   - "[[LLM Wiki Pattern]]"
 ---
