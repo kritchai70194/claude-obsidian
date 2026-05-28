@@ -21,6 +21,45 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-28] Tier B execute | 4 parallel streams, 11 new pages, under-sourced mentors raised
+
+Tier B from brain-lint-report-2026-05-28 executed via 4-agent parallel dispatch.
+
+### Stream A: Jeff Dean ingest (3 sources)
+- [[Dean MapReduce]] (c-000311, OSDI 2004) — abstraction-hides-messy-details, restart on failure, simple designs survive
+- [[Dean Bigtable]] (c-000312, OSDI 2006) — simple designs at 100k LOC, delay features until usage clear
+- [[Dean Tail at Scale]] (c-000313, CACM 2013) — tail-tolerance as separate layer, hedged/tied requests
+- Dean source count: 2 → 5. Skipped LADIS 2009 (404) and Spanner (Dean credited but not lead).
+
+### Stream D: 2 synthesis concept pages
+- [[Leverage as Compounding]] (c-000314) — Naval thesis synthesis; specific knowledge × judgment × leverage; backs decision frame 13
+- [[Inflection Recognition]] (c-000315) — Thiel + Maples + Hoffman synthesis; secrets as contrarian belief about the inflection; speed beats efficiency conditionally; backs decision frames 17 + 19
+
+### Stream C: Brad Feld ingest (3 sources)
+- [[Feld VC Rights]] (c-000316, 2012) — VCs only need Up/Down/KWTFIGO; pathological terms forecast pathological relationships
+- [[Feld Bringing Depression Out of the Shadows]] (c-000317, 2015) — leaders programmed to never show weakness; depression is recurrent
+- [[Feld Founders Companion]] (c-000318, 2018) — confession → operationalize → institutionalize pattern
+- Feld source count: 3 → 6.
+
+### Stream B: John Allspaw ingest (3 sources, including Cook adjacent)
+- [[Cook How Complex Systems Fail]] (c-000319, Richard Cook 1998, adjacent source) — 18 propositions; "complex systems run as broken systems"; safety as emergent property
+- [[Cook Stella Report]] (c-000320, Cook + Allspaw + Woods 2017) — Woods's Theorem: model accuracy decreases with system complexity; anomalies as encoded messages
+- [[Allspaw Trade-Offs Under Pressure]] (c-000321, Allspaw Lund thesis 2015) — heuristics resolvers use during outages; thesis-PDF size cap forced abstract-level capture
+- Allspaw source count: 2 → 5 (counting Cook adjacent).
+- Note: [[Richard Cook]] entity stub forward-linked but not yet created; recommend follow-up if Cook becomes recurring citation.
+
+### Totals
+
+- 11 new pages created (8 sources + 2 concept pages + 1 adjacent-source Cook attribution); counter c-000311 → c-000321
+- Under-sourced mentors resolved: Dean 2 → 5, Allspaw 2 → 5, Feld 3 → 6
+- Founder-resilience pole gains concept-page density (was 2 pages, now 3 with [[Leverage as Compounding]])
+- Capital-strategy pole gains concept-page density (was 2, now 3 with [[Inflection Recognition]])
+- Inbound link counts: all 11 new pages have 1-3 inbound (verified)
+
+### Method
+
+Same shape as Tier 1 + Tier 2: 4 implementer subagents concurrent, orchestrator reconciles. Wall-clock ~12 min for agents vs estimated ~60 min sequential. Method continues to compound.
+
 ## [2026-05-28] Tier A close-out | 22 principles + AI-Native section, all 30 frames backed
 
 Executed all 3 Tier A actions from the brain-lint report.
