@@ -239,7 +239,17 @@ def included(path: Path, fm: dict) -> tuple[bool, str]:
     return True, "included"
 
 
+# ollama's default num_ctx for nomic-embed-text is 2048 tokens (not the model's
+# nominal 8192). Empirically 8000 chars (~2000 tokens) works; 10000+ chars
+# returns HTTP 500. Cap at 7500 chars for headroom. Pages longer than this are
+# truncated for the embedding call only; the cache hash uses the full body so
+# truncation is transparent to invalidation logic.
+EMBED_INPUT_MAX_CHARS = 7500
+
+
 def embed(text: str, model: str, url: str) -> list[float]:
+    if len(text) > EMBED_INPUT_MAX_CHARS:
+        text = text[:EMBED_INPUT_MAX_CHARS]
     data = _http_post_json(
         f"{url}/api/embeddings",
         {"model": model, "prompt": text},
