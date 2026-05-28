@@ -133,7 +133,7 @@ The institutionalization moment. Feld writes the foreword for Mahendra Ramsingha
 
 ## Status
 
-Mature. Three sources ingested: [[Feld Startup Life]], [[Feld On Depression]], [[Feld Startup Boards]]. Operating frame stable. Brain now has the founder-mental-health, board-dynamics, and multi-decade-rhythm anchors that the other founder-resilience mentors do not cover at depth.
+Mature. Six sources ingested: [[Feld Startup Life]], [[Feld On Depression]], [[Feld Startup Boards]], [[Feld VC Rights]], [[Feld Bringing Depression Out of the Shadows]], [[Feld Founders Companion]]. Operating frame stable. Brain now has the founder-mental-health (now with episode-naming and institutional formalization), board-dynamics, term-sheet (Up/Down/KWTFIGO), and multi-decade-rhythm anchors that the other founder-resilience mentors do not cover at depth.
 
 ---
 
