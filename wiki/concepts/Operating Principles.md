@@ -1851,6 +1851,100 @@ The default diagnosis for interpersonal friction at an organizational scale is i
 
 Operational implication: when a working relationship is failing, audit information flow first (write-ups, agendas, decision records). The personality diagnosis comes last, not first.
 
+### Mediocrity sneaks up; you do not decide to be mediocre, you stop deciding to be excellent
+
+Standards drift down by default. Every hire below the median pulls the median down. Every tolerated B-performance teaches the org that B is acceptable. Every shipped feature judged "good enough" sets the next bar at "good enough". The CEO is the only person in the org with the authority and the vantage point to refuse this drift, and the refusal is a daily act, not a quarterly one.
+
+> "Mediocrity has a way of sneaking up on you. You don't decide to be mediocre; you simply stop deciding to be excellent." ([[Slootman Amp It Up]])
+
+> "We're in a hurry around here." ([[Slootman Amp It Up]])
+
+Operational implication: every new hire must be better than the existing median of the function they join, every deal must clear a pricing bar, every product release must clear a quality bar, every executive review must produce a decision rather than a status update. The CEO's clock becomes the org's clock whether the CEO intends it or not. Backs decision frame 23.
+
+---
+
+## AI-Native
+
+The strategic surface where foundation-model capability, compute supply chains, and deployment discipline reshape what a company can be. The principles assume that intelligence becomes a near-zero-marginal-cost input over the next decade, that 3-5 organizations globally hold frontier capability through 2030, and that durable defensibility shifts away from models toward workflow and distribution. The three named voices ([[Sam Altman]], [[Dario Amodei]], [[Demis Hassabis]]) disagree productively on timeline and methodology; the brain holds all three lenses.
+
+### Compute is the new oil; capital structure for AI-native companies is qualitatively different
+
+The strategic position of the 2020s AI economy is that compute capacity, not algorithmic novelty, is the binding constraint. Models do not differentiate on architecture as much as on compute and data. NVIDIA controls 80%+ of training GPU supply; data centers and power transmission are the next binding constraints behind that. Companies that control compute (or compute relationships) have structural advantages that software-era playbooks did not predict.
+
+> "Take more capital than feels comfortable; compute and talent are expensive and the window is short." ([[Altman Interviews Synthesis]])
+
+The seed-then-Series-A-then-Series-B rhythm assumed software-era capital intensity. AI-native companies often need ten times that. Capital structure is now a first-class strategic variable.
+
+### Price intelligence as near-zero-marginal-cost input on the 2030s plan, not the 2025 plan
+
+If the Moore's-Law-for-everything thesis holds even directionally, the marginal cost of cognitive work collapses repeatedly over the next decade and the cost structure of every knowledge-work industry is rewritten. The strategic position is to design for the cost curve where it will be in 5-10 years, not where it is today. Roadmaps that assume static capability and static cost are wrong by construction.
+
+> "In the next five years, computer programs that can think will read legal documents and give medical advice. In the next decade, they will do assembly-line work and maybe even become companions. And in the decades after that, they will do almost everything." ([[Altman AGI Economics]])
+
+> "Deep learning worked. That is the most important fact of our time." ([[Altman AGI Economics]])
+
+Operational implication: the productivity dividend in your industry is the prize. If your industry runs on knowledge work, AI rewrites its cost structure, and the founder who maps the workflow correctly captures the surplus.
+
+### What is your edge if foundation model capability doubles in 12 months?
+
+Amodei's resilience test. Forces explicit articulation of the source of edge. Acceptable answers: proprietary data (legal, medical, financial records the foundation models cannot access), workflow integration depth (Cursor, Harvey, Glean), distribution advantage (already-installed software), trust or regulation (healthcare, defense, finance), or vertical capability the general models do poorly. "Better prompting" or "better UX" is not an answer; both will be eaten by the next capability release.
+
+> "By 2027, frontier training runs cost $10B+ per generation. 3-5 labs globally with the capital and infrastructure to participate at the frontier." ([[Amodei Lex Fridman]])
+
+> "The way to influence the safety of frontier AI is to be at the frontier of AI, and to demonstrate that the safety-focused path produces models that people actually want to use." ([[Amodei Lex Fridman]])
+
+Diagnostic: if OpenAI or Anthropic launched a feature equivalent to your product tomorrow, would you survive? If the answer is no, the company is not defensible. Backs decision frame 25.
+
+### Workflow beats wrapper; the durable AI company integrates into a user job
+
+Three positions a startup can take relative to a foundation model: wrapper (thin UI on an API), platform (infrastructure layer between models and applications), or workflow (deep integration into a specific user job where the model is one input among many). Wrappers are training wheels; their margins compress as model providers expand directly. Platforms require unusual capital. Workflows compound because the workflow data and the user habit are not in the model.
+
+> "Workflow beats wrapper. The durable AI company integrates deeply into a user job, not just an API." ([[Altman Interviews Synthesis]])
+
+> "The model is either the product, the input wrapper, or the workflow feature; pick one explicitly." (synthesis from [[AI-Native Economics]])
+
+Operational implication: name explicitly which of the three you are, and design the company accordingly. The trichotomy resolves through positioning; refusing to name it produces strategic drift. Backs decision frame 26.
+
+### Self-critique against written principles scales better than human feedback alone
+
+Constitutional AI as alignment infrastructure. RLHF produces models that learn to optimize for human approval, not for articulable principles. Constitutional AI replaces most of the human-rating loop with a self-critique loop against a written constitution: the model generates a response, critiques itself against the principles, and revises. The cost claim is that AI labels replace expensive human labels. The transparency claim is that the model can articulate why it refused, grounded in a specific principle.
+
+> "Constitutional AI methods can be used to train a less harmful but more helpful AI assistant without using any human feedback labels for harms." ([[Amodei RSP Constitutional AI]])
+
+> "Transparent refusal beats opaque refusal. A model that can cite a principle is more trustworthy than one that refuses without explanation." ([[Amodei RSP Constitutional AI]])
+
+The scalability claim is load-bearing: as the base model gets smarter, its self-critique gets sharper, and alignment improves with capability rather than against it.
+
+### Predefined capability thresholds plus predefined actions beat "we will be careful"
+
+The Responsible Scaling Policy as a template. Frontier AI labs are under structural pressure to ship faster than safety work matures, and "we will be careful" is unfalsifiable: each lab defines careful in whatever way suits the next release. RSP is a public ladder of AI Safety Levels (ASL-1 through ASL-4+) with predefined safety actions at each level, gated by standardized evaluations. The race-to-the-top thesis: if safety becomes a competitive standard, the market shifts from "ship the most capable model" to "ship the most capable model that meets the safety bar".
+
+> "If we cannot meet the safety commitments at a given ASL, we will pause further capability development until we can." ([[Amodei RSP Constitutional AI]])
+
+> "Safety can be a competitive standard." ([[Amodei RSP Constitutional AI]])
+
+Corollary for founders building AI-native companies: predefined thresholds plus predefined actions beat ad hoc judgment in any high-stakes domain (model release, security incident response, compliance posture). The pattern generalizes beyond labs.
+
+### Pick problems that justify decade-long bets, then publish the wins
+
+DeepMind as the canonical example of long-horizon research as a deployable structure. One architectural recipe (deep learning plus reinforcement learning plus search) applied iteratively to progressively harder domains: Go, StarCraft, protein folding, code, mathematics, weather, materials. Each was a multi-year program before it shipped. Each was validated against the field's own external benchmark (CASP for proteins, Codeforces for code, IMO for math), not internal metrics. Each was published in top venues.
+
+> "Many people have asked me what was the eureka moment for AlphaFold. There wasn't really one. It was years of incremental progress with many false starts." ([[Hassabis Nobel Lecture]])
+
+> "Scientific AI requires passing the field's own external benchmarks. Internal metrics do not count." ([[Hassabis Nobel Lecture]])
+
+Operational implication: most AI companies cannot afford nine years of independence, but the discipline transfers. Pick a problem whose objective the field already knows how to score, iterate the architecture against that objective, and accept that the breakthrough is iteration rather than insight.
+
+### AI's highest leverage is compressing scientific discovery for many researchers
+
+Hassabis's AGI-through-science thesis, the underweighted half of the AI-economy conversation. Consumer AI is commercially contested and ethically ambiguous. Scientific AI (biology, materials, climate, drug discovery) is less contested, less ambiguously beneficial, and where the compounding scientific dividend lives. AlphaFold is the existence proof: 200M solved structures used by 2M researchers, released for free because maximum scientific benefit comes from maximum access.
+
+> "Maximum scientific benefit comes from maximum access. Open release of the database multiplied impact." ([[Hassabis Nobel Lecture]])
+
+> "AI's highest leverage is compressing scientific discovery timelines for many researchers." ([[Hassabis Nobel Lecture]])
+
+Strategic implication for founders: a research lab that ships unambiguously beneficial scientific applications builds the public trust and institutional standing required to navigate the harder questions about AGI when they arrive. The scientific-impact path is also a defensibility path.
+
 ---
 
 ## Things This Brain is Explicitly Skeptical Of
