@@ -99,6 +99,18 @@ The operator manual. Chapters on choosing directors, running meetings, the found
 
 Pre-reads go out 72 hours in advance. Meetings discuss strategy, not status. Surprises are a failure mode. Independent directors matter more than founders think.
 
+### From [[Feld VC Rights]] (2012)
+
+The most-cited Feld term-sheet frame. Distills a venture term sheet to the three rights an investor actually needs: Up (pro-rata), Down (liquidation preference), KWTFIGO (board seat or info rights). Everything beyond is either standard machinery, lawyer-driven complexity, or pathology. Companion to the *Venture Deals* book and load-bearing for the clean-vs-dirty term-sheet distinction.
+
+### From [[Feld Bringing Depression Out of the Shadows]] (2015)
+
+Two years downstream of the 2013 breakthrough. Names three discrete depressive episodes (mid-20s, post-9/11, late 2012) and specific triggers (physiological exhaustion, lack of learning, accumulated injuries). Operationalizes the "never show weakness" programming as the cultural obstacle. Points at Reboot.io as the structured peer-support resource.
+
+### From [[Feld Founders Companion]] (2018)
+
+The institutionalization moment. Feld writes the foreword for Mahendra Ramsinghani's *Depression - A Founder's Companion*: anonymized peer-research survey, contributed stories and recovery practices, a permanent reference shelf. Marks the transition from one VC's blog confession to a category with multiple practitioners and a peer-research base.
+
 ---
 
 ## Core Frames (now backed by citations)
