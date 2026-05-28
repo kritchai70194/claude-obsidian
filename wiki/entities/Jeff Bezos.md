@@ -182,6 +182,106 @@ And the operating definition of customer obsession as fear:
 
 > "We consider them to be loyal to us — right up until the second that someone else offers them a better service."
 
+### From [[Bezos 2000 Letter]] (the "Ouch" letter)
+
+> "Ouch. It's been a brutal year for many in the capital markets and certainly for Amazon.com shareholders."
+
+> "As the famed investor Benjamin Graham said, 'In the short term, the stock market is a voting machine; in the long term, it's a weighing machine.' ... We're a company that wants to be weighed."
+
+### From [[Bezos 2001 Letter]] (the price-cost loop)
+
+> "Focus on cost improvement makes it possible for us to afford to lower prices, which drives growth. Growth spreads fixed costs across more sales, reducing cost per unit, which makes possible more price reductions. Customers like this, and it's good for shareholders. Please expect us to repeat this loop."
+
+### From [[Bezos 2004 Letter]] (free cash flow per share, fully formalized)
+
+> "Our ultimate financial measure, and the one we most want to drive over the long-term, is free cash flow per share."
+
+> "A company can actually impair shareholder value in certain circumstances by growing earnings. This happens when the capital investments required for growth exceed the present value of the cash flow derived from those investments."
+
+> "EBITDA isn't cash flow."
+
+### From [[Bezos 2005 Letter]] (math vs judgment)
+
+> "When we lower prices, we go against the math that we can do, which always says that the smart move is to raise prices."
+
+> "Math-based decisions command wide agreement, whereas judgment-based decisions are rightly debated and often controversial. ... Any institution unwilling to endure controversy must limit itself to decisions of the first type, which would not only limit controversy but would also significantly limit innovation and long-term value creation."
+
+### From [[Bezos 2006 Letter]] (planting seeds; AWS + FBA introduced)
+
+> "At Amazon's current scale, planting seeds that will grow into meaningful new businesses takes some discipline, a bit of patience, and a nurturing culture."
+
+> "Fulfillment by Amazon is a set of web services API's that turns our 12 million square foot fulfillment center network into a gigantic and sophisticated computer peripheral."
+
+> "If a new business enjoys runaway success, it can only *begin* to be meaningful to the overall company economics in something like three to seven years."
+
+### From [[Bezos 2007 Letter]] (Kindle; missionaries build better products)
+
+> "The book's most important feature ... It *disappears*. When you read a book, you don't notice the paper and the ink and the glue and the stitching."
+
+> "Missionaries build better products."
+
+### From [[Bezos 2008 Letter]] (working backwards)
+
+> "'Working backwards' from customer needs can be contrasted with a 'skills-forward' approach. ... The skills-forward approach says, 'We are really good at X. What else can we do with X?' ... Eventually the existing skills will become outmoded."
+
+> "Our pricing objective is to earn customer trust, not to optimize short-term profit dollars."
+
+> The Karate-Kid muda footnote: "'Why are you cleaning? Why don't you eliminate the source of dirt?' I felt like the Karate Kid."
+
+### From [[Bezos 2010 Letter]] (SOA is the fundamental abstraction)
+
+> "Random forests, naïve Bayesian estimators, RESTful services, gossip protocols, eventual consistency, data sharding, anti-entropy, Byzantine quorum, erasure coding, vector clocks ... walk into certain Amazon meetings, and you may momentarily think you've stumbled into a computer science lecture."
+
+> "Service-oriented architecture, or SOA, is the fundamental building abstraction for Amazon technologies."
+
+> "To construct a product detail page for a customer visiting Amazon.com, our software calls on between 200 and 300 services."
+
+### From [[Bezos 2011 Letter]] (self-service platforms)
+
+> "The most radical and transformative of inventions are often those that empower *others* to unleash *their* creativity. ... With AWS, FBA, and KDP, we are creating powerful self-service platforms."
+
+> "Even well-meaning gatekeepers slow innovation. When a platform is self-service, even the improbable ideas can get tried, because there's no expert gatekeeper ready to say 'that will never work!'"
+
+### From [[Bezos 2012 Letter]] (proactive, not reactive)
+
+> "We don't wait for external pressures. We are internally driven to improve our services, adding benefits and features, before we have to. We lower prices and increase value for customers before we have to. We invent before we have to."
+
+> AWS Trusted Advisor: "We are actively telling customers they're paying us more than they need to."
+
+### From [[Bezos 2013 Letter]] (decentralized invention; Joy Covey)
+
+> "This decentralized distribution of invention throughout the company, not limited to the company's senior leaders, is the only way to get robust, high-throughput innovation."
+
+> Mayday: "Nothing gives us more pleasure at Amazon than 'reinventing normal'."
+
+> On Joy Covey: "She was substance over optics. She was a long-term thinker. She had a deep keel. Joy was bold."
+
+### From [[Bezos 2018 Letter]] (wandering; failure at scale)
+
+> "Third-party sellers are kicking our first party butt. Badly." (3% in 1999 → 58% in 2018.)
+
+> "Wandering in business is not efficient ... but it's also not random. It's guided, by hunch, gut, intuition, curiosity. ... Wandering is an essential counter-balance to efficiency."
+
+> "If the size of your failures isn't growing, you're not going to be inventing at a size that can actually move the needle. Amazon will be experimenting at the right scale for a company of our size if we occasionally have multibillion-dollar failures."
+
+> "No customer was asking for Echo. This was definitely us wandering."
+
+### From [[Bezos 2019 Letter]] (Climate Pledge; employee parity)
+
+> "We co-founded The Climate Pledge with Christiana Figueres, the UN's former climate change chief."
+
+> "Amazon provides every full-time employee with health insurance, a 401(k) plan, 20 weeks paid maternity leave, and other benefits. These are the same benefits that Amazon's most senior executives receive."
+
+> Dr. Seuss close: "When something bad happens you have three choices. You can either let it define you, let it destroy you, or you can let it strengthen you."
+
+### From [[Bezos 2021 Letter]] (Andy Jassy's first letter, with 1997 appended)
+
+> "Iterative innovation creates magic for customers. Constantly inventing and improving products for customers has a compounding effect on the customer experience, and in turn on a business's prospects."
+
+> The seven-point doctrine: Hire builders / Single-threaded autonomous teams / Tools and permission / Blind faith without false hope / Minimum Loveable Product (not Minimum Viable) / Long-term orientation / Brace for failure.
+
+> "Speed is not pre-ordained. It's a leadership choice."
+
 ### From [[Bezos 1999 Letter]] (the platform reframe)
 
 The first primary-source naming of Amazon as a platform. In answer to a Stanford student's "What do I own?":
