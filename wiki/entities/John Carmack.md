@@ -223,7 +223,7 @@ Deferred to future corpus iterations:
 
 ## Status
 
-Mature. Four sources ingested: [[Carmack Inlined Code]], [[Carmack QuakeCon 2013]], [[Carmack Lex Fridman 309]], [[Carmack Plan Archive 1998]]. Operating frame is stable. Further ingest would deepen specific topics (functional programming, VR/Oculus era, recent AGI work) rather than the core frame.
+Mature. Eight sources ingested across three career arcs: id Software ([[Carmack Inlined Code]], [[Carmack QuakeCon 2013]], [[Carmack Plan Archive 1998]]), Oculus/Meta VR era ([[Carmack Oculus Connect 2014]], [[Carmack Meta Connect 2022 Unscripted]], [[Carmack Farewell Meta 2022]]), and Keen Technologies AGI era ([[Carmack on AGI Keen Technologies]]). [[Carmack Lex Fridman 309]] spans the transition. Operating frame is stable. The VR/AGI batch deepens the organizational-failure diagnosis and the small-team-can-win thesis. Further ingest of QuakeCon catalog or Connect keynotes would refine specific engineering topics rather than the core frame.
 
 ---
 
