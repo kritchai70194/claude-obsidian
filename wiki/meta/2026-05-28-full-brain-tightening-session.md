@@ -182,3 +182,23 @@ Mechanism 3 now fully operational. Cache populated with 320 page embeddings at `
 - [[Wiki Map]] — vault structure
 - All concept pages created this session (linked in `related:` frontmatter)
 - All entity pages affected (Lampson, Larson, Jassy created; Dean, Allspaw, Feld deepened; Bezos, Vogels, Carmack, Lamport expanded)
+
+---
+
+## Session close addendum (graph view colorization)
+
+After Tier C close + brain-lint verification + session-meta save, one cosmetic improvement: Obsidian Graph View was tuned to make the brain's pole structure visually legible.
+
+`.obsidian/graph.json` updated with:
+
+- **11 color groups by pole tag**: founder-operator (gold), engineer-planner (deep blue), unicorn-builder (emerald), founder-resilience (crimson), mental-models (violet), capital-strategy (cyan), gtm-sales (orange), operating-at-scale (indigo), ai-native (pink), marketplace-consumer (teal), decision-customer-discovery (yellow)
+- **3 type-layer color groups by path**: concepts (light purple, synthesis layer), folds (brown, history), meta (dim grey, admin)
+- **Force tuning for the 322-page vault**: repelStrength 10 → 15 (spread clusters), linkDistance 250 → 200 (tighter), lineSizeMultiplier 1 → 0.8 (thinner edges so colors pop), textFadeMultiplier 0 → 0.5 (labels appear when zoomed), showArrow true, showOrphans false (cleaner)
+
+Constraint discovered during application: Obsidian writes `graph.json` from in-memory state every time the Graph panel refreshes or the app interacts with it. Apply pattern: quit Obsidian → write the file → reopen. Window-close (Cmd+W) alone is not enough; must Cmd+Q to terminate the process.
+
+Visual result: 11 mentor-pole clusters become spatially separated by color; concept pages float in the middle as bridges between poles; folds and meta sit at the periphery without crowding the core.
+
+Commit: `043b237 obsidian: graph view color groups by mentor pole` (pushed on top of session-end `e8ec9b4`).
+
+This addendum closes the cosmetic tail of the 2026-05-28 brain-tightening session. The brain is now coherent both logically (Tier A+B+C closures) and visually (graph clusters by pole).
