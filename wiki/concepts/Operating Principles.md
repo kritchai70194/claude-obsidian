@@ -1407,6 +1407,14 @@ The org chart is not a permanent structure to defend; it is a product to be rede
 
 Imagine the most extreme version of the experience you offer (greeted at the airport by Elon Musk, offered a trip to space). Then work backwards to what 10, 9, 8 stars look like. Most companies stop at 5 and ship the same experience as everyone else. Distinctive product work begins at the absurd extreme.
 
+### Specific knowledge multiplied by leverage is the unfair advantage formula
+
+Naval's "How to Get Rich" thread reduces to one operational claim: build something the market cannot teach itself, then multiply it with leverage that does not require permission. Specific knowledge is the input; code and media are the multipliers. The founder who has the first without the second stays small; the founder with the second without the first builds something generic that someone with real specific knowledge eventually displaces.
+
+> "Fortunes require leverage. Business leverage comes from capital, people, and products with no marginal cost of replication (code and media). Code and media are permissionless leverage. They're the leverage behind the newly rich. You can create software and media that works for you while you sleep." ([[Naval How to Get Rich]])
+
+Operational implication: audit the company's edge against the formula. If the edge is capital and distribution alone (no specific knowledge core), competitors with more capital and distribution eventually outflank. Backs decision frame 13.
+
 ---
 
 ## Mental Models
