@@ -1,72 +1,121 @@
 {
   "collapse-filter": false,
-  "search": "path:wiki",
-  "showTags": false,
-  "showAttachments": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
   "hideUnresolved": true,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:wiki/entities",
+      "query": "tag:#founder-operator",
       "color": {
         "a": 1,
-        "rgb": 12945088
+        "rgb": 16096779
+      }
+    },
+    {
+      "query": "tag:#engineer-planner",
+      "color": {
+        "a": 1,
+        "rgb": 2450411
+      }
+    },
+    {
+      "query": "tag:#unicorn-builder",
+      "color": {
+        "a": 1,
+        "rgb": 1095553
+      }
+    },
+    {
+      "query": "tag:#founder-resilience",
+      "color": {
+        "a": 1,
+        "rgb": 14427174
+      }
+    },
+    {
+      "query": "tag:#mental-models",
+      "color": {
+        "a": 1,
+        "rgb": 8143085
+      }
+    },
+    {
+      "query": "tag:#capital-strategy",
+      "color": {
+        "a": 1,
+        "rgb": 440020
+      }
+    },
+    {
+      "query": "tag:#gtm-sales",
+      "color": {
+        "a": 1,
+        "rgb": 16348950
+      }
+    },
+    {
+      "query": "tag:#operating-at-scale",
+      "color": {
+        "a": 1,
+        "rgb": 5195493
+      }
+    },
+    {
+      "query": "tag:#ai-native",
+      "color": {
+        "a": 1,
+        "rgb": 15484057
+      }
+    },
+    {
+      "query": "tag:#marketplace-consumer",
+      "color": {
+        "a": 1,
+        "rgb": 1357990
+      }
+    },
+    {
+      "query": "tag:#decision-customer-discovery",
+      "color": {
+        "a": 1,
+        "rgb": 15381256
       }
     },
     {
       "query": "path:wiki/concepts",
       "color": {
         "a": 1,
-        "rgb": 5227007
+        "rgb": 12616956
       }
     },
     {
-      "query": "path:wiki/sources",
+      "query": "path:wiki/folds",
       "color": {
         "a": 1,
-        "rgb": 6986069
-      }
-    },
-    {
-      "query": "path:wiki/questions",
-      "color": {
-        "a": 1,
-        "rgb": 14474410
-      }
-    },
-    {
-      "query": "path:wiki/comparisons",
-      "color": {
-        "a": 1,
-        "rgb": 13724009
+        "rgb": 9585166
       }
     },
     {
       "query": "path:wiki/meta",
       "color": {
         "a": 1,
-        "rgb": 5676246
-      }
-    },
-    {
-      "query": "path:wiki",
-      "color": {
-        "a": 1,
-        "rgb": 4473924
+        "rgb": 6583435
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -1,
-  "nodeSizeMultiplier": 2,
+  "textFadeMultiplier": 0.5,
+  "nodeSizeMultiplier": 0.950481770833333,
   "lineSizeMultiplier": 0.8,
   "collapse-forces": false,
-  "centerStrength": 0.25,
-  "repelStrength": 20,
-  "linkStrength": 1,
-  "linkDistance": 80,
-  "scale": 0.5191098990818888,
-  "close": true
+  "centerStrength": 0.45,
+  "repelStrength": 15,
+  "linkStrength": 0.7,
+  "linkDistance": 200,
+  "scale": 0.02909459637102767,
+  "close": false
 }
