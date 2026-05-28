@@ -208,16 +208,16 @@ Forms the small-team-can-win counter-thesis to scale-monopoly AGI views.
 
 ## Queued for Future Ingest
 
-See [[seed-corpus-engineer-planners]] Carmack sources C1-C4:
-- QuakeCon 2013 keynote
-- "John Carmack on Inlined Code" essay (2007)
-- Lex Fridman Podcast #309 (2022)
-- Selected .plan file entries (1996-2000)
+Initial seed corpus (C1-C4) complete: QuakeCon 2013, Inlined Code (2007), Lex Fridman 309 (2022), Plan Archive (1996-2000).
 
-After this batch, deferred to a future corpus iteration:
+VR/AGI-era batch complete: Oculus Connect 2014, Meta Connect 2022 Unscripted, Farewell Meta 2022, Carmack on AGI / Keen Technologies.
+
+Deferred to future corpus iterations:
 - QuakeCon 2011, 2012, 2015, 2016, 2017, 2018, 2019 keynotes (corpus of ~20 hours)
-- Oculus Connect keynotes (2014-2018)
-- Recent Keen Technologies talks and writing
+- Oculus Connect 2 (2015), Oculus Connect 3 (2016), Connect 4-6 (2017-2019)
+- Facebook Connect 2020, 2021 keynotes
+- Lex Fridman Carmack appearances post-309 (if any)
+- Future Keen Technologies publications and talks (the organization is pre-output as of 2023)
 
 ---
 
