@@ -45,6 +45,8 @@ All entity pages — people, organizations, products, and tools.
 - [[John Carmack]], founder Keen Technologies (AGI), prior id Software/Oculus; deep architectural planning, protected focus, .plan files, willingness to rewrite
 - [[Leslie Lamport]], Distinguished Scientist Microsoft Research; Turing Award 2013; specify-before-implement, writing-is-the-medium-of-thinking, TLA+ as discipline
 - [[John Allspaw]], co-founder Adaptive Capacity Labs, former CTO Etsy; resilience engineering, blameless postmortems, "no root cause," ask How not Why, local rationality, second stories
+- [[Butler Lampson]], Distinguished Engineer Microsoft Research, MIT Adjunct Professor, Turing Award 1992; system-design taste plus engineering, interfaces as the most important artifact, hints over promises, common-case-fast / worst-case-progress, don't hide power, end-to-end recovery, shed load, "they are just hints"
+- [[Will Larson]], author of *An Elegant Puzzle* and *Staff Engineer*, former CTO Calm, former engineering leader at Stripe/Uber/Digg; staff-engineer archetypes (tech-lead, architect, solver, right-hand), 6-8 manager span, four team states, three-phase migrations, fix-one-team-at-a-time, move-work-not-people, information-gaps-not-personality
 
 #### Unicorn-builder pole
 
