@@ -25,12 +25,18 @@ related:
   - "[[Lamport TLA+ Course Intro]]"
   - "[[Lamport Specifying Systems Ch1-3]]"
   - "[[Lamport Paxos Made Simple]]"
+  - "[[Lamport Time Clocks Distributed System]]"
+  - "[[Lamport Byzantine Generals Problem]]"
+  - "[[Lamport Turing Lecture Concurrency Early Years]]"
   - "[[entities/_index]]"
 sources:
   - "[[Lamport Thinking for Programmers]]"
   - "[[Lamport TLA+ Course Intro]]"
   - "[[Lamport Specifying Systems Ch1-3]]"
   - "[[Lamport Paxos Made Simple]]"
+  - "[[Lamport Time Clocks Distributed System]]"
+  - "[[Lamport Byzantine Generals Problem]]"
+  - "[[Lamport Turing Lecture Concurrency Early Years]]"
 ---
 
 # Leslie Lamport
