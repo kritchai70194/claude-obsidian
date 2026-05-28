@@ -30,9 +30,9 @@ related:
 
 # Christensen Innovators Dilemma
 
-Clayton Christensen's 1997 book introducing Disruption Theory. The canonical text. Refined a doctoral thesis on the disk drive industry into a general theory of why successful incumbents lose to upstarts. The 2011 revised edition adds a foreword reflecting on what the framework got right and what was misread by readers who used "disruption" loosely.
+Clayton Christensen's 1997 book introducing Disruption Theory. The canonical text. Refined a doctoral thesis on the disk drive industry into a general theory of why successful incumbents lose to upstarts. The 2011 revised edition adds a foreword reflecting on what the framework got right and what was misread by readers who used "disruption" loosely. Central to the strategy canon Patrick Collison endorses (see [[Collison Cowen Interview]]).
 
-Companion to the existing [[Innovators Dilemma]] page in this wiki. That page is the loose-coupling reference written before Christensen was a named mentor. This page is the canonical anchor tied to the Clayton Christensen entity.
+Merged 2026-05-28 from earlier duplicate at c-000234. The earlier page had Wikipedia provenance, weaker entity binding, and overlapping content; canonical anchor is now this c-000089 page.
 
 ## Provenance
 
