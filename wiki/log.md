@@ -21,6 +21,36 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-28] concept synthesis + embed-error fix | Tier 2 brain-tightening wave
+
+Autonomous parallel-dispatch wave. 2 subagents wrote 6 foundational concept pages in parallel; main thread fixed the tiling embed-error root cause. All resolved in single session.
+
+### Stream A (founder-operator foundations, 3 pages)
+- [[Customer Obsession]] (c-000305) — synthesizes Bezos 1997/2015/2016/2018/2021 + Vogels + Working Backwards. Includes Christensen "customer obsession has limits" tension.
+- [[Long-Term Thinking]] (c-000306) — synthesizes Bezos 1997/2000/2018/2021 + Stripe Annual + Collison Fast. Voting machine vs weighing machine. Durable profitability as R&D fuel.
+- [[Two-Pizza Team]] (c-000307) — synthesizes Bezos 2002 API Mandate + Vogels Working Backwards + Modern Applications. Conway's law as deliberate lever. Services as startups within the walls. Single-threaded leadership.
+
+### Stream B (engineer-planner distributed-systems foundations, 3 pages)
+- [[Distributed Systems]] (c-000308) — synthesis across Lamport canonical trio + Vogels (Eventually Consistent, Decade of Dynamo, Distributed Computing Manifesto) + Lampson Hints. Scale-free definition: "message delay not negligible compared to time between events."
+- [[Logical Clocks]] (c-000309) — Lamport 1978-derived. The Clock Condition. IR1 + IR2 implementation rules. Concurrent means causally independent, not simultaneous.
+- [[Byzantine Fault Tolerance]] (c-000310) — Lamport 1982-derived. Interactive consistency (IC1, IC2). The n ≥ 3m + 1 bound. Formal-reasoning humility.
+
+### Stream C (tiling embed-error fix)
+Root cause: `nomic-embed-text` default num_ctx in ollama is 2048 tokens (not the model's nominal 8192). Pages over ~8000 chars failed with HTTP 500. Patched `scripts/tiling-check.py` to truncate input to 7500 chars before embedding (cache hash uses full body; truncation transparent to invalidation).
+
+Results: previous tiling run had 260 embedded / 45 errors. Post-fix: 309 embedded / 0 embed errors / 50 intentional exclusions (folds, meta, _index). All 45 previously-failing pages now embed correctly. Mechanism 3 fully operational. Tiling report v3 at `wiki/meta/tiling-report-2026-05-28-v3.md` (105KB; 21 Error-band pairs, all expected entity-canonical-source overlaps; 1806 review-band pairs, calibration still recommended).
+
+### Addresses allocated
+- c-000305 through c-000310 (6 addresses)
+- Counter at 311
+
+### Inbound link counts (verified)
+- Customer Obsession: 4; Long-Term Thinking: 4; Two-Pizza Team: 4
+- Distributed Systems: 6; Logical Clocks: 5; Byzantine Fault Tolerance: 4
+
+### Method validation
+Same shape as Tier 1 drain. 2 agents disjoint mentor scopes (founder-operator + engineer-planner), parallel dispatch, orchestrator reconciles. Wall-clock 3-4 min for agents vs estimated ~30 min sequential. Method continues to compound.
+
 ## [2026-05-28] tiling + cleanup | DragonScale Mechanism 3 unblocked, duplicate merge
 
 - Installed ollama via no-admin path: Ollama-darwin.zip (160 MB) extracted to `~/Applications/`, CLI symlinked to `~/.local/bin/ollama`. Cleared Gatekeeper quarantine via `xattr -dr`. Started `ollama serve` (PID tracked in `/tmp/ollama-serve.log`), pulled `nomic-embed-text` (274 MB). DragonScale Mechanism 3 (`scripts/tiling-check.py`) now reports `ollama_reachable: true, model_present: true`.
