@@ -21,6 +21,9 @@ related:
   - '[[Operating Principles]]'
   - '[[Dean Latency Numbers]]'
   - '[[Dean Stanford Talk]]'
+  - '[[Dean MapReduce]]'
+  - '[[Dean Bigtable]]'
+  - '[[Dean Tail at Scale]]'
   - '[[seed-corpus-technical-ceo]]'
   - '[[entities/_index]]'
 ---
