@@ -110,7 +110,6 @@ This connects to [[Working Backwards Book]] single-threaded leadership at Amazon
 - [[Clayton Christensen]] mentor anchor
 - [[Operating Principles]]
 - [[seed-corpus-mental-models]] source C1
-- [[Innovators Dilemma]] earlier loose-coupling reference; preserved unmodified
 - [[Christensen Innovators Solution]] sequel with the prescriptive playbook
 - [[Christensen JTBD]] companion frame; what customers actually buy
 - [[Disruption vs Aggregation]] cross-pole concept page separating Christensen's disruption from Thompson's aggregation
