@@ -26,10 +26,18 @@ related:
   - "[[Bezos 2017 Letter]]"
   - "[[Allspaw Each Necessary]]"
   - "[[Allspaw Infinite Hows]]"
+  - "[[Allspaw Trade-Offs Under Pressure]]"
+  - "[[Cook Stella Report]]"
+  - "[[Cook How Complex Systems Fail]]"
+  - "[[Richard Cook]]"
   - "[[entities/_index]]"
 sources:
   - "[[Allspaw Each Necessary]]"
   - "[[Allspaw Infinite Hows]]"
+  - "[[Allspaw Trade-Offs Under Pressure]]"
+  - "[[Cook Stella Report]]"
+adjacent_sources:
+  - "[[Cook How Complex Systems Fail]]"
 ---
 
 # John Allspaw
