@@ -1,0 +1,1179 @@
+# Semantic Tiling Report
+
+- generated: 2026-05-28T11:02:12Z
+- model: nomic-embed-text
+- ollama_url: http://127.0.0.1:11434
+- thresholds: error>=0.9, review=0.8-0.9
+- calibrated: False (using uncalibrated defaults)
+- pages scanned: 354; embedded: 260; skipped: 94
+- skipped reasons: embed_error=45, excluded filename=9, type=meta=1, under wiki/folds/=2, under wiki/meta/=37
+- cache hits: 0; recomputed: 260; orphans pruned: 0
+
+## Errors (similarity >= 0.9)
+
+- `0.9288` wiki/entities/Aaron Ross.md -- wiki/sources/Ross Predictable Revenue.md
+- `0.9274` wiki/concepts/Decision Journals.md -- wiki/sources/Duke Decision Journal.md
+- `0.9244` wiki/concepts/Aggregation Theory.md -- wiki/entities/Ben Thompson.md
+- `0.9187` wiki/entities/Mark Roberge.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.9126` wiki/entities/Steve Blank.md -- wiki/sources/Blank Four Steps to Epiphany.md
+- `0.9072` wiki/entities/Ben Horowitz.md -- wiki/entities/Brad Feld.md
+- `0.9070` wiki/entities/Dario Amodei.md -- wiki/entities/Demis Hassabis.md
+- `0.9032` wiki/entities/Demis Hassabis.md -- wiki/sources/Hassabis DeepMind Research Strategy.md
+- `0.9031` wiki/concepts/Aggregation Theory.md -- wiki/sources/Thompson Aggregation Theory.md
+- `0.9001` wiki/sources/PG How to Get Startup Ideas.md -- wiki/sources/PG How to Start a Startup.md
+
+## Review (0.8 <= similarity < 0.9)
+
+- `0.8984` wiki/entities/Rob Fitzpatrick.md -- wiki/sources/Fitzpatrick Mom Test.md
+- `0.8974` wiki/sources/Allspaw Each Necessary.md -- wiki/sources/Allspaw Infinite Hows.md
+- `0.8954` wiki/sources/Rabois 20VC Interview.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8925` wiki/sources/Chen Atomic Network.md -- wiki/sources/Chen Cold Start Problem Book.md
+- `0.8917` wiki/concepts/Founder Mode.md -- wiki/sources/Chesky Founder Mode Essay.md
+- `0.8916` wiki/entities/April Dunford.md -- wiki/sources/Dunford Obviously Awesome.md
+- `0.8905` wiki/entities/Ben Thompson.md -- wiki/sources/Thompson Aggregation Theory.md
+- `0.8905` wiki/sources/Slootman Acquired Interview.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8905` wiki/sources/Maples Backable Founders.md -- wiki/sources/Maples Live in the Future.md
+- `0.8899` wiki/concepts/Founder Mode.md -- wiki/entities/Ben Horowitz.md
+- `0.8896` wiki/sources/Raskin Case Studies.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8890` wiki/sources/Choudary HBR WEF Essays.md -- wiki/sources/Choudary Interviews.md
+- `0.8880` wiki/entities/Andy Raskin.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8879` wiki/entities/Mark Roberge.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8879` wiki/sources/Rabois 20VC Interview.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8876` wiki/sources/Raskin Consulting Writeups.md -- wiki/sources/Raskin Strategic Narrative.md
+- `0.8873` wiki/entities/Andy Raskin.md -- wiki/entities/April Dunford.md
+- `0.8872` wiki/concepts/Founder Resilience.md -- wiki/entities/Ben Horowitz.md
+- `0.8843` wiki/sources/Choudary Platform Revolution.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8839` wiki/sources/Raskin Strategic Narrative.md -- wiki/sources/Raskin Zuora Pitch.md
+- `0.8838` wiki/sources/Roberge HubSpot Playbook.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8833` wiki/concepts/Formal Specification Discipline.md -- wiki/concepts/Planning Before Code.md
+- `0.8825` wiki/sources/Thompson Bill Gates Line.md -- wiki/sources/Thompson Defining Aggregators.md
+- `0.8823` wiki/sources/PG How to Start a Startup.md -- wiki/sources/PG Startup = Growth.md
+- `0.8821` wiki/concepts/Compounding Knowledge.md -- wiki/concepts/LLM Wiki Pattern.md
+- `0.8820` wiki/sources/PG How to Get Startup Ideas.md -- wiki/sources/PG Startup = Growth.md
+- `0.8820` wiki/sources/Karpathy Software 2.0.md -- wiki/sources/Karpathy Unreasonable Effectiveness of RNNs.md
+- `0.8817` wiki/sources/Karpathy Recipe for Training Neural Networks.md -- wiki/sources/Karpathy Unreasonable Effectiveness of RNNs.md
+- `0.8803` wiki/entities/Rob Fitzpatrick.md -- wiki/sources/Fitzpatrick Foundercentric.md
+- `0.8802` wiki/entities/Ben Horowitz.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8802` wiki/sources/Grove High Output Management.md -- wiki/sources/High Output Management.md
+- `0.8799` wiki/sources/Dunford Obviously Awesome.md -- wiki/sources/Dunford Sales Pitch Book.md
+- `0.8791` wiki/entities/Patty McCord.md -- wiki/sources/McCord Powerful.md
+- `0.8790` wiki/entities/April Dunford.md -- wiki/sources/Dunford Sales Pitch Book.md
+- `0.8787` wiki/entities/Mike Maples.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8786` wiki/sources/Bezos 2015 Letter.md -- wiki/sources/Bezos 2016 Day 1 Letter.md
+- `0.8781` wiki/entities/Bill Gurley.md -- wiki/sources/Gurley J-curve and Recap.md
+- `0.8779` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8770` wiki/sources/Naval Almanack.md -- wiki/sources/Naval How to Get Rich.md
+- `0.8768` wiki/sources/Choudary HBR WEF Essays.md -- wiki/sources/Thompson Bill Gates Line.md
+- `0.8768` wiki/entities/Andy Raskin.md -- wiki/sources/Raskin Case Studies.md
+- `0.8760` wiki/sources/Gurley All-In Podcast.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8752` wiki/sources/Ross Cold Calling 2.0.md -- wiki/sources/Ross Predictable Revenue.md
+- `0.8749` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8747` wiki/entities/Jeff Dean.md -- wiki/sources/Dean Latency Numbers.md
+- `0.8747` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8745` wiki/sources/Roberge Interviews Synthesis.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8743` wiki/sources/Larson Elegant Puzzle.md -- wiki/sources/Larson Sizing Engineering Teams.md
+- `0.8742` wiki/sources/Dunford Obviously Awesome.md -- wiki/sources/Dunford Positioning Not Messaging.md
+- `0.8742` wiki/entities/Brad Feld.md -- wiki/sources/Feld Startup Life.md
+- `0.8729` wiki/concepts/LLM Wiki Pattern.md -- wiki/questions/How does the LLM Wiki pattern work.md
+- `0.8727` wiki/concepts/Founder Resilience.md -- wiki/entities/Brad Feld.md
+- `0.8703` wiki/entities/Annie Duke.md -- wiki/sources/Duke Thinking in Bets.md
+- `0.8701` wiki/entities/Aaron Ross.md -- wiki/entities/Mark Roberge.md
+- `0.8701` wiki/sources/Dunford Lenny Podcast.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8696` wiki/concepts/Early-Stage Discipline.md -- wiki/sources/PG How to Start a Startup.md
+- `0.8687` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Amodei Lex Fridman.md
+- `0.8685` wiki/sources/Bezos 1997 Letter.md -- wiki/sources/Bezos 2016 Day 1 Letter.md
+- `0.8682` wiki/entities/Brad Feld.md -- wiki/sources/Feld On Depression.md
+- `0.8682` wiki/sources/Ross Podcast Synthesis.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8680` wiki/comparisons/claude-obsidian-ecosystem.md -- wiki/sources/claude-obsidian-ecosystem-research.md
+- `0.8678` wiki/concepts/Early-Stage Discipline.md -- wiki/sources/PG Startup = Growth.md
+- `0.8666` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8659` wiki/concepts/Founder Mode.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8656` wiki/entities/Ben Horowitz.md -- wiki/sources/Horowitz The Struggle.md
+- `0.8655` wiki/sources/Collison Cowen Interview.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8654` wiki/concepts/Founder Mode.md -- wiki/concepts/Founder Resilience.md
+- `0.8646` wiki/concepts/Aggregation Theory.md -- wiki/sources/Thompson Defining Aggregators.md
+- `0.8644` wiki/sources/Roberge Math of B2B Sales.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8641` wiki/sources/Choudary HBR WEF Essays.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8639` wiki/sources/Roberge Sales Acceleration Formula.md -- wiki/sources/Ross Predictable Revenue.md
+- `0.8633` wiki/sources/Horowitz Peacetime Wartime CEO.md -- wiki/sources/Horowitz The Struggle.md
+- `0.8630` wiki/concepts/Founder Mode.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8623` wiki/sources/Choudary HBR WEF Essays.md -- wiki/sources/Choudary Platform Revolution.md
+- `0.8619` wiki/sources/Raskin Case Studies.md -- wiki/sources/Raskin Strategic Narrative.md
+- `0.8617` wiki/entities/Mike Maples.md -- wiki/sources/Maples Live in the Future.md
+- `0.8611` wiki/concepts/Decision Journals.md -- wiki/sources/Duke Thinking in Bets.md
+- `0.8610` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8610` wiki/entities/Frank Slootman.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8609` wiki/entities/Dario Amodei.md -- wiki/sources/Amodei Lex Fridman.md
+- `0.8608` wiki/sources/Maples Live in the Future.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8607` wiki/sources/Thiel CS183 Notes.md -- wiki/sources/Thiel Zero to One.md
+- `0.8606` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8603` wiki/entities/Andy Raskin.md -- wiki/sources/Raskin Strategic Narrative.md
+- `0.8602` wiki/entities/Ben Thompson.md -- wiki/sources/Thompson Defining Aggregators.md
+- `0.8595` wiki/sources/Bezos 2006 Letter.md -- wiki/sources/Bezos 2007 Letter.md
+- `0.8594` wiki/concepts/cherry-picks.md -- wiki/entities/Ar9av-obsidian-wiki.md
+- `0.8588` wiki/concepts/LLM Wiki Pattern.md -- wiki/concepts/Persistent Wiki Artifact.md
+- `0.8588` wiki/entities/John Collison.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8587` wiki/sources/Helmer 7 Powers Applied to AWS.md -- wiki/sources/Helmer 7 Powers Book.md
+- `0.8586` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8581` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Helmer Counter-Positioning Deep Dive.md
+- `0.8579` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/PG How to Start a Startup.md
+- `0.8577` wiki/entities/Mark Roberge.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8575` wiki/sources/Fitzpatrick Foundercentric.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8571` wiki/sources/Thompson Aggregation Theory.md -- wiki/sources/Thompson Defining Aggregators.md
+- `0.8568` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Lenny PMF Guide.md
+- `0.8566` wiki/sources/Roberge Interviews Synthesis.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8566` wiki/entities/Ben Horowitz.md -- wiki/sources/Horowitz Peacetime Wartime CEO.md
+- `0.8564` wiki/entities/Mark Roberge.md -- wiki/sources/Ross Predictable Revenue.md
+- `0.8560` wiki/concepts/Staff Engineer Ladder.md -- wiki/sources/Larson Staff Archetypes.md
+- `0.8558` wiki/entities/Andy Raskin.md -- wiki/sources/Dunford Sales Pitch Book.md
+- `0.8556` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8556` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8556` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/Blank Startup Owners Manual.md
+- `0.8555` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8555` wiki/concepts/Founder Mode.md -- wiki/entities/Brad Feld.md
+- `0.8554` wiki/sources/Larson Elegant Puzzle.md -- wiki/sources/Larson Migrations.md
+- `0.8553` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Slootman Snowflake Earnings.md
+- `0.8552` wiki/sources/Hoffman Masters of Scale.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8552` wiki/entities/Brad Feld.md -- wiki/sources/Feld Startup Boards.md
+- `0.8551` wiki/sources/Gurley Above the Crowd.md -- wiki/sources/Gurley J-curve and Recap.md
+- `0.8550` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Hassabis Lex Fridman.md
+- `0.8549` wiki/concepts/Scaling Operations.md -- wiki/entities/Patty McCord.md
+- `0.8547` wiki/sources/Slootman Amp It Up.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8547` wiki/sources/Rabois Barrel and Ammunition.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8545` wiki/entities/Bill Gurley.md -- wiki/sources/Gurley Above the Crowd.md
+- `0.8544` wiki/sources/Altman YC Essays.md -- wiki/sources/Maples Live in the Future.md
+- `0.8543` wiki/sources/Bezos 2016 Day 1 Letter.md -- wiki/sources/Bezos 2020 Letter.md
+- `0.8541` wiki/sources/Christensen Innovators Dilemma.md -- wiki/sources/Christensen Innovators Solution.md
+- `0.8541` wiki/entities/Jeff Dean.md -- wiki/sources/Designing Data-Intensive Applications.md
+- `0.8540` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/PG Startup = Growth.md
+- `0.8537` wiki/concepts/Carmack on AGI.md -- wiki/sources/Carmack on AGI Keen Technologies.md
+- `0.8536` wiki/sources/Bezos 2003 Letter.md -- wiki/sources/Bezos 2005 Letter.md
+- `0.8532` wiki/sources/Karpathy Recipe for Training Neural Networks.md -- wiki/sources/Karpathy Software 2.0.md
+- `0.8531` wiki/sources/Rabois 20VC Interview.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8528` wiki/sources/Raskin Consulting Writeups.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8525` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Christensen Innovators Solution.md
+- `0.8522` wiki/concepts/Staff Engineer Ladder.md -- wiki/sources/Larson Sizing Engineering Teams.md
+- `0.8521` wiki/entities/John Allspaw.md -- wiki/sources/Allspaw Each Necessary.md
+- `0.8521` wiki/sources/Helmer 7 Powers Book.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8521` wiki/sources/McCord Conference Talks.md -- wiki/sources/McCord Powerful.md
+- `0.8520` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/McCord Powerful.md
+- `0.8519` wiki/entities/John Collison.md -- wiki/sources/Chesky Altman Conversation.md
+- `0.8518` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Hassabis Lex Fridman.md
+- `0.8518` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Horowitz The Struggle.md
+- `0.8517` wiki/sources/Bezos 2001 Letter.md -- wiki/sources/Bezos 2004 Letter.md
+- `0.8516` wiki/sources/McCord Powerful.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8513` wiki/sources/Taleb Black Swan.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8509` wiki/sources/Collison Cowen Interview.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8509` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8508` wiki/concepts/Scaling Operations.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8507` wiki/entities/Demis Hassabis.md -- wiki/sources/Hassabis Nobel Lecture.md
+- `0.8505` wiki/sources/Maples Inflections vs Ideas.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8503` wiki/sources/Vogels Aurora Ascendant.md -- wiki/sources/Vogels Purpose-Built Databases.md
+- `0.8502` wiki/sources/Duke Quit.md -- wiki/sources/Duke Thinking in Bets.md
+- `0.8501` wiki/concepts/Decision Journals.md -- wiki/sources/Duke Quit.md
+- `0.8500` wiki/sources/Kahneman Lex Fridman.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8497` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8496` wiki/sources/Vogels 10 Lessons from 10 Years of AWS.md -- wiki/sources/Vogels Decade of Dynamo.md
+- `0.8496` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Gurley All-In Podcast.md
+- `0.8494` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Choudary Interviews.md
+- `0.8494` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8494` wiki/concepts/Early-Stage Discipline.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8493` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8493` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8491` wiki/entities/Aaron Ross.md -- wiki/sources/Ross Cold Calling 2.0.md
+- `0.8491` wiki/sources/Feld Startup Boards.md -- wiki/sources/Feld Startup Life.md
+- `0.8490` wiki/sources/Vogels DynamoDB Launch.md -- wiki/sources/Vogels Lambda Launch.md
+- `0.8486` wiki/sources/Thiel Last Mover Advantage.md -- wiki/sources/Thiel Zero to One.md
+- `0.8484` wiki/sources/Bezos 2005 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8484` wiki/entities/Keith Rabois.md -- wiki/entities/Patty McCord.md
+- `0.8482` wiki/sources/Christensen JTBD.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8482` wiki/entities/Bill Gurley.md -- wiki/sources/Gurley All Markets Not Equal.md
+- `0.8481` wiki/concepts/Founder Mode.md -- wiki/sources/Horowitz Peacetime Wartime CEO.md
+- `0.8480` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8477` wiki/sources/Maples Inflections vs Ideas.md -- wiki/sources/Maples Live in the Future.md
+- `0.8476` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8475` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8474` wiki/concepts/Founder Mode.md -- wiki/sources/Horowitz Take Care of People.md
+- `0.8473` wiki/sources/Roberge Interviews Synthesis.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8471` wiki/sources/Roberge HubSpot Playbook.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8468` wiki/entities/Aaron Ross.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8468` wiki/entities/Frank Slootman.md -- wiki/entities/Patty McCord.md
+- `0.8468` wiki/entities/Brad Feld.md -- wiki/entities/Mike Maples.md
+- `0.8467` wiki/sources/Horowitz The Struggle.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8466` wiki/sources/Raskin Case Studies.md -- wiki/sources/Raskin Zuora Pitch.md
+- `0.8466` wiki/sources/Choudary Interviews.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8465` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Helmer Counter-Positioning Deep Dive.md
+- `0.8465` wiki/entities/Annie Duke.md -- wiki/sources/Duke Podcast Synthesis.md
+- `0.8464` wiki/sources/Dean Latency Numbers.md -- wiki/sources/Designing Data-Intensive Applications.md
+- `0.8461` wiki/sources/McCord Powerful.md -- wiki/sources/Working Backwards Book.md
+- `0.8461` wiki/entities/April Dunford.md -- wiki/sources/Dunford Positioning Not Messaging.md
+- `0.8461` wiki/entities/Mike Maples.md -- wiki/sources/Maples Backable Founders.md
+- `0.8460` wiki/sources/Maples Live in the Future.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8458` wiki/sources/Hoffman Masters of Scale.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8457` wiki/sources/Hoffman Blitzscaling Book.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8457` wiki/entities/Brad Feld.md -- wiki/entities/John Collison.md
+- `0.8456` wiki/sources/Designing Data-Intensive Applications.md -- wiki/sources/Larson Elegant Puzzle.md
+- `0.8453` wiki/entities/Ben Horowitz.md -- wiki/entities/Mike Maples.md
+- `0.8452` wiki/sources/Designing Data-Intensive Applications.md -- wiki/sources/Vogels Eventually Consistent.md
+- `0.8452` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8451` wiki/sources/Lenny North Star Metric.md -- wiki/sources/Lenny PMF Guide.md
+- `0.8446` wiki/sources/Slootman Acquired Interview.md -- wiki/sources/Slootman Snowflake Earnings.md
+- `0.8445` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Grove Stanford Talks.md
+- `0.8444` wiki/sources/Duke Podcast Synthesis.md -- wiki/sources/Duke Thinking in Bets.md
+- `0.8443` wiki/entities/Ben Horowitz.md -- wiki/entities/John Collison.md
+- `0.8443` wiki/entities/Dario Amodei.md -- wiki/sources/Amodei Machines of Loving Grace.md
+- `0.8442` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Chesky Founder Mode Essay.md
+- `0.8442` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/McCord Powerful.md
+- `0.8441` wiki/sources/Ross From Impossible to Inevitable.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8441` wiki/sources/McCord Conference Talks.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8437` wiki/sources/Larson Migrations.md -- wiki/sources/Larson Sizing Engineering Teams.md
+- `0.8437` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Hassabis Keynote Synthesis.md
+- `0.8437` wiki/entities/Brad Feld.md -- wiki/sources/Maples Live in the Future.md
+- `0.8436` wiki/entities/John Collison.md -- wiki/entities/Patrick Collison.md
+- `0.8435` wiki/concepts/Staff Engineer Ladder.md -- wiki/sources/Larson Elegant Puzzle.md
+- `0.8434` wiki/sources/Hoffman Masters of Scale.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8433` wiki/sources/Duke Thinking in Bets.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8430` wiki/sources/Dunford Lenny Podcast.md -- wiki/sources/Dunford Sales Pitch Book.md
+- `0.8428` wiki/sources/Lamport TLA+ Course Intro.md -- wiki/sources/Lamport Thinking for Programmers.md
+- `0.8428` wiki/sources/McCord HBR Essays.md -- wiki/sources/McCord Powerful.md
+- `0.8427` wiki/entities/Brad Feld.md -- wiki/sources/Maples Backable Founders.md
+- `0.8425` wiki/entities/Bill Gurley.md -- wiki/sources/Thiel Zero to One.md
+- `0.8424` wiki/sources/Helmer 7 Powers Book.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8424` wiki/entities/Mike Maples.md -- wiki/entities/Steve Blank.md
+- `0.8423` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8422` wiki/sources/Vogels Eventually Consistent.md -- wiki/sources/Vogels S3 Strong Consistency.md
+- `0.8422` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Helmer 7 Powers Book.md
+- `0.8420` wiki/entities/Frank Slootman.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8419` wiki/concepts/Founder Resilience.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8419` wiki/sources/Helmer 7 Powers Book.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8419` wiki/sources/Hoffman Blitzscaling Book.md -- wiki/sources/Thiel Zero to One.md
+- `0.8419` wiki/entities/John Allspaw.md -- wiki/sources/Allspaw Infinite Hows.md
+- `0.8417` wiki/concepts/Scaling Operations.md -- wiki/entities/Frank Slootman.md
+- `0.8415` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Collison Cowen Interview.md
+- `0.8415` wiki/sources/Maples Inflections vs Ideas.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8415` wiki/entities/Ben Thompson.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8415` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Fitzpatrick Foundercentric.md
+- `0.8412` wiki/sources/Altman YC Essays.md -- wiki/sources/McCord HBR Essays.md
+- `0.8411` wiki/sources/Altman YC Essays.md -- wiki/sources/Maples Backable Founders.md
+- `0.8411` wiki/sources/Choudary Interviews.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8410` wiki/sources/Rabois 20VC Interview.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8410` wiki/entities/John Collison.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8409` wiki/concepts/Aggregation Theory.md -- wiki/sources/Thompson Bill Gates Line.md
+- `0.8408` wiki/entities/Andy Raskin.md -- wiki/sources/Raskin Zuora Pitch.md
+- `0.8408` wiki/entities/April Dunford.md -- wiki/sources/Dunford Lenny Podcast.md
+- `0.8408` wiki/sources/Roberge HubSpot Playbook.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8404` wiki/sources/Lenny Chesky Founder Mode.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8403` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8403` wiki/sources/Gurley All-In Podcast.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8403` wiki/sources/Bezos 2003 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8402` wiki/entities/Claudian-YishenTu.md -- wiki/entities/Nexus-claudesidian-mcp.md
+- `0.8402` wiki/entities/John Collison.md -- wiki/sources/Collison Money Stuff Podcast.md
+- `0.8401` wiki/concepts/Compounding Knowledge.md -- wiki/questions/How does the LLM Wiki pattern work.md
+- `0.8400` wiki/sources/Hoffman Blitzscaling Book.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8400` wiki/sources/Ross From Impossible to Inevitable.md -- wiki/sources/Thiel Zero to One.md
+- `0.8399` wiki/entities/Dario Amodei.md -- wiki/entities/Patrick Collison.md
+- `0.8397` wiki/concepts/Founder Mode.md -- wiki/sources/Horowitz The Struggle.md
+- `0.8397` wiki/entities/Ben Horowitz.md -- wiki/sources/Horowitz Take Care of People.md
+- `0.8396` wiki/sources/Choudary Interviews.md -- wiki/sources/Fitzpatrick Conference Talks.md
+- `0.8396` wiki/sources/Grove Stanford Talks.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8395` wiki/sources/Bezos 2000 Letter.md -- wiki/sources/Bezos 2001 Letter.md
+- `0.8394` wiki/sources/Roberge HubSpot Playbook.md -- wiki/sources/Ross Predictable Revenue.md
+- `0.8393` wiki/sources/Vogels Decade of Dynamo.md -- wiki/sources/Vogels DynamoDB Launch.md
+- `0.8393` wiki/sources/Maples Pattern Breakers.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8390` wiki/sources/Lamport Specifying Systems Ch1-3.md -- wiki/sources/Lamport TLA+ Course Intro.md
+- `0.8389` wiki/sources/Bezos 1999 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8388` wiki/entities/April Dunford.md -- wiki/entities/Mark Roberge.md
+- `0.8387` wiki/entities/John Collison.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8387` wiki/sources/Bezos 2014 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8386` wiki/sources/Grove Stanford Talks.md -- wiki/sources/Hassabis Keynote Synthesis.md
+- `0.8386` wiki/concepts/Product-Market Fit.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8386` wiki/sources/Rabois 20VC Interview.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8384` wiki/sources/Hoffman Masters of Scale.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8383` wiki/entities/Jeff Dean.md -- wiki/sources/Dean Stanford Talk.md
+- `0.8382` wiki/sources/Bezos 2006 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8382` wiki/sources/McCord Powerful.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8381` wiki/sources/Choudary Interviews.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8381` wiki/concepts/Founder Mode.md -- wiki/entities/Patty McCord.md
+- `0.8381` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Horowitz Peacetime Wartime CEO.md
+- `0.8379` wiki/sources/Grove Stanford Talks.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8379` wiki/sources/Fitzpatrick Foundercentric.md -- wiki/sources/Fitzpatrick Mom Test.md
+- `0.8378` wiki/concepts/Product-Market Fit.md -- wiki/sources/Lenny PMF Guide.md
+- `0.8376` wiki/entities/Steve Blank.md -- wiki/sources/Blank Startup Owners Manual.md
+- `0.8373` wiki/concepts/Working Backwards.md -- wiki/sources/Vogels Working Backwards.md
+- `0.8373` wiki/concepts/Founder Mode.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8372` wiki/sources/Grove Stanford Talks.md -- wiki/sources/Munger Berkshire Q&A.md
+- `0.8371` wiki/concepts/Disruption vs Aggregation.md -- wiki/entities/Ben Thompson.md
+- `0.8370` wiki/sources/Ross Podcast Synthesis.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8370` wiki/entities/Frank Slootman.md -- wiki/entities/Keith Rabois.md
+- `0.8369` wiki/sources/Taleb Bed of Procrustes.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8369` wiki/sources/Raskin Consulting Writeups.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8367` wiki/entities/Keith Rabois.md -- wiki/sources/Rabois PayPal Mafia Hiring.md
+- `0.8364` wiki/sources/Naval Almanack.md -- wiki/sources/Thiel Zero to One.md
+- `0.8364` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8364` wiki/sources/Bezos 2015 Letter.md -- wiki/sources/Bezos 2020 Letter.md
+- `0.8363` wiki/concepts/Founder Mode.md -- wiki/sources/Feld Startup Boards.md
+- `0.8363` wiki/sources/Bezos 2006 Letter.md -- wiki/sources/Bezos 2014 Letter.md
+- `0.8363` wiki/entities/Keith Rabois.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8361` wiki/concepts/Formal Specification Discipline.md -- wiki/sources/Lamport TLA+ Course Intro.md
+- `0.8360` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/Horowitz The Struggle.md
+- `0.8359` wiki/sources/McCord Conference Talks.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8359` wiki/entities/Demis Hassabis.md -- wiki/sources/Hassabis Keynote Synthesis.md
+- `0.8359` wiki/sources/Kahneman Noise Book.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8358` wiki/sources/Collison Money Stuff Podcast.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8358` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8358` wiki/sources/Collison Cowen Interview.md -- wiki/sources/Fitzpatrick Conference Talks.md
+- `0.8355` wiki/sources/Naval How to Get Rich.md -- wiki/sources/Thiel Zero to One.md
+- `0.8354` wiki/concepts/Founder Resilience.md -- wiki/sources/Horowitz Peacetime Wartime CEO.md
+- `0.8352` wiki/concepts/Marketplace Liquidity.md -- wiki/sources/Gurley All Markets Not Equal.md
+- `0.8350` wiki/entities/Ben Thompson.md -- wiki/entities/Bill Gurley.md
+- `0.8349` wiki/sources/Altman YC Essays.md -- wiki/sources/Maples Inflections vs Ideas.md
+- `0.8348` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Kahneman Lex Fridman.md
+- `0.8348` wiki/sources/Bezos 1999 Letter.md -- wiki/sources/Bezos 2011 Letter.md
+- `0.8347` wiki/sources/Bezos 2015 Letter.md -- wiki/sources/Bezos 2019 Letter.md
+- `0.8346` wiki/sources/Taleb Antifragile.md -- wiki/sources/Taleb Black Swan.md
+- `0.8346` wiki/sources/Bezos 2016 Day 1 Letter.md -- wiki/sources/Bezos 2017 Letter.md
+- `0.8344` wiki/sources/Lenny Chesky Founder Mode.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8344` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8342` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8341` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8341` wiki/entities/Patty McCord.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8341` wiki/entities/Patrick Collison.md -- wiki/sources/Collison Questions.md
+- `0.8338` wiki/entities/Dario Amodei.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8336` wiki/sources/Roberge Math of B2B Sales.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8336` wiki/sources/Maples Pattern Breakers.md -- wiki/sources/Thiel Zero to One.md
+- `0.8334` wiki/sources/Horowitz The Struggle.md -- wiki/sources/PG How to Start a Startup.md
+- `0.8334` wiki/sources/Munger Berkshire Q&A.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8329` wiki/sources/Bezos 2010 Letter.md -- wiki/sources/Vogels Distributed Computing Manifesto.md
+- `0.8327` wiki/concepts/AI-Native Economics.md -- wiki/concepts/Disruption vs Aggregation.md
+- `0.8327` wiki/entities/Demis Hassabis.md -- wiki/entities/Patrick Collison.md
+- `0.8326` wiki/sources/Naval Specific Knowledge.md -- wiki/sources/Thiel Zero to One.md
+- `0.8326` wiki/sources/Helmer 7 Powers Book.md -- wiki/sources/Helmer Counter-Positioning Deep Dive.md
+- `0.8325` wiki/sources/Bezos 2013 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8325` wiki/sources/Rabois 20VC Interview.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8325` wiki/sources/Rabois 20VC Interview.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8323` wiki/entities/Mark Roberge.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8322` wiki/entities/Jeff Dean.md -- wiki/entities/Patrick Collison.md
+- `0.8322` wiki/sources/Bezos 2017 Letter.md -- wiki/sources/Bezos 2020 Letter.md
+- `0.8322` wiki/sources/Raskin Consulting Writeups.md -- wiki/sources/Raskin Zuora Pitch.md
+- `0.8322` wiki/entities/Ben Thompson.md -- wiki/sources/Thompson Bill Gates Line.md
+- `0.8318` wiki/sources/Fitzpatrick Foundercentric.md -- wiki/sources/Fitzpatrick Question Patterns.md
+- `0.8318` wiki/sources/Choudary Interviews.md -- wiki/sources/Choudary Platform Revolution.md
+- `0.8318` wiki/sources/Hoffman Blitzscaling Book.md -- wiki/sources/Hoffman Stanford CS183C.md
+- `0.8318` wiki/concepts/cherry-picks.md -- wiki/sources/claude-obsidian-ecosystem-research.md
+- `0.8317` wiki/sources/Bezos 2000 Letter.md -- wiki/sources/Bezos 2016 Day 1 Letter.md
+- `0.8316` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Grove Stanford Talks.md
+- `0.8315` wiki/sources/Rabois Barrel and Ammunition.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8314` wiki/sources/Grove High Output Management.md -- wiki/sources/Larson Elegant Puzzle.md
+- `0.8314` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8313` wiki/sources/Collison Cowen Interview.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8313` wiki/entities/Ben Horowitz.md -- wiki/sources/Chesky Founder Mode Essay.md
+- `0.8312` wiki/concepts/Founder Mode.md -- wiki/concepts/Scaling Operations.md
+- `0.8312` wiki/sources/Grove Stanford Talks.md -- wiki/sources/McCord Conference Talks.md
+- `0.8311` wiki/sources/Kahneman Lex Fridman.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8309` wiki/entities/Rob Fitzpatrick.md -- wiki/sources/Fitzpatrick Conference Talks.md
+- `0.8309` wiki/sources/Hassabis DeepMind Research Strategy.md -- wiki/sources/Hassabis Nobel Lecture.md
+- `0.8309` wiki/sources/Carmack QuakeCon 2013.md -- wiki/sources/Lamport Thinking for Programmers.md
+- `0.8308` wiki/sources/Choudary Platform Revolution.md -- wiki/sources/Thompson Bill Gates Line.md
+- `0.8306` wiki/entities/John Collison.md -- wiki/entities/Mike Maples.md
+- `0.8305` wiki/sources/Bezos 1997 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8304` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Chesky Altman Conversation.md
+- `0.8303` wiki/concepts/Compounding Knowledge.md -- wiki/concepts/Persistent Wiki Artifact.md
+- `0.8303` wiki/entities/Aaron Ross.md -- wiki/entities/Mike Maples.md
+- `0.8302` wiki/sources/Blank Lean Launchpad.md -- wiki/sources/Hoffman Stanford CS183C.md
+- `0.8302` wiki/sources/Hoffman Stanford CS183C.md -- wiki/sources/Thiel CS183 Notes.md
+- `0.8302` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8302` wiki/sources/Choudary HBR WEF Essays.md -- wiki/sources/Thompson Defining Aggregators.md
+- `0.8301` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Grove Stanford Talks.md
+- `0.8301` wiki/sources/Hassabis DeepMind Research Strategy.md -- wiki/sources/Hassabis Keynote Synthesis.md
+- `0.8301` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8301` wiki/sources/Lenny PMF Guide.md -- wiki/sources/Lenny Retention Benchmarks.md
+- `0.8299` wiki/entities/Ben Horowitz.md -- wiki/sources/Maples Backable Founders.md
+- `0.8299` wiki/sources/Choudary Interviews.md -- wiki/sources/Gurley All-In Podcast.md
+- `0.8299` wiki/sources/Amodei Anthropic Launches.md -- wiki/sources/Dunford Lenny Podcast.md
+- `0.8299` wiki/sources/Altman YC Essays.md -- wiki/sources/PG How to Start a Startup.md
+- `0.8298` wiki/sources/Hoffman Stanford CS183C.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8298` wiki/sources/Altman YC Essays.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8297` wiki/entities/John Collison.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8296` wiki/entities/Ben Horowitz.md -- wiki/entities/Steve Blank.md
+- `0.8296` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Lenny Retention Benchmarks.md
+- `0.8294` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Fitzpatrick Mom Test.md
+- `0.8292` wiki/sources/Bezos 2000 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8291` wiki/concepts/Founder Mode.md -- wiki/sources/Feld Startup Life.md
+- `0.8290` wiki/sources/Roberge HubSpot Playbook.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8290` wiki/entities/Andy Raskin.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8289` wiki/sources/Bezos 1999 Letter.md -- wiki/sources/Bezos 2006 Letter.md
+- `0.8289` wiki/sources/Maples Backable Founders.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8289` wiki/sources/Helmer 7 Powers Book.md -- wiki/sources/Thiel Zero to One.md
+- `0.8288` wiki/concepts/Founder Mode.md -- wiki/sources/Chesky Altman Conversation.md
+- `0.8288` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8286` wiki/sources/Maples Backable Founders.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8286` wiki/sources/Bezos 1997 Letter.md -- wiki/sources/Bezos 1999 Letter.md
+- `0.8285` wiki/concepts/Planning Before Code.md -- wiki/sources/Lamport Thinking for Programmers.md
+- `0.8285` wiki/entities/Andrej Karpathy.md -- wiki/sources/Karpathy Unreasonable Effectiveness of RNNs.md
+- `0.8284` wiki/concepts/Founder Mode.md -- wiki/entities/John Collison.md
+- `0.8284` wiki/sources/Taleb Bed of Procrustes.md -- wiki/sources/Taleb Black Swan.md
+- `0.8284` wiki/sources/Fitzpatrick Mom Test.md -- wiki/sources/Fitzpatrick Question Patterns.md
+- `0.8284` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Horowitz Take Care of People.md
+- `0.8283` wiki/sources/Collison Cowen Interview.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8283` wiki/sources/Maples Live in the Future.md -- wiki/sources/PG How to Start a Startup.md
+- `0.8283` wiki/sources/Karpathy 33 Years Ago and 33 Years From Now.md -- wiki/sources/Karpathy Unreasonable Effectiveness of RNNs.md
+- `0.8281` wiki/sources/Taleb Skin in the Game.md -- wiki/sources/Thiel Zero to One.md
+- `0.8281` wiki/entities/John Collison.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8279` wiki/entities/Steve Blank.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8279` wiki/concepts/Aggregation Theory.md -- wiki/sources/Helmer 7 Powers Book.md
+- `0.8278` wiki/sources/Gurley All-In Podcast.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8277` wiki/entities/Mike Maples.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8277` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Chesky Altman Conversation.md
+- `0.8277` wiki/entities/Lenny Rachitsky.md -- wiki/entities/Patrick Collison.md
+- `0.8276` wiki/sources/Maples Backable Founders.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8276` wiki/sources/Lenny Chesky Founder Mode.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8275` wiki/sources/Naval Almanack.md -- wiki/sources/Naval Joe Rogan JRE 1309.md
+- `0.8275` wiki/entities/Brad Feld.md -- wiki/entities/Dario Amodei.md
+- `0.8275` wiki/entities/Patty McCord.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8275` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8274` wiki/sources/Lenny PMF Guide.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8273` wiki/sources/Bezos 2011 Letter.md -- wiki/sources/Choudary HBR WEF Essays.md
+- `0.8273` wiki/sources/Kahneman Prospect Theory.md -- wiki/sources/Taleb Black Swan.md
+- `0.8271` wiki/entities/Dario Amodei.md -- wiki/sources/Hassabis DeepMind Research Strategy.md
+- `0.8271` wiki/sources/Choudary Interviews.md -- wiki/sources/Collison Cowen Interview.md
+- `0.8270` wiki/entities/John Collison.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8269` wiki/sources/Bezos 1997 Letter.md -- wiki/sources/Bezos 2003 Letter.md
+- `0.8269` wiki/sources/Duke Quit.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8269` wiki/concepts/Carmack on AGI.md -- wiki/sources/Hassabis DeepMind Research Strategy.md
+- `0.8269` wiki/sources/Maples Backable Founders.md -- wiki/sources/PG How to Start a Startup.md
+- `0.8268` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8268` wiki/sources/Roberge Math of B2B Sales.md -- wiki/sources/Slootman Snowflake Earnings.md
+- `0.8268` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8268` wiki/concepts/Founder Mode.md -- wiki/entities/Frank Slootman.md
+- `0.8266` wiki/entities/Ben Horowitz.md -- wiki/entities/Patty McCord.md
+- `0.8266` wiki/entities/Rob Fitzpatrick.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8266` wiki/sources/Amodei Anthropic Launches.md -- wiki/sources/Amodei Lex Fridman.md
+- `0.8265` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8265` wiki/concepts/Early-Stage Discipline.md -- wiki/sources/Altman YC Essays.md
+- `0.8263` wiki/concepts/AI-Native Economics.md -- wiki/entities/Ben Thompson.md
+- `0.8262` wiki/sources/Slootman Tape Sucks.md -- wiki/sources/Working Backwards Book.md
+- `0.8261` wiki/sources/Bezos 1998 Letter.md -- wiki/sources/Bezos 1999 Letter.md
+- `0.8261` wiki/sources/Roberge Math of B2B Sales.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8260` wiki/entities/Bill Gurley.md -- wiki/entities/Mike Maples.md
+- `0.8260` wiki/sources/Slootman Amp It Up.md -- wiki/sources/Working Backwards Book.md
+- `0.8260` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8259` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Chesky Altman Conversation.md
+- `0.8259` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Hoffman Stanford CS183C.md
+- `0.8259` wiki/entities/Demis Hassabis.md -- wiki/sources/Amodei Lex Fridman.md
+- `0.8257` wiki/sources/Dunford Lenny Podcast.md -- wiki/sources/Dunford Positioning Not Messaging.md
+- `0.8256` wiki/sources/McCord Powerful.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8256` wiki/entities/Andrej Karpathy.md -- wiki/sources/Hassabis DeepMind Research Strategy.md
+- `0.8256` wiki/entities/Aaron Ross.md -- wiki/entities/April Dunford.md
+- `0.8256` wiki/entities/Andrej Karpathy.md -- wiki/entities/Demis Hassabis.md
+- `0.8255` wiki/entities/Ben Horowitz.md -- wiki/sources/Feld Startup Boards.md
+- `0.8255` wiki/sources/Dunford Lenny Podcast.md -- wiki/sources/Gurley All-In Podcast.md
+- `0.8254` wiki/sources/Choudary Interviews.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8252` wiki/concepts/Early-Stage Discipline.md -- wiki/sources/Blank Four Steps to Epiphany.md
+- `0.8251` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/McCord Powerful.md
+- `0.8250` wiki/concepts/Product-Market Fit.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8250` wiki/entities/Steve Blank.md -- wiki/sources/PG Startup = Growth.md
+- `0.8250` wiki/sources/Chen Uber Rider Growth.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8250` wiki/sources/Roberge HubSpot Playbook.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8249` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8249` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Chen Growth Loops.md
+- `0.8248` wiki/concepts/Scaling Operations.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8248` wiki/sources/Collison Cowen Interview.md -- wiki/sources/Collison Money Stuff Podcast.md
+- `0.8248` wiki/sources/Duke Decision Journal.md -- wiki/sources/Duke Quit.md
+- `0.8247` wiki/concepts/AI-Native Economics.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8246` wiki/sources/Roberge HubSpot Playbook.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8246` wiki/entities/Dario Amodei.md -- wiki/entities/John Collison.md
+- `0.8246` wiki/entities/Ben Horowitz.md -- wiki/sources/Feld Startup Life.md
+- `0.8245` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Hoffman Masters of Scale.md
+- `0.8244` wiki/comparisons/claude-obsidian-ecosystem.md -- wiki/concepts/cherry-picks.md
+- `0.8243` wiki/sources/Carmack Oculus Connect 2014.md -- wiki/sources/Carmack QuakeCon 2013.md
+- `0.8243` wiki/sources/Grove High Output Management.md -- wiki/sources/Working Backwards Book.md
+- `0.8242` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Working Backwards Book.md
+- `0.8241` wiki/sources/Hoffman Blitzscaling Book.md -- wiki/sources/Thiel Last Mover Advantage.md
+- `0.8241` wiki/sources/Horowitz Peacetime Wartime CEO.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8241` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8241` wiki/concepts/Founder Resilience.md -- wiki/sources/Feld Startup Life.md
+- `0.8239` wiki/entities/John Collison.md -- wiki/sources/Hoffman Masters of Scale.md
+- `0.8237` wiki/sources/Blank Customer Development Blog.md -- wiki/sources/Blank Four Steps to Epiphany.md
+- `0.8237` wiki/entities/Aaron Ross.md -- wiki/entities/Andy Raskin.md
+- `0.8236` wiki/concepts/Aggregation Theory.md -- wiki/concepts/Disruption vs Aggregation.md
+- `0.8236` wiki/sources/Roberge HubSpot Playbook.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8236` wiki/sources/Thompson Aggregation Theory.md -- wiki/sources/Thompson Bill Gates Line.md
+- `0.8235` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8235` wiki/sources/Bezos 2010 Letter.md -- wiki/sources/Bezos 2011 Letter.md
+- `0.8235` wiki/sources/Horowitz The Struggle.md -- wiki/sources/PG Startup = Growth.md
+- `0.8235` wiki/concepts/Planning Before Code.md -- wiki/entities/John Allspaw.md
+- `0.8234` wiki/concepts/AI-Native Economics.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8233` wiki/sources/Bezos 2010 Letter.md -- wiki/sources/Vogels 10 Lessons from 10 Years of AWS.md
+- `0.8232` wiki/sources/Lenny Chesky Founder Mode.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8230` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8230` wiki/sources/Hoffman Blitzscaling Book.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8230` wiki/entities/Brad Feld.md -- wiki/sources/Horowitz The Struggle.md
+- `0.8230` wiki/entities/Aaron Ross.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8229` wiki/sources/Vogels Aurora Ascendant.md -- wiki/sources/Vogels Modern Applications.md
+- `0.8229` wiki/sources/Raskin Strategic Narrative.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8229` wiki/sources/Feld Startup Boards.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8228` wiki/concepts/Product-Market Fit.md -- wiki/sources/Lenny North Star Metric.md
+- `0.8228` wiki/sources/Dunford Lenny Podcast.md -- wiki/sources/Dunford Obviously Awesome.md
+- `0.8228` wiki/sources/Naval Almanack.md -- wiki/sources/Naval Specific Knowledge.md
+- `0.8226` wiki/sources/Christensen Innovators Dilemma.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8226` wiki/entities/kepano-obsidian-skills.md -- wiki/sources/claude-obsidian-ecosystem-research.md
+- `0.8226` wiki/sources/High Output Management.md -- wiki/sources/Working Backwards Book.md
+- `0.8224` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Christensen Innovators Dilemma.md
+- `0.8223` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Christensen JTBD.md
+- `0.8223` wiki/entities/Ben Thompson.md -- wiki/sources/Helmer 7 Powers Book.md
+- `0.8222` wiki/sources/Grove Stanford Talks.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8222` wiki/concepts/Decision Journals.md -- wiki/sources/Kahneman Noise Book.md
+- `0.8222` wiki/entities/Ben Horowitz.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8221` wiki/concepts/Working Backwards.md -- wiki/sources/Bezos 2008 Letter.md
+- `0.8221` wiki/entities/Dario Amodei.md -- wiki/sources/Amodei RSP Constitutional AI.md
+- `0.8220` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Helmer 7 Powers Book.md
+- `0.8220` wiki/sources/Rabois Stanford CS183.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8219` wiki/sources/Choudary Interviews.md -- wiki/sources/Thompson Bill Gates Line.md
+- `0.8219` wiki/sources/Collison Cowen Interview.md -- wiki/sources/Grove Stanford Talks.md
+- `0.8217` wiki/sources/Vogels Aurora Ascendant.md -- wiki/sources/Vogels DynamoDB Launch.md
+- `0.8216` wiki/sources/Hoffman Masters of Scale.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8216` wiki/entities/Aaron Ross.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8214` wiki/sources/Bezos 1999 Letter.md -- wiki/sources/Bezos 2007 Letter.md
+- `0.8214` wiki/sources/Horowitz The Struggle.md -- wiki/sources/Maples Backable Founders.md
+- `0.8213` wiki/sources/Bezos 1999 Letter.md -- wiki/sources/Bezos 2000 Letter.md
+- `0.8212` wiki/sources/Chen Cold Start Problem Book.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8212` wiki/entities/John Collison.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8210` wiki/sources/Feld Startup Boards.md -- wiki/sources/Thiel Zero to One.md
+- `0.8210` wiki/sources/Naval How to Get Rich.md -- wiki/sources/Naval Specific Knowledge.md
+- `0.8209` wiki/entities/Patty McCord.md -- wiki/sources/Horowitz Take Care of People.md
+- `0.8209` wiki/sources/Bezos 2000 Letter.md -- wiki/sources/Bezos 2005 Letter.md
+- `0.8208` wiki/sources/Bezos 2015 Letter.md -- wiki/sources/Bezos 2017 Letter.md
+- `0.8208` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Collison Money Stuff Podcast.md
+- `0.8208` wiki/sources/Amodei Anthropic Launches.md -- wiki/sources/Raskin Case Studies.md
+- `0.8204` wiki/sources/Hoffman Blitzscaling Book.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8204` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Choudary Interviews.md
+- `0.8204` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8204` wiki/sources/Bezos 2019 Letter.md -- wiki/sources/Bezos 2020 Letter.md
+- `0.8203` wiki/sources/Bezos 2005 Letter.md -- wiki/sources/Bezos 2008 Letter.md
+- `0.8202` wiki/concepts/AI-Native Economics.md -- wiki/entities/Dario Amodei.md
+- `0.8202` wiki/sources/McCord Conference Talks.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8202` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8201` wiki/sources/Vogels 10 Lessons from 10 Years of AWS.md -- wiki/sources/Vogels S3 Strong Consistency.md
+- `0.8201` wiki/sources/Dunford Sales Pitch Book.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8201` wiki/entities/Steve Blank.md -- wiki/sources/PG How to Start a Startup.md
+- `0.8201` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Amodei Anthropic Launches.md
+- `0.8200` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/McCord Conference Talks.md
+- `0.8200` wiki/sources/Dunford Positioning Not Messaging.md -- wiki/sources/Dunford Sales Pitch Book.md
+- `0.8198` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Thompson Aggregation Theory.md
+- `0.8197` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8197` wiki/sources/Hoffman Stanford CS183C.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8197` wiki/sources/Choudary Interviews.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8197` wiki/sources/Grove High Output Management.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8196` wiki/entities/Ben Thompson.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8196` wiki/concepts/Founder Mode.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8196` wiki/concepts/Founder Resilience.md -- wiki/sources/Feld Startup Boards.md
+- `0.8196` wiki/sources/Bezos 1999 Letter.md -- wiki/sources/Bezos 2014 Letter.md
+- `0.8195` wiki/concepts/Consumer Defensibility.md -- wiki/sources/Helmer 7 Powers Applied to AWS.md
+- `0.8195` wiki/sources/Altman YC Essays.md -- wiki/sources/Christensen How Will You Measure Your Life.md
+- `0.8195` wiki/sources/Grove High Output Management.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8194` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8194` wiki/entities/Aaron Ross.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8194` wiki/sources/Bezos 2016 Day 1 Letter.md -- wiki/sources/Bezos 2019 Letter.md
+- `0.8194` wiki/sources/Rabois Stanford CS183.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8194` wiki/sources/Chesky 11-Star Experience.md -- wiki/sources/Chesky Snow White Design.md
+- `0.8194` wiki/entities/April Dunford.md -- wiki/entities/Rob Fitzpatrick.md
+- `0.8192` wiki/sources/Roberge Sales Acceleration Formula.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8192` wiki/concepts/Planning Before Code.md -- wiki/sources/Lamport TLA+ Course Intro.md
+- `0.8190` wiki/entities/Steve Blank.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8189` wiki/concepts/AI-Native Economics.md -- wiki/sources/Helmer 7 Powers Book.md
+- `0.8189` wiki/sources/Naval Specific Knowledge.md -- wiki/sources/Thiel CS183 Notes.md
+- `0.8189` wiki/concepts/Aggregation Theory.md -- wiki/sources/Thompson End of the Beginning.md
+- `0.8188` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8188` wiki/sources/Vogels Decade of Dynamo.md -- wiki/sources/Vogels S3 Strong Consistency.md
+- `0.8188` wiki/sources/Gurley J-curve and Recap.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8187` wiki/entities/April Dunford.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8187` wiki/sources/Maples Backable Founders.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8187` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8187` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/McCord Conference Talks.md
+- `0.8187` wiki/sources/Maples Pattern Breakers.md -- wiki/sources/Taleb Black Swan.md
+- `0.8187` wiki/sources/Grove High Output Management.md -- wiki/sources/Larson Sizing Engineering Teams.md
+- `0.8186` wiki/entities/Brad Feld.md -- wiki/sources/Chesky Founder Mode Essay.md
+- `0.8185` wiki/entities/Patty McCord.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8183` wiki/sources/Bezos 2000 Letter.md -- wiki/sources/Bezos 2003 Letter.md
+- `0.8183` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Amodei Machines of Loving Grace.md
+- `0.8183` wiki/sources/Vogels Lambda Launch.md -- wiki/sources/Vogels Modern Applications.md
+- `0.8182` wiki/sources/Vogels Decade of Dynamo.md -- wiki/sources/Vogels Purpose-Built Databases.md
+- `0.8182` wiki/sources/Bezos 2010 Letter.md -- wiki/sources/Bezos 2013 Letter.md
+- `0.8182` wiki/concepts/Planning Before Code.md -- wiki/sources/Carmack Plan Archive 1998.md
+- `0.8182` wiki/sources/Kahneman Thinking Fast and Slow.md -- wiki/sources/Munger Psychology of Misjudgment.md
+- `0.8181` wiki/concepts/Carmack on AGI.md -- wiki/entities/Demis Hassabis.md
+- `0.8181` wiki/sources/Roberge Sales Acceleration Formula.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8181` wiki/entities/Patrick Collison.md -- wiki/sources/Dean Stanford Talk.md
+- `0.8181` wiki/sources/Bezos 2005 Letter.md -- wiki/sources/Bezos 2009 Letter.md
+- `0.8181` wiki/sources/Thiel Interviews Synthesis.md -- wiki/sources/Thiel Zero to One.md
+- `0.8181` wiki/sources/Bezos 2000 Letter.md -- wiki/sources/Bezos 2004 Letter.md
+- `0.8181` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8181` wiki/entities/John Collison.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8181` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Horowitz Take Care of People.md
+- `0.8180` wiki/sources/Roberge Interviews Synthesis.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8180` wiki/sources/Horowitz Take Care of People.md -- wiki/sources/McCord Powerful.md
+- `0.8179` wiki/sources/Munger Berkshire Q&A.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8179` wiki/entities/April Dunford.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8179` wiki/concepts/Aggregation Theory.md -- wiki/sources/Choudary HBR WEF Essays.md
+- `0.8178` wiki/concepts/Scaling Operations.md -- wiki/entities/Keith Rabois.md
+- `0.8178` wiki/concepts/Aggregation Theory.md -- wiki/sources/Raskin Zuora Pitch.md
+- `0.8178` wiki/sources/Rabois Barrel and Ammunition.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8177` wiki/concepts/Early-Stage Discipline.md -- wiki/entities/Steve Blank.md
+- `0.8177` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Gurley All-In Podcast.md
+- `0.8177` wiki/sources/Bezos 2001 Letter.md -- wiki/sources/Bezos 2003 Letter.md
+- `0.8177` wiki/entities/Andy Raskin.md -- wiki/entities/Mark Roberge.md
+- `0.8177` wiki/sources/Ross From Impossible to Inevitable.md -- wiki/sources/Ross Predictable Revenue.md
+- `0.8176` wiki/concepts/AI-Native Economics.md -- wiki/sources/Altman AGI Economics.md
+- `0.8175` wiki/sources/Bezos 2004 Letter.md -- wiki/sources/Bezos 2005 Letter.md
+- `0.8175` wiki/sources/Vogels Modern Applications.md -- wiki/sources/Vogels Purpose-Built Databases.md
+- `0.8174` wiki/sources/Roberge Interviews Synthesis.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8173` wiki/sources/Collison Money Stuff Podcast.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8173` wiki/entities/Keith Rabois.md -- wiki/entities/Mark Roberge.md
+- `0.8173` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/Munger Berkshire Q&A.md
+- `0.8173` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Hoffman Masters of Scale.md
+- `0.8173` wiki/entities/John Collison.md -- wiki/sources/Chesky Founder Mode Essay.md
+- `0.8172` wiki/sources/Lenny Retention Benchmarks.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8172` wiki/sources/Bezos 2007 Letter.md -- wiki/sources/Bezos 2008 Letter.md
+- `0.8172` wiki/concepts/Carmack on AGI.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8172` wiki/sources/Bezos 2009 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8171` wiki/sources/Vogels Distributed Computing Manifesto.md -- wiki/sources/Vogels Modern Applications.md
+- `0.8171` wiki/sources/Bezos 2007 Letter.md -- wiki/sources/Bezos 2013 Letter.md
+- `0.8171` wiki/sources/Choudary Platform Scale.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8171` wiki/entities/Bill Gurley.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8170` wiki/entities/Jeff Dean.md -- wiki/sources/Larson Elegant Puzzle.md
+- `0.8170` wiki/entities/Ben Thompson.md -- wiki/sources/Choudary HBR WEF Essays.md
+- `0.8170` wiki/entities/ballred-obsidian-claude-pkm.md -- wiki/sources/claude-obsidian-ecosystem-research.md
+- `0.8169` wiki/sources/Naval Joe Rogan JRE 1309.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8168` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8167` wiki/sources/Bezos 2003 Letter.md -- wiki/sources/Bezos 2006 Letter.md
+- `0.8166` wiki/sources/Christensen Innovators Dilemma.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8166` wiki/sources/Helmer 7 Powers Applied to AWS.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8164` wiki/entities/Dario Amodei.md -- wiki/sources/Altman AGI Economics.md
+- `0.8164` wiki/sources/Altman YC Essays.md -- wiki/sources/Blank Customer Development Blog.md
+- `0.8163` wiki/sources/Amodei Machines of Loving Grace.md -- wiki/sources/Maples Live in the Future.md
+- `0.8163` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8163` wiki/sources/Collison Cowen Interview.md -- wiki/sources/Naval Joe Rogan JRE 1309.md
+- `0.8162` wiki/concepts/Founder Mode.md -- wiki/sources/Altman YC Essays.md
+- `0.8162` wiki/sources/McCord Powerful.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8160` wiki/sources/Lenny North Star Metric.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8160` wiki/sources/Grove OKR Origin.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8160` wiki/sources/Kahneman Lex Fridman.md -- wiki/sources/McCord Conference Talks.md
+- `0.8159` wiki/entities/Ben Horowitz.md -- wiki/entities/Dario Amodei.md
+- `0.8158` wiki/concepts/Founder Mode.md -- wiki/sources/Maples Backable Founders.md
+- `0.8158` wiki/sources/Gurley All-In Podcast.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8158` wiki/sources/Gurley Above the Crowd.md -- wiki/sources/Gurley All-In Podcast.md
+- `0.8157` wiki/entities/Ben Horowitz.md -- wiki/sources/Blank Four Steps to Epiphany.md
+- `0.8157` wiki/sources/Lenny Chesky Founder Mode.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8157` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Hoffman Stanford CS183C.md
+- `0.8155` wiki/entities/Ben Thompson.md -- wiki/sources/Raskin Zuora Pitch.md
+- `0.8155` wiki/sources/Thompson Bill Gates Line.md -- wiki/sources/Thompson End of the Beginning.md
+- `0.8154` wiki/sources/Horowitz Take Care of People.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8154` wiki/entities/Bill Gurley.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8154` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/McCord Conference Talks.md
+- `0.8153` wiki/concepts/Scaling Operations.md -- wiki/sources/Grove High Output Management.md
+- `0.8152` wiki/concepts/AI-Native Economics.md -- wiki/sources/Hassabis DeepMind Research Strategy.md
+- `0.8152` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Horowitz The Struggle.md
+- `0.8152` wiki/sources/Grove Stanford Talks.md -- wiki/sources/Kahneman Lex Fridman.md
+- `0.8152` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Choudary Interviews.md
+- `0.8152` wiki/sources/Horowitz Take Care of People.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8150` wiki/concepts/AI-Native Economics.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8150` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Fitzpatrick Conference Talks.md
+- `0.8149` wiki/entities/Dario Amodei.md -- wiki/entities/Mike Maples.md
+- `0.8149` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8148` wiki/sources/Maples Inflections vs Ideas.md -- wiki/sources/PG How to Start a Startup.md
+- `0.8148` wiki/concepts/AI-Native Economics.md -- wiki/concepts/Aggregation Theory.md
+- `0.8148` wiki/sources/Bezos 2011 Letter.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8147` wiki/sources/Raskin Case Studies.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8147` wiki/sources/Fitzpatrick Mom Test.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8146` wiki/entities/Aaron Ross.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8146` wiki/sources/Blank Customer Development Blog.md -- wiki/sources/Blank Startup Owners Manual.md
+- `0.8146` wiki/sources/Carmack Plan Archive 1998.md -- wiki/sources/Vogels Distributed Computing Manifesto.md
+- `0.8144` wiki/sources/Lamport TLA+ Course Intro.md -- wiki/sources/Lampson Turing Award Lecture 1992.md
+- `0.8144` wiki/sources/Altman AGI Economics.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8144` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8143` wiki/sources/Altman AGI Economics.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8143` wiki/concepts/Scaling Operations.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8143` wiki/sources/Dunford Lenny Podcast.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8142` wiki/entities/Lenny Rachitsky.md -- wiki/entities/Mike Maples.md
+- `0.8141` wiki/sources/Roberge Math of B2B Sales.md -- wiki/sources/Thiel Zero to One.md
+- `0.8141` wiki/sources/Rabois PayPal Mafia Hiring.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8140` wiki/concepts/Carmack on AGI.md -- wiki/entities/Dario Amodei.md
+- `0.8140` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Hoffman Stanford CS183C.md
+- `0.8140` wiki/sources/Grove Stanford Talks.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8140` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Thiel Zero to One.md
+- `0.8138` wiki/sources/Roberge Sales Acceleration Formula.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8138` wiki/sources/McCord Powerful.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8138` wiki/concepts/Founder Mode.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8137` wiki/sources/Horowitz Take Care of People.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8137` wiki/sources/Choudary Interviews.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8137` wiki/sources/Choudary Interviews.md -- wiki/sources/McCord Conference Talks.md
+- `0.8136` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Munger Berkshire Q&A.md
+- `0.8136` wiki/entities/April Dunford.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8135` wiki/sources/Bezos 2001 Letter.md -- wiki/sources/Bezos 2005 Letter.md
+- `0.8135` wiki/sources/Gurley J-curve and Recap.md -- wiki/sources/Maples Inflections vs Ideas.md
+- `0.8134` wiki/sources/Maples Backable Founders.md -- wiki/sources/Maples Inflections vs Ideas.md
+- `0.8134` wiki/sources/Altman YC Essays.md -- wiki/sources/Blank Four Steps to Epiphany.md
+- `0.8134` wiki/entities/Ben Thompson.md -- wiki/sources/Thiel Zero to One.md
+- `0.8133` wiki/concepts/Decision Journals.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8133` wiki/sources/Raskin Case Studies.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8133` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8133` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8133` wiki/sources/Bezos 2007 Letter.md -- wiki/sources/Vogels Working Backwards.md
+- `0.8132` wiki/entities/Bill Gurley.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8132` wiki/sources/Collison Cowen Interview.md -- wiki/sources/Kahneman Lex Fridman.md
+- `0.8132` wiki/entities/Brad Feld.md -- wiki/entities/Steve Blank.md
+- `0.8131` wiki/sources/Amodei Machines of Loving Grace.md -- wiki/sources/Maples Inflections vs Ideas.md
+- `0.8131` wiki/sources/Bezos 2003 Letter.md -- wiki/sources/Bezos 2016 Day 1 Letter.md
+- `0.8131` wiki/sources/Kahneman Lex Fridman.md -- wiki/sources/Naval Joe Rogan JRE 1309.md
+- `0.8131` wiki/sources/Hoffman Stanford CS183C.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8131` wiki/sources/Blank Customer Development Blog.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8131` wiki/concepts/Aggregation Theory.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8130` wiki/sources/Dean Stanford Talk.md -- wiki/sources/Vogels 10 Lessons from 10 Years of AWS.md
+- `0.8130` wiki/sources/Carmack on AGI Keen Technologies.md -- wiki/sources/Chesky Altman Conversation.md
+- `0.8130` wiki/concepts/Founder Mode.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8130` wiki/sources/Carmack Meta Connect 2022 Unscripted.md -- wiki/sources/Chesky Altman Conversation.md
+- `0.8130` wiki/sources/Rabois Barrel and Ammunition.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8129` wiki/sources/Rabois 20VC Interview.md -- wiki/sources/Slootman Snowflake Earnings.md
+- `0.8129` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/McCord HBR Essays.md
+- `0.8129` wiki/sources/McCord Powerful.md -- wiki/sources/Taleb Bed of Procrustes.md
+- `0.8129` wiki/entities/Frank Slootman.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8128` wiki/sources/Blank Startup Owners Manual.md -- wiki/sources/Christensen Innovators Solution.md
+- `0.8127` wiki/entities/Ben Horowitz.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8126` wiki/sources/Rabois Stanford CS183.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8126` wiki/sources/Duke Decision Journal.md -- wiki/sources/Duke Thinking in Bets.md
+- `0.8124` wiki/concepts/Persistent Wiki Artifact.md -- wiki/concepts/Source-First Synthesis.md
+- `0.8123` wiki/concepts/Customer Obsession.md -- wiki/sources/Christensen Innovators Solution.md
+- `0.8123` wiki/sources/Choudary HBR WEF Essays.md -- wiki/sources/Raskin Zuora Pitch.md
+- `0.8123` wiki/concepts/AI-Native Economics.md -- wiki/concepts/Carmack on AGI.md
+- `0.8123` wiki/concepts/Customer Obsession.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8122` wiki/sources/Altman YC Essays.md -- wiki/sources/McCord Powerful.md
+- `0.8122` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8122` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Working Backwards Book.md
+- `0.8122` wiki/entities/Patty McCord.md -- wiki/sources/Chesky Founder Mode Essay.md
+- `0.8122` wiki/concepts/Founder Resilience.md -- wiki/sources/Horowitz The Struggle.md
+- `0.8122` wiki/sources/Helmer Counter-Positioning Deep Dive.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8122` wiki/sources/Altman YC Essays.md -- wiki/sources/Thiel CS183 Notes.md
+- `0.8121` wiki/entities/Keith Rabois.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8120` wiki/sources/Altman YC Essays.md -- wiki/sources/Chesky Founder Mode Essay.md
+- `0.8120` wiki/entities/John Collison.md -- wiki/entities/Mark Roberge.md
+- `0.8120` wiki/sources/Feld Startup Life.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8119` wiki/sources/Hoffman The Alliance.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8119` wiki/entities/Frank Slootman.md -- wiki/entities/Mark Roberge.md
+- `0.8118` wiki/sources/Dunford Lenny Podcast.md -- wiki/sources/Slootman Snowflake Earnings.md
+- `0.8118` wiki/entities/Ben Thompson.md -- wiki/sources/Helmer 7 Powers Applied to AWS.md
+- `0.8118` wiki/sources/Grove Stanford Talks.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8118` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Carmack Meta Connect 2022 Unscripted.md
+- `0.8117` wiki/sources/Bezos 2007 Letter.md -- wiki/sources/Bezos 2010 Letter.md
+- `0.8117` wiki/concepts/Founder Mode.md -- wiki/sources/Christensen Innovators Solution.md
+- `0.8117` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Hassabis Keynote Synthesis.md
+- `0.8117` wiki/sources/Raskin Zuora Pitch.md -- wiki/sources/Thompson Aggregation Theory.md
+- `0.8116` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8116` wiki/sources/Bezos 2008 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8115` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8115` wiki/sources/Bezos 2002 API Mandate.md -- wiki/sources/Vogels Distributed Computing Manifesto.md
+- `0.8114` wiki/sources/Larson Sizing Engineering Teams.md -- wiki/sources/Larson Staff Archetypes.md
+- `0.8114` wiki/sources/Raskin Consulting Writeups.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8114` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8113` wiki/sources/Bezos 2011 Letter.md -- wiki/sources/Thompson Bill Gates Line.md
+- `0.8113` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Feld Startup Boards.md
+- `0.8113` wiki/concepts/Disruption vs Aggregation.md -- wiki/entities/Bill Gurley.md
+- `0.8112` wiki/entities/April Dunford.md -- wiki/entities/John Collison.md
+- `0.8112` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8112` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Fitzpatrick Conference Talks.md
+- `0.8112` wiki/sources/Grove Stanford Talks.md -- wiki/sources/Munger Poor Charlies Almanack.md
+- `0.8111` wiki/entities/Ben Thompson.md -- wiki/sources/Hassabis DeepMind Research Strategy.md
+- `0.8111` wiki/entities/Andy Raskin.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8111` wiki/sources/Lenny Chesky Founder Mode.md -- wiki/sources/Maples Backable Founders.md
+- `0.8111` wiki/sources/Bezos 2000 Letter.md -- wiki/sources/Bezos 2006 Letter.md
+- `0.8111` wiki/entities/John Allspaw.md -- wiki/sources/Larson Elegant Puzzle.md
+- `0.8111` wiki/sources/Raskin Zuora Pitch.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8110` wiki/concepts/Staff Engineer Ladder.md -- wiki/sources/Larson Migrations.md
+- `0.8110` wiki/sources/Dunford Lenny Podcast.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8110` wiki/sources/Bezos 2003 Letter.md -- wiki/sources/Bezos 2004 Letter.md
+- `0.8109` wiki/sources/Hassabis DeepMind Research Strategy.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8108` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Naval Joe Rogan JRE 1309.md
+- `0.8108` wiki/sources/Bezos 1997 Letter.md -- wiki/sources/Bezos 2017 Letter.md
+- `0.8108` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8108` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8108` wiki/sources/Christensen Innovators Dilemma.md -- wiki/sources/Grove Only the Paranoid Survive.md
+- `0.8108` wiki/concepts/AI-Native Economics.md -- wiki/sources/Chen Uber Rider Growth.md
+- `0.8107` wiki/concepts/Product-Market Fit.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8107` wiki/entities/Steve Blank.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8107` wiki/concepts/Founder Resilience.md -- wiki/sources/Horowitz Take Care of People.md
+- `0.8106` wiki/sources/Roberge HubSpot Playbook.md -- wiki/sources/Working Backwards Book.md
+- `0.8106` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Collison Cowen Interview.md
+- `0.8106` wiki/entities/Mark Roberge.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8106` wiki/sources/Roberge Math of B2B Sales.md -- wiki/sources/Ross Predictable Revenue.md
+- `0.8106` wiki/sources/Christensen JTBD.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8106` wiki/sources/Altman YC Essays.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8105` wiki/sources/Hoffman Blitzscaling Book.md -- wiki/sources/Horowitz Peacetime Wartime CEO.md
+- `0.8105` wiki/sources/Bezos 1998 Letter.md -- wiki/sources/Bezos 2016 Day 1 Letter.md
+- `0.8105` wiki/sources/Hoffman Stanford CS183C.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8105` wiki/sources/Chen Uber Rider Growth.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8105` wiki/concepts/Founder Mode.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8104` wiki/sources/Vogels Aurora Ascendant.md -- wiki/sources/Vogels Lambda Launch.md
+- `0.8104` wiki/sources/Horowitz Peacetime Wartime CEO.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8104` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/McCord Conference Talks.md
+- `0.8104` wiki/sources/Helmer Counter-Positioning Deep Dive.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8104` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Thiel Zero to One.md
+- `0.8103` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Helmer 7 Powers Applied to AWS.md
+- `0.8102` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Grove Stanford Talks.md
+- `0.8102` wiki/entities/John Collison.md -- wiki/sources/Choudary Interviews.md
+- `0.8102` wiki/sources/Taleb Antifragile.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8102` wiki/sources/Larson Elegant Puzzle.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8101` wiki/entities/Bill Gurley.md -- wiki/sources/Helmer 7 Powers Book.md
+- `0.8101` wiki/entities/Aaron Ross.md -- wiki/sources/Blank Four Steps to Epiphany.md
+- `0.8101` wiki/entities/Mark Roberge.md -- wiki/sources/Dunford Sales Pitch Book.md
+- `0.8101` wiki/sources/Bezos 2011 Letter.md -- wiki/sources/Choudary Interviews.md
+- `0.8100` wiki/sources/Munger Berkshire Q&A.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8099` wiki/entities/Andrej Karpathy.md -- wiki/entities/Dario Amodei.md
+- `0.8099` wiki/sources/Bezos 1997 Letter.md -- wiki/sources/Bezos 2000 Letter.md
+- `0.8099` wiki/sources/Ross Podcast Synthesis.md -- wiki/sources/Slootman Snowflake Earnings.md
+- `0.8098` wiki/sources/McCord Conference Talks.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8098` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/Taleb Bed of Procrustes.md
+- `0.8097` wiki/sources/Bezos 1999 Letter.md -- wiki/sources/Bezos 2003 Letter.md
+- `0.8097` wiki/sources/Duke Podcast Synthesis.md -- wiki/sources/Duke Quit.md
+- `0.8097` wiki/entities/Ben Thompson.md -- wiki/sources/Chen Uber Rider Growth.md
+- `0.8097` wiki/sources/Feld Startup Life.md -- wiki/sources/Horowitz Take Care of People.md
+- `0.8097` wiki/concepts/Disruption vs Aggregation.md -- wiki/concepts/Marketplace Liquidity.md
+- `0.8096` wiki/sources/Bezos 2011 Letter.md -- wiki/sources/Choudary Platform Revolution.md
+- `0.8096` wiki/sources/Choudary Platform Scale.md -- wiki/sources/Thompson Bill Gates Line.md
+- `0.8096` wiki/entities/Aaron Ross.md -- wiki/entities/Steve Blank.md
+- `0.8096` wiki/entities/Keith Rabois.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8096` wiki/entities/Mark Roberge.md -- wiki/sources/Blank Four Steps to Epiphany.md
+- `0.8096` wiki/concepts/Early-Stage Discipline.md -- wiki/concepts/Product-Market Fit.md
+- `0.8095` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/Feld Startup Boards.md
+- `0.8095` wiki/concepts/Planning Before Code.md -- wiki/sources/Larson Elegant Puzzle.md
+- `0.8095` wiki/sources/Dean Latency Numbers.md -- wiki/sources/Dean Stanford Talk.md
+- `0.8094` wiki/entities/Ben Thompson.md -- wiki/entities/Dario Amodei.md
+- `0.8094` wiki/sources/Larson Elegant Puzzle.md -- wiki/sources/McCord Powerful.md
+- `0.8094` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Chen Uber Rider Growth.md
+- `0.8094` wiki/entities/Patty McCord.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8093` wiki/entities/Mike Maples.md -- wiki/sources/Blank Four Steps to Epiphany.md
+- `0.8092` wiki/concepts/Aggregation Theory.md -- wiki/sources/Christensen Innovators Dilemma.md
+- `0.8092` wiki/sources/Helmer Counter-Positioning Deep Dive.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8092` wiki/entities/Ben Horowitz.md -- wiki/entities/Frank Slootman.md
+- `0.8092` wiki/sources/Bezos 2006 Letter.md -- wiki/sources/Bezos 2013 Letter.md
+- `0.8092` wiki/sources/Grove Only the Paranoid Survive.md -- wiki/sources/Helmer 7 Powers Book.md
+- `0.8091` wiki/sources/Raskin Zuora Pitch.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8090` wiki/sources/Vogels Distributed Computing Manifesto.md -- wiki/sources/Vogels S3 Strong Consistency.md
+- `0.8090` wiki/sources/Bezos 2015 Letter.md -- wiki/sources/Working Backwards Book.md
+- `0.8090` wiki/entities/Lenny Rachitsky.md -- wiki/entities/Mark Roberge.md
+- `0.8090` wiki/sources/Choudary Platform Scale.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8090` wiki/sources/Munger Psychology of Misjudgment.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8089` wiki/sources/Collison Money Stuff Podcast.md -- wiki/sources/Gurley All-In Podcast.md
+- `0.8089` wiki/entities/Patrick Collison.md -- wiki/sources/Carmack on AGI Keen Technologies.md
+- `0.8089` wiki/sources/Grove Only the Paranoid Survive.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8089` wiki/concepts/Product-Market Fit.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8089` wiki/sources/Choudary Interviews.md -- wiki/sources/Collison Money Stuff Podcast.md
+- `0.8089` wiki/sources/Vogels DynamoDB Launch.md -- wiki/sources/Vogels Working Backwards.md
+- `0.8088` wiki/entities/Brad Feld.md -- wiki/entities/Patrick Collison.md
+- `0.8088` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Helmer 7 Powers Applied to AWS.md
+- `0.8088` wiki/entities/Patty McCord.md -- wiki/sources/McCord Conference Talks.md
+- `0.8088` wiki/sources/Designing Data-Intensive Applications.md -- wiki/sources/Grove High Output Management.md
+- `0.8086` wiki/entities/Dario Amodei.md -- wiki/sources/Hassabis Keynote Synthesis.md
+- `0.8085` wiki/sources/Slootman Amp It Up.md -- wiki/sources/Slootman Snowflake Earnings.md
+- `0.8085` wiki/sources/Hoffman Stanford CS183C.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8085` wiki/sources/Bezos 2007 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8085` wiki/entities/Ben Horowitz.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8085` wiki/entities/Aaron Ross.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8084` wiki/sources/Bezos 2013 Letter.md -- wiki/sources/Vogels Distributed Computing Manifesto.md
+- `0.8084` wiki/sources/Munger Berkshire Q&A.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8083` wiki/entities/Keith Rabois.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8083` wiki/concepts/Aggregation Theory.md -- wiki/concepts/Consumer Defensibility.md
+- `0.8083` wiki/entities/Aaron Ross.md -- wiki/entities/John Collison.md
+- `0.8083` wiki/sources/Grove OKR Origin.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8082` wiki/entities/Ben Horowitz.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8082` wiki/concepts/AI-Native Economics.md -- wiki/sources/Christensen Innovators Solution.md
+- `0.8081` wiki/entities/Patty McCord.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8081` wiki/entities/Keith Rabois.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8081` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8080` wiki/sources/Dunford Obviously Awesome.md -- wiki/sources/Lenny North Star Metric.md
+- `0.8080` wiki/concepts/Early-Stage Discipline.md -- wiki/sources/Maples Inflections vs Ideas.md
+- `0.8079` wiki/concepts/AI-Native Economics.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8079` wiki/sources/Blank Customer Development Blog.md -- wiki/sources/Maples Inflections vs Ideas.md
+- `0.8079` wiki/concepts/Early-Stage Discipline.md -- wiki/sources/Horowitz The Struggle.md
+- `0.8078` wiki/sources/Bezos 1997 Letter.md -- wiki/sources/Bezos 2020 Letter.md
+- `0.8078` wiki/sources/Chen Uber Rider Growth.md -- wiki/sources/Choudary HBR WEF Essays.md
+- `0.8078` wiki/concepts/Marketplace Liquidity.md -- wiki/entities/Ben Thompson.md
+- `0.8078` wiki/sources/Fitzpatrick Mom Test.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8077` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8076` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Collison Money Stuff Podcast.md
+- `0.8076` wiki/sources/Collison Money Stuff Podcast.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8076` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8076` wiki/entities/Ben Horowitz.md -- wiki/sources/Maples Live in the Future.md
+- `0.8075` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8075` wiki/entities/Andy Raskin.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8075` wiki/sources/Dunford Sales Pitch Book.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8075` wiki/entities/Lenny Rachitsky.md -- wiki/entities/Rob Fitzpatrick.md
+- `0.8075` wiki/concepts/Aggregation Theory.md -- wiki/sources/Vogels Modern Applications.md
+- `0.8074` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Thiel Zero to One.md
+- `0.8074` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Raskin Case Studies.md
+- `0.8074` wiki/sources/Rabois Barrel and Ammunition.md -- wiki/sources/Raskin Strategic Narrative.md
+- `0.8074` wiki/sources/Altman YC Essays.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8074` wiki/entities/Brad Feld.md -- wiki/sources/Altman YC Essays.md
+- `0.8073` wiki/sources/Bezos 2008 Letter.md -- wiki/sources/Bezos 2009 Letter.md
+- `0.8073` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/McCord Conference Talks.md
+- `0.8073` wiki/concepts/Carmack on AGI.md -- wiki/sources/Altman AGI Economics.md
+- `0.8073` wiki/sources/Gurley All-In Podcast.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8073` wiki/sources/Choudary Platform Scale.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8073` wiki/entities/Andrej Karpathy.md -- wiki/entities/Jeff Dean.md
+- `0.8072` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Munger Berkshire Q&A.md
+- `0.8072` wiki/entities/John Collison.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8071` wiki/sources/Raskin Case Studies.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8071` wiki/concepts/Product-Market Fit.md -- wiki/sources/PG Startup = Growth.md
+- `0.8071` wiki/entities/Demis Hassabis.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8071` wiki/sources/Altman YC Essays.md -- wiki/sources/Thiel Zero to One.md
+- `0.8070` wiki/entities/John Collison.md -- wiki/sources/Maples Backable Founders.md
+- `0.8070` wiki/sources/Bezos 2006 Letter.md -- wiki/sources/Bezos 2016 Day 1 Letter.md
+- `0.8070` wiki/entities/Ben Horowitz.md -- wiki/entities/Mark Roberge.md
+- `0.8070` wiki/sources/Bezos 2005 Letter.md -- wiki/sources/Bezos 2006 Letter.md
+- `0.8070` wiki/sources/Gurley Above the Crowd.md -- wiki/sources/Gurley All Markets Not Equal.md
+- `0.8070` wiki/concepts/Founder Mode.md -- wiki/sources/McCord Powerful.md
+- `0.8069` wiki/sources/Fitzpatrick Foundercentric.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8069` wiki/sources/Bezos 2006 Letter.md -- wiki/sources/Bezos 2008 Letter.md
+- `0.8069` wiki/sources/Maples Backable Founders.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8069` wiki/sources/Maples Pattern Breakers.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8069` wiki/entities/Dario Amodei.md -- wiki/entities/John Allspaw.md
+- `0.8069` wiki/sources/Bezos 2010 Letter.md -- wiki/sources/Dean Stanford Talk.md
+- `0.8069` wiki/sources/Christensen Innovators Dilemma.md -- wiki/sources/Helmer 7 Powers Book.md
+- `0.8069` wiki/sources/Bezos 1999 Letter.md -- wiki/sources/Bezos 2019 Letter.md
+- `0.8069` wiki/sources/Lenny PMF Guide.md -- wiki/sources/Thompson Defining Aggregators.md
+- `0.8068` wiki/concepts/cherry-picks.md -- wiki/entities/kepano-obsidian-skills.md
+- `0.8067` wiki/concepts/Aggregation Theory.md -- wiki/concepts/Marketplace Liquidity.md
+- `0.8066` wiki/entities/April Dunford.md -- wiki/sources/Raskin Case Studies.md
+- `0.8066` wiki/sources/Gurley All Markets Not Equal.md -- wiki/sources/Thompson Defining Aggregators.md
+- `0.8066` wiki/sources/Altman YC Essays.md -- wiki/sources/Raskin Zuora Pitch.md
+- `0.8066` wiki/sources/Munger Berkshire Q&A.md -- wiki/sources/Working Backwards Book.md
+- `0.8065` wiki/entities/Patrick Collison.md -- wiki/sources/Larson Elegant Puzzle.md
+- `0.8065` wiki/sources/Bezos 2014 Letter.md -- wiki/sources/Bezos 2016 Day 1 Letter.md
+- `0.8065` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Amodei Anthropic Launches.md
+- `0.8064` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8064` wiki/concepts/Consumer Defensibility.md -- wiki/concepts/Disruption vs Aggregation.md
+- `0.8064` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8063` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8063` wiki/entities/Ar9av-obsidian-wiki.md -- wiki/entities/kepano-obsidian-skills.md
+- `0.8062` wiki/sources/Ross From Impossible to Inevitable.md -- wiki/sources/Thiel Last Mover Advantage.md
+- `0.8062` wiki/entities/Aaron Ross.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8062` wiki/entities/Steve Blank.md -- wiki/sources/Horowitz The Struggle.md
+- `0.8062` wiki/entities/Frank Slootman.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8062` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Horowitz Peacetime Wartime CEO.md
+- `0.8061` wiki/sources/Raskin Consulting Writeups.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8061` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Horowitz Peacetime Wartime CEO.md
+- `0.8060` wiki/concepts/AI-Native Economics.md -- wiki/sources/Helmer 7 Powers Applied to AWS.md
+- `0.8060` wiki/sources/McCord Powerful.md -- wiki/sources/Munger Berkshire Q&A.md
+- `0.8060` wiki/sources/Altman YC Essays.md -- wiki/sources/Christensen JTBD.md
+- `0.8060` wiki/sources/Bezos 2013 Letter.md -- wiki/sources/Bezos 2014 Letter.md
+- `0.8060` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Working Backwards Book.md
+- `0.8059` wiki/sources/Dunford Lenny Podcast.md -- wiki/sources/Fitzpatrick Conference Talks.md
+- `0.8059` wiki/concepts/Customer Obsession.md -- wiki/sources/Bezos 1998 Letter.md
+- `0.8059` wiki/sources/Larson Elegant Puzzle.md -- wiki/sources/Vogels Eventually Consistent.md
+- `0.8058` wiki/entities/Andy Raskin.md -- wiki/entities/Rob Fitzpatrick.md
+- `0.8058` wiki/entities/Andy Raskin.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8058` wiki/sources/Carmack Lex Fridman 309.md -- wiki/sources/Grove Stanford Talks.md
+- `0.8057` wiki/concepts/Marketplace Liquidity.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8057` wiki/sources/Blank Lean Launchpad.md -- wiki/sources/Thiel CS183 Notes.md
+- `0.8057` wiki/sources/Duke Podcast Synthesis.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8056` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8056` wiki/sources/Amodei Lex Fridman.md -- wiki/sources/Collison Money Stuff Podcast.md
+- `0.8056` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Raskin Case Studies.md
+- `0.8056` wiki/entities/April Dunford.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8055` wiki/sources/Duke Podcast Synthesis.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8055` wiki/sources/Bezos 2001 Letter.md -- wiki/sources/Bezos 2015 Letter.md
+- `0.8055` wiki/sources/Altman YC Essays.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8055` wiki/entities/Brad Feld.md -- wiki/sources/PG How to Get Startup Ideas.md
+- `0.8054` wiki/sources/Kahneman Lex Fridman.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8054` wiki/sources/Dunford Lenny Podcast.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8054` wiki/entities/Patty McCord.md -- wiki/sources/McCord Netflix Culture Deck.md
+- `0.8053` wiki/sources/Bezos 2011 Letter.md -- wiki/sources/Bezos 2013 Letter.md
+- `0.8053` wiki/sources/Hoffman Stanford CS183C.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8053` wiki/entities/Demis Hassabis.md -- wiki/sources/Hassabis Lex Fridman.md
+- `0.8053` wiki/entities/Ben Horowitz.md -- wiki/sources/Christensen Innovators Solution.md
+- `0.8053` wiki/concepts/Founder Mode.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8053` wiki/sources/Blank Customer Development Blog.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8052` wiki/sources/Vogels Reinventing Virtualization Nitro.md -- wiki/sources/Vogels S3 Strong Consistency.md
+- `0.8052` wiki/sources/Altman AGI Economics.md -- wiki/sources/Amodei Lex Fridman.md
+- `0.8052` wiki/sources/Bezos 2003 Letter.md -- wiki/sources/Bezos 2008 Letter.md
+- `0.8052` wiki/sources/Slootman Tape Sucks.md -- wiki/sources/Vogels Working Backwards.md
+- `0.8052` wiki/sources/Helmer 7 Powers Book.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8052` wiki/sources/Altman AGI Economics.md -- wiki/sources/Amodei Machines of Loving Grace.md
+- `0.8051` wiki/concepts/LLM Wiki Pattern.md -- wiki/entities/rvk7895-llm-knowledge-bases.md
+- `0.8051` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Grove Only the Paranoid Survive.md
+- `0.8051` wiki/sources/Vogels Working Backwards.md -- wiki/sources/Working Backwards Book.md
+- `0.8051` wiki/sources/Lenny Chesky Founder Mode.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8050` wiki/sources/Bezos 1997 Letter.md -- wiki/sources/Bezos 1998 Letter.md
+- `0.8050` wiki/sources/Munger Berkshire Q&A.md -- wiki/sources/Slootman Snowflake Earnings.md
+- `0.8049` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8049` wiki/entities/Demis Hassabis.md -- wiki/entities/John Collison.md
+- `0.8049` wiki/concepts/Decision Journals.md -- wiki/entities/Annie Duke.md
+- `0.8049` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Hoffman Masters of Scale.md
+- `0.8048` wiki/sources/Fitzpatrick Conference Talks.md -- wiki/sources/Hoffman Masters of Scale.md
+- `0.8047` wiki/concepts/Product-Market Fit.md -- wiki/sources/Lenny Retention Benchmarks.md
+- `0.8045` wiki/entities/John Collison.md -- wiki/entities/Patty McCord.md
+- `0.8045` wiki/entities/Bill Gurley.md -- wiki/sources/Chen Uber Rider Growth.md
+- `0.8045` wiki/sources/Vogels DynamoDB Launch.md -- wiki/sources/Vogels Purpose-Built Databases.md
+- `0.8045` wiki/sources/Maples Pattern Breakers.md -- wiki/sources/Naval Specific Knowledge.md
+- `0.8044` wiki/concepts/Marketplace Liquidity.md -- wiki/sources/Choudary HBR WEF Essays.md
+- `0.8044` wiki/sources/Fitzpatrick Mom Test.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8044` wiki/sources/Choudary Platform Scale.md -- wiki/sources/Feld Startup Boards.md
+- `0.8044` wiki/concepts/Scaling Operations.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8044` wiki/entities/Ben Thompson.md -- wiki/sources/Amodei Anthropic Launches.md
+- `0.8043` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8043` wiki/concepts/Founder Mode.md -- wiki/sources/Grove High Output Management.md
+- `0.8043` wiki/sources/Rabois Stanford CS183.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8042` wiki/sources/Fitzpatrick Foundercentric.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8042` wiki/entities/Ben Thompson.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8042` wiki/concepts/Customer Obsession.md -- wiki/concepts/Product-Market Fit.md
+- `0.8042` wiki/entities/Brad Feld.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8041` wiki/entities/John Collison.md -- wiki/sources/Working Backwards Book.md
+- `0.8041` wiki/entities/Mark Roberge.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8041` wiki/concepts/Founder Mode.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8041` wiki/entities/Bill Gurley.md -- wiki/sources/Helmer Counter-Positioning Deep Dive.md
+- `0.8040` wiki/sources/Hoffman Masters of Scale.md -- wiki/sources/Hoffman Stanford CS183C.md
+- `0.8039` wiki/concepts/Founder Mode.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8039` wiki/entities/Ben Horowitz.md -- wiki/sources/Thiel Zero to One.md
+- `0.8038` wiki/sources/Vogels Aurora Ascendant.md -- wiki/sources/Vogels Distributed Computing Manifesto.md
+- `0.8038` wiki/sources/Duke Thinking in Bets.md -- wiki/sources/Taleb Black Swan.md
+- `0.8038` wiki/entities/Brad Feld.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8038` wiki/entities/Aaron Ross.md -- wiki/entities/Ben Horowitz.md
+- `0.8038` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8038` wiki/entities/Patty McCord.md -- wiki/sources/Christensen How Will You Measure Your Life.md
+- `0.8038` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8037` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Thompson Defining Aggregators.md
+- `0.8037` wiki/sources/Roberge Sales Acceleration Formula.md -- wiki/sources/Slootman Snowflake Earnings.md
+- `0.8037` wiki/entities/Demis Hassabis.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8036` wiki/concepts/Product-Market Fit.md -- wiki/sources/Christensen Innovators Solution.md
+- `0.8036` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8036` wiki/sources/Horowitz The Struggle.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8036` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8035` wiki/sources/Kahneman Noise Book.md -- wiki/sources/Munger Psychology of Misjudgment.md
+- `0.8035` wiki/sources/Amodei Anthropic Launches.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8035` wiki/sources/Altman YC Essays.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8035` wiki/entities/Jeff Dean.md -- wiki/sources/Vogels Eventually Consistent.md
+- `0.8035` wiki/entities/Patty McCord.md -- wiki/sources/Rabois Stanford CS183.md
+- `0.8035` wiki/sources/Ross Podcast Synthesis.md -- wiki/sources/Ross Predictable Revenue.md
+- `0.8034` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8033` wiki/sources/Bezos 2000 Letter.md -- wiki/sources/Bezos 2008 Letter.md
+- `0.8033` wiki/sources/Carmack QuakeCon 2013.md -- wiki/sources/Lamport TLA+ Course Intro.md
+- `0.8033` wiki/concepts/Compounding Knowledge.md -- wiki/concepts/Source-First Synthesis.md
+- `0.8032` wiki/entities/Andrej Karpathy.md -- wiki/sources/Karpathy 33 Years Ago and 33 Years From Now.md
+- `0.8032` wiki/sources/Bezos 2007 Letter.md -- wiki/sources/Bezos 2011 Letter.md
+- `0.8032` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/Thiel CS183 Notes.md
+- `0.8031` wiki/entities/Aaron Ross.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8031` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/Christensen Innovators Solution.md
+- `0.8031` wiki/sources/Grove Only the Paranoid Survive.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8031` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Christensen Innovators Solution.md
+- `0.8031` wiki/sources/Collison Money Stuff Podcast.md -- wiki/sources/Stripe Annual Letter 2024.md
+- `0.8031` wiki/sources/Rabois Stanford CS183.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8030` wiki/sources/High Output Management.md -- wiki/sources/McCord Powerful.md
+- `0.8030` wiki/entities/Brad Feld.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8029` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Dunford Obviously Awesome.md
+- `0.8029` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8029` wiki/entities/April Dunford.md -- wiki/sources/Helmer 7 Powers Book.md
+- `0.8028` wiki/sources/Allspaw Each Necessary.md -- wiki/sources/Larson Elegant Puzzle.md
+- `0.8028` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/Horowitz Take Care of People.md
+- `0.8028` wiki/sources/Chen Uber Rider Growth.md -- wiki/sources/Raskin Case Studies.md
+- `0.8027` wiki/sources/Dunford Obviously Awesome.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8027` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Thiel Last Mover Advantage.md
+- `0.8027` wiki/entities/Frank Slootman.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8027` wiki/entities/Ben Thompson.md -- wiki/sources/Choudary Platform Revolution.md
+- `0.8027` wiki/sources/Helmer Acquired Podcast.md -- wiki/sources/Raskin Strategic Narrative.md
+- `0.8026` wiki/entities/Bill Gurley.md -- wiki/entities/Mark Roberge.md
+- `0.8026` wiki/concepts/Aggregation Theory.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8025` wiki/concepts/LLM Wiki Pattern.md -- wiki/concepts/Source-First Synthesis.md
+- `0.8025` wiki/sources/Altman YC Essays.md -- wiki/sources/Choudary Platform Scale.md
+- `0.8025` wiki/entities/Rob Fitzpatrick.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8025` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8025` wiki/sources/Hoffman Blitzscaling Book.md -- wiki/sources/Horowitz Hard Things Book.md
+- `0.8025` wiki/sources/Altman Interviews Synthesis.md -- wiki/sources/Munger Berkshire Q&A.md
+- `0.8025` wiki/sources/Raskin Zuora Pitch.md -- wiki/sources/Thompson Defining Aggregators.md
+- `0.8024` wiki/sources/Collison Cowen Interview.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8024` wiki/sources/McCord Conference Talks.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8024` wiki/concepts/Consumer Defensibility.md -- wiki/concepts/Marketplace Liquidity.md
+- `0.8024` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8023` wiki/concepts/Aggregation Theory.md -- wiki/entities/Lenny Rachitsky.md
+- `0.8023` wiki/sources/Naval Joe Rogan JRE 1309.md -- wiki/sources/Naval Specific Knowledge.md
+- `0.8023` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Dunford Lenny Podcast.md
+- `0.8022` wiki/sources/Duke Decision Journal.md -- wiki/sources/Fitzpatrick Question Patterns.md
+- `0.8022` wiki/sources/Blank Startup Owners Manual.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8022` wiki/entities/Andrej Karpathy.md -- wiki/sources/Karpathy Recipe for Training Neural Networks.md
+- `0.8022` wiki/entities/Dario Amodei.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8021` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Hoffman Masters of Scale.md
+- `0.8021` wiki/sources/Altman YC Essays.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8021` wiki/sources/Bezos 2005 Letter.md -- wiki/sources/Bezos 2016 Day 1 Letter.md
+- `0.8021` wiki/sources/Helmer 7 Powers Book.md -- wiki/sources/Thompson Aggregation Theory.md
+- `0.8021` wiki/sources/Naval Joe Rogan JRE 1309.md -- wiki/sources/Slootman Acquired Interview.md
+- `0.8021` wiki/entities/John Collison.md -- wiki/sources/Stripe Annual Letter 2024.md
+- `0.8021` wiki/sources/Blank Four Steps to Epiphany.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8020` wiki/sources/Choudary Interviews.md -- wiki/sources/Grove Stanford Talks.md
+- `0.8019` wiki/entities/Dario Amodei.md -- wiki/sources/Amodei Anthropic Launches.md
+- `0.8019` wiki/entities/Rob Fitzpatrick.md -- wiki/sources/Fitzpatrick Question Patterns.md
+- `0.8019` wiki/sources/Duke Podcast Synthesis.md -- wiki/sources/Taleb Skin in the Game.md
+- `0.8019` wiki/sources/Altman YC Essays.md -- wiki/sources/Feld Startup Boards.md
+- `0.8019` wiki/entities/Mike Maples.md -- wiki/sources/Thiel Zero to One.md
+- `0.8019` wiki/sources/Bezos 2003 Letter.md -- wiki/sources/Bezos 2014 Letter.md
+- `0.8018` wiki/entities/Demis Hassabis.md -- wiki/sources/Altman AGI Economics.md
+- `0.8018` wiki/sources/Kahneman Noise Book.md -- wiki/sources/McCord Powerful.md
+- `0.8017` wiki/sources/Rabois 20VC Interview.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8017` wiki/sources/Chesky Snow White Design.md -- wiki/sources/Raskin Consulting Writeups.md
+- `0.8017` wiki/sources/Roberge Math of B2B Sales.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8016` wiki/sources/Bezos 1997 Letter.md -- wiki/sources/Bezos 2009 Letter.md
+- `0.8016` wiki/sources/Christensen How Will You Measure Your Life.md -- wiki/sources/Christensen Innovators Dilemma.md
+- `0.8016` wiki/sources/Gurley Above the Crowd.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8016` wiki/sources/Vogels 10 Lessons from 10 Years of AWS.md -- wiki/sources/Vogels DynamoDB Launch.md
+- `0.8015` wiki/sources/Vogels DynamoDB Launch.md -- wiki/sources/Vogels Modern Applications.md
+- `0.8015` wiki/concepts/Founder Mode.md -- wiki/sources/Working Backwards Book.md
+- `0.8015` wiki/sources/Amodei Machines of Loving Grace.md -- wiki/sources/Karpathy 33 Years Ago and 33 Years From Now.md
+- `0.8015` wiki/sources/Munger Poor Charlies Almanack.md -- wiki/sources/Taleb Bed of Procrustes.md
+- `0.8014` wiki/sources/Hassabis DeepMind Research Strategy.md -- wiki/sources/Naval Specific Knowledge.md
+- `0.8014` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Slootman Snowflake Earnings.md
+- `0.8014` wiki/entities/Mike Maples.md -- wiki/entities/Patrick Collison.md
+- `0.8013` wiki/sources/Maples Pattern Breakers.md -- wiki/sources/Thiel Interviews Synthesis.md
+- `0.8013` wiki/entities/John Collison.md -- wiki/entities/Steve Blank.md
+- `0.8013` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Dunford Lenny Podcast.md
+- `0.8012` wiki/sources/High Output Management.md -- wiki/sources/Roberge HubSpot Playbook.md
+- `0.8012` wiki/entities/Lenny Rachitsky.md -- wiki/sources/Rabois 20VC Interview.md
+- `0.8012` wiki/entities/Keith Rabois.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8011` wiki/entities/Patty McCord.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8011` wiki/sources/Blank Startup Owners Manual.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8010` wiki/concepts/Scaling Operations.md -- wiki/sources/McCord Powerful.md
+- `0.8010` wiki/sources/Larson Elegant Puzzle.md -- wiki/sources/Larson Staff Archetypes.md
+- `0.8009` wiki/sources/Roberge Interviews Synthesis.md -- wiki/sources/Ross From Impossible to Inevitable.md
+- `0.8009` wiki/sources/Maples Pattern Breakers.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8009` wiki/sources/Bezos 1997 Letter.md -- wiki/sources/Bezos 2005 Letter.md
+- `0.8009` wiki/sources/Chesky Snow White Design.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8009` wiki/sources/Christensen JTBD.md -- wiki/sources/Maples Inflections vs Ideas.md
+- `0.8009` wiki/sources/Collison Money Stuff Podcast.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8008` wiki/sources/Maples Inflections vs Ideas.md -- wiki/sources/Raskin Zuora Pitch.md
+- `0.8008` wiki/sources/Helmer 7 Powers Book.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8008` wiki/sources/Taleb Antifragile.md -- wiki/sources/Taleb Bed of Procrustes.md
+- `0.8008` wiki/sources/Roberge Sales Acceleration Formula.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8008` wiki/concepts/Product-Market Fit.md -- wiki/sources/Hoffman Blitzscaling Book.md
+- `0.8008` wiki/sources/Carmack Oculus Connect 2014.md -- wiki/sources/Dean Stanford Talk.md
+- `0.8007` wiki/sources/Duke Quit.md -- wiki/sources/McCord Powerful.md
+- `0.8007` wiki/concepts/Marketplace Liquidity.md -- wiki/sources/Thompson Defining Aggregators.md
+- `0.8007` wiki/sources/Horowitz Hard Things Book.md -- wiki/sources/Roberge Sales Acceleration Formula.md
+- `0.8007` wiki/concepts/Early-Stage Discipline.md -- wiki/sources/Maples Pattern Breakers.md
+- `0.8007` wiki/sources/Helmer 7 Powers Applied to AWS.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8007` wiki/concepts/AI-Native Economics.md -- wiki/sources/Roberge Math of B2B Sales.md
+- `0.8006` wiki/sources/Raskin Zuora Pitch.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8006` wiki/sources/Chesky Altman Conversation.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8006` wiki/sources/Christensen Innovators Dilemma.md -- wiki/sources/Thompson Aggregation Theory.md
+- `0.8005` wiki/sources/Altman AGI Economics.md -- wiki/sources/Thiel Zero to One.md
+- `0.8005` wiki/entities/John Collison.md -- wiki/sources/Thiel Zero to One.md
+- `0.8005` wiki/entities/John Allspaw.md -- wiki/entities/Patrick Collison.md
+- `0.8003` wiki/sources/Slootman Acquired Interview.md -- wiki/sources/Slootman Tape Sucks.md
+- `0.8003` wiki/sources/Chesky Founder Mode Essay.md -- wiki/sources/Roberge Interviews Synthesis.md
+- `0.8003` wiki/sources/Bezos 2006 Letter.md -- wiki/sources/Bezos 2009 Letter.md
+- `0.8003` wiki/sources/Feld Startup Boards.md -- wiki/sources/Lenny Chesky Founder Mode.md
+- `0.8003` wiki/concepts/Early-Stage Discipline.md -- wiki/sources/Maples Live in the Future.md
+- `0.8003` wiki/sources/McCord HBR Essays.md -- wiki/sources/Rabois Barrel and Ammunition.md
+- `0.8003` wiki/sources/Collison Money Stuff Podcast.md -- wiki/sources/McCord Conference Talks.md
+- `0.8002` wiki/sources/Bezos 2006 Letter.md -- wiki/sources/Bezos 2011 Letter.md
+- `0.8002` wiki/sources/Duke Podcast Synthesis.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8002` wiki/sources/Lenny Chesky Founder Mode.md -- wiki/sources/Slootman Amp It Up.md
+- `0.8001` wiki/sources/Christensen Innovators Solution.md -- wiki/sources/Duke Quit.md
+- `0.8001` wiki/sources/Chen Uber Rider Growth.md -- wiki/sources/Helmer Acquired Podcast.md
+- `0.8001` wiki/concepts/Disruption vs Aggregation.md -- wiki/sources/Ross Podcast Synthesis.md
+- `0.8000` wiki/sources/Altman AGI Economics.md -- wiki/sources/Maples Inflections vs Ideas.md
+- `0.8000` wiki/sources/Dunford Obviously Awesome.md -- wiki/sources/Grove Only the Paranoid Survive.md
