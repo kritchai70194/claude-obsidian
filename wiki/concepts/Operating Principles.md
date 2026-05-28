@@ -1273,6 +1273,50 @@ The same principles run multiple businesses. The principles compound; the produc
 
 > "You can write down your corporate culture, but when you do so, you're discovering it, uncovering it, not creating it. It is created slowly over time by the people and by events." ([[Bezos 2015 Letter]])
 
+### The price-cost loop
+
+The canonical Amazon operating engine. Lower cost enables lower price; lower price grows volume; volume spreads fixed costs; lower unit cost enables more price reduction. The loop is meant to be repeated, not declared complete.
+
+> "Focus on cost improvement makes it possible for us to afford to lower prices, which drives growth. Growth spreads fixed costs across more sales, reducing cost per unit, which makes possible more price reductions. ... Please expect us to repeat this loop." ([[Bezos 2001 Letter]])
+
+### Self-service platforms as the most radical invention pattern
+
+Platforms that empower others to ship without asking for permission outperform curated channels. Even well-meaning gatekeepers slow innovation; self-service surfaces ideas the platform owner would never have approved.
+
+> "The most radical and transformative of inventions are often those that empower others to unleash their creativity. ... Even well-meaning gatekeepers slow innovation. When a platform is self-service, even the improbable ideas can get tried." ([[Bezos 2011 Letter]])
+
+AWS, FBA, KDP all instantiate the pattern. The strategic implication: when designing internal infrastructure, favor self-service primitives over service desks.
+
+### Developers want a service, not control
+
+When given a choice between fine-grained control and a managed service, developers consistently choose the service. The lesson generalizes far beyond databases: simplicity beats power for the median consumer of any platform.
+
+> "Developers strongly preferred simplicity to fine-grained control as they voted 'with their feet'... Ultimately, developers wanted a service." ([[Vogels DynamoDB Launch]])
+
+Engineering implication: when shipping infrastructure, the managed-service variant is the dominant choice; expose the lower-level primitive only as an escape valve.
+
+### Evolvability over religious microservices
+
+Architectures are tactics, not creeds. Monolith vs microservice is a strategic choice based on the system's evolution trajectory, not a moral position.
+
+> "Building evolvable software systems is a strategy, not a religion." ([[Vogels Monoliths Are Not Dinosaurs]])
+
+The 2023 Vogels post is the canonical anti-dogma reference. Use it when arguing against blanket "rewrite as microservices" prescriptions.
+
+### Order-of-magnitude rule for architecture review
+
+Every 10x in scale should trigger an architecture review. Most architectures are tuned to a specific scale; 10x growth invalidates the assumptions.
+
+> "My rule of thumb has been that with every order of magnitude of growth you should revisit your architecture." ([[Vogels Monoliths Are Not Dinosaurs]])
+
+Operational implication: when a system passes a 10x milestone (request rate, storage, team size), schedule the review rather than waiting for failure to force it.
+
+### The five-pillar modernization checklist
+
+The canonical AWS-era checklist for modern application architecture: microservices, purpose-built databases, automated release pipelines, serverless operations, automated continuous security. Useful as a single sentence to evaluate any modernization plan.
+
+> "To succeed in using application development to increase agility and innovation speed, organizations must adopt five elements, in any order: microservices; purpose-built databases; automated software release pipelines; a serverless operational model; and automated, continuous security." ([[Vogels Modern Applications]])
+
 ---
 
 ## Founder Resilience
