@@ -258,7 +258,7 @@ Plus the canonical custom-silicon position (citing Alan Kay):
 
 ## Status
 
-Mature. Eight cited primary sources spanning 1998 to 2022; operating frame is stable across consistency, architecture, product process, infrastructure-scale decisions, and forecasting. The 2026-05-27 Tier 1 ingest added 5 new sources (Working Backwards 2006, Distributed Computing Manifesto 1998/2022, S3 Strong Consistency 2021, Nitro 2020, 2023 Predictions), surfacing the working-backwards process, the 1998 SOA thesis predating Bezos's 2002 mandate by 4 years, the refuse-the-trade-off engineering posture, the one-way-door discipline at infrastructure scale, and the everything-becomes-a-data-stream thesis.
+Mature. Fourteen cited primary sources spanning 1998 to 2023; operating frame is stable across consistency, architecture, product process, infrastructure-scale decisions, forecasting, and architectural pragmatism. The 2026-05-28 Tier 2 ingest added 6 more sources (DynamoDB Launch 2012, Lambda Launch 2014, Purpose-Built Databases 2018, Aurora Ascendant 2019, Modern Applications 2019, Monoliths Are Not Dinosaurs 2023), surfacing the "developers want a service" lesson, the event-driven cloud computing pattern, the polyglot-persistence thesis, the log-is-the-database design, the five-pillar modern-application synthesis, and the evolvability-over-microservices pronouncement. The Vogels operating frame now spans the full lifecycle from 1998 architecture thesis through 2023 architectural pragmatism.
 
 ---
 
