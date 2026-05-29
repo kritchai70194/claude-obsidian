@@ -160,3 +160,25 @@ Total session wall-clock: ~90 minutes including 4 production rebuilds × ~3-4 mi
 - [[log]] — operation log
 - [[Persona]] — the brain that Jarvis now speaks for
 - [[Working Backwards]] — Jarvis as the "press release" of a working voice frontend
+
+---
+
+## Session close addendum (lint verification)
+
+After the canonical jarvis commit (`efda32f`) and session-meta save, ran [[lint-report-2026-05-29|wiki lint]] to verify nothing broke in the vault. Result: **zero blocking issues**.
+
+- Counter c-000324, max address c-000323 ✓
+- New session-meta page: 0 dead links (5/5 wikilinks resolve), 0 frontmatter gaps, 0 orphans
+- Vault-wide address collisions: 0
+- Tiling incremental: 320 cache hits / 0 recomputed (session-meta is in `wiki/meta/`, excluded from tiling scope by design)
+- 22 Error-band pairs in tiling (unchanged from yesterday's runs — no new dupes from Jarvis work, expected since work was out-of-vault)
+
+The vault stayed coherent throughout the Jarvis session because the only wiki touch was this session-meta plus the corresponding `log.md` entry. All technical work landed in `jarvis-claude/` (out of lint scope).
+
+One minor delta in `too_large` count: 4 → 5 pages skipped from tiling. Cause: yesterday's `tiling-report-2026-05-28-v6.md` exceeded the 128 KB `MAX_BODY_BYTES` cap. Same tooling artifact noted in yesterday's lint; no action.
+
+Final push: `dd7dde7..03d2ec2` (lint report only). Day-end state:
+- Brain at maximum coherence (yesterday)
+- Voice frontend in production (today)
+- Lint clean (today end)
+- Local even with origin/main
