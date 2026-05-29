@@ -5,7 +5,8 @@ import type {
   AssistantEvent,
   ResultEvent,
   SystemInitEvent,
-  ContentBlock
+  ContentBlock,
+  Lang
 } from '../../shared/types'
 
 export type AppState =
@@ -14,6 +15,18 @@ export type AppState =
   | 'capturing'
   | 'thinking'
   | 'speaking'
+
+const LANG_KEY = 'jarvis.language'
+function loadLang(): Lang {
+  try {
+    const v = localStorage.getItem(LANG_KEY)
+    if (v === 'th' || v === 'en') return v
+  } catch {}
+  return 'en'
+}
+function saveLang(lang: Lang) {
+  try { localStorage.setItem(LANG_KEY, lang) } catch {}
+}
 
 export type ChatBubble = {
   id: string
@@ -38,10 +51,12 @@ type SessionState = {
   tools: ToolCard[]
   capturingTranscript: string
   errorBanner: string | null
+  language: Lang
 
   setState: (s: AppState) => void
   setCapturing: (t: string) => void
   setError: (msg: string | null) => void
+  setLanguage: (l: Lang) => void
   pushUserMessage: (text: string) => void
   applyEvent: (evt: ClaudeEvent) => void
   reset: () => void
@@ -74,10 +89,12 @@ export const useSession = create<SessionState>((set, get) => ({
   tools: [],
   capturingTranscript: '',
   errorBanner: null,
+  language: loadLang(),
 
   setState: s => set({ state: s }),
   setCapturing: t => set({ capturingTranscript: t }),
   setError: msg => set({ errorBanner: msg }),
+  setLanguage: l => { saveLang(l); set({ language: l }) },
 
   pushUserMessage: text =>
     set(s => ({

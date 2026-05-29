@@ -1,5 +1,5 @@
 import { contextBridge, ipcRenderer, IpcRendererEvent } from 'electron'
-import { IPC, ClaudeEvent, SendArgs } from '../shared/types'
+import { IPC, ClaudeEvent, SendArgs, Lang } from '../shared/types'
 
 type Unsub = () => void
 
@@ -26,6 +26,18 @@ const api = {
       ipcRenderer.on(IPC.TtsEnd, listener)
       return () => ipcRenderer.off(IPC.TtsEnd, listener)
     }
+  },
+  whisper: {
+    available: (): Promise<{ available: boolean }> =>
+      ipcRenderer.invoke(IPC.WhisperAvailable),
+    transcribe: (
+      pcm: ArrayBuffer
+    ): Promise<{ ok: true; text: string } | { ok: false; error: string }> =>
+      ipcRenderer.invoke(IPC.WhisperTranscribe, pcm)
+  },
+  lang: {
+    set: (lang: Lang): Promise<{ ok: true }> =>
+      ipcRenderer.invoke(IPC.LangSet, lang)
   }
 }
 

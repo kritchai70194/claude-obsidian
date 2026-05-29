@@ -4,7 +4,14 @@ import { SAY_BIN } from './paths'
 let current: ChildProcess | null = null
 
 export function speak(text: string, voice = 'Daniel', onEnd?: () => void) {
-  current?.kill()
+  if (current) {
+    try { current.kill() } catch {}
+    current = null
+  }
+  if (!text.trim()) {
+    onEnd?.()
+    return
+  }
   current = spawn(SAY_BIN, ['-v', voice, text])
   current.on('exit', () => {
     current = null
@@ -18,8 +25,10 @@ export function speak(text: string, voice = 'Daniel', onEnd?: () => void) {
 }
 
 export function stopSpeaking() {
-  current?.kill()
-  current = null
+  if (current) {
+    try { current.kill() } catch {}
+    current = null
+  }
 }
 
 export function isSpeaking() {

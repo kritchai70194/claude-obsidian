@@ -5,8 +5,13 @@ export const IPC = {
   TtsSpeak: 'tts:speak',
   TtsStop: 'tts:stop',
   TtsSpeaking: 'tts:speaking',
-  TtsEnd: 'tts:end'
+  TtsEnd: 'tts:end',
+  WhisperTranscribe: 'whisper:transcribe',
+  WhisperAvailable: 'whisper:available',
+  LangSet: 'lang:set'
 } as const
+
+export type Lang = 'en' | 'th'
 
 export type SystemInitEvent = {
   type: 'system'
