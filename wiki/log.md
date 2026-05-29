@@ -21,6 +21,13 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-29] lint + save-addendum | Day-end verification
+
+- Ran wiki lint after Jarvis session save: zero blocking issues. Counter c-000324, max address c-000323, 0 dead links, 0 frontmatter gaps, 0 collisions, 22 Error-band tiling pairs (unchanged).
+- Report at `wiki/meta/lint-report-2026-05-29.md`.
+- Appended addendum to [[2026-05-29-jarvis-voice-loop-production-session]] capturing the lint verification + day-end state.
+- Day-end state: brain coherent (yesterday's Tier A+B+C) + voice frontend production (today's `efda32f`) + lint clean. Local even with origin/main.
+
 ## [2026-05-29] save | Jarvis voice loop production session
 
 - Type: session
