@@ -21,6 +21,16 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
+## [2026-05-29] save | Jarvis voice loop production session
+
+- Type: session
+- Location: `wiki/meta/2026-05-29-jarvis-voice-loop-production-session.md` (c-000323)
+- From: ~90 min of cascading debug — dev-mode → production .app → whisper install + cmake build + 320 MB model download → "VAD bundle load failed" (file:// vs absolute paths) → custom `app://` protocol fix → "spawn ENOTDIR" → candidates-reorder + explicit cwd fix → working Thai wake word voice loop end-to-end
+- Canonical commit: `efda32f` (`jarvis: production voice loop end-to-end (Thai wake + whisper + app://)`)
+- Jarvis.app at `~/Applications/Jarvis.app` now survives terminal close + Claude session close + reboot (via Login Items)
+- Thai wake word ข้าวกล้า + 16 Whisper-mishear variants active by default (lang=th at startup)
+- Counter advanced c-000322 → c-000323 (session-meta only; jarvis code is out-of-vault on `main` branch)
+
 ## [2026-05-28] tooling + save-addendum | Graph view colorization
 
 - Updated `.obsidian/graph.json` with 14 color groups (11 pole tags + 3 path-based type layers) and force-tuning for the 322-page vault (repel 15, link-distance 200, line 0.8, text-fade 0.5, no orphans).
